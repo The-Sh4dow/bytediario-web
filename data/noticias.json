@@ -1,13 +1,23 @@
 {
- "updated": "2026-10-18T17:24-04:00",
+ "updated": "2026-10-18T19:00-04:00",
  "items": [
+  {
+   "date": "2026-10-18",
+   "title": "GTA 6 permitirá cambiar de personaje y ser copiloto mientras conduces",
+   "summary": "Rockstar confirmó que en Grand Theft Auto VI podrás alternar el control entre Jason y Lucía cuando viajen en un mismo coche. Esto permitirá que la IA tome el volante mientras tú disparas o te relajas como copiloto.",
+   "link": "https://vandal.elespanol.com/noticia/2026291009/gta-6-permitira-cambiar-de-personaje-mientras-conduces-y-podras-relajarte-como-copiloto/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-18-gta-6-permitira-cambiar-de-personaje-y-ser-copiloto-mientras-conduces"
+  },
   {
    "date": "2026-10-18",
    "title": "Desaparece en Brasil un cargamento de RTX 5090 valorado en 470.000 dólares",
    "summary": "El distribuidor de tecnología Oderço denunció la desaparición de dos palés completos con tarjetas Zotac RTX 5090 tras arribar a un aeropuerto brasileño. El cargamento extraviado suma casi medio millón de dólares, en un contexto marcado por la fuerte escasez de esta nueva gráfica.",
    "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090-shipment-worth-usd470-000-goes-missing-in-brazilian-airport-two-pallets-disappear-distributor-seeks-explanations-but-met-with-zero-answers",
    "source": "Tom's Hardware",
-   "categoria": "PC"
+   "categoria": "PC",
+   "slug": ""
   },
   {
    "date": "2026-10-18",
@@ -15,7 +25,8 @@
    "summary": "El sistema WiFireNet logró identificar pistolas sin necesidad de cámaras ni arcos de metales con un 72,5% de precisión.",
    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-train-ai-to-detect-concealed-handguns-using-wi-fi-signals-open-source-wifirenet-achieves-precision-detection-on-older-802-11a-standard-by-analyzing-how-weapons-distort-wireless-signals",
    "source": "Tom's Hardware",
-   "categoria": "IA"
+   "categoria": "IA",
+   "slug": ""
   },
   {
    "date": "2026-10-18",
@@ -23,7 +34,8 @@
    "summary": "La subida en los precios de memorias DRAM y NAND golpea la rentabilidad de los smartphones de gama baja tras un desplome en ventas.",
    "link": "https://www.xataka.com/moviles/movil-120-euros-se-muere-no-va-a-volver",
    "source": "Xataka",
-   "categoria": "MOVILES"
+   "categoria": "MOVILES",
+   "slug": ""
   },
   {
    "date": "2026-10-18",
@@ -31,7 +43,8 @@
    "summary": "La compañía solucionó un error en las Ray-Ban Meta que registraba audio privado sin que los usuarios utilizaran el comando de activación.",
    "link": "https://www.xataka.com/privacidad/esta-resuelto-meta-admite-error-sus-gafas-inteligentes-que-grababa-conversaciones-permiso",
    "source": "Xataka",
-   "categoria": "TECH"
+   "categoria": "TECH",
+   "slug": ""
   },
   {
    "date": "2026-10-18",
@@ -39,7 +52,8 @@
    "summary": "El sistema de reputación sustituirá las mecánicas clásicas de honor por una dinámica adaptada al contexto delictivo moderno del juego.",
    "link": "https://vandal.elespanol.com/noticia/2026291001/rockstar-explica-en-que-consiste-el-perfil-criminal-de-gta-6-es-diferente-al-sistema-de-honor-de-rdr-2/",
    "source": "Vandal",
-   "categoria": "JUEGOS"
+   "categoria": "JUEGOS",
+   "slug": ""
   },
   {
    "date": "2026-10-17",
@@ -47,7 +61,8 @@
    "summary": "Ante la desaparición del modelo en las principales tiendas, Nvidia aclaró que la tarjeta gráfica no ha sido descatalogada y que sufre fuertes limitaciones de suministro. La situación mantiene la alarma entre los usuarios mientras los comercios retiran sus listados por falta de unidades.",
    "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-insists-the-rtx-5090-isnt-dead-despite-severe-shortages-and-removed-listings-at-multiple-retailers-flagship-gpu-is-missing-from-nvidias-store-and-commands-usd8-500-on-amazon",
    "source": "Tom's Hardware",
-   "categoria": "PC"
+   "categoria": "PC",
+   "slug": ""
   },
   {
    "date": "2026-10-17",
@@ -55,7 +70,8 @@
    "summary": "Massive Monster confirmó el lanzamiento de su exitoso título en la próxima consola de Nintendo sin coste adicional para sus poseedores.",
    "link": "https://www.nintendolife.com/news/2026/10/cult-of-the-lamb-summons-a-switch-2-version-free-upgrade-path-confirmed",
    "source": "Nintendo Life",
-   "categoria": "CONSOLAS"
+   "categoria": "CONSOLAS",
+   "slug": ""
   },
   {
    "date": "2026-10-17",
@@ -63,7 +79,8 @@
    "summary": "La compañía actualizó sus normativas para vetar de forma explícita herramientas generativas que creen imágenes íntimas sin consentimiento.",
    "link": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
    "source": "The Verge",
-   "categoria": "TECH"
+   "categoria": "TECH",
+   "slug": ""
   },
   {
    "date": "2026-10-17",
@@ -71,7 +88,8 @@
    "summary": "Rockstar Games confirmó que los jugadores podrán utilizar el maletero de los coches para almacenar equipamiento durante la aventura.",
    "link": "https://vandal.elespanol.com/noticia/2026290001/los-coches-de-gta-6-tendran-un-maletero-real-podras-guardar-ropa-y-armas-en-ellos/",
    "source": "Vandal",
-   "categoria": "JUEGOS"
+   "categoria": "JUEGOS",
+   "slug": ""
   },
   {
    "date": "2026-10-17",
@@ -79,7 +97,8 @@
    "summary": "Bandai Namco presentó un adelanto jugable de la esperada secuela centrado en las habilidades de combate de Gogeta.",
    "link": "https://vandal.elespanol.com/noticia/2026290010/dragon-ball-xenoverse-3-muestra-el-poder-y-habilidades-de-gogeta-en-la-esperada-secuela-de-la-saga/",
    "source": "Vandal",
-   "categoria": "JUEGOS"
+   "categoria": "JUEGOS",
+   "slug": ""
   },
   {
    "date": "2026-10-16",
@@ -87,15 +106,112 @@
    "summary": "Un proyecto de ley en Estados Unidos busca obligar a las editoras a garantizar la propiedad real de los juegos digitales en lugar de vender meras licencias. La medida exigiría incluir modos sin conexión y permitir la transferencia de títulos entre usuarios.",
    "link": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends",
    "source": "Tom's Hardware",
-   "categoria": "JUEGOS"
+   "categoria": "JUEGOS",
+   "slug": ""
+  }
+ ],
+ "freebies": [
+  {
+   "title": "Best Plumber",
+   "link": "https://www.gamerpower.com/open/best-plumber-pc-giveaway",
+   "platforms": "PC, DRM-Free",
+   "end_iso": "",
+   "worth": "$29.99",
+   "image": "https://www.gamerpower.com/offers/1b/68f40b259de93.jpg"
   },
   {
-   "date": "2026-10-16",
-   "title": "Steam bate su récord histórico al superar los 43 millones de usuarios",
-   "summary": "La plataforma de Valve ha alcanzado un nuevo hito de jugadores simultáneos este fin de semana, batiendo por tercera vez en lo que va de año su propio récord de actividad y reafirmando el excelente estado de salud del sector en PC.",
-   "link": "https://vandal.elespanol.com/noticia/2026289023/steam-batio-su-record-de-jugadores-simultaneos-y-sube-el-liston-de-nuevo-por-tercera-vez-en-2026/",
-   "source": "Vandal",
-   "categoria": "PC"
+   "title": "Wordle",
+   "link": "https://www.gamerpower.com/open/wordle-pc-giveaway",
+   "platforms": "PC, DRM-Free",
+   "end_iso": "",
+   "worth": "$29.99",
+   "image": "https://www.gamerpower.com/offers/1b/68e15e986da99.jpg"
+  },
+  {
+   "title": "Sausage Hunter",
+   "link": "https://www.gamerpower.com/open/sausage-hunter-pc-giveaway",
+   "platforms": "PC, DRM-Free",
+   "end_iso": "",
+   "worth": "$29.99",
+   "image": "https://www.gamerpower.com/offers/1b/68eadb2d6f0c4.jpg"
+  },
+  {
+   "title": "Battle Ram",
+   "link": "https://www.gamerpower.com/open/battle-ram-pc-giveaway",
+   "platforms": "PC, DRM-Free",
+   "end_iso": "",
+   "worth": "$29.99",
+   "image": "https://www.gamerpower.com/offers/1b/68efabd65f913.jpg"
+  },
+  {
+   "title": "GigaBash",
+   "link": "https://www.gamerpower.com/open/gigabash-pc-giveaway",
+   "platforms": "PC",
+   "end_iso": "",
+   "worth": "$24.99",
+   "image": "https://www.gamerpower.com/offers/1b/69567c4ee0fa3.jpg"
+  },
+  {
+   "title": "Agent A: A puzzle in disguise",
+   "link": "https://www.gamerpower.com/open/agent-a-a-puzzle-in-disguise-epic-games-giveaway",
+   "platforms": "PC, Android, iOS, Epic Games Store",
+   "end_iso": "2026-10-22",
+   "worth": "$19.99",
+   "image": "https://www.gamerpower.com/offers/1b/6ad0eb85db498.jpg"
+  },
+  {
+   "title": "Bad Cheese",
+   "link": "https://www.gamerpower.com/open/bad-cheese-epic-games-giveaway",
+   "platforms": "PC, Epic Games Store",
+   "end_iso": "2026-10-22",
+   "worth": "$12.99",
+   "image": "https://www.gamerpower.com/offers/1b/6ad0ea7639b78.jpg"
+  },
+  {
+   "title": "The Green Light",
+   "link": "https://www.gamerpower.com/open/the-green-light-itch-io-giveaway",
+   "platforms": "PC, Itch.io, DRM-Free",
+   "end_iso": "2026-10-29",
+   "worth": "$9.99",
+   "image": "https://www.gamerpower.com/offers/1b/6a369af2d25aa.jpg"
+  }
+ ],
+ "security": [
+  {
+   "cve": "CVE-2026-102764",
+   "vendor": "BeyondTrust",
+   "product": "Remote Support",
+   "summary": "Afecta a BeyondTrust Remote Support y permite a un atacante remoto eludir la autenticación para manipular o gestionar archivos directamente en el equipo afectado.",
+   "added": "2026-10-16",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764"
+  },
+  {
+   "cve": "CVE-2025-61624",
+   "vendor": "Fortinet",
+   "product": "Multiple Products",
+   "summary": "Afecta a varios sistemas de Fortinet y permite a administradores con ciertos permisos escribir o borrar archivos del sistema mediante comandos específicos de la consola.",
+   "added": "2026-10-16",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624"
+  },
+  {
+   "cve": "CVE-2026-21589",
+   "vendor": "Atlassian",
+   "product": "Multiple Products",
+   "summary": "Afecta a múltiples aplicaciones de Atlassian como Jira y Confluence, permitiendo a atacantes sin registrar acceder a archivos internos alojados en el servidor web.",
+   "added": "2026-10-15",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-21589"
+  },
+  {
+   "cve": "CVE-2026-76519",
+   "vendor": "Cisco",
+   "product": "Secure Email Gateway",
+   "summary": "Afecta a Cisco Secure Email Gateway y permite que un atacante remoto sin autenticación guarde o modifique archivos en el sistema operativo subyacente.",
+   "added": "2026-10-14",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519"
   }
  ]
 }
