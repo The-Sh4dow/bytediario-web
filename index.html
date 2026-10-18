@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ByteDiario</title>
-<meta name="description" content="ByteDiario: noticias de tecnología en español, un byte al día. Únete al canal en Telegram.">
+<meta name="description" content="ByteDiario: noticias de tecnología y gaming en español, un byte al día. Únete al canal en Telegram.">
 <meta property="og:title" content="ByteDiario">
-<meta property="og:description" content="Noticias de tecnología en español, un byte al día.">
+<meta property="og:description" content="Noticias de tecnología y gaming en español, un byte al día.">
 <meta property="og:url" content="https://bytediario.tech">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#0E1116">
@@ -17,6 +17,7 @@
 <style>
   :root {
     --bg: #0E1116; --ink: #FFFFFF; --muted: #9BA3AF; --line: #232934;
+    --surface: #141920;
     --bit-off: #1A1F27; --bit-off-ink: #4B5563;
     --bit-on: #C6F432; --bit-on-ink: #0E1116;
     --brand: #C6F432;
@@ -27,6 +28,7 @@
 
   * { box-sizing: border-box; }
   html, body { margin: 0; }
+  html { scroll-behavior: smooth; }
   body {
     background: var(--bg);
     color: var(--ink);
@@ -41,6 +43,7 @@
   .wrap { max-width: 64rem; margin: 0 auto; padding: 0 16px; }
   @media (min-width: 720px) { .wrap { padding: 0 32px; } }
 
+  /* Encabezado */
   header { padding: 24px 0; }
   header .wrap { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
   .wordmark {
@@ -48,9 +51,12 @@
     font-weight: 800; font-size: 1.25rem; letter-spacing: -0.02em; text-decoration: none;
   }
   .wordmark span { color: var(--brand); }
+  header nav { display: flex; gap: 20px; }
   header nav a { color: var(--muted); text-decoration: none; font-weight: 700; }
   header nav a:hover { color: var(--ink); }
+  @media (max-width: 420px) { header nav { gap: 14px; font-size: .95rem; } }
 
+  /* Portada */
   .hero { padding: 48px 0 72px; }
   .byte {
     display: grid;
@@ -96,12 +102,69 @@
   .cta:hover { background: var(--cta-hover-bg); color: var(--cta-hover-ink); }
   .cta svg { width: 20px; height: 20px; flex: none; }
 
-  .topics { border-top: 1px solid var(--line); padding: 56px 0; }
+  /* Secciones */
+  .section { border-top: 1px solid var(--line); padding: 56px 0; }
   h2 {
     font-family: "Bricolage Grotesque", sans-serif;
-    font-weight: 800; font-size: 1.75rem; letter-spacing: -0.02em;
-    margin: 0 0 24px;
+    font-weight: 800; font-size: 1.75rem; letter-spacing: -0.02em; line-height: 1.2;
+    margin: 0 0 8px;
   }
+  .section-intro { color: var(--muted); margin: 0 0 32px; max-width: 40rem; }
+
+  /* Últimas noticias */
+  .day + .day { margin-top: 36px; }
+  .day-title {
+    font-size: 1rem; font-weight: 700; color: var(--muted);
+    margin: 0 0 4px; padding-bottom: 10px; border-bottom: 1px solid var(--line);
+  }
+  .news-list { list-style: none; margin: 0; padding: 0; }
+  .news {
+    display: grid; gap: 4px 24px;
+    padding: 20px 0; border-bottom: 1px solid var(--line);
+  }
+  @media (min-width: 720px) { .news { grid-template-columns: 9rem 1fr; } }
+  .news-meta { font-size: .9rem; color: var(--muted); }
+  .news-cat { color: var(--brand); font-weight: 700; display: block; }
+  @media (max-width: 719px) { .news-cat { display: inline; margin-right: 8px; } }
+  .news h3 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1.25rem; font-weight: 800; letter-spacing: -0.01em; line-height: 1.3;
+    margin: 0 0 6px;
+  }
+  .news h3 a { text-decoration: none; }
+  .news h3 a:hover { text-decoration: underline; text-decoration-color: var(--brand); text-underline-offset: 3px; }
+  .news p { margin: 0; color: var(--muted); max-width: 44rem; }
+  .news-empty { color: var(--muted); margin: 0; }
+  .more {
+    margin-top: 24px; background: transparent; color: var(--ink);
+    border: 1px solid var(--line); border-radius: 999px; padding: 10px 20px;
+    font: inherit; font-weight: 700; cursor: pointer;
+  }
+  .more:hover { border-color: var(--brand); }
+
+  /* Horario */
+  .next {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+    padding: 12px 16px; margin: 0 0 32px;
+  }
+  .next .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--brand); flex: none; }
+  .schedule { display: grid; gap: 40px; }
+  @media (min-width: 720px) { .schedule { grid-template-columns: 1fr 1fr; gap: 56px; } }
+  .schedule h3 { font-size: 1.1rem; margin: 0 0 8px; }
+  .slots { list-style: none; margin: 0; padding: 0; }
+  .slots li {
+    display: grid; grid-template-columns: 6.5rem 1fr; gap: 16px;
+    padding: 14px 0; border-bottom: 1px solid var(--line);
+  }
+  .slots li:first-child { border-top: 1px solid var(--line); }
+  .slot-when { font-weight: 700; font-variant-numeric: tabular-nums; }
+  .slot-what strong { display: block; }
+  .slot-what span { color: var(--muted); font-size: .95rem; }
+  .slots li.is-next .slot-when { color: var(--brand); }
+  .tz { color: var(--muted); font-size: .9rem; margin: 20px 0 0; }
+
+  /* Temas */
   .topic-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 28px; }
   @media (min-width: 720px) { .topic-list { grid-template-columns: repeat(3, 1fr); gap: 40px; } }
   .topic-list h3 { font-size: 1.1rem; margin: 0 0 6px; }
@@ -111,6 +174,7 @@
   footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
 
   @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
     .cell { transition: none; }
   }
 </style>
@@ -120,7 +184,11 @@
 <header>
   <div class="wrap">
     <a class="wordmark" href="/">Byte<span>Diario</span></a>
-    <nav><a href="https://t.me/bytediario">Telegram</a></nav>
+    <nav>
+      <a href="#noticias">Noticias</a>
+      <a href="#horario">Horario</a>
+      <a href="https://t.me/bytediario">Telegram</a>
+    </nav>
   </div>
 </header>
 
@@ -131,7 +199,7 @@
       <p class="reading" id="reading">Cada día tiene su byte.</p>
 
       <h1>Noticias de tecnología, un byte al día.</h1>
-      <p class="lede">Lo más importante del mundo tech, resumido en español y publicado cada día en nuestro canal de Telegram.</p>
+      <p class="lede">Lo más importante de tecnología y gaming, resumido en español y publicado cada día en nuestro canal de Telegram. Pocos posts, bien elegidos.</p>
 
       <a class="cta" href="https://t.me/bytediario">
         <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6.2 13.1 1.4 11.6c-1-.3-1.1-1 .2-1.5L20.6 2.8c.9-.3 1.6.2 1.3 1.5Z"/></svg>
@@ -140,21 +208,79 @@
     </div>
   </section>
 
-  <section class="topics" id="temas">
+  <section class="section" id="noticias">
+    <div class="wrap">
+      <h2>Últimas noticias</h2>
+      <p class="section-intro" id="updated">Lo último que publicamos en el canal, con enlace a la fuente original.</p>
+      <div id="news" aria-live="polite">
+        <p class="news-empty">Cargando noticias…</p>
+      </div>
+      <noscript><p class="news-empty">Activa JavaScript para ver las noticias, o léelas en <a href="https://t.me/bytediario">el canal de Telegram</a>.</p></noscript>
+    </div>
+  </section>
+
+  <section class="section" id="horario">
+    <div class="wrap">
+      <h2>Cuándo publicamos</h2>
+      <p class="section-intro">Un ritmo fijo para que sepas cuándo mirar el canal, sin llenarte de notificaciones.</p>
+      <p class="next" id="next" hidden><span class="dot" aria-hidden="true"></span><span id="next-text"></span></p>
+
+      <div class="schedule">
+        <div>
+          <h3>Todos los días</h3>
+          <ul class="slots" id="daily">
+            <li data-time="8:07">
+              <span class="slot-when">8:00 a. m.</span>
+              <span class="slot-what"><strong>Resumen de la mañana</strong><span>Las cuatro noticias clave del día, en un solo mensaje.</span></span>
+            </li>
+            <li data-time="13:13">
+              <span class="slot-when">1:00 p. m.</span>
+              <span class="slot-what"><strong>Destacado del mediodía</strong><span>Una noticia contada con más detalle.</span></span>
+            </li>
+            <li data-time="19:17">
+              <span class="slot-when">7:00 p. m.</span>
+              <span class="slot-what"><strong>Destacado de la noche</strong><span>Lo más relevante de la tarde.</span></span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3>Cada semana</h3>
+          <ul class="slots">
+            <li>
+              <span class="slot-when">Jueves</span>
+              <span class="slot-what"><strong>Juegos gratis</strong><span>Juegos completos gratis por tiempo limitado en Steam, Epic, consolas y más.</span></span>
+            </li>
+            <li>
+              <span class="slot-when">Sábado</span>
+              <span class="slot-what"><strong>Encuesta</strong><span>Tu opinión sobre la noticia más comentada de la semana.</span></span>
+            </li>
+            <li>
+              <span class="slot-when">Domingo</span>
+              <span class="slot-what"><strong>Lo mejor de la semana</strong><span>Las cinco noticias más importantes, por si te perdiste algo.</span></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="tz">Horario de República Dominicana. Si sale una noticia muy importante, la publicamos al momento.</p>
+    </div>
+  </section>
+
+  <section class="section" id="temas">
     <div class="wrap">
       <h2>Qué vas a encontrar</h2>
+      <p class="section-intro">Noticias de medios como The Verge, Xataka, IGN o 3DJuegos, elegidas y resumidas para que te enteres en un minuto.</p>
       <ul class="topic-list">
         <li>
-          <h3>Noticias del día</h3>
-          <p>Lanzamientos, empresas y tendencias que mueven la industria, sin relleno.</p>
+          <h3>Tecnología y PC</h3>
+          <p>Hardware, móviles, inteligencia artificial y los lanzamientos que mueven la industria.</p>
         </li>
         <li>
-          <h3>Ciberseguridad</h3>
-          <p>Vulnerabilidades, filtraciones y cómo protegerte, explicado en lenguaje claro.</p>
+          <h3>Consolas y videojuegos</h3>
+          <p>PlayStation, Xbox, Nintendo y PC: estrenos, fechas, precios y actualizaciones.</p>
         </li>
         <li>
-          <h3>Herramientas útiles</h3>
-          <p>Apps, recursos y trucos para sacarle más provecho a tu tecnología.</p>
+          <h3>Ofertas y juegos gratis</h3>
+          <p>Descuentos que valen la pena y juegos que puedes quedarte para siempre.</p>
         </li>
       </ul>
     </div>
@@ -170,28 +296,44 @@
 
 <script>
   (function () {
-    var now = new Date();
+    var MONTHS = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
+                  "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+    var WEEKDAYS = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"];
+    var CATS = { PC: "PC", CONSOLAS: "Consolas", JUEGOS: "Juegos", MOVILES: "Móviles",
+                 IA: "IA", OFERTAS: "Ofertas", TECH: "Tecnología" };
+    var VISIBLE = 6;
+
+    // Hora de República Dominicana (UTC-4, sin horario de verano)
+    function rdNow() {
+      var d = new Date();
+      return new Date(d.getTime() + d.getTimezoneOffset() * 60000 - 4 * 3600000);
+    }
+    function isoDay(d) {
+      return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+    }
+    function el(tag, cls, text) {
+      var e = document.createElement(tag);
+      if (cls) e.className = cls;
+      if (text != null) e.textContent = text;
+      return e;
+    }
+
+    var now = rdNow();
+
+    // ── El byte del día ──
     var day = now.getDate();
     var bits = day.toString(2).padStart(8, "0");
     var places = [128, 64, 32, 16, 8, 4, 2, 1];
     var box = document.getElementById("byte");
     var cells = [];
-
     for (var i = 0; i < 8; i++) {
-      var bit = document.createElement("div");
-      bit.className = "bit";
-      var cell = document.createElement("div");
-      cell.className = "cell";
-      cell.textContent = "0";
-      var place = document.createElement("span");
-      place.className = "place";
-      place.textContent = places[i];
+      var bit = el("div", "bit");
+      var cell = el("div", "cell", "0");
       bit.appendChild(cell);
-      bit.appendChild(place);
+      bit.appendChild(el("span", "place", places[i]));
       box.appendChild(bit);
       cells.push(cell);
     }
-
     var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     cells.forEach(function (cell, i) {
       var light = function () {
@@ -200,11 +342,141 @@
       };
       if (reduce) light(); else setTimeout(light, 250 + i * 110);
     });
-
-    var fecha = now.toLocaleDateString("es-DO", { day: "numeric", month: "long" });
-    document.getElementById("reading").innerHTML =
-      "Hoy es " + fecha + ". El día <strong>" + day + "</strong> en binario es <strong>" + bits + "</strong>.";
+    var reading = document.getElementById("reading");
+    reading.textContent = "Hoy es " + day + " de " + MONTHS[now.getMonth()] + ". El día ";
+    reading.appendChild(el("strong", null, String(day)));
+    reading.appendChild(document.createTextNode(" en binario es "));
+    reading.appendChild(el("strong", null, bits));
+    reading.appendChild(document.createTextNode("."));
     document.getElementById("year").textContent = now.getFullYear();
+
+    // ── Próxima publicación ──
+    var slots = Array.prototype.slice.call(document.querySelectorAll("#daily li"));
+    var minutesNow = now.getHours() * 60 + now.getMinutes();
+    var next = null, tomorrow = false;
+    slots.forEach(function (li) {
+      var t = li.dataset.time.split(":");
+      var m = +t[0] * 60 + +t[1];
+      if (!next && m > minutesNow) next = li;
+    });
+    if (!next) { next = slots[0]; tomorrow = true; }
+    next.classList.add("is-next");
+    var nextName = next.querySelector("strong").textContent;
+    var nextTime = next.querySelector(".slot-when").textContent;
+    document.getElementById("next-text").textContent =
+      "Próxima publicación: " + nextName.toLowerCase() + ", " + (tomorrow ? "mañana a las " : "hoy a las ") + nextTime;
+    document.getElementById("next").hidden = false;
+
+    // ── Últimas noticias ──
+    var newsBox = document.getElementById("news");
+    var today = isoDay(now);
+    var yesterday = isoDay(new Date(now.getTime() - 86400000));
+
+    function dayLabel(iso) {
+      var p = iso.split("-");
+      var d = new Date(+p[0], +p[1] - 1, +p[2]);
+      var text = d.getDate() + " de " + MONTHS[d.getMonth()];
+      if (iso === today) return "Hoy, " + text;
+      if (iso === yesterday) return "Ayer, " + text;
+      var w = WEEKDAYS[d.getDay()];
+      return w.charAt(0).toUpperCase() + w.slice(1) + ", " + text;
+    }
+
+    function safeUrl(u) {
+      return /^https?:\/\//i.test(u || "") ? u : null;
+    }
+
+    function render(items) {
+      newsBox.textContent = "";
+      if (!items.length) {
+        newsBox.appendChild(el("p", "news-empty", "Todavía no hay noticias publicadas. Vuelve después de las 8 a. m."));
+        return;
+      }
+      var groups = [], current = null;
+      items.forEach(function (it, idx) {
+        if (!current || current.date !== it.date) {
+          current = { date: it.date, items: [] };
+          groups.push(current);
+        }
+        current.items.push({ it: it, idx: idx });
+      });
+      var hidden = [];
+      groups.forEach(function (g) {
+        var wrap = el("div", "day");
+        wrap.appendChild(el("h3", "day-title", dayLabel(g.date)));
+        var ul = el("ul", "news-list");
+        g.items.forEach(function (x) {
+          var it = x.it;
+          var li = el("li", "news");
+          var meta = el("div", "news-meta");
+          meta.appendChild(el("span", "news-cat", CATS[it.categoria] || "Tecnología"));
+          meta.appendChild(el("span", null, it.source || ""));
+          var body = el("div");
+          var h = el("h3");
+          var url = safeUrl(it.link);
+          if (url) {
+            var a = el("a", null, it.title);
+            a.href = url; a.target = "_blank"; a.rel = "noopener";
+            h.appendChild(a);
+          } else {
+            h.textContent = it.title;
+          }
+          body.appendChild(h);
+          if (it.summary) body.appendChild(el("p", null, it.summary));
+          li.appendChild(meta);
+          li.appendChild(body);
+          ul.appendChild(li);
+          if (x.idx >= VISIBLE) hidden.push(li);
+        });
+        wrap.appendChild(ul);
+        newsBox.appendChild(wrap);
+      });
+      // Oculta los grupos que quedan vacíos al plegar
+      function refreshDays() {
+        newsBox.querySelectorAll(".day").forEach(function (d) {
+          d.hidden = !d.querySelector(".news:not([hidden])");
+        });
+      }
+      if (hidden.length) {
+        hidden.forEach(function (li) { li.hidden = true; });
+        refreshDays();
+        var btn = el("button", "more", "Ver " + hidden.length + " noticias más");
+        btn.type = "button";
+        btn.addEventListener("click", function () {
+          hidden.forEach(function (li) { li.hidden = false; });
+          refreshDays();
+          btn.remove();
+        });
+        newsBox.appendChild(btn);
+      }
+    }
+
+    fetch("data/noticias.json?v=" + Date.now(), { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (data) {
+        render(Array.isArray(data.items) ? data.items : []);
+        if (data.updated) {
+          var u = new Date(data.updated);
+          if (!isNaN(u)) {
+            var rd = new Date(u.getTime() + u.getTimezoneOffset() * 60000 - 4 * 3600000);
+            var h = rd.getHours(), m = String(rd.getMinutes()).padStart(2, "0");
+            var hh = (h % 12) || 12;
+            document.getElementById("updated").textContent =
+              "Lo último que publicamos en el canal, con enlace a la fuente original. Actualizado " +
+              (isoDay(rd) === today ? "hoy" : "el " + rd.getDate() + " de " + MONTHS[rd.getMonth()]) +
+              " a las " + hh + ":" + m + (h < 12 ? " a. m." : " p. m.");
+          }
+        }
+      })
+      .catch(function () {
+        newsBox.textContent = "";
+        var p = el("p", "news-empty", "No se pudieron cargar las noticias ahora mismo. Puedes leerlas en ");
+        var a = el("a", null, "el canal de Telegram");
+        a.href = "https://t.me/bytediario";
+        p.appendChild(a);
+        p.appendChild(document.createTextNode("."));
+        newsBox.appendChild(p);
+      });
   })();
 </script>
 </body>
