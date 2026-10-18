@@ -17,7 +17,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://bytediario.tech/og.png">
 <meta name="theme-color" content="#0E1116">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230E1116'/%3E%3Crect x='6' y='13' width='4' height='6' fill='%23C6F432'/%3E%3Crect x='11' y='13' width='4' height='6' fill='%23ffffff' opacity='.25'/%3E%3Crect x='16' y='13' width='4' height='6' fill='%23C6F432'/%3E%3Crect x='21' y='13' width='4' height='6' fill='%23C6F432'/%3E%3C/svg%3E">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://bytediario.tech/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
@@ -234,6 +235,7 @@
     .cell { transition: none; }
   }
 </style>
+<script src="/assets/analytics.js" defer></script>
 </head>
 <body>
 
@@ -268,7 +270,7 @@
   <section class="section" id="noticias">
     <div class="wrap">
       <h2>Últimas noticias</h2>
-      <p class="section-intro" id="updated">Lo último que publicamos en el canal, con enlace a la fuente original.</p>
+      <p class="section-intro" id="updated">Lo último que publicamos en el canal.</p>
       <div id="news" aria-live="polite">
         <p class="news-empty">Cargando noticias…</p>
       </div>
@@ -489,10 +491,12 @@
           meta.appendChild(el("span", null, it.source || ""));
           var body = el("div");
           var h = el("h3");
-          var url = safeUrl(it.link);
+          var own = it.slug && /^[a-z0-9-]+$/.test(it.slug) ? "/noticias/" + it.slug + ".html" : null;
+          var url = own || safeUrl(it.link);
           if (url) {
             var a = el("a", null, it.title);
-            a.href = url; a.target = "_blank"; a.rel = "noopener";
+            a.href = url;
+            if (!own) { a.target = "_blank"; a.rel = "noopener"; }
             h.appendChild(a);
           } else {
             h.textContent = it.title;
@@ -631,7 +635,7 @@
             var h = rd.getHours(), m = String(rd.getMinutes()).padStart(2, "0");
             var hh = (h % 12) || 12;
             document.getElementById("updated").textContent =
-              "Lo último que publicamos en el canal, con enlace a la fuente original. Actualizado " +
+              "Lo último que publicamos en el canal. Actualizado " +
               (isoDay(rd) === today ? "hoy" : "el " + rd.getDate() + " de " + MONTHS[rd.getMonth()]) +
               " a las " + hh + ":" + m + (h < 12 ? " a. m." : " p. m.");
           }

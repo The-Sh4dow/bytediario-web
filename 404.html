@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Página no encontrada | ByteDiario</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0E1116">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/articulo.css">
+<script src="/assets/analytics.js" defer></script>
+</head>
+<body>
+<header><div class="wrap"><a class="wordmark" href="/">Byte<span>Diario</span></a><nav><a href="/#noticias">Noticias</a><a href="https://t.me/bytediario">Telegram</a></nav></div></header>
+<main class="wrap notfound">
+  <h1 id="title">Esta página no existe</h1>
+  <p id="msg">Puede que el enlace esté mal escrito o que la página se haya movido.</p>
+  <a class="btn-secondary" href="/">Ir a las últimas noticias</a>
+</main>
+<script>
+  // Las noticias recién publicadas tardan un minuto en aparecer en la web.
+  if (location.pathname.indexOf("/noticias/") === 0) {
+    document.getElementById("title").textContent = "Esta noticia se está publicando";
+    document.getElementById("msg").textContent =
+      "Acabamos de enviarla al canal y la web tarda un par de minutos en mostrarla. Vuelve a cargar la página en un momento.";
+  }
+</script>
+</body>
+</html>
