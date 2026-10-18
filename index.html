@@ -9,6 +9,13 @@
 <meta property="og:description" content="Noticias de tecnología y gaming en español, un byte al día.">
 <meta property="og:url" content="https://bytediario.tech">
 <meta property="og:type" content="website">
+<meta property="og:image" content="https://bytediario.tech/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ByteDiario: tecnología y gaming, un byte al día.">
+<meta property="og:locale" content="es_DO">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://bytediario.tech/og.png">
 <meta name="theme-color" content="#0E1116">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230E1116'/%3E%3Crect x='6' y='13' width='4' height='6' fill='%23C6F432'/%3E%3Crect x='11' y='13' width='4' height='6' fill='%23ffffff' opacity='.25'/%3E%3Crect x='16' y='13' width='4' height='6' fill='%23C6F432'/%3E%3Crect x='21' y='13' width='4' height='6' fill='%23C6F432'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,7 +61,7 @@
   header nav { display: flex; gap: 20px; }
   header nav a { color: var(--muted); text-decoration: none; font-weight: 700; }
   header nav a:hover { color: var(--ink); }
-  @media (max-width: 420px) { header nav { gap: 14px; font-size: .95rem; } }
+  @media (max-width: 480px) { header nav { gap: 16px; } .nav-wide { display: none; } }
 
   /* Portada */
   .hero { padding: 48px 0 72px; }
@@ -142,6 +149,55 @@
   }
   .more:hover { border-color: var(--brand); }
 
+  /* Juegos gratis */
+  .games { list-style: none; margin: 0; padding: 0; display: grid; gap: 20px; }
+  @media (min-width: 560px) { .games { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 900px) { .games { grid-template-columns: repeat(3, 1fr); } }
+  .game {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
+    overflow: hidden; display: flex; flex-direction: column;
+  }
+  .game img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; background: var(--bit-off); }
+  .game-body { padding: 16px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+  .game h3 { font-size: 1.1rem; line-height: 1.3; margin: 0; }
+  .game-platforms { color: var(--muted); font-size: .9rem; margin: 0; }
+  .game-price { margin: 0; font-size: .95rem; }
+  .game-price s { color: var(--muted); }
+  .game-price strong { color: var(--brand); }
+  .game-ends { color: var(--muted); font-size: .9rem; margin: 0; }
+  .game-ends.soon { color: var(--focus); font-weight: 700; }
+  .game a.claim {
+    margin-top: auto; align-self: flex-start;
+    color: var(--brand); font-weight: 700; text-decoration: none; padding-top: 8px;
+  }
+  .game a.claim:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+  /* Seguridad */
+  .vulns { list-style: none; margin: 0; padding: 0; }
+  .vuln {
+    display: grid; gap: 4px 24px;
+    padding: 20px 0; border-bottom: 1px solid var(--line);
+  }
+  .vuln:first-child { border-top: 1px solid var(--line); }
+  @media (min-width: 720px) { .vuln { grid-template-columns: 11rem 1fr; } }
+  .vuln-id { font-weight: 700; font-variant-numeric: tabular-nums; }
+  .vuln-id a { text-decoration: none; }
+  .vuln-id a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .vuln-date { display: block; color: var(--muted); font-size: .9rem; font-weight: 400; }
+  .vuln h3 { font-size: 1.1rem; margin: 0 0 4px; }
+  .vuln p { margin: 0; color: var(--muted); max-width: 44rem; }
+  .tag-ransom {
+    display: inline-block; margin-top: 8px; font-size: .85rem; font-weight: 700;
+    color: #0E1116; background: #FFB020; border-radius: 6px; padding: 2px 8px;
+  }
+  .sec-tip {
+    margin: 28px 0 0; padding: 16px 20px; border-left: 3px solid var(--brand);
+    background: var(--surface); border-radius: 0 10px 10px 0; max-width: 44rem;
+  }
+  .sec-tip strong { display: block; margin-bottom: 2px; }
+  .sec-tip span { color: var(--muted); }
+  .source-note { color: var(--muted); font-size: .9rem; margin: 20px 0 0; }
+
   /* Horario */
   .next {
     display: inline-flex; align-items: center; gap: 10px;
@@ -185,8 +241,9 @@
   <div class="wrap">
     <a class="wordmark" href="/">Byte<span>Diario</span></a>
     <nav>
-      <a href="#noticias">Noticias</a>
-      <a href="#horario">Horario</a>
+      <a href="#noticias" class="nav-wide">Noticias</a>
+      <a href="#gratis" id="nav-gratis" hidden>Gratis</a>
+      <a href="#horario" class="nav-wide">Horario</a>
       <a href="https://t.me/bytediario">Telegram</a>
     </nav>
   </div>
@@ -216,6 +273,25 @@
         <p class="news-empty">Cargando noticias…</p>
       </div>
       <noscript><p class="news-empty">Activa JavaScript para ver las noticias, o léelas en <a href="https://t.me/bytediario">el canal de Telegram</a>.</p></noscript>
+    </div>
+  </section>
+
+  <section class="section" id="gratis" hidden>
+    <div class="wrap">
+      <h2>Juegos gratis ahora</h2>
+      <p class="section-intro">Juegos completos que puedes reclamar gratis por tiempo limitado. Una vez reclamados, son tuyos para siempre.</p>
+      <ul class="games" id="games"></ul>
+      <p class="source-note">Datos de <a href="https://www.gamerpower.com">GamerPower</a>. Se actualiza cada día.</p>
+    </div>
+  </section>
+
+  <section class="section" id="seguridad" hidden>
+    <div class="wrap">
+      <h2>Alerta de seguridad</h2>
+      <p class="section-intro">Fallos que los atacantes ya están aprovechando. Si usas alguno de estos productos, instala la actualización cuanto antes.</p>
+      <ul class="vulns" id="vulns"></ul>
+      <p class="sec-tip"><strong>Consejo de la semana</strong><span id="tip"></span></p>
+      <p class="source-note">Fuente: catálogo de vulnerabilidades explotadas (KEV) de <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA</a>. Se actualiza cada día.</p>
     </div>
   </section>
 
@@ -451,10 +527,103 @@
       }
     }
 
+    // ── Juegos gratis ──
+    function renderGames(list) {
+      list = (list || []).filter(function (g) {
+        return safeUrl(g.link) && (!g.end_iso || g.end_iso >= today);
+      });
+      if (!list.length) return;
+      var ul = document.getElementById("games");
+      list.forEach(function (g) {
+        var li = el("li", "game");
+        if (safeUrl(g.image)) {
+          var img = el("img");
+          img.src = g.image; img.alt = ""; img.loading = "lazy";
+          img.addEventListener("error", function () { img.remove(); });
+          li.appendChild(img);
+        }
+        var body = el("div", "game-body");
+        body.appendChild(el("h3", null, g.title));
+        if (g.platforms) body.appendChild(el("p", "game-platforms", g.platforms));
+        if (g.worth) {
+          var price = el("p", "game-price");
+          price.appendChild(el("s", null, g.worth));
+          price.appendChild(document.createTextNode(" "));
+          price.appendChild(el("strong", null, "Gratis"));
+          body.appendChild(price);
+        }
+        if (g.end_iso) {
+          var p = g.end_iso.split("-");
+          var end = new Date(+p[0], +p[1] - 1, +p[2]);
+          var days = Math.round((end - new Date(now.getFullYear(), now.getMonth(), now.getDate())) / 86400000);
+          var txt = days <= 0 ? "Termina hoy" : days === 1 ? "Termina mañana"
+                  : "Hasta el " + end.getDate() + " de " + MONTHS[end.getMonth()];
+          body.appendChild(el("p", "game-ends" + (days <= 2 ? " soon" : ""), txt));
+        }
+        var a = el("a", "claim", "Reclamar");
+        a.href = g.link; a.target = "_blank"; a.rel = "noopener";
+        a.setAttribute("aria-label", "Reclamar " + g.title);
+        body.appendChild(a);
+        li.appendChild(body);
+        ul.appendChild(li);
+      });
+      document.getElementById("gratis").hidden = false;
+      document.getElementById("nav-gratis").hidden = false;
+    }
+
+    // ── Alerta de seguridad ──
+    var TIPS = [
+      "Activa la verificación en dos pasos en tu correo principal: es la llave de todas tus demás cuentas.",
+      "Usa un gestor de contraseñas y una contraseña distinta para cada servicio.",
+      "Activa las actualizaciones automáticas del sistema, del navegador y del móvil.",
+      "Desconfía de los mensajes con prisa: «tu cuenta será bloqueada» es el gancho clásico del phishing.",
+      "Antes de iniciar sesión, revisa que la dirección de la web sea la correcta, letra por letra.",
+      "Cambia la contraseña de administrador de tu router y actualiza su firmware.",
+      "Haz copias de seguridad siguiendo la regla 3-2-1: tres copias, dos soportes, una fuera de casa.",
+      "Descarga apps y juegos solo de tiendas oficiales; los «cracks» son una vía común de malware.",
+      "Revisa qué apps tienen acceso a tu cámara, micrófono y ubicación, y quita lo que no uses.",
+      "En una Wi-Fi pública, evita entrar a tu banco o usa una VPN de confianza.",
+      "Desactiva las macros de Office en documentos que te lleguen por correo.",
+      "Si un código de verificación te llega sin haberlo pedido, alguien está intentando entrar: no lo compartas."
+    ];
+    var weekNum = Math.floor((Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()) - Date.UTC(2026, 0, 5)) / 604800000);
+    document.getElementById("tip").textContent = TIPS[((weekNum % TIPS.length) + TIPS.length) % TIPS.length];
+
+    function renderSecurity(list) {
+      list = (list || []).filter(function (v) { return v.cve; });
+      if (!list.length) return;
+      var ul = document.getElementById("vulns");
+      list.forEach(function (v) {
+        var li = el("li", "vuln");
+        var id = el("div", "vuln-id");
+        if (safeUrl(v.link)) {
+          var a = el("a", null, v.cve);
+          a.href = v.link; a.target = "_blank"; a.rel = "noopener";
+          id.appendChild(a);
+        } else {
+          id.textContent = v.cve;
+        }
+        if (v.added) {
+          var p = v.added.split("-");
+          id.appendChild(el("span", "vuln-date", "Añadida el " + +p[2] + " de " + MONTHS[+p[1] - 1]));
+        }
+        var body = el("div");
+        body.appendChild(el("h3", null, [v.vendor, v.product].filter(Boolean).join(" ")));
+        if (v.summary) body.appendChild(el("p", null, v.summary));
+        if (v.ransomware) body.appendChild(el("span", "tag-ransom", "Usada en ataques de ransomware"));
+        li.appendChild(id);
+        li.appendChild(body);
+        ul.appendChild(li);
+      });
+      document.getElementById("seguridad").hidden = false;
+    }
+
     fetch("data/noticias.json?v=" + Date.now(), { cache: "no-store" })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(function (data) {
         render(Array.isArray(data.items) ? data.items : []);
+        try { renderGames(data.freebies); } catch (e) { /* sección opcional */ }
+        try { renderSecurity(data.security); } catch (e) { /* sección opcional */ }
         if (data.updated) {
           var u = new Date(data.updated);
           if (!isNaN(u)) {
