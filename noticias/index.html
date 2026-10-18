@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Todas las noticias | ByteDiario</title>
+<meta name="description" content="Todas las noticias de tecnología y gaming publicadas en ByteDiario.">
+<link rel="canonical" href="https://bytediario.tech/noticias/">
+<meta property="og:title" content="Todas las noticias | ByteDiario">
+<meta property="og:description" content="Noticias de tecnología y gaming en español, un byte al día.">
+<meta property="og:url" content="https://bytediario.tech/noticias/">
+<meta property="og:image" content="https://bytediario.tech/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0E1116">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/articulo.css">
+<script src="/assets/analytics.js" defer></script>
+<style>
+  .archive { padding: 48px 0 64px; }
+  .archive > p { color: var(--muted); margin: 0 0 24px; }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 28px; }
+  .filters button {
+    background: none; color: var(--muted); font: inherit; font-size: .9rem; font-weight: 700;
+    border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; cursor: pointer;
+  }
+  .filters button[aria-pressed="true"] { background: var(--brand); color: var(--brand-ink); border-color: var(--brand); }
+  .day { margin: 0 0 32px; }
+  .day h2 { font-size: 1rem; color: var(--muted); margin: 0; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+  .list { list-style: none; margin: 0; padding: 0; }
+  .list li { border-bottom: 1px solid var(--line); }
+  .list a { display: block; padding: 16px 0; text-decoration: none; }
+  .list a:hover strong { text-decoration: underline; text-decoration-color: var(--brand); text-underline-offset: 3px; }
+  .list .m { display: block; font-size: .85rem; color: var(--muted); }
+  .list .m b { color: var(--brand); margin-right: 6px; }
+  .list strong { display: block; font-size: 1.1rem; line-height: 1.35; margin: 2px 0 4px; }
+  .list span.s { color: var(--muted); font-size: .95rem; }
+  .empty { color: var(--muted); }
+</style>
+</head>
+<body>
+<header><div class="wrap"><a class="wordmark" href="/">Byte<span>Diario</span></a><nav><a href="/">Inicio</a><a href="https://t.me/bytediario">Telegram</a></nav></div></header>
+<main class="wrap archive">
+  <h1>Todas las noticias</h1>
+  <p>Lo que hemos publicado en el canal en las últimas semanas.</p>
+  <div class="filters" id="filters" role="group" aria-label="Filtrar por categoría"></div>
+  <div id="list" aria-live="polite"><p class="empty">Cargando noticias…</p></div>
+</main>
+<footer><div class="wrap"><span>© <span id="year">2026</span> ByteDiario</span><a href="/">Volver al inicio</a></div></footer>
+<script>
+(function () {
+  var MONTHS = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
+                "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+  var WEEKDAYS = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"];
+  var CATS = { PC: "PC", CONSOLAS: "Consolas", JUEGOS: "Juegos", MOVILES: "Móviles",
+               IA: "IA", OFERTAS: "Ofertas", TECH: "Tecnología" };
+  var box = document.getElementById("list");
+  var filtersBox = document.getElementById("filters");
+  var items = [], current = "";
+
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function rdNow() {
+    var d = new Date();
+    return new Date(d.getTime() + d.getTimezoneOffset() * 60000 - 4 * 3600000);
+  }
+  function iso(d) {
+    return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+  }
+  var now = rdNow(), today = iso(now), yesterday = iso(new Date(now.getTime() - 86400000));
+  document.getElementById("year").textContent = now.getFullYear();
+
+  function dayLabel(s) {
+    var p = s.split("-"), d = new Date(+p[0], +p[1] - 1, +p[2]);
+    var txt = d.getDate() + " de " + MONTHS[d.getMonth()];
+    if (s === today) return "Hoy, " + txt;
+    if (s === yesterday) return "Ayer, " + txt;
+    var w = WEEKDAYS[d.getDay()];
+    return w.charAt(0).toUpperCase() + w.slice(1) + ", " + txt;
+  }
+
+  function draw() {
+    box.textContent = "";
+    var list = items.filter(function (it) { return !current || it.categoria === current; });
+    if (!list.length) { box.appendChild(el("p", "empty", "No hay noticias de esta categoría por ahora.")); return; }
+    var group = null, ul = null;
+    list.forEach(function (it) {
+      if (!group || group !== it.date) {
+        group = it.date;
+        var d = el("section", "day");
+        d.appendChild(el("h2", null, dayLabel(it.date)));
+        ul = el("ul", "list");
+        d.appendChild(ul);
+        box.appendChild(d);
+      }
+      var li = el("li"), a = el("a");
+      var own = it.slug && /^[a-z0-9-]+$/.test(it.slug);
+      if (own) a.href = "/noticias/" + it.slug + ".html";
+      else if (/^https?:\/\//i.test(it.link || "")) { a.href = it.link; a.target = "_blank"; a.rel = "noopener"; }
+      var m = el("span", "m");
+      m.appendChild(el("b", null, CATS[it.categoria] || "Tecnología"));
+      m.appendChild(document.createTextNode(it.source || ""));
+      a.appendChild(m);
+      a.appendChild(el("strong", null, it.title));
+      if (it.summary) a.appendChild(el("span", "s", it.summary));
+      li.appendChild(a);
+      ul.appendChild(li);
+    });
+  }
+
+  function drawFilters() {
+    var present = {};
+    items.forEach(function (it) { present[it.categoria] = true; });
+    var opts = [["", "Todas"]].concat(Object.keys(CATS).filter(function (k) { return present[k]; })
+                                      .map(function (k) { return [k, CATS[k]]; }));
+    if (opts.length < 3) return;
+    opts.forEach(function (o) {
+      var b = el("button", null, o[1]);
+      b.type = "button";
+      b.setAttribute("aria-pressed", o[0] === current ? "true" : "false");
+      b.addEventListener("click", function () {
+        current = o[0];
+        filtersBox.querySelectorAll("button").forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+        draw();
+      });
+      filtersBox.appendChild(b);
+    });
+  }
+
+  fetch("/data/noticias.json?v=" + Date.now(), { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (data) {
+      items = Array.isArray(data.items) ? data.items : [];
+      drawFilters();
+      draw();
+    })
+    .catch(function () {
+      box.textContent = "";
+      box.appendChild(el("p", "empty", "No se pudieron cargar las noticias ahora mismo."));
+    });
+})();
+</script>
+</body>
+</html>
