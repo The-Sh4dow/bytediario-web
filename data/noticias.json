@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-19T08:01-04:00",
+ "updated": "2026-10-19T13:01-04:00",
  "items": [
+  {
+   "date": "2026-10-19",
+   "title": "The Witcher 3 recibe actualización en Switch 2 con mejoras gráficas",
+   "summary": "CD Projekt Red ha lanzado la versión 5.01 de The Witcher 3: Wild Hunt Remastered, incorporando optimizaciones específicas y mejoras de rendimiento exclusivas para la nueva consola de Nintendo.",
+   "link": "https://www.nintendolife.com/news/2026/10/the-witcher-3-remastereds-latest-update-is-now-live-here-are-the-full-patch-notes",
+   "source": "Nintendo Life",
+   "categoria": "CONSOLAS",
+   "slug": "2026-10-19-the-witcher-3-recibe-actualizacion-en-switch-2-con-mejoras-graficas"
+  },
   {
    "date": "2026-10-19",
    "title": "Dell presenta el XPS 16 Creator Edition con nuevos procesadores RTX de Nvidia",
@@ -261,18 +270,17 @@
    "source": "Xataka",
    "categoria": "TECH",
    "slug": ""
-  },
-  {
-   "date": "2026-10-14",
-   "title": "Ubisoft cierra el estudio de la saga Trials y despide a 70 empleados",
-   "summary": "La compañía clausura RedLynx y aplica una nueva ronda de recortes de personal que afecta al equipo de desarrollo de Skull and Bones.",
-   "link": "https://www.ign.com/articles/ubisoft-cuts-70-staff-from-skull-and-bones-dev-shuts-down-trials-studio-redlynx",
-   "source": "IGN",
-   "categoria": "JUEGOS",
-   "slug": ""
   }
  ],
  "freebies": [
+  {
+   "title": "HELLCARD Steam Key",
+   "link": "https://www.gamerpower.com/open/hellcard-steam-key-giveaway",
+   "platforms": "PC, Steam",
+   "end_iso": "2026-10-19",
+   "worth": "$24.99",
+   "image": "https://www.gamerpower.com/offers/1b/6ad6486a75199.jpg"
+  },
   {
    "title": "Agent A: A puzzle in disguise",
    "link": "https://www.gamerpower.com/open/agent-a-a-puzzle-in-disguise-epic-games-giveaway",
@@ -296,6 +304,14 @@
    "end_iso": "",
    "worth": "$9.99",
    "image": "https://www.gamerpower.com/offers/1b/6a59119a8eb8d.jpg"
+  },
+  {
+   "title": "GetHigh.EXE",
+   "link": "https://www.gamerpower.com/open/gethigh-exe-epic-games-giveaway",
+   "platforms": "PC, Epic Games Store",
+   "end_iso": "2026-11-02",
+   "worth": "$1.99",
+   "image": "https://www.gamerpower.com/offers/1b/6ad63cd807641.jpg"
   }
  ],
  "security": [
