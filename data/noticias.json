@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-19T13:01-04:00",
+ "updated": "2026-10-19T19:00-04:00",
  "items": [
+  {
+   "date": "2026-10-19",
+   "title": "Apple celebrará un nuevo evento el 28 de octubre enfocado en los MacBook Pro",
+   "summary": "Apple ha confirmado un evento de presentación oficial para el próximo 28 de octubre. Todo apunta a que la compañía dará a conocer nuevas versiones del MacBook Pro y una posible renovación del iPad mini con chips más potentes.",
+   "link": "https://www.xataka.com/eventos/apple-anuncia-presentacion-para-28-octubre-todas-miradas-apuntan-a-nuevos-macbook-pro",
+   "source": "Xataka",
+   "categoria": "TECH",
+   "slug": "2026-10-19-apple-celebrara-un-nuevo-evento-el-28-de-octubre-enfocado-en-los-macbo"
+  },
   {
    "date": "2026-10-19",
    "title": "The Witcher 3 recibe actualización en Switch 2 con mejoras gráficas",
@@ -261,26 +270,9 @@
    "source": "The Verge",
    "categoria": "MOVILES",
    "slug": ""
-  },
-  {
-   "date": "2026-10-14",
-   "title": "Huawei presenta la MatePad Pro 12 con pantalla ultradelgada PaperMatte",
-   "summary": "La nueva tablet de gama alta de la marca busca competir en el segmento prémium con un panel antideslumbrante enfocado en la productividad.",
-   "link": "https://www.xataka.com/seleccion/oficial-huawei-matepad-pro-12-nueva-tablet-ultradelgada-gama-alta-pantalla-papermatte",
-   "source": "Xataka",
-   "categoria": "TECH",
-   "slug": ""
   }
  ],
  "freebies": [
-  {
-   "title": "HELLCARD Steam Key",
-   "link": "https://www.gamerpower.com/open/hellcard-steam-key-giveaway",
-   "platforms": "PC, Steam",
-   "end_iso": "2026-10-19",
-   "worth": "$24.99",
-   "image": "https://www.gamerpower.com/offers/1b/6ad6486a75199.jpg"
-  },
   {
    "title": "Agent A: A puzzle in disguise",
    "link": "https://www.gamerpower.com/open/agent-a-a-puzzle-in-disguise-epic-games-giveaway",
