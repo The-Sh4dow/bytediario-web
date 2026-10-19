@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://bytediario.tech/</loc><changefreq>daily</changefreq></url>
+<url><loc>https://bytediario.tech/noticias/index.html</loc></url>
+<url><loc>https://bytediario.tech/noticias/2026-10-19-una-ia-de-google-logra-terminar-minecraft-sin-intervencion-humana.html</loc><lastmod>2026-10-19</lastmod></url>
+<url><loc>https://bytediario.tech/noticias/2026-10-19-no-rest-for-the-wicked-duplicara-su-contenido-con-24-clases-en-su-vers.html</loc><lastmod>2026-10-19</lastmod></url>
+<url><loc>https://bytediario.tech/noticias/2026-10-19-dell-presenta-el-xps-16-creator-edition-con-nuevos-procesadores-rtx-de.html</loc><lastmod>2026-10-19</lastmod></url>
+<url><loc>https://bytediario.tech/noticias/2026-10-19-acer-lanza-la-consola-portatil-predator-atlas-8-con-pantalla-de-120-hz.html</loc><lastmod>2026-10-19</lastmod></url>
 <url><loc>https://bytediario.tech/noticias/2026-10-18-gta-6-permitira-cambiar-de-personaje-y-ser-copiloto-mientras-conduces.html</loc><lastmod>2026-10-18</lastmod></url>
 </urlset>

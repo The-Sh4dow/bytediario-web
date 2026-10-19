@@ -1,6 +1,42 @@
 {
- "updated": "2026-10-18T19:00-04:00",
+ "updated": "2026-10-19T08:01-04:00",
  "items": [
+  {
+   "date": "2026-10-19",
+   "title": "Dell presenta el XPS 16 Creator Edition con nuevos procesadores RTX de Nvidia",
+   "summary": "El equipo está diseñado para creadores y desarrolladores que necesitan ejecutar tareas de inteligencia artificial localmente.",
+   "link": "https://www.xataka.com/seleccion/dell-inaugura-era-ia-agentica-nuevo-xps-16-creator-edition-superchips-nvidia-rtx-spark",
+   "source": "Xataka",
+   "categoria": "PC",
+   "slug": "2026-10-19-dell-presenta-el-xps-16-creator-edition-con-nuevos-procesadores-rtx-de"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "No Rest for the Wicked duplicará su contenido con 24 clases en su versión 1.0",
+   "summary": "Moon Studios anunció que el RPG de acción llegará a PC y PS5 con seis facciones y profundos ajustes jugables.",
+   "link": "https://vandal.elespanol.com/noticia/2026292014/no-rest-for-the-wicked-duplicara-su-tamano-con-la-version-10-y-estrenara-24-clases-y-seis-facciones/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-19-no-rest-for-the-wicked-duplicara-su-contenido-con-24-clases-en-su-vers"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "Una IA de Google logra terminar Minecraft sin intervención humana",
+   "summary": "Cuatro agentes Gemini 4 Argon vencieron al Ender Dragon tras más de 27 horas de partida en un hito histórico.",
+   "link": "https://www.ign.com/articles/google-ai-agents-killed-ender-dragon-minecraft",
+   "source": "IGN",
+   "categoria": "IA",
+   "slug": "2026-10-19-una-ia-de-google-logra-terminar-minecraft-sin-intervencion-humana"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "Acer lanza la consola portátil Predator Atlas 8 con pantalla de 120 Hz",
+   "summary": "El nuevo dispositivo portátil con Windows 11 y procesador Intel Arc G3 Extreme ya está a la venta desde 1.099 euros.",
+   "link": "https://vandal.elespanol.com/noticia/2026292016/acer-lanza-en-espana-su-nueva-consola-portatil-predator-atlas-8-con-pantalla-de-120-hz-desde-1099-euros/",
+   "source": "Vandal",
+   "categoria": "PC",
+   "slug": "2026-10-19-acer-lanza-la-consola-portatil-predator-atlas-8-con-pantalla-de-120-hz"
+  },
   {
    "date": "2026-10-18",
    "title": "GTA 6 permitirá cambiar de personaje y ser copiloto mientras conduces",
@@ -108,6 +144,132 @@
    "source": "Tom's Hardware",
    "categoria": "JUEGOS",
    "slug": ""
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Steam bate su récord histórico al superar los 43 millones de usuarios",
+   "summary": "La plataforma de Valve ha alcanzado un nuevo hito de jugadores simultáneos este fin de semana, batiendo por tercera vez en lo que va de año su propio récord de actividad y reafirmando el excelente estado de salud del sector en PC.",
+   "link": "https://vandal.elespanol.com/noticia/2026289023/steam-batio-su-record-de-jugadores-simultaneos-y-sube-el-liston-de-nuevo-por-tercera-vez-en-2026/",
+   "source": "Vandal",
+   "categoria": "PC",
+   "slug": ""
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Linus Torvalds publica su primer parche asistido por IA en el kernel de Linux",
+   "summary": "El creador del sistema operativo empleó herramientas de IA para optimizar el código, logrando un notable salto de rendimiento en pruebas.",
+   "link": "https://www.tomshardware.com/software/linux/linus-torvalds-posts-his-first-llm-assisted-patch-to-the-linux-kernel-after-issuing-clear-pro-ai-directives-the-bossman-makes-use-of-ai-tooling-himself",
+   "source": "Tom's Hardware",
+   "categoria": "IA",
+   "slug": ""
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Steam permitirá organizar los logros del juego base y de sus expansiones por separado",
+   "summary": "Valve introdujo los conjuntos de logros para que los desarrolladores puedan distinguir los desafíos principales de los contenidos descargables.",
+   "link": "https://www.theverge.com/games/1012541/valve-steam-achievement-sets",
+   "source": "The Verge",
+   "categoria": "PC",
+   "slug": ""
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Justice compone la banda sonora original de GTA 6 y presenta nueva canción",
+   "summary": "Rockstar Games confirmó al prestigioso dúo francés de música electrónica como responsable de la música original de su próximo gran título.",
+   "link": "https://vandal.elespanol.com/noticia/2026289016/rockstar-confirma-que-justice-referente-de-la-electronica-ha-compuesto-la-banda-sonora-original-de-gta-6/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": ""
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Nintendo muestra por primera vez a Dark Link en el remake de Zelda: Ocarina of Time",
+   "summary": "Un nuevo anuncio oficial en Japón reveló el aspecto de Dark Link en la esperada reedición del clásico de Nintendo.",
+   "link": "https://www.ign.com/articles/heres-our-first-look-at-dark-link-in-the-legend-of-zelda-ocarina-of-time-remake",
+   "source": "IGN",
+   "categoria": "CONSOLAS",
+   "slug": ""
+  },
+  {
+   "date": "2026-10-15",
+   "title": "Sega retira el remaster de Total War: Shogun 2 tras un desastroso lanzamiento",
+   "summary": "Sega y Creative Assembly han retirado Total War: Shogun 2 - Complete Edition de las tiendas digitales tras las duras críticas de los fans. Los usuarios denunciaron numerosos errores técnicos y un uso de inteligencia artificial en el reescalado que afectaba gravemente al juego.",
+   "link": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled",
+   "source": "The Verge",
+   "categoria": "PC",
+   "slug": ""
+  },
+  {
+   "date": "2026-10-15",
+   "title": "Asus trae a España sus nuevos portátiles ProArt con IA local y sin suscripciones",
+   "summary": "La compañía lanza equipos enfocados a creadores que procesan inteligencia artificial de forma local para mayor privacidad.",
+   "link": "https://www.xataka.com/seleccion/asus-trae-a-espana-sus-portatiles-proart-nvidia-rtx-spark-ia-local-suscripciones-para-creadores",
+   "source": "Xataka",
+   "categoria": "PC",
+   "slug": ""
+  },
+  {
+   "date": "2026-10-15",
+   "title": "Harold Halibut confirma su llegada a Nintendo Switch 2",
+   "summary": "La aclamada aventura narrativa con estética stop-motion de Slow Bros. adaptará su propuesta al nuevo hardware de Nintendo.",
+   "link": "https://vandal.elespanol.com/noticia/2026288021/harold-halibut-el-sorprendente-juego-de-stop-motion-confirma-lanzamiento-en-nintendo-switch-2/",
+   "source": "Vandal",
+   "categoria": "CONSOLAS",
+   "slug": ""
+  },
+  {
+   "date": "2026-10-15",
+   "title": "Rockstar confirma que GTA 6 comenzó su desarrollo en 2015",
+   "summary": "El estudio reveló que el esperado título lleva en desarrollo desde la salida de la entrega anterior, retrasado por Red Dead Redemption 2.",
+   "link": "https://vandal.elespanol.com/noticia/2026288019/gta-6-comenzo-su-desarrollo-en-2015-confirma-rockstar-aunque-red-dead-redemption-2-retraso-su-progreso/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": ""
+  },
+  {
+   "date": "2026-10-15",
+   "title": "Europa exigirá precios reales en euros y 14 días de devolución para micropagos",
+   "summary": "La Unión Europea implementará medidas estrictas para obligar a mostrar los precios en moneda real y regular las devoluciones en micropagos.",
+   "link": "https://vandal.elespanol.com/noticia/2026288015/europa-se-pone-dura-con-los-micropagos-en-videojuegos-obligara-a-mostrar-precio-real-en-euros-y-14-dias-para-devoluciones/",
+   "source": "Vandal",
+   "categoria": "CONSOLAS",
+   "slug": ""
+  },
+  {
+   "date": "2026-10-14",
+   "title": "Microsoft anuncia el Xbox Nano, un nuevo mando compacto con batería recargable",
+   "summary": "Microsoft presentó oficialmente el mando Xbox Nano, diseñado especialmente para manos pequeñas y juego portátil. El dispositivo incluye batería recargable integrada y ya se encuentra disponible para reservar por 49,99 euros.",
+   "link": "https://vandal.elespanol.com/noticia/2026287029/microsoft-anuncia-un-nuevo-mando-asi-es-el-xbox-nano-con-bateria-recargable-y-pensado-para-manos-pequenas/",
+   "source": "Vandal",
+   "categoria": "CONSOLAS",
+   "slug": ""
+  },
+  {
+   "date": "2026-10-14",
+   "title": "WhatsApp ya permite llamar a cualquier persona aunque no tenga la app",
+   "summary": "Meta ha introducido una función de llamadas para invitados que permite invitar a cualquier usuario mediante un enlace web, sin necesidad de tener cuenta ni descargar la aplicación.",
+   "link": "https://www.theverge.com/tech/1011202/meta-whatsapp-guest-calls",
+   "source": "The Verge",
+   "categoria": "MOVILES",
+   "slug": ""
+  },
+  {
+   "date": "2026-10-14",
+   "title": "Huawei presenta la MatePad Pro 12 con pantalla ultradelgada PaperMatte",
+   "summary": "La nueva tablet de gama alta de la marca busca competir en el segmento prémium con un panel antideslumbrante enfocado en la productividad.",
+   "link": "https://www.xataka.com/seleccion/oficial-huawei-matepad-pro-12-nueva-tablet-ultradelgada-gama-alta-pantalla-papermatte",
+   "source": "Xataka",
+   "categoria": "TECH",
+   "slug": ""
+  },
+  {
+   "date": "2026-10-14",
+   "title": "Ubisoft cierra el estudio de la saga Trials y despide a 70 empleados",
+   "summary": "La compañía clausura RedLynx y aplica una nueva ronda de recortes de personal que afecta al equipo de desarrollo de Skull and Bones.",
+   "link": "https://www.ign.com/articles/ubisoft-cuts-70-staff-from-skull-and-bones-dev-shuts-down-trials-studio-redlynx",
+   "source": "IGN",
+   "categoria": "JUEGOS",
+   "slug": ""
   }
  ],
  "freebies": [
@@ -126,6 +288,14 @@
    "end_iso": "2026-10-22",
    "worth": "$12.99",
    "image": "https://www.gamerpower.com/offers/1b/6ad0ea7639b78.jpg"
+  },
+  {
+   "title": "Dwarven Realms (Steam) Key",
+   "link": "https://www.gamerpower.com/open/dwarven-realms-steam-key-giveaway",
+   "platforms": "PC, Steam",
+   "end_iso": "",
+   "worth": "$9.99",
+   "image": "https://www.gamerpower.com/offers/1b/6a59119a8eb8d.jpg"
   }
  ],
  "security": [
