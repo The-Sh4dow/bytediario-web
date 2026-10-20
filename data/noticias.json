@@ -1,6 +1,42 @@
 {
- "updated": "2026-10-19T19:00-04:00",
+ "updated": "2026-10-20T08:02-04:00",
  "items": [
+  {
+   "date": "2026-10-20",
+   "title": "ARC Raiders resucita con 1,7 millones de jugadores diarios tras su gran actualización",
+   "summary": "El shooter de Embark Studios recupera masivamente a su comunidad gracias a la actualización Frozen Trail y su nuevo modo PvE.",
+   "link": "https://vandal.elespanol.com/noticia/2026293011/arc-raiders-resucita-con-17-millones-de-jugadores-diarios-y-vende-150000-copias-en-apenas-tres-dias/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-20-arc-raiders-resucita-con-1-7-millones-de-jugadores-diarios-tras-su-gra"
+  },
+  {
+   "date": "2026-10-20",
+   "title": "Un mod permite duplicar el rendimiento con DLSS 5 mediante tecnología de foveation",
+   "summary": "La técnica de renderizado foveated imaging se integra en DLSS 5 para reducir la resolución en los bordes y facilitar su ejecución.",
+   "link": "https://www.tomshardware.com/pc-components/gpus/mods-can-almost-double-dlss-5-performance-through-foveation-reducing-resolution-at-the-edges-of-frames-technique-makes-dlss-5-possible-on-high-resolution-ultrawide-monitors",
+   "source": "Tom's Hardware",
+   "categoria": "PC",
+   "slug": "2026-10-20-un-mod-permite-duplicar-el-rendimiento-con-dlss-5-mediante-tecnologia"
+  },
+  {
+   "date": "2026-10-20",
+   "title": "PlayStation Plus Extra y Premium añaden Mafia: The Old Country y otros 8 juegos",
+   "summary": "Los suscriptores de PS Plus ya pueden descargar los nuevos títulos del catálogo, incluyendo clásicos y lanzamientos destacados.",
+   "link": "https://vandal.elespanol.com/noticia/2026293014/ya-disponibles-para-descargar-los-9-juegos-de-playstation-plus-extra-y-premium-que-incluyen-mafia-the-old-country/",
+   "source": "Vandal",
+   "categoria": "CONSOLAS",
+   "slug": "2026-10-20-playstation-plus-extra-y-premium-anaden-mafia-the-old-country-y-otros"
+  },
+  {
+   "date": "2026-10-20",
+   "title": "Ibai Llanos traslada La Velada del Año a Netflix en exclusiva hasta 2029",
+   "summary": "Netflix emitirá en directo y en exclusiva las ediciones de 2027 a 2029 de La Velada del Año, dejando atrás Twitch.",
+   "link": "https://www.xataka.com/magnet/ibai-le-alquila-a-netflix-su-noche-vista-velada-ano-sera-exclusiva-plataforma-2029",
+   "source": "Xataka",
+   "categoria": "TECH",
+   "slug": "2026-10-20-ibai-llanos-traslada-la-velada-del-ano-a-netflix-en-exclusiva-hasta-20"
+  },
   {
    "date": "2026-10-19",
    "title": "Apple celebrará un nuevo evento el 28 de octubre enfocado en los MacBook Pro",
@@ -233,42 +269,6 @@
    "link": "https://vandal.elespanol.com/noticia/2026288021/harold-halibut-el-sorprendente-juego-de-stop-motion-confirma-lanzamiento-en-nintendo-switch-2/",
    "source": "Vandal",
    "categoria": "CONSOLAS",
-   "slug": ""
-  },
-  {
-   "date": "2026-10-15",
-   "title": "Rockstar confirma que GTA 6 comenzó su desarrollo en 2015",
-   "summary": "El estudio reveló que el esperado título lleva en desarrollo desde la salida de la entrega anterior, retrasado por Red Dead Redemption 2.",
-   "link": "https://vandal.elespanol.com/noticia/2026288019/gta-6-comenzo-su-desarrollo-en-2015-confirma-rockstar-aunque-red-dead-redemption-2-retraso-su-progreso/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": ""
-  },
-  {
-   "date": "2026-10-15",
-   "title": "Europa exigirá precios reales en euros y 14 días de devolución para micropagos",
-   "summary": "La Unión Europea implementará medidas estrictas para obligar a mostrar los precios en moneda real y regular las devoluciones en micropagos.",
-   "link": "https://vandal.elespanol.com/noticia/2026288015/europa-se-pone-dura-con-los-micropagos-en-videojuegos-obligara-a-mostrar-precio-real-en-euros-y-14-dias-para-devoluciones/",
-   "source": "Vandal",
-   "categoria": "CONSOLAS",
-   "slug": ""
-  },
-  {
-   "date": "2026-10-14",
-   "title": "Microsoft anuncia el Xbox Nano, un nuevo mando compacto con batería recargable",
-   "summary": "Microsoft presentó oficialmente el mando Xbox Nano, diseñado especialmente para manos pequeñas y juego portátil. El dispositivo incluye batería recargable integrada y ya se encuentra disponible para reservar por 49,99 euros.",
-   "link": "https://vandal.elespanol.com/noticia/2026287029/microsoft-anuncia-un-nuevo-mando-asi-es-el-xbox-nano-con-bateria-recargable-y-pensado-para-manos-pequenas/",
-   "source": "Vandal",
-   "categoria": "CONSOLAS",
-   "slug": ""
-  },
-  {
-   "date": "2026-10-14",
-   "title": "WhatsApp ya permite llamar a cualquier persona aunque no tenga la app",
-   "summary": "Meta ha introducido una función de llamadas para invitados que permite invitar a cualquier usuario mediante un enlace web, sin necesidad de tener cuenta ni descargar la aplicación.",
-   "link": "https://www.theverge.com/tech/1011202/meta-whatsapp-guest-calls",
-   "source": "The Verge",
-   "categoria": "MOVILES",
    "slug": ""
   }
  ],
