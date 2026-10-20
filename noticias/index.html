@@ -19,24 +19,28 @@
 <link rel="stylesheet" href="/assets/articulo.css">
 <script src="/assets/analytics.js" defer></script>
 <style>
-  .archive { padding: 48px 0 64px; }
-  .archive > p { color: var(--muted); margin: 0 0 24px; }
-  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 28px; }
+  .archive { padding-block: 56px 72px; }
+  .archive h1 { margin-bottom: 10px; }
+  .archive > p { color: var(--muted); margin: 0 0 26px; }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 32px; position: sticky; top: calc(64px + env(safe-area-inset-top, 0px)); z-index: 5; padding: 10px 0; background: linear-gradient(var(--bg) 70%, transparent); }
   .filters button {
-    background: none; color: var(--muted); font: inherit; font-size: .9rem; font-weight: 700;
-    border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; cursor: pointer;
+    background: var(--surface); color: var(--muted); font: inherit; font-size: .9rem; font-weight: 700;
+    border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; cursor: pointer; transition: border-color .2s, color .2s;
   }
+  .filters button:hover { border-color: var(--brand); color: var(--ink); }
   .filters button[aria-pressed="true"] { background: var(--brand); color: var(--brand-ink); border-color: var(--brand); }
-  .day { margin: 0 0 32px; }
-  .day h2 { font-size: 1rem; color: var(--muted); margin: 0; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
-  .list { list-style: none; margin: 0; padding: 0; }
-  .list li { border-bottom: 1px solid var(--line); }
-  .list a { display: block; padding: 16px 0; text-decoration: none; }
-  .list a:hover strong { text-decoration: underline; text-decoration-color: var(--brand); text-underline-offset: 3px; }
-  .list .m { display: block; font-size: .85rem; color: var(--muted); }
-  .list .m b { color: var(--brand); margin-right: 6px; }
-  .list strong { display: block; font-size: 1.1rem; line-height: 1.35; margin: 2px 0 4px; }
-  .list span.s { color: var(--muted); font-size: .95rem; }
+  .day { margin: 0 0 36px; animation: up .5s cubic-bezier(.2, .8, .2, 1) both; }
+  .day h2 { font-family: var(--mono); font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 12px; }
+  .list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+  .list a {
+    display: block; padding: 18px 20px; text-decoration: none; background: var(--surface);
+    border: 1px solid var(--line); border-radius: 16px; transition: border-color .25s, transform .25s cubic-bezier(.2, .8, .2, 1);
+  }
+  .list a:hover { border-color: color-mix(in srgb, var(--brand) 50%, var(--line)); transform: translateY(-2px); }
+  .list .m { display: flex; gap: 10px; align-items: center; font-size: .82rem; color: var(--dim); }
+  .list .m b { font-family: var(--mono); font-size: .72rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: var(--brand); }
+  .list strong { display: block; font-size: 1.1rem; line-height: 1.35; margin: 6px 0 4px; }
+  .list span.s { color: var(--muted); font-size: .95rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   .empty { color: var(--muted); }
 </style>
 </head>

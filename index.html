@@ -2,8 +2,9 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ByteDiario</title>
+<meta name="claude:viewport-fit-sides" content="cover">
 <meta name="description" content="ByteDiario: noticias de tecnología y gaming en español, un byte al día. Únete al canal en Telegram.">
 <meta property="og:title" content="ByteDiario">
 <meta property="og:description" content="Noticias de tecnología y gaming en español, un byte al día.">
@@ -21,16 +22,24 @@
 <link rel="canonical" href="https://bytediario.tech/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
+  /* Identidad ByteDiario: grafito + lima. Hero en dos columnas (byte + teléfono con el canal),
+     cinta de titulares, noticias con barra lateral, horario como reloj de 24 h. */
   :root {
-    --bg: #0E1116; --ink: #FFFFFF; --muted: #9BA3AF; --line: #232934;
-    --surface: #141920;
+    --bg: #0E1116; --bg-2: #0B0E12; --ink: #FFFFFF; --muted: #9BA3AF; --dim: #6B7380;
+    --line: #232934; --line-2: #2E3644; --surface: #141920; --surface-2: #1A2029;
     --bit-off: #1A1F27; --bit-off-ink: #4B5563;
-    --bit-on: #C6F432; --bit-on-ink: #0E1116;
-    --brand: #C6F432;
-    --cta-bg: #C6F432; --cta-ink: #0E1116; --cta-hover-bg: #FFFFFF; --cta-hover-ink: #0E1116;
-    --focus: #36E2C6;
+    --brand: #C6F432; --brand-ink: #0E1116; --brand-glow: rgba(198, 244, 50, .28);
+    --focus: #36E2C6; --warn: #FFB020;
+    --tg: #17212B; --tg-bubble: #182533; --tg-ink: #E9EEF3; --tg-muted: #7D8B99; --tg-link: #6AB3F3;
+    --c-pc: #7AA2FF; --c-consolas: #36E2C6; --c-juegos: #C6F432; --c-moviles: #FFB020;
+    --c-ia: #C792FF; --c-ofertas: #FF7A90; --c-tech: #8FDDFF;
+    --display: "Bricolage Grotesque", "Arial Black", system-ui, sans-serif;
+    --body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+    --gutter-l: max(16px, env(safe-area-inset-left, 0px));
+    --gutter-r: max(16px, env(safe-area-inset-right, 0px));
     color-scheme: dark;
   }
 
@@ -40,246 +49,438 @@
   body {
     background: var(--bg);
     color: var(--ink);
-    font-family: "Atkinson Hyperlegible", system-ui, sans-serif;
+    font-family: var(--body);
     font-size: 1.0625rem;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
   }
   a { color: inherit; }
   :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 4px; }
+  h1, h2, h3 { text-wrap: balance; }
+  img { max-width: 100%; }
 
-  .wrap { max-width: 64rem; margin: 0 auto; padding: 0 16px; }
-  @media (min-width: 720px) { .wrap { padding: 0 32px; } }
+  .wrap { max-width: 72rem; margin: 0 auto; padding-left: var(--gutter-l); padding-right: var(--gutter-r); }
+  @media (min-width: 720px) {
+    .wrap { padding-left: max(32px, env(safe-area-inset-left, 0px)); padding-right: max(32px, env(safe-area-inset-right, 0px)); }
+  }
 
-  /* Encabezado */
-  header { padding: 24px 0; }
-  header .wrap { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+  /* ── Encabezado ── */
+  body::before {
+    content: ""; position: fixed; inset: 0 0 auto; z-index: 60;
+    height: env(safe-area-inset-top, 0px); background: rgba(14, 17, 22, .92);
+  }
+  .top {
+    position: sticky; top: env(safe-area-inset-top, 0px); z-index: 50;
+    background: rgba(14, 17, 22, .72);
+    backdrop-filter: blur(16px) saturate(140%); -webkit-backdrop-filter: blur(16px) saturate(140%);
+    border-bottom: 1px solid transparent; transition: border-color .3s;
+  }
+  .top.scrolled { border-bottom-color: var(--line); }
+  .top .wrap { display: flex; justify-content: space-between; align-items: center; gap: 16px; height: 64px; }
   .wordmark {
-    font-family: "Bricolage Grotesque", sans-serif;
-    font-weight: 800; font-size: 1.25rem; letter-spacing: -0.02em; text-decoration: none;
+    display: inline-flex; align-items: center; gap: 10px;
+    font-family: var(--display); font-weight: 800; font-size: 1.25rem; letter-spacing: -0.02em; text-decoration: none;
   }
   .wordmark span { color: var(--brand); }
-  header nav { display: flex; gap: 20px; }
-  header nav a { color: var(--muted); text-decoration: none; font-weight: 700; }
-  header nav a:hover { color: var(--ink); }
-  @media (max-width: 480px) { header nav { gap: 16px; } .nav-wide { display: none; } }
+  .mini-byte { display: inline-grid; grid-template-columns: repeat(4, 5px); gap: 2px; }
+  .mini-byte i { width: 5px; height: 12px; border-radius: 1.5px; background: var(--bit-off); }
+  .mini-byte i.on { background: var(--brand); }
+  .top nav { display: flex; align-items: center; gap: 22px; }
+  .top nav a { color: var(--muted); text-decoration: none; font-weight: 700; font-size: .95rem; transition: color .2s; }
+  .top nav a:hover, .top nav a.current { color: var(--ink); }
+  .top nav a.nav-cta {
+    color: var(--brand-ink); background: var(--brand); padding: 7px 16px; border-radius: 999px;
+    transition: background-color .2s, transform .2s;
+  }
+  .top nav a.nav-cta:hover { background: #fff; transform: translateY(-1px); }
+  @media (max-width: 640px) { .nav-wide { display: none; } .top nav { gap: 14px; } }
 
-  /* Portada */
-  .hero { padding: 48px 0 72px; }
-  .byte {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    gap: clamp(4px, 1.4vw, 12px);
-    max-width: 44rem;
+  /* ── Portada ── */
+  .hero { position: relative; padding: 56px 0 64px; overflow: hidden; }
+  .hero::before {
+    content: ""; position: absolute; inset: -20% -10% auto auto; width: 70%; height: 120%;
+    background: radial-gradient(closest-side, rgba(198, 244, 50, .10), transparent 70%);
+    pointer-events: none;
   }
-  .bit { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+  .hero::after {
+    content: ""; position: absolute; inset: 0;
+    background-image: radial-gradient(rgba(255,255,255,.055) 1px, transparent 1px);
+    background-size: 22px 22px;
+    mask-image: linear-gradient(to bottom, #000 0%, transparent 85%);
+    -webkit-mask-image: linear-gradient(to bottom, #000 0%, transparent 85%);
+    pointer-events: none;
+  }
+  .hero-grid { position: relative; z-index: 1; display: grid; gap: 56px; align-items: center; }
+  @media (min-width: 960px) { .hero-grid { grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: 48px; } }
+
+  .byte { display: grid; grid-template-columns: repeat(8, 1fr); gap: clamp(4px, 1.1vw, 10px); max-width: 36rem; }
+  .bit { display: flex; flex-direction: column; align-items: center; gap: 8px; perspective: 400px; }
   .cell {
-    width: 100%;
-    aspect-ratio: 3 / 4;
-    border-radius: clamp(4px, 1vw, 10px);
-    background: var(--bit-off);
-    display: grid; place-items: center;
-    font-family: "Bricolage Grotesque", sans-serif;
-    font-weight: 800;
-    font-size: clamp(1.4rem, 6vw, 3.6rem);
+    width: 100%; aspect-ratio: 3 / 4; border-radius: clamp(4px, .9vw, 10px);
+    background: var(--bit-off); display: grid; place-items: center;
+    font-family: var(--display); font-weight: 800; font-size: clamp(1.3rem, 4.6vw, 3rem);
     color: var(--bit-off-ink);
-    transition: background-color .35s ease, color .35s ease;
+    transition: background-color .35s ease, color .35s ease, box-shadow .5s ease;
   }
-  .cell.on { background: var(--bit-on); color: var(--bit-on-ink); }
-  .place { font-size: .75rem; color: var(--muted); font-variant-numeric: tabular-nums; }
-  .reading { margin: 20px 0 0; color: var(--muted); max-width: 44rem; }
-  .reading strong { color: var(--ink); }
+  .cell.flip { animation: flip .5s cubic-bezier(.3, .7, .3, 1); }
+  @keyframes flip { 0% { transform: rotateX(0); } 50% { transform: rotateX(90deg); } 100% { transform: rotateX(0); } }
+  .cell.on { background: var(--brand); color: var(--brand-ink); box-shadow: 0 0 28px var(--brand-glow); }
+  .place { font-family: var(--mono); font-size: .72rem; color: var(--dim); font-variant-numeric: tabular-nums; }
+  .reading { margin: 18px 0 0; color: var(--muted); max-width: 36rem; font-size: 1rem; }
+  .reading strong { color: var(--ink); font-family: var(--mono); font-weight: 500; }
 
   h1 {
-    font-family: "Bricolage Grotesque", sans-serif;
-    font-weight: 800;
-    font-size: clamp(2.4rem, 7vw, 4.5rem);
-    line-height: 1.02;
-    letter-spacing: -0.035em;
-    margin: 48px 0 20px;
-    max-width: 14ch;
+    font-family: var(--display); font-weight: 800;
+    font-size: clamp(2.5rem, 6.4vw, 4.6rem); line-height: 1; letter-spacing: -0.04em;
+    margin: 40px 0 20px; max-width: 13ch;
   }
-  .lede { font-size: 1.2rem; color: var(--muted); max-width: 36rem; margin: 0 0 32px; }
-
+  h1 .hl { color: var(--brand); }
+  .lede { font-size: 1.2rem; color: var(--muted); max-width: 34rem; margin: 0 0 32px; }
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
   .cta {
     display: inline-flex; align-items: center; gap: 10px;
-    background: var(--cta-bg); color: var(--cta-ink);
-    padding: 14px 22px; border-radius: 999px;
-    font-weight: 700; text-decoration: none;
+    background: var(--brand); color: var(--brand-ink);
+    padding: 14px 24px; border-radius: 999px; font-weight: 700; text-decoration: none;
+    box-shadow: 0 10px 30px -10px var(--brand-glow);
+    transition: background-color .2s, transform .2s, box-shadow .2s;
   }
-  .cta:hover { background: var(--cta-hover-bg); color: var(--cta-hover-ink); }
+  .cta:hover { background: #fff; transform: translateY(-2px); box-shadow: 0 16px 36px -12px rgba(255,255,255,.35); }
   .cta svg { width: 20px; height: 20px; flex: none; }
+  .ghost {
+    display: inline-flex; align-items: center; gap: 8px; padding: 13px 22px; border-radius: 999px;
+    border: 1px solid var(--line-2); color: var(--ink); font-weight: 700; text-decoration: none;
+    transition: border-color .2s, background-color .2s;
+  }
+  .ghost:hover { border-color: var(--brand); background: var(--surface); }
 
-  /* Secciones */
-  .section { border-top: 1px solid var(--line); padding: 56px 0; }
+  .in { animation: up .7s cubic-bezier(.2, .8, .2, 1) both; }
+  .d1 { animation-delay: .9s; } .d2 { animation-delay: 1s; } .d3 { animation-delay: 1.1s; } .d4 { animation-delay: .5s; }
+  @keyframes up { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+
+  /* Teléfono con el canal */
+  .phone-wrap { display: flex; justify-content: center; }
+  .phone {
+    width: min(100%, 340px); border-radius: 44px; padding: 10px;
+    background: linear-gradient(160deg, #2A303A, #12161C 60%);
+    box-shadow: 0 50px 90px -30px rgba(0,0,0,.8), 0 0 0 1px #313845, 0 0 80px -20px var(--brand-glow);
+    animation: float 7s ease-in-out infinite;
+  }
+  @keyframes float { 0%, 100% { transform: translateY(0) rotate(-1.2deg); } 50% { transform: translateY(-10px) rotate(-.4deg); } }
+  .screen { border-radius: 35px; overflow: hidden; background: #0E1621; height: 600px; display: flex; flex-direction: column; }
+  .tg-bar {
+    display: flex; align-items: center; gap: 10px; padding: 34px 14px 10px; background: var(--tg);
+    border-bottom: 1px solid rgba(255,255,255,.05);
+  }
+  .tg-bar .back { color: var(--tg-link); font-size: 1.4rem; line-height: 1; }
+  .tg-avatar { width: 34px; height: 34px; border-radius: 50%; background: var(--bg); display: grid; place-items: center; flex: none; }
+  .tg-avatar .mini-byte { transform: scale(.8); }
+  .tg-title { min-width: 0; }
+  .tg-title b { display: block; font-size: .92rem; color: var(--tg-ink); line-height: 1.2; }
+  .tg-title span { font-size: .75rem; color: var(--tg-muted); }
+  .tg-feed {
+    flex: 1; padding: 14px 10px; display: flex; flex-direction: column; justify-content: flex-end; gap: 10px;
+    overflow: hidden;
+    background:
+      radial-gradient(circle at 20% 20%, rgba(106,179,243,.06), transparent 40%),
+      radial-gradient(circle at 80% 70%, rgba(198,244,50,.05), transparent 40%), #0E1621;
+  }
+  .tg-day { align-self: center; font-size: .72rem; color: var(--tg-ink); background: rgba(0,0,0,.35); padding: 2px 10px; border-radius: 999px; }
+  .msg {
+    background: var(--tg-bubble); color: var(--tg-ink); border-radius: 14px 14px 14px 4px;
+    padding: 9px 11px 6px; font-size: .8rem; line-height: 1.45; max-width: 94%;
+    opacity: 0; transform: translateY(14px) scale(.98);
+    transition: opacity .5s ease, transform .5s cubic-bezier(.2, .8, .2, 1);
+  }
+  .msg.show { opacity: 1; transform: none; }
+  .msg .m-head { font-weight: 700; margin-bottom: 4px; }
+  .msg ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 4px; }
+  .msg li { display: grid; grid-template-columns: auto 1fr; gap: 6px; }
+  .msg .m-link { color: var(--tg-link); }
+  .msg .m-sum { color: #C3CDD6; margin-top: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .msg .m-foot { display: flex; justify-content: space-between; gap: 8px; margin-top: 6px; font-size: .68rem; color: var(--tg-muted); }
+  .msg .m-cat { color: var(--brand); font-weight: 700; }
+  .tg-join {
+    margin: 0 10px 12px; text-align: center; padding: 11px; border-radius: 12px;
+    background: var(--tg); color: var(--tg-link); font-weight: 700; font-size: .85rem; text-decoration: none;
+  }
+  .tg-join:hover { background: #1E2B38; }
+
+  /* ── Cinta de titulares ── */
+  .ticker { border-block: 1px solid var(--line); background: var(--bg-2); overflow: hidden; position: relative; }
+  .ticker::before, .ticker::after { content: ""; position: absolute; top: 0; bottom: 0; width: 60px; z-index: 1; pointer-events: none; }
+  .ticker::before { left: 0; background: linear-gradient(90deg, var(--bg-2), transparent); }
+  .ticker::after { right: 0; background: linear-gradient(-90deg, var(--bg-2), transparent); }
+  .ticker-track { display: flex; width: max-content; animation: marquee 60s linear infinite; }
+  .ticker:hover .ticker-track { animation-play-state: paused; }
+  .ticker-track a {
+    display: inline-flex; align-items: center; gap: 10px; white-space: nowrap;
+    padding: 14px 28px; text-decoration: none; font-weight: 700; font-size: .95rem; color: var(--ink);
+  }
+  .ticker-track a:hover { color: var(--brand); }
+  .ticker-track a::after { content: ""; width: 6px; height: 6px; background: var(--line-2); border-radius: 1px; margin-left: 28px; }
+  .ticker-track .k { font-family: var(--mono); font-size: .72rem; font-weight: 500; text-transform: uppercase; letter-spacing: .06em; color: var(--c, var(--brand)); }
+  @keyframes marquee { to { transform: translateX(-50%); } }
+
+  /* ── Secciones ── */
+  .section { padding: 72px 0; }
+  .section + .section { border-top: 1px solid var(--line); }
+  .eyebrow { font-family: var(--mono); font-size: .75rem; text-transform: uppercase; letter-spacing: .1em; color: var(--brand); margin: 0 0 10px; }
   h2 {
-    font-family: "Bricolage Grotesque", sans-serif;
-    font-weight: 800; font-size: 1.75rem; letter-spacing: -0.02em; line-height: 1.2;
-    margin: 0 0 8px;
+    font-family: var(--display); font-weight: 800; font-size: clamp(1.8rem, 3.6vw, 2.5rem);
+    letter-spacing: -0.03em; line-height: 1.1; margin: 0 0 10px;
   }
-  .section-intro { color: var(--muted); margin: 0 0 32px; max-width: 40rem; }
+  .section-intro { color: var(--muted); margin: 0 0 36px; max-width: 40rem; }
 
-  /* Bloque principal: noticias + barra lateral */
-  .today { border-top: 1px solid var(--line); padding: 48px 0 56px; }
-  .today-grid { display: grid; gap: 48px; }
-  @media (min-width: 960px) {
-    .today-grid { grid-template-columns: minmax(0, 1fr) 21rem; gap: 56px; align-items: start; }
+  .js .reveal { opacity: 0; transform: translateY(22px); transition: opacity .7s ease, transform .7s cubic-bezier(.2, .8, .2, 1); }
+  .js .reveal.visible { opacity: 1; transform: none; }
+
+  /* Categorías */
+  .cat-PC { --c: var(--c-pc); } .cat-CONSOLAS { --c: var(--c-consolas); } .cat-JUEGOS { --c: var(--c-juegos); }
+  .cat-MOVILES { --c: var(--c-moviles); } .cat-IA { --c: var(--c-ia); } .cat-OFERTAS { --c: var(--c-ofertas); } .cat-TECH { --c: var(--c-tech); }
+  .chip {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-family: var(--mono); font-size: .72rem; font-weight: 500; text-transform: uppercase; letter-spacing: .06em;
+    color: var(--c, var(--brand));
   }
-  .block-head { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; margin-bottom: 4px; }
+  .chip::before { content: ""; width: 7px; height: 7px; border-radius: 2px; background: currentColor; }
+
+  /* ── Noticias ── */
+  .today-grid { display: grid; gap: 56px; }
+  @media (min-width: 960px) { .today-grid { grid-template-columns: minmax(0, 1fr) 21rem; gap: 56px; align-items: start; } }
+  .block-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 6px; flex-wrap: wrap; }
   .block-head h2 { margin: 0; }
   .block-head a { color: var(--muted); font-size: .95rem; font-weight: 700; text-decoration: none; white-space: nowrap; }
   .block-head a:hover { color: var(--brand); }
-  .block-note { color: var(--muted); font-size: .9rem; margin: 0 0 16px; }
+  .block-note { color: var(--muted); font-size: .9rem; margin: 0 0 22px; }
 
-  /* Noticias */
-  .feed { list-style: none; margin: 0; padding: 0; }
-  .feed li { border-bottom: 1px solid var(--line); }
-  .feed a { display: block; text-decoration: none; padding: 14px 0; }
-  .feed a:hover .feed-title { text-decoration: underline; text-decoration-color: var(--brand); text-underline-offset: 3px; }
-  .feed-meta { display: block; font-size: .85rem; color: var(--muted); margin-bottom: 2px; }
-  .feed-meta b { color: var(--brand); font-weight: 700; margin-right: 6px; }
-  .feed-title { font-weight: 700; line-height: 1.35; }
-  .feed li.lead a { padding: 18px 0 20px; }
-  .feed li.lead .feed-title {
-    display: block; font-family: "Bricolage Grotesque", sans-serif; font-weight: 800;
-    font-size: clamp(1.35rem, 3vw, 1.75rem); line-height: 1.2; letter-spacing: -0.02em; margin: 2px 0 8px;
+  .news-grid { display: grid; gap: 14px; grid-template-columns: 1fr; }
+  @media (min-width: 640px) { .news-grid { grid-template-columns: 1fr 1fr; } }
+  .card {
+    position: relative; display: flex; flex-direction: column; gap: 8px; min-width: 0;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 18px;
+    padding: 20px; text-decoration: none;
+    transition: border-color .25s, transform .25s cubic-bezier(.2, .8, .2, 1), background-color .25s;
   }
-  .feed li.lead p { margin: 0; color: var(--muted); }
-  @media (max-width: 719px) {
-    .feed li.lead p { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  a.card:hover { border-color: color-mix(in srgb, var(--c, var(--brand)) 55%, var(--line)); transform: translateY(-3px); background: var(--surface-2); }
+  .card-meta { display: flex; justify-content: space-between; gap: 10px; align-items: center; font-size: .82rem; color: var(--dim); }
+  .card-title { font-weight: 700; line-height: 1.35; font-size: 1.02rem; }
+  .card .arrow { margin-top: auto; padding-top: 6px; color: var(--dim); font-size: .85rem; transition: color .2s; }
+  a.card:hover .arrow { color: var(--c, var(--brand)); }
+  .card.lead {
+    grid-column: 1 / -1; padding: 28px; gap: 12px; overflow: hidden;
+    background:
+      radial-gradient(120% 140% at 100% 0%, color-mix(in srgb, var(--c, var(--brand)) 16%, transparent), transparent 55%),
+      var(--surface);
   }
+  .card.lead .card-title { font-family: var(--display); font-weight: 800; font-size: clamp(1.45rem, 3vw, 2rem); line-height: 1.12; letter-spacing: -0.025em; }
+  .card.lead p { margin: 0; color: var(--muted); max-width: 46rem; }
+  .card.lead .badge {
+    align-self: flex-start; font-family: var(--mono); font-size: .7rem; letter-spacing: .06em;
+    text-transform: uppercase; color: var(--brand-ink); background: var(--brand); padding: 3px 9px; border-radius: 999px;
+  }
+  .skeleton { height: 120px; border-radius: 18px; background: linear-gradient(90deg, var(--surface) 0%, var(--surface-2) 50%, var(--surface) 100%); background-size: 200% 100%; animation: shimmer 1.4s infinite; }
+  .skeleton.big { grid-column: 1 / -1; height: 190px; }
+  @keyframes shimmer { to { background-position: -200% 0; } }
   .feed-more {
-    display: inline-block; margin-top: 18px; color: var(--ink); font-weight: 700; text-decoration: none;
-    border: 1px solid var(--line); border-radius: 999px; padding: 10px 20px;
+    display: inline-flex; align-items: center; gap: 8px; margin-top: 22px; color: var(--ink); font-weight: 700; text-decoration: none;
+    border: 1px solid var(--line-2); border-radius: 999px; padding: 10px 20px; transition: border-color .2s;
   }
   .feed-more:hover { border-color: var(--brand); }
   .news-empty { color: var(--muted); margin: 0; }
 
   /* Barra lateral */
-  .side { display: grid; gap: 40px; }
-  .side h2 { font-size: 1.35rem; }
-  .rows { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
-  .rows li { border-bottom: 1px solid var(--line); }
-  .rows a { display: flex; gap: 12px; align-items: center; padding: 12px 0; text-decoration: none; }
-  .rows a:hover .row-title { text-decoration: underline; text-decoration-color: var(--brand); text-underline-offset: 3px; }
+  .side { display: grid; gap: 22px; }
+  .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 22px; min-width: 0; }
+  .panel h2 { font-size: 1.35rem; }
+  .rows { list-style: none; margin: 0; padding: 0; }
+  .rows li + li { border-top: 1px solid var(--line); }
+  .rows a, .rows .row { display: flex; gap: 12px; align-items: center; padding: 12px 0; text-decoration: none; }
+  .rows a:hover .row-title { color: var(--brand); }
   .row-body { min-width: 0; flex: 1; }
-  .row-title { display: block; font-weight: 700; line-height: 1.3; }
+  .row-title { display: block; font-weight: 700; line-height: 1.3; transition: color .2s; }
   .row-sub { display: block; font-size: .85rem; color: var(--muted); }
-  .row-sub .soon { color: var(--focus); font-weight: 700; }
-  .thumb { width: 72px; height: 40px; border-radius: 6px; object-fit: cover; flex: none; background: var(--bit-off); }
-  .free { font-size: .8rem; font-weight: 700; color: var(--brand); flex: none; }
-  .vuln-sum {
-    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
-    font-size: .9rem; color: var(--muted); margin-top: 2px;
-  }
+  .row-sub .soon { color: var(--warn); font-weight: 700; }
+  .thumb { width: 76px; height: 44px; border-radius: 8px; object-fit: cover; flex: none; background: var(--bit-off); }
+  .free { font-family: var(--mono); font-size: .68rem; font-weight: 500; letter-spacing: .04em; text-transform: uppercase; color: var(--brand-ink); background: var(--brand); padding: 3px 8px; border-radius: 999px; flex: none; }
+  .vuln-sum { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; font-size: .88rem; color: var(--muted); margin-top: 2px; }
   .rows.vulns a { align-items: flex-start; }
-  .tag-ransom {
-    display: inline-block; margin-top: 6px; font-size: .75rem; font-weight: 700;
-    color: #0E1116; background: #FFB020; border-radius: 6px; padding: 1px 7px;
-  }
-  .side-more {
-    margin-top: 10px; background: none; border: 0; padding: 4px 0; cursor: pointer;
-    color: var(--muted); font: inherit; font-size: .9rem; font-weight: 700;
-  }
+  .cve { font-family: var(--mono); font-size: .78rem; }
+  .tag-ransom { display: inline-block; margin-top: 6px; font-size: .72rem; font-weight: 700; color: var(--brand-ink); background: var(--warn); border-radius: 6px; padding: 1px 7px; }
+  .pulse { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #FF5D5D; margin-right: 8px; vertical-align: 2px; box-shadow: 0 0 0 0 rgba(255, 93, 93, .6); animation: ping 1.8s infinite; }
+  @keyframes ping { 70% { box-shadow: 0 0 0 8px rgba(255, 93, 93, 0); } 100% { box-shadow: 0 0 0 0 rgba(255, 93, 93, 0); } }
+  .side-more { margin-top: 6px; background: none; border: 0; padding: 4px 0; cursor: pointer; color: var(--muted); font: inherit; font-size: .9rem; font-weight: 700; }
   .side-more:hover { color: var(--brand); }
-  .sec-tip {
-    margin: 16px 0 0; padding: 12px 14px; border-left: 3px solid var(--brand);
-    background: var(--surface); border-radius: 0 10px 10px 0; font-size: .9rem;
-  }
+  .sec-tip { margin: 14px 0 0; padding: 12px 14px; border-left: 3px solid var(--brand); background: var(--bg); border-radius: 0 10px 10px 0; font-size: .9rem; }
   .sec-tip strong { display: block; }
   .sec-tip span { color: var(--muted); }
-  .source-note { color: var(--muted); font-size: .8rem; margin: 10px 0 0; }
+  .source-note { color: var(--dim); font-size: .8rem; margin: 12px 0 0; }
 
-  /* Horario */
-  .next {
-    display: inline-flex; align-items: center; gap: 10px;
-    background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
-    padding: 12px 16px; margin: 0 0 32px;
-  }
-  .next .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--brand); flex: none; }
+  /* ── Horario ── */
+  .clock { background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 26px 26px 22px; margin-bottom: 40px; }
+  .clock-top { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px 20px; margin-bottom: 26px; }
+  .clock-next { font-weight: 700; }
+  .clock-next b { color: var(--brand); }
+  .countdown { font-family: var(--mono); font-size: 1.6rem; font-weight: 500; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+  .track { position: relative; height: 56px; margin: 0 6px; }
+  .track-line { position: absolute; left: 0; right: 0; top: 26px; height: 4px; border-radius: 4px; background: var(--bit-off); }
+  .track-fill { position: absolute; left: 0; top: 26px; height: 4px; border-radius: 4px; background: linear-gradient(90deg, rgba(198,244,50,.15), var(--brand)); width: 0; transition: width 1.4s cubic-bezier(.2, .8, .2, 1); }
+  .stop { position: absolute; top: 18px; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 10px; }
+  .stop i { width: 20px; height: 20px; border-radius: 6px; background: var(--bg); border: 2px solid var(--line-2); }
+  .stop.done i { background: var(--brand); border-color: var(--brand); }
+  .stop.next i { border-color: var(--brand); box-shadow: 0 0 0 6px rgba(198,244,50,.12); }
+  .stop span { font-family: var(--mono); font-size: .75rem; color: var(--muted); white-space: nowrap; }
+  .now { position: absolute; top: 6px; width: 2px; height: 44px; background: var(--ink); border-radius: 2px; transform: translateX(-50%); transition: left 1.4s cubic-bezier(.2, .8, .2, 1); }
+  .now::before { content: "Ahora"; position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); font-family: var(--mono); font-size: .65rem; color: var(--ink); padding-bottom: 2px; }
+  .hours { display: flex; justify-content: space-between; margin: 6px 6px 0; font-family: var(--mono); font-size: .68rem; color: var(--dim); }
+
   .schedule { display: grid; gap: 40px; }
-  @media (min-width: 720px) { .schedule { grid-template-columns: 1fr 1fr; gap: 56px; } }
+  @media (min-width: 760px) { .schedule { grid-template-columns: 1fr 1fr; gap: 56px; } }
   .schedule h3 { font-size: 1.1rem; margin: 0 0 8px; }
   .slots { list-style: none; margin: 0; padding: 0; }
-  .slots li {
-    display: grid; grid-template-columns: 6.5rem 1fr; gap: 16px;
-    padding: 14px 0; border-bottom: 1px solid var(--line);
-  }
+  .slots li { display: grid; grid-template-columns: 7.2rem 1fr; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--line); }
   .slots li:first-child { border-top: 1px solid var(--line); }
-  .slot-when { font-weight: 700; font-variant-numeric: tabular-nums; }
+  .slot-when { font-family: var(--mono); font-weight: 500; font-size: .95rem; white-space: nowrap; font-variant-numeric: tabular-nums; padding-top: 1px; }
   .slot-what strong { display: block; }
   .slot-what span { color: var(--muted); font-size: .95rem; }
-  .slots li.is-next .slot-when { color: var(--brand); }
-  .tz { color: var(--muted); font-size: .9rem; margin: 20px 0 0; }
+  .slots li.is-next .slot-when, .slots li.is-today .slot-when { color: var(--brand); }
+  .week { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; margin: 0 0 18px; }
+  .week span { text-align: center; font-family: var(--mono); font-size: .72rem; padding: 8px 0; border-radius: 8px; background: var(--bit-off); color: var(--dim); }
+  .week span.has { color: var(--ink); background: var(--surface-2); }
+  .week span.today { outline: 2px solid var(--brand); outline-offset: -2px; color: var(--brand); }
+  .tz { color: var(--muted); font-size: .9rem; margin: 22px 0 0; }
 
-  /* Temas */
-  .topic-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 28px; }
-  @media (min-width: 720px) { .topic-list { grid-template-columns: repeat(3, 1fr); gap: 40px; } }
-  .topic-list h3 { font-size: 1.1rem; margin: 0 0 6px; }
-  .topic-list p { margin: 0; color: var(--muted); }
+  /* ── Temas ── */
+  .topic-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+  @media (min-width: 760px) { .topic-list { grid-template-columns: repeat(3, 1fr); } }
+  .topic { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 24px; transition: transform .25s, border-color .25s; }
+  .topic:hover { transform: translateY(-3px); border-color: color-mix(in srgb, var(--c) 50%, var(--line)); }
+  .topic .ico { width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; margin-bottom: 16px; color: var(--c); background: color-mix(in srgb, var(--c) 14%, transparent); }
+  .topic .ico svg { width: 22px; height: 22px; }
+  .topic h3 { font-size: 1.1rem; margin: 0 0 6px; }
+  .topic p { margin: 0; color: var(--muted); }
+  .sources { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 28px; }
+  .sources span { font-size: .85rem; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; }
+
+  /* ── Llamada final ── */
+  .join { padding: 0 0 80px; }
+  .join-box {
+    position: relative; overflow: hidden; border-radius: 26px; padding: clamp(28px, 5vw, 56px);
+    background: var(--brand); color: var(--brand-ink);
+    display: grid; gap: 24px; align-items: center;
+  }
+  @media (min-width: 760px) { .join-box { grid-template-columns: 1fr auto; } }
+  .join-box::after {
+    content: "01000010 01111001 01110100 01100101"; position: absolute; right: -10px; bottom: -18px;
+    font-family: var(--mono); font-size: 4.2rem; line-height: 1; color: rgba(14,17,22,.07); white-space: nowrap; pointer-events: none;
+  }
+  .join-box h2 { margin: 0 0 8px; color: var(--brand-ink); }
+  .join-box p { margin: 0; max-width: 34rem; }
+  .join-box .cta { background: var(--brand-ink); color: #fff; box-shadow: none; position: relative; z-index: 1; }
+  .join-box .cta:hover { background: #2A3140; }
 
   footer { border-top: 1px solid var(--line); padding: 32px 0 48px; color: var(--muted); font-size: .95rem; }
   footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
+  footer a { text-decoration: none; }
+  footer a:hover { color: var(--brand); }
+
+  @media (max-width: 520px) {
+    .screen { height: 560px; }
+    .clock { padding: 20px 16px 18px; }
+    .stop span { font-size: .65rem; }
+    .slots li { grid-template-columns: 6.4rem 1fr; gap: 12px; }
+    .slot-when { font-size: .82rem; }
+    .card.lead { padding: 22px; }
+  }
 
   @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
-    .cell { transition: none; }
-  }
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+    .js .reveal, .msg { opacity: 1; transform: none; }
+    }
 </style>
 <script src="/assets/analytics.js" defer></script>
 </head>
 <body>
 
-<header>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="tg" viewBox="0 0 24 24"><path fill="currentColor" d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6.2 13.1 1.4 11.6c-1-.3-1.1-1 .2-1.5L20.6 2.8c.9-.3 1.6.2 1.3 1.5Z"/></symbol>
+</svg>
+
+<header class="top" id="top">
   <div class="wrap">
-    <a class="wordmark" href="/">Byte<span>Diario</span></a>
-    <nav>
+    <a class="wordmark" href="/"><span class="mini-byte" aria-hidden="true"><i class="on"></i><i></i><i class="on"></i><i class="on"></i></span>Byte<span>Diario</span></a>
+    <nav aria-label="Principal">
       <a href="#noticias" class="nav-wide">Noticias</a>
-      <a href="#gratis" id="nav-gratis" hidden>Gratis</a>
+      <a href="#gratis" id="nav-gratis" class="nav-wide" hidden>Gratis</a>
       <a href="#horario" class="nav-wide">Horario</a>
-      <a href="https://t.me/bytediario">Telegram</a>
+      <a href="https://t.me/bytediario" class="nav-cta">Unirme</a>
     </nav>
   </div>
 </header>
 
 <main>
   <section class="hero">
-    <div class="wrap">
-      <div class="byte" id="byte" aria-hidden="true"></div>
-      <p class="reading" id="reading">Cada día tiene su byte.</p>
+    <div class="wrap hero-grid">
+      <div>
+        <div class="byte" id="byte" aria-hidden="true"></div>
+        <p class="reading" id="reading">Cada día tiene su byte.</p>
 
-      <h1>Noticias de tecnología, un byte al día.</h1>
-      <p class="lede">Lo más importante de tecnología y gaming, resumido en español y publicado cada día en nuestro canal de Telegram. Pocos posts, bien elegidos.</p>
+        <h1 class="in d1">Noticias de tecnología, <span class="hl">un byte al día.</span></h1>
+        <p class="lede in d2">Lo más importante de tecnología y gaming, resumido en español y publicado cada día en nuestro canal de Telegram. Pocos posts, bien elegidos.</p>
 
-      <a class="cta" href="https://t.me/bytediario">
-        <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6.2 13.1 1.4 11.6c-1-.3-1.1-1 .2-1.5L20.6 2.8c.9-.3 1.6.2 1.3 1.5Z"/></svg>
-        Unirme al canal
-      </a>
+        <div class="actions in d3">
+          <a class="cta" href="https://t.me/bytediario"><svg aria-hidden="true"><use href="#tg"/></svg>Unirme al canal</a>
+          <a class="ghost" href="#noticias">Ver las noticias de hoy</a>
+        </div>
+      </div>
+
+      <div class="phone-wrap in d4" aria-label="Así se ve el canal de ByteDiario en Telegram">
+        <div class="phone">
+          <div class="screen">
+            <div class="tg-bar">
+              <span class="back" aria-hidden="true">‹</span>
+              <span class="tg-avatar" aria-hidden="true"><span class="mini-byte"><i class="on"></i><i></i><i class="on"></i><i class="on"></i></span></span>
+              <span class="tg-title"><b>ByteDiario</b><span>canal</span></span>
+            </div>
+            <div class="tg-feed" id="tg-feed">
+              <span class="tg-day" id="tg-day">Hoy</span>
+            </div>
+            <a class="tg-join" href="https://t.me/bytediario">UNIRSE</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="today" id="noticias">
+  <div class="ticker" id="ticker" hidden aria-label="Últimos titulares">
+    <div class="ticker-track" id="ticker-track"></div>
+  </div>
+
+  <section class="section" id="noticias">
     <div class="wrap today-grid">
       <div>
-        <div class="block-head">
-          <h2>Últimas noticias</h2>
-          <a href="/noticias/">Ver todas</a>
+        <div class="block-head reveal">
+          <div><p class="eyebrow">En el canal</p><h2>Últimas noticias</h2></div>
+          <a href="/noticias/">Ver todas →</a>
         </div>
-        <p class="block-note" id="updated">Lo último que publicamos en el canal.</p>
-        <div id="news" aria-live="polite"><p class="news-empty">Cargando noticias…</p></div>
+        <p class="block-note reveal" id="updated">Lo último que publicamos en el canal.</p>
+        <div id="news" aria-live="polite">
+          <div class="news-grid"><div class="skeleton big"></div><div class="skeleton"></div><div class="skeleton"></div></div>
+        </div>
         <noscript><p class="news-empty">Activa JavaScript para ver las noticias, o léelas en <a href="https://t.me/bytediario">el canal de Telegram</a>.</p></noscript>
       </div>
 
       <aside class="side">
-        <section id="gratis" hidden>
+        <section class="panel reveal" id="gratis" hidden>
           <div class="block-head"><h2>Juegos gratis</h2></div>
           <p class="block-note">Reclámalos y son tuyos para siempre.</p>
           <ul class="rows" id="games"></ul>
           <p class="source-note">Datos de <a href="https://www.gamerpower.com">GamerPower</a></p>
         </section>
 
-        <section id="seguridad" hidden>
-          <div class="block-head"><h2>Alerta de seguridad</h2></div>
+        <section class="panel reveal" id="seguridad" hidden>
+          <div class="block-head"><h2><span class="pulse" aria-hidden="true"></span>Alerta de seguridad</h2></div>
           <p class="block-note">Fallos que ya se están explotando. Si usas alguno, actualiza.</p>
           <ul class="rows vulns" id="vulns"></ul>
           <p class="sec-tip"><strong>Consejo de la semana</strong><span id="tip"></span></p>
@@ -291,68 +492,101 @@
 
   <section class="section" id="horario">
     <div class="wrap">
-      <h2>Cuándo publicamos</h2>
-      <p class="section-intro">Un ritmo fijo para que sepas cuándo mirar el canal, sin llenarte de notificaciones.</p>
-      <p class="next" id="next" hidden><span class="dot" aria-hidden="true"></span><span id="next-text"></span></p>
+      <p class="eyebrow reveal">Horario</p>
+      <h2 class="reveal">Cuándo publicamos</h2>
+      <p class="section-intro reveal">Un ritmo fijo para que sepas cuándo mirar el canal, sin llenarte de notificaciones.</p>
+
+      <div class="clock reveal" id="clock">
+        <div class="clock-top">
+          <span class="clock-next" id="next-text">Próxima publicación</span>
+          <span class="countdown" id="countdown" aria-live="off">--:--</span>
+        </div>
+        <div class="track" id="track">
+          <div class="track-line"></div>
+          <div class="track-fill" id="track-fill"></div>
+          <div class="now" id="now-mark" style="left:0"></div>
+        </div>
+        <div class="hours" aria-hidden="true"><span>0 h</span><span>6 h</span><span>12 h</span><span>18 h</span><span>24 h</span></div>
+      </div>
 
       <div class="schedule">
-        <div>
+        <div class="reveal">
           <h3>Todos los días</h3>
           <ul class="slots" id="daily">
-            <li data-time="8:07">
+            <li data-time="8:00">
               <span class="slot-when">8:00 a. m.</span>
               <span class="slot-what"><strong>Resumen de la mañana</strong><span>Las cuatro noticias clave del día, en un solo mensaje.</span></span>
             </li>
-            <li data-time="13:13">
+            <li data-time="13:00">
               <span class="slot-when">1:00 p. m.</span>
               <span class="slot-what"><strong>Destacado del mediodía</strong><span>Una noticia contada con más detalle.</span></span>
             </li>
-            <li data-time="19:17">
+            <li data-time="19:00">
               <span class="slot-when">7:00 p. m.</span>
               <span class="slot-what"><strong>Destacado de la noche</strong><span>Lo más relevante de la tarde.</span></span>
             </li>
           </ul>
         </div>
-        <div>
+        <div class="reveal">
           <h3>Cada semana</h3>
-          <ul class="slots">
-            <li>
+          <div class="week" id="week" aria-hidden="true"></div>
+          <ul class="slots" id="weekly">
+            <li data-day="4">
               <span class="slot-when">Jueves</span>
               <span class="slot-what"><strong>Juegos gratis</strong><span>Juegos completos gratis por tiempo limitado en Steam, Epic, consolas y más.</span></span>
             </li>
-            <li>
+            <li data-day="6">
               <span class="slot-when">Sábado</span>
               <span class="slot-what"><strong>Encuesta</strong><span>Tu opinión sobre la noticia más comentada de la semana.</span></span>
             </li>
-            <li>
+            <li data-day="0">
               <span class="slot-when">Domingo</span>
               <span class="slot-what"><strong>Lo mejor de la semana</strong><span>Las cinco noticias más importantes, por si te perdiste algo.</span></span>
             </li>
           </ul>
         </div>
       </div>
-      <p class="tz">Horario de República Dominicana. Si sale una noticia muy importante, la publicamos al momento.</p>
+      <p class="tz reveal">Horario de República Dominicana (UTC−4). Si sale una noticia muy importante, la publicamos al momento.</p>
     </div>
   </section>
 
   <section class="section" id="temas">
     <div class="wrap">
-      <h2>Qué vas a encontrar</h2>
-      <p class="section-intro">Noticias de medios como The Verge, Xataka, IGN o 3DJuegos, elegidas y resumidas para que te enteres en un minuto.</p>
+      <p class="eyebrow reveal">Temas</p>
+      <h2 class="reveal">Qué vas a encontrar</h2>
+      <p class="section-intro reveal">Noticias de medios de confianza, elegidas y resumidas para que te enteres en un minuto.</p>
       <ul class="topic-list">
-        <li>
+        <li class="topic cat-PC reveal">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></span>
           <h3>Tecnología y PC</h3>
           <p>Hardware, móviles, inteligencia artificial y los lanzamientos que mueven la industria.</p>
         </li>
-        <li>
+        <li class="topic cat-CONSOLAS reveal">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9h4M8 7v4M15 10h.01M18 8h.01"/><path d="M7 4h10a4 4 0 0 1 4 4l1 7a3 3 0 0 1-5.4 1.8L15 15H9l-1.6 1.8A3 3 0 0 1 2 15l1-7a4 4 0 0 1 4-4z"/></svg></span>
           <h3>Consolas y videojuegos</h3>
           <p>PlayStation, Xbox, Nintendo y PC: estrenos, fechas, precios y actualizaciones.</p>
         </li>
-        <li>
+        <li class="topic cat-OFERTAS reveal">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v9H4v-9M2 7h20v5H2zM12 21V7M12 7H7.5a2.5 2.5 0 1 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 1 0 0-5C13 2 12 7 12 7z"/></svg></span>
           <h3>Ofertas y juegos gratis</h3>
           <p>Descuentos que valen la pena y juegos que puedes quedarte para siempre.</p>
         </li>
       </ul>
+      <div class="sources reveal" id="sources" aria-label="Algunas de nuestras fuentes">
+        <span>The Verge</span><span>Xataka</span><span>IGN</span><span>3DJuegos</span><span>Vandal</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="join">
+    <div class="wrap">
+      <div class="join-box reveal">
+        <div>
+          <h2>Tu byte diario, directo en Telegram.</h2>
+          <p>Tres posts al día, siempre a la misma hora. Sin spam y sin llenarte de notificaciones.</p>
+        </div>
+        <a class="cta" href="https://t.me/bytediario"><svg aria-hidden="true"><use href="#tg"/></svg>Unirme al canal</a>
+      </div>
     </div>
   </section>
 </main>
@@ -365,13 +599,14 @@
 </footer>
 
 <script>
+  document.documentElement.classList.add("js");
   (function () {
     var MONTHS = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
                   "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
-    var WEEKDAYS = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"];
     var CATS = { PC: "PC", CONSOLAS: "Consolas", JUEGOS: "Juegos", MOVILES: "Móviles",
                  IA: "IA", OFERTAS: "Ofertas", TECH: "Tecnología" };
-    var VISIBLE = 6;
+    var FEED_ITEMS = 7;
+    var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
     // Hora de República Dominicana (UTC-4, sin horario de verano)
     function rdNow() {
@@ -387,8 +622,28 @@
       if (text != null) e.textContent = text;
       return e;
     }
+    function catKey(c) { return CATS[c] ? c : "TECH"; }
 
     var now = rdNow();
+    var today = isoDay(now);
+    var yesterday = isoDay(new Date(now.getTime() - 86400000));
+    document.getElementById("year").textContent = now.getFullYear();
+
+    // ── Encabezado con borde al hacer scroll ──
+    var top = document.getElementById("top");
+    window.addEventListener("scroll", function () { top.classList.toggle("scrolled", window.scrollY > 8); }, { passive: true });
+
+    // ── Aparecer al hacer scroll ──
+    var revealObs = "IntersectionObserver" in window ? new IntersectionObserver(function (entries) {
+      entries.forEach(function (e, i) {
+        if (e.isIntersecting) {
+          setTimeout(function () { e.target.classList.add("visible"); }, i * 70);
+          revealObs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }) : null;
+    function watch(node) { if (revealObs && !reduce) revealObs.observe(node); else node.classList.add("visible"); }
+    document.querySelectorAll(".reveal").forEach(watch);
 
     // ── El byte del día ──
     var day = now.getDate();
@@ -404,13 +659,15 @@
       box.appendChild(bit);
       cells.push(cell);
     }
-    var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     cells.forEach(function (cell, i) {
       var light = function () {
-        cell.textContent = bits[i];
-        if (bits[i] === "1") cell.classList.add("on");
+        if (!reduce) cell.classList.add("flip");
+        setTimeout(function () {
+          cell.textContent = bits[i];
+          if (bits[i] === "1") cell.classList.add("on");
+        }, reduce ? 0 : 250);
       };
-      if (reduce) light(); else setTimeout(light, 250 + i * 110);
+      if (reduce) light(); else setTimeout(light, 200 + i * 120);
     });
     var reading = document.getElementById("reading");
     reading.textContent = "Hoy es " + day + " de " + MONTHS[now.getMonth()] + ". El día ";
@@ -418,46 +675,82 @@
     reading.appendChild(document.createTextNode(" en binario es "));
     reading.appendChild(el("strong", null, bits));
     reading.appendChild(document.createTextNode("."));
-    document.getElementById("year").textContent = now.getFullYear();
 
-    // ── Próxima publicación ──
+    // ── Horario: próxima publicación, reloj de 24 h y semana ──
     var slots = Array.prototype.slice.call(document.querySelectorAll("#daily li"));
-    var minutesNow = now.getHours() * 60 + now.getMinutes();
-    var next = null, tomorrow = false;
-    slots.forEach(function (li) {
+    var track = document.getElementById("track");
+    var stops = slots.map(function (li) {
       var t = li.dataset.time.split(":");
       var m = +t[0] * 60 + +t[1];
-      if (!next && m > minutesNow) next = li;
+      var s = el("div", "stop");
+      s.style.left = (m / 1440 * 100) + "%";
+      s.appendChild(el("i"));
+      s.appendChild(el("span", null, li.dataset.time));
+      track.appendChild(s);
+      return { li: li, m: m, node: s };
     });
-    if (!next) { next = slots[0]; tomorrow = true; }
-    next.classList.add("is-next");
-    var nextName = next.querySelector("strong").textContent;
-    var nextTime = next.querySelector(".slot-when").textContent;
-    document.getElementById("next-text").textContent =
-      "Próxima publicación: " + nextName.toLowerCase() + ", " + (tomorrow ? "mañana a las " : "hoy a las ") + nextTime;
-    document.getElementById("next").hidden = false;
+    function fmtLeft(mins) {
+      var h = Math.floor(mins / 60), m = mins % 60;
+      return (h ? h + " h " : "") + String(m).padStart(h ? 2 : 1, "0") + " min";
+    }
+    function tickClock() {
+      var n = rdNow();
+      var mins = n.getHours() * 60 + n.getMinutes();
+      var next = null;
+      stops.forEach(function (s) {
+        s.node.classList.toggle("done", s.m <= mins);
+        s.node.classList.remove("next");
+        s.li.classList.remove("is-next");
+        if (!next && s.m > mins) next = s;
+      });
+      var tomorrow = !next;
+      if (!next) next = stops[0];
+      next.node.classList.add("next");
+      next.li.classList.add("is-next");
+      var left = (next.m - mins + 1440) % 1440 || 1440;
+      var name = next.li.querySelector("strong").textContent;
+      var nt = document.getElementById("next-text");
+      nt.textContent = "Próxima: ";
+      nt.appendChild(el("b", null, name.toLowerCase()));
+      nt.appendChild(document.createTextNode(", " + (tomorrow ? "mañana" : "hoy") + " a las " + next.li.querySelector(".slot-when").textContent));
+      document.getElementById("countdown").textContent = "en " + fmtLeft(left);
+      var pct = (mins / 1440 * 100) + "%";
+      document.getElementById("now-mark").style.left = pct;
+      document.getElementById("track-fill").style.width = pct;
+    }
+    tickClock();
+    setInterval(tickClock, 30000);
 
-    // ── Últimas noticias (versión compacta) ──
+    var weekBox = document.getElementById("week");
+    var weekNames = ["L", "M", "X", "J", "V", "S", "D"], weekIdx = [1, 2, 3, 4, 5, 6, 0];
+    var special = {};
+    Array.prototype.forEach.call(document.querySelectorAll("#weekly li"), function (li) {
+      special[li.dataset.day] = li;
+      if (+li.dataset.day === now.getDay()) li.classList.add("is-today");
+    });
+    weekIdx.forEach(function (d, k) {
+      var s = el("span", (special[d] ? "has" : "") + (d === now.getDay() ? " today" : ""), weekNames[k]);
+      weekBox.appendChild(s);
+    });
+
+    // ── Noticias ──
     var newsBox = document.getElementById("news");
-    var today = isoDay(now);
-    var yesterday = isoDay(new Date(now.getTime() - 86400000));
-    var FEED_ITEMS = 6;
-
     function dayShort(iso) {
       if (iso === today) return "Hoy";
       if (iso === yesterday) return "Ayer";
       var p = iso.split("-");
       return +p[2] + " de " + MONTHS[+p[1] - 1];
     }
-    function safeUrl(u) {
-      return /^https?:\/\//i.test(u || "") ? u : null;
-    }
-    function itemLink(a, it) {
+    function safeUrl(u) { return /^https?:\/\//i.test(u || "") ? u : null; }
+    function itemUrl(it) {
       var own = it.slug && /^[a-z0-9-]+$/.test(it.slug) ? "/noticias/" + it.slug + ".html" : null;
-      var url = own || safeUrl(it.link);
-      if (!url) return false;
-      a.href = url;
-      if (!own) { a.target = "_blank"; a.rel = "noopener"; }
+      return { url: own || safeUrl(it.link), own: !!own };
+    }
+    function linkify(a, it) {
+      var u = itemUrl(it);
+      if (!u.url) return false;
+      a.href = u.url;
+      if (!u.own) { a.target = "_blank"; a.rel = "noopener"; }
       return true;
     }
 
@@ -467,26 +760,89 @@
         newsBox.appendChild(el("p", "news-empty", "Todavía no hay noticias publicadas. Vuelve después de las 8 a. m."));
         return;
       }
-      var ul = el("ul", "feed");
+      var grid = el("div", "news-grid");
       items.slice(0, FEED_ITEMS).forEach(function (it, i) {
-        var li = el("li", i === 0 ? "lead" : null);
-        var a = el("a");
-        if (!itemLink(a, it)) a = el("div");
-        var meta = el("span", "feed-meta");
-        meta.appendChild(el("b", null, CATS[it.categoria] || "Tecnología"));
-        meta.appendChild(document.createTextNode(dayShort(it.date) + (it.source ? " · " + it.source : "")));
+        var a = el("a", "card cat-" + catKey(it.categoria) + (i === 0 ? " lead" : "") + " reveal");
+        if (!linkify(a, it)) a = el("div", a.className);
+        var meta = el("span", "card-meta");
+        meta.appendChild(el("span", "chip", CATS[it.categoria] || "Tecnología"));
+        meta.appendChild(el("span", null, dayShort(it.date) + (it.source ? " · " + it.source : "")));
         a.appendChild(meta);
-        a.appendChild(el("span", "feed-title", it.title));
+        if (i === 0 && it.date === today) a.appendChild(el("span", "badge", "Lo último"));
+        a.appendChild(el("span", "card-title", it.title));
         if (i === 0 && it.summary) a.appendChild(el("p", null, it.summary));
-        li.appendChild(a);
-        ul.appendChild(li);
+        a.appendChild(el("span", "arrow", itemUrl(it).own ? "Leer →" : "Leer en " + (it.source || "la fuente") + " ↗"));
+        grid.appendChild(a);
+        watch(a);
       });
-      newsBox.appendChild(ul);
+      newsBox.appendChild(grid);
       if (items.length > FEED_ITEMS) {
-        var more = el("a", "feed-more", "Ver todas las noticias");
+        var more = el("a", "feed-more", "Ver todas las noticias →");
         more.href = "/noticias/";
         newsBox.appendChild(more);
       }
+    }
+
+    // ── Cinta de titulares ──
+    function renderTicker(items) {
+      var list = items.slice(0, 10);
+      if (list.length < 3) return;
+      var trackEl = document.getElementById("ticker-track");
+      for (var pass = 0; pass < 2; pass++) {
+        list.forEach(function (it) {
+          var a = el("a", "cat-" + catKey(it.categoria));
+          if (!linkify(a, it)) return;
+          if (pass) { a.setAttribute("aria-hidden", "true"); a.tabIndex = -1; }
+          a.appendChild(el("span", "k", CATS[it.categoria] || "Tecnología"));
+          a.appendChild(document.createTextNode(it.title));
+          trackEl.appendChild(a);
+        });
+      }
+      document.getElementById("ticker").hidden = false;
+    }
+
+    // ── El canal en el teléfono (posts reales) ──
+    function renderPhone(items) {
+      var feed = document.getElementById("tg-feed");
+      if (!items.length) return;
+      var latestDay = items[0].date;
+      document.getElementById("tg-day").textContent = latestDay === today ? "Hoy" : dayShort(latestDay);
+      var dayItems = items.filter(function (it) { return it.date === latestDay; });
+      var msgs = [];
+
+      var m1 = el("div", "msg");
+      var p = latestDay.split("-");
+      m1.appendChild(el("div", "m-head", "☀️ Resumen de la mañana · " + +p[2] + " de " + MONTHS[+p[1] - 1]));
+      var ul = el("ul");
+      (dayItems.length >= 3 ? dayItems : items).slice(1, 4).forEach(function (it) {
+        var li = el("li");
+        li.appendChild(el("span", null, "▸"));
+        li.appendChild(el("span", "m-link", it.title));
+        ul.appendChild(li);
+      });
+      m1.appendChild(ul);
+      var f1 = el("div", "m-foot");
+      f1.appendChild(el("span", null, "ByteDiario"));
+      f1.appendChild(el("span", null, "8:00"));
+      m1.appendChild(f1);
+      msgs.push(m1);
+
+      var lead = items[0];
+      var m2 = el("div", "msg");
+      m2.appendChild(el("div", "m-cat", "⚡ " + (CATS[lead.categoria] || "Tecnología")));
+      m2.appendChild(el("div", "m-head", lead.title));
+      if (lead.summary) m2.appendChild(el("div", "m-sum", lead.summary));
+      var f2 = el("div", "m-foot");
+      f2.appendChild(el("span", "m-link", "Leer más"));
+      f2.appendChild(el("span", null, "13:00"));
+      m2.appendChild(f2);
+      msgs.push(m2);
+
+      msgs.forEach(function (m, k) {
+        feed.appendChild(m);
+        if (reduce) m.classList.add("show");
+        else setTimeout(function () { m.classList.add("show"); }, 1300 + k * 900);
+      });
     }
 
     // Lista corta con botón "ver más" para la barra lateral
@@ -511,9 +867,7 @@
       return platforms || "";
     }
     function renderGames(list) {
-      list = (list || []).filter(function (g) {
-        return safeUrl(g.link) && (!g.end_iso || g.end_iso >= today);
-      });
+      list = (list || []).filter(function (g) { return safeUrl(g.link) && (!g.end_iso || g.end_iso >= today); });
       if (!list.length) return;
       var ul = document.getElementById("games");
       list.forEach(function (g) {
@@ -533,8 +887,7 @@
           var p = g.end_iso.split("-");
           var end = new Date(+p[0], +p[1] - 1, +p[2]);
           var days = Math.round((end - new Date(now.getFullYear(), now.getMonth(), now.getDate())) / 86400000);
-          var txt = days <= 0 ? "termina hoy" : days === 1 ? "termina mañana"
-                  : "hasta el " + end.getDate() + " de " + MONTHS[end.getMonth()];
+          var txt = days <= 0 ? "termina hoy" : days === 1 ? "termina mañana" : "hasta el " + end.getDate() + " de " + MONTHS[end.getMonth()];
           sub.appendChild(document.createTextNode(" · "));
           sub.appendChild(el("span", days <= 2 ? "soon" : null, txt));
         }
@@ -581,9 +934,10 @@
         if (safeUrl(v.link)) { a.href = v.link; a.target = "_blank"; a.rel = "noopener"; }
         var body = el("span", "row-body");
         body.appendChild(el("span", "row-title", [v.vendor, v.product].filter(Boolean).join(" ")));
-        var when = "";
-        if (v.added) { var p = v.added.split("-"); when = " · " + +p[2] + " de " + MONTHS[+p[1] - 1]; }
-        body.appendChild(el("span", "row-sub", v.cve + when));
+        var sub = el("span", "row-sub");
+        sub.appendChild(el("span", "cve", v.cve));
+        if (v.added) { var p = v.added.split("-"); sub.appendChild(document.createTextNode(" · " + +p[2] + " de " + MONTHS[+p[1] - 1])); }
+        body.appendChild(sub);
         if (v.summary) body.appendChild(el("span", "vuln-sum", v.summary));
         if (v.ransomware) body.appendChild(el("span", "tag-ransom", "Usada en ransomware"));
         a.appendChild(body);
@@ -594,10 +948,23 @@
       document.getElementById("seguridad").hidden = false;
     }
 
+    function fallbackSources(items) {
+      var seen = {}, names = [];
+      items.forEach(function (it) { if (it.source && !seen[it.source]) { seen[it.source] = 1; names.push(it.source); } });
+      if (names.length < 3) return;
+      var box = document.getElementById("sources");
+      box.textContent = "";
+      names.slice(0, 8).forEach(function (n) { box.appendChild(el("span", null, n)); });
+    }
+
     fetch("data/noticias.json?v=" + Date.now(), { cache: "no-store" })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(function (data) {
-        render(Array.isArray(data.items) ? data.items : []);
+        var items = Array.isArray(data.items) ? data.items : [];
+        render(items);
+        try { renderTicker(items); } catch (e) { /* opcional */ }
+        try { renderPhone(items); } catch (e) { /* opcional */ }
+        try { fallbackSources(items); } catch (e) { /* opcional */ }
         try { renderGames(data.freebies); } catch (e) { /* sección opcional */ }
         try { renderSecurity(data.security); } catch (e) { /* sección opcional */ }
         if (data.updated) {
@@ -607,8 +974,7 @@
             var h = rd.getHours(), m = String(rd.getMinutes()).padStart(2, "0");
             var hh = (h % 12) || 12;
             document.getElementById("updated").textContent =
-              "Actualizado " +
-              (isoDay(rd) === today ? "hoy" : "el " + rd.getDate() + " de " + MONTHS[rd.getMonth()]) +
+              "Actualizado " + (isoDay(rd) === today ? "hoy" : "el " + rd.getDate() + " de " + MONTHS[rd.getMonth()]) +
               " a las " + hh + ":" + m + (h < 12 ? " a. m." : " p. m.");
           }
         }
