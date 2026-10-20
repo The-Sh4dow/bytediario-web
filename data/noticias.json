@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-20T13:01-04:00",
+ "updated": "2026-10-20T19:01-04:00",
  "items": [
+  {
+   "date": "2026-10-20",
+   "title": "Final Fantasy VII Remake Intergrade llegará a Xbox Game Pass este mes",
+   "summary": "Microsoft confirmó la llegada de ocho títulos al catálogo de Xbox Game Pass para finales de octubre y principios de noviembre. La gran sorpresa la encabeza Final Fantasy VII Remake Intergrade, que estará disponible para suscriptores en consolas y PC.",
+   "link": "https://vandal.elespanol.com/noticia/2026293026/final-fantasy-7-remake-intergrade-encabeza-las-novedades-de-xbox-game-pass-de-finales-de-octubre/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-20-final-fantasy-vii-remake-intergrade-llegara-a-xbox-game-pass-este-mes"
+  },
   {
    "date": "2026-10-20",
    "title": "AMD llevará FSR 4.1 a las consolas Xbox Series y dispositivos portátiles",
@@ -261,15 +270,6 @@
    "source": "The Verge",
    "categoria": "PC",
    "slug": ""
-  },
-  {
-   "date": "2026-10-15",
-   "title": "Asus trae a España sus nuevos portátiles ProArt con IA local y sin suscripciones",
-   "summary": "La compañía lanza equipos enfocados a creadores que procesan inteligencia artificial de forma local para mayor privacidad.",
-   "link": "https://www.xataka.com/seleccion/asus-trae-a-espana-sus-portatiles-proart-nvidia-rtx-spark-ia-local-suscripciones-para-creadores",
-   "source": "Xataka",
-   "categoria": "PC",
-   "slug": ""
   }
  ],
  "freebies": [
@@ -308,40 +308,40 @@
  ],
  "security": [
   {
-   "cve": "CVE-2026-102764",
-   "vendor": "BeyondTrust",
-   "product": "Remote Support",
-   "summary": "Afecta a BeyondTrust Remote Support y permite a un atacante remoto eludir la autenticación para manipular o gestionar archivos directamente en el equipo afectado.",
-   "added": "2026-10-16",
+   "cve": "CVE-2026-96656",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "summary": "Afecta a Plex Media Server y permite a un administrador escribir archivos arbitrarios que pueden ejecutarse al cargar.",
+   "added": "2026-10-20",
    "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764"
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656"
   },
   {
-   "cve": "CVE-2025-61624",
-   "vendor": "Fortinet",
-   "product": "Multiple Products",
-   "summary": "Afecta a varios sistemas de Fortinet y permite a administradores con ciertos permisos escribir o borrar archivos del sistema mediante comandos específicos de la consola.",
-   "added": "2026-10-16",
+   "cve": "CVE-2026-96655",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "summary": "Afecta a Plex Media Server y permite a un usuario autenticado realizar peticiones a direcciones internas o externas.",
+   "added": "2026-10-20",
    "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624"
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655"
   },
   {
-   "cve": "CVE-2026-21589",
-   "vendor": "Atlassian",
-   "product": "Multiple Products",
-   "summary": "Afecta a múltiples aplicaciones de Atlassian como Jira y Confluence, permitiendo a atacantes sin registrar acceder a archivos internos alojados en el servidor web.",
-   "added": "2026-10-15",
+   "cve": "CVE-2026-96654",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "summary": "Afecta a Plex Media Server y permite a un atacante llamar a funciones de otros complementos y enviar sus propios parámetros.",
+   "added": "2026-10-20",
    "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-21589"
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654"
   },
   {
-   "cve": "CVE-2026-76519",
-   "vendor": "Cisco",
-   "product": "Secure Email Gateway",
-   "summary": "Afecta a Cisco Secure Email Gateway y permite que un atacante remoto sin autenticación guarde o modifique archivos en el sistema operativo subyacente.",
-   "added": "2026-10-14",
+   "cve": "CVE-2026-96652",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "summary": "Afecta a Plex Media Server y permite a un atacante forzar al servidor a enviar datos a un destino elegido.",
+   "added": "2026-10-20",
    "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519"
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652"
   }
  ]
 }
