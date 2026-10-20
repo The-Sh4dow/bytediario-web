@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-20T08:02-04:00",
+ "updated": "2026-10-20T13:01-04:00",
  "items": [
+  {
+   "date": "2026-10-20",
+   "title": "AMD llevará FSR 4.1 a las consolas Xbox Series y dispositivos portátiles",
+   "summary": "AMD anunció la llegada de su tecnología de reescalado FSR 4.1 a las consolas Xbox Series X y S. La herramienta también comenzará a implementarse en dispositivos portátiles, laptops y tarjetas gráficas de la serie Radeon RX 6000.",
+   "link": "https://www.theverge.com/news/1014455/amd-fsr-4-1-xbox-consoles-handhelds-laptops",
+   "source": "The Verge",
+   "categoria": "CONSOLAS",
+   "slug": "2026-10-20-amd-llevara-fsr-4-1-a-las-consolas-xbox-series-y-dispositivos-portatil"
+  },
   {
    "date": "2026-10-20",
    "title": "ARC Raiders resucita con 1,7 millones de jugadores diarios tras su gran actualización",
@@ -260,15 +269,6 @@
    "link": "https://www.xataka.com/seleccion/asus-trae-a-espana-sus-portatiles-proart-nvidia-rtx-spark-ia-local-suscripciones-para-creadores",
    "source": "Xataka",
    "categoria": "PC",
-   "slug": ""
-  },
-  {
-   "date": "2026-10-15",
-   "title": "Harold Halibut confirma su llegada a Nintendo Switch 2",
-   "summary": "La aclamada aventura narrativa con estética stop-motion de Slow Bros. adaptará su propuesta al nuevo hardware de Nintendo.",
-   "link": "https://vandal.elespanol.com/noticia/2026288021/harold-halibut-el-sorprendente-juego-de-stop-motion-confirma-lanzamiento-en-nintendo-switch-2/",
-   "source": "Vandal",
-   "categoria": "CONSOLAS",
    "slug": ""
   }
  ],
