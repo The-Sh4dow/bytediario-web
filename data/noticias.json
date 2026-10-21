@@ -1,6 +1,42 @@
 {
- "updated": "2026-10-20T19:01-04:00",
+ "updated": "2026-10-21T08:01-04:00",
  "items": [
+  {
+   "date": "2026-10-21",
+   "title": "Palworld anuncia 'Side by Side', su próxima gran actualización de invierno",
+   "summary": "Pocketpair confirmó una importante actualización de contenido para su exitoso juego de supervivencia, programada para lanzarse durante los próximos meses de frío.",
+   "link": "https://vandal.elespanol.com/noticia/2026294017/palworld-anuncia-y-pone-fecha-a-su-proxima-gran-actualizacion-side-by-side/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-21-palworld-anuncia-side-by-side-su-proxima-gran-actualizacion-de-inviern"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "Sony actualiza el sistema de PS5 ante los avances de la comunidad jailbreak",
+   "summary": "PlayStation publicó un nuevo firmware diseñado para parchar vulnerabilidades del sistema mientras crecen los intentos de desbloqueo de la consola.",
+   "link": "https://www.ign.com/articles/sony-issues-new-ps5-firmware-update-as-jailbreak-race-heats-up-ahead-of-gta-6-release",
+   "source": "IGN",
+   "categoria": "CONSOLAS",
+   "slug": "2026-10-21-sony-actualiza-el-sistema-de-ps5-ante-los-avances-de-la-comunidad-jail"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "Alerta por dos vulnerabilidades críticas en PHP que amenazan miles de webs",
+   "summary": "Los desarrolladores de PHP lanzarán parches urgentes para corregir fallos graves que podrían permitir la ejecución remota de código en sitios activos.",
+   "link": "https://www.theverge.com/tech/1015257/php-vulnerability-patch-website-security-wordpress",
+   "source": "The Verge",
+   "categoria": "TECH",
+   "slug": "2026-10-21-alerta-por-dos-vulnerabilidades-criticas-en-php-que-amenazan-miles-de"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "Monster Hunter Wilds estrena demo en Switch 2 con gran rendimiento",
+   "summary": "Capcom lanzó el prólogo jugable del título en la consola de Nintendo, permitiendo comprobar su rendimiento técnico previo al estreno.",
+   "link": "https://vandal.elespanol.com/noticia/2026294015/monster-hunter-wilds-estrena-demo-en-switch-2-y-las-opiniones-hablan-de-una-version-sorprendentemente-buena/",
+   "source": "Vandal",
+   "categoria": "CONSOLAS",
+   "slug": "2026-10-21-monster-hunter-wilds-estrena-demo-en-switch-2-con-gran-rendimiento"
+  },
   {
    "date": "2026-10-20",
    "title": "Final Fantasy VII Remake Intergrade llegará a Xbox Game Pass este mes",
@@ -233,42 +269,6 @@
    "link": "https://www.tomshardware.com/software/linux/linus-torvalds-posts-his-first-llm-assisted-patch-to-the-linux-kernel-after-issuing-clear-pro-ai-directives-the-bossman-makes-use-of-ai-tooling-himself",
    "source": "Tom's Hardware",
    "categoria": "IA",
-   "slug": ""
-  },
-  {
-   "date": "2026-10-16",
-   "title": "Steam permitirá organizar los logros del juego base y de sus expansiones por separado",
-   "summary": "Valve introdujo los conjuntos de logros para que los desarrolladores puedan distinguir los desafíos principales de los contenidos descargables.",
-   "link": "https://www.theverge.com/games/1012541/valve-steam-achievement-sets",
-   "source": "The Verge",
-   "categoria": "PC",
-   "slug": ""
-  },
-  {
-   "date": "2026-10-16",
-   "title": "Justice compone la banda sonora original de GTA 6 y presenta nueva canción",
-   "summary": "Rockstar Games confirmó al prestigioso dúo francés de música electrónica como responsable de la música original de su próximo gran título.",
-   "link": "https://vandal.elespanol.com/noticia/2026289016/rockstar-confirma-que-justice-referente-de-la-electronica-ha-compuesto-la-banda-sonora-original-de-gta-6/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": ""
-  },
-  {
-   "date": "2026-10-16",
-   "title": "Nintendo muestra por primera vez a Dark Link en el remake de Zelda: Ocarina of Time",
-   "summary": "Un nuevo anuncio oficial en Japón reveló el aspecto de Dark Link en la esperada reedición del clásico de Nintendo.",
-   "link": "https://www.ign.com/articles/heres-our-first-look-at-dark-link-in-the-legend-of-zelda-ocarina-of-time-remake",
-   "source": "IGN",
-   "categoria": "CONSOLAS",
-   "slug": ""
-  },
-  {
-   "date": "2026-10-15",
-   "title": "Sega retira el remaster de Total War: Shogun 2 tras un desastroso lanzamiento",
-   "summary": "Sega y Creative Assembly han retirado Total War: Shogun 2 - Complete Edition de las tiendas digitales tras las duras críticas de los fans. Los usuarios denunciaron numerosos errores técnicos y un uso de inteligencia artificial en el reescalado que afectaba gravemente al juego.",
-   "link": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled",
-   "source": "The Verge",
-   "categoria": "PC",
    "slug": ""
   }
  ],
