@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-21T08:01-04:00",
+ "updated": "2026-10-21T13:01-04:00",
  "items": [
+  {
+   "date": "2026-10-21",
+   "title": "Nuevos Oppo Find X10 en reserva con doble almacenamiento y regalos",
+   "summary": "La nueva serie Oppo Find X10 ya se puede reservar en España con interesantes promociones de lanzamiento. Entre las ofertas destaca la versión de 512 GB al precio de la configuración de 256 GB, acompañada de varios regalos.",
+   "link": "https://www.xataka.com/seleccion/nuevos-oppo-find-x10-se-pueden-reservar-descuentos-version-512-gb-a-precio-256-regalos",
+   "source": "Xataka",
+   "categoria": "MOVILES",
+   "slug": "2026-10-21-nuevos-oppo-find-x10-en-reserva-con-doble-almacenamiento-y-regalos"
+  },
   {
    "date": "2026-10-21",
    "title": "Palworld anuncia 'Side by Side', su próxima gran actualización de invierno",
@@ -260,15 +269,6 @@
    "link": "https://vandal.elespanol.com/noticia/2026289023/steam-batio-su-record-de-jugadores-simultaneos-y-sube-el-liston-de-nuevo-por-tercera-vez-en-2026/",
    "source": "Vandal",
    "categoria": "PC",
-   "slug": ""
-  },
-  {
-   "date": "2026-10-16",
-   "title": "Linus Torvalds publica su primer parche asistido por IA en el kernel de Linux",
-   "summary": "El creador del sistema operativo empleó herramientas de IA para optimizar el código, logrando un notable salto de rendimiento en pruebas.",
-   "link": "https://www.tomshardware.com/software/linux/linus-torvalds-posts-his-first-llm-assisted-patch-to-the-linux-kernel-after-issuing-clear-pro-ai-directives-the-bossman-makes-use-of-ai-tooling-himself",
-   "source": "Tom's Hardware",
-   "categoria": "IA",
    "slug": ""
   }
  ],
