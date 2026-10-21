@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-21T13:01-04:00",
+ "updated": "2026-10-21T19:01-04:00",
  "items": [
+  {
+   "date": "2026-10-21",
+   "title": "EA cierra BioWare y cancela el próximo Mass Effect",
+   "summary": "Electronic Arts anunció el cierre definitivo del legendario estudio BioWare y el despido de 400 trabajadores. Como consecuencia directa, el esperado desarrollo del nuevo Mass Effect ha sido cancelado tras más de tres décadas de trayectoria.",
+   "link": "https://vandal.elespanol.com/noticia/2026294028/ea-cierra-bioware-cancela-el-proximo-mass-effect-y-despide-a-400-personas/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-21-ea-cierra-bioware-y-cancela-el-proximo-mass-effect"
+  },
   {
    "date": "2026-10-21",
    "title": "Nuevos Oppo Find X10 en reserva con doble almacenamiento y regalos",
@@ -261,15 +270,6 @@
    "source": "Tom's Hardware",
    "categoria": "JUEGOS",
    "slug": ""
-  },
-  {
-   "date": "2026-10-16",
-   "title": "Steam bate su récord histórico al superar los 43 millones de usuarios",
-   "summary": "La plataforma de Valve ha alcanzado un nuevo hito de jugadores simultáneos este fin de semana, batiendo por tercera vez en lo que va de año su propio récord de actividad y reafirmando el excelente estado de salud del sector en PC.",
-   "link": "https://vandal.elespanol.com/noticia/2026289023/steam-batio-su-record-de-jugadores-simultaneos-y-sube-el-liston-de-nuevo-por-tercera-vez-en-2026/",
-   "source": "Vandal",
-   "categoria": "PC",
-   "slug": ""
   }
  ],
  "freebies": [
@@ -296,6 +296,14 @@
    "end_iso": "",
    "worth": "$9.99",
    "image": "https://www.gamerpower.com/offers/1b/6a59119a8eb8d.jpg"
+  },
+  {
+   "title": "Terraspace",
+   "link": "https://www.gamerpower.com/open/terraspace-epic-games-giveaway",
+   "platforms": "PC, Epic Games Store",
+   "end_iso": "2026-10-27",
+   "worth": "$7.99",
+   "image": "https://www.gamerpower.com/offers/1b/6ad9256e3eef5.jpg"
   },
   {
    "title": "GetHigh.EXE",
