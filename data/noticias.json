@@ -1,6 +1,42 @@
 {
- "updated": "2026-10-21T19:01-04:00",
+ "updated": "2026-10-22T08:05-04:00",
  "items": [
+  {
+   "date": "2026-10-22",
+   "title": "Anunciado Serious Sam: The Third Encounter para mantener la acción clásica",
+   "summary": "Croteam y Devolver Digital hicieron oficial la secuela directa de The Second Encounter, prometiendo continuar la historia del icónico héroe de disparos.",
+   "link": "https://vandal.elespanol.com/noticia/2026295012/vuelve-sam-con-una-nueva-secuela-anunciado-serious-sam-the-third-encounter-con-toda-la-accion-de-los-clasicos/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-22-anunciado-serious-sam-the-third-encounter-para-mantener-la-accion-clas"
+  },
+  {
+   "date": "2026-10-22",
+   "title": "Cyberpunk 2077 añade contenido de 'Edgerunners 2' en una actualización gratuita",
+   "summary": "CD Projekt Red lanzó el parche 2.5 para Cyberpunk 2077, incluyendo objetos y elementos narrativos inspirados en la nueva temporada del anime de Netflix.",
+   "link": "https://news.xbox.com/en-us/2026/10/22/cyberpunk-2077-edgerunners-2-update/",
+   "source": "Xbox Wire",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-22-cyberpunk-2077-anade-contenido-de-edgerunners-2-en-una-actualizacion-g"
+  },
+  {
+   "date": "2026-10-22",
+   "title": "Capcom sufre una brecha de seguridad que compromete 12 millones de cuentas",
+   "summary": "La compañía detectó un acceso no autorizado a los datos de Capcom ID y advierte a los usuarios sobre posibles intentos de estafas por phishing.",
+   "link": "https://vandal.elespanol.com/noticia/2026295014/capcom-alerta-sobre-una-brecha-de-seguridad-que-afecta-a-casi-12-millones-de-cuentas-capcom-id/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-22-capcom-sufre-una-brecha-de-seguridad-que-compromete-12-millones-de-cue"
+  },
+  {
+   "date": "2026-10-22",
+   "title": "Xbox prueba el juego en la nube sin Game Pass y con opción gratis con anuncios",
+   "summary": "Microsoft permite a los Xbox Insiders retransmitir juegos comprados sin suscripción previa, ofreciendo tarifas por horas y un nivel gratuito financiado por publicidad.",
+   "link": "https://vandal.elespanol.com/noticia/2026295009/xbox-anuncia-los-precios-para-jugar-en-la-nube-sin-consola-ni-game-pass-incluyendo-opcion-gratuita-con-anuncios/",
+   "source": "Vandal",
+   "categoria": "CONSOLAS",
+   "slug": "2026-10-22-xbox-prueba-el-juego-en-la-nube-sin-game-pass-y-con-opcion-gratis-con"
+  },
   {
    "date": "2026-10-21",
    "title": "EA cierra BioWare y cancela el próximo Mass Effect",
@@ -233,42 +269,6 @@
    "link": "https://www.nintendolife.com/news/2026/10/cult-of-the-lamb-summons-a-switch-2-version-free-upgrade-path-confirmed",
    "source": "Nintendo Life",
    "categoria": "CONSOLAS",
-   "slug": ""
-  },
-  {
-   "date": "2026-10-17",
-   "title": "Apple prohíbe en la App Store las aplicaciones de IA diseñadas para desnudar personas",
-   "summary": "La compañía actualizó sus normativas para vetar de forma explícita herramientas generativas que creen imágenes íntimas sin consentimiento.",
-   "link": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
-   "source": "The Verge",
-   "categoria": "TECH",
-   "slug": ""
-  },
-  {
-   "date": "2026-10-17",
-   "title": "Los vehículos de GTA 6 tendrán maleteros funcionales para guardar armas y ropa",
-   "summary": "Rockstar Games confirmó que los jugadores podrán utilizar el maletero de los coches para almacenar equipamiento durante la aventura.",
-   "link": "https://vandal.elespanol.com/noticia/2026290001/los-coches-de-gta-6-tendran-un-maletero-real-podras-guardar-ropa-y-armas-en-ellos/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": ""
-  },
-  {
-   "date": "2026-10-17",
-   "title": "Dragon Ball Xenoverse 3 muestra el poder de Gogeta en su nuevo gameplay",
-   "summary": "Bandai Namco presentó un adelanto jugable de la esperada secuela centrado en las habilidades de combate de Gogeta.",
-   "link": "https://vandal.elespanol.com/noticia/2026290010/dragon-ball-xenoverse-3-muestra-el-poder-y-habilidades-de-gogeta-en-la-esperada-secuela-de-la-saga/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": ""
-  },
-  {
-   "date": "2026-10-16",
-   "title": "Proponen una ley para exigir que los videojuegos digitales sean de propiedad real",
-   "summary": "Un proyecto de ley en Estados Unidos busca obligar a las editoras a garantizar la propiedad real de los juegos digitales en lugar de vender meras licencias. La medida exigiría incluir modos sin conexión y permitir la transferencia de títulos entre usuarios.",
-   "link": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends",
-   "source": "Tom's Hardware",
-   "categoria": "JUEGOS",
    "slug": ""
   }
  ],
