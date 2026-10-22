@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-22T13:02-04:00",
+ "updated": "2026-10-22T19:01-04:00",
  "items": [
+  {
+   "date": "2026-10-22",
+   "title": "EA confirma un nuevo Battlefield pese a los recortes en los estudios de la saga",
+   "summary": "Electronic Arts confirmó sus planes de continuar con la franquicia Battlefield mediante una nueva entrega en desarrollo. La medida llega tras aplicar despidos en los equipos responsables de la saga debido a que el éxito inicial no se mantuvo.",
+   "link": "https://vandal.elespanol.com/noticia/2026295028/electronic-arts-confirma-un-nuevo-battlefield-tras-diezmar-los-estudios-responsables-de-la-saga/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-22-ea-confirma-un-nuevo-battlefield-pese-a-los-recortes-en-los-estudios-d"
+  },
   {
    "date": "2026-10-22",
    "title": "Sony descataloga su último reproductor Blu-ray 4K dedicado en Japón",
@@ -260,15 +269,6 @@
    "link": "https://vandal.elespanol.com/noticia/2026291001/rockstar-explica-en-que-consiste-el-perfil-criminal-de-gta-6-es-diferente-al-sistema-de-honor-de-rdr-2/",
    "source": "Vandal",
    "categoria": "JUEGOS",
-   "slug": ""
-  },
-  {
-   "date": "2026-10-17",
-   "title": "Nvidia asegura que la RTX 5090 no está cancelada pese a su grave escasez",
-   "summary": "Ante la desaparición del modelo en las principales tiendas, Nvidia aclaró que la tarjeta gráfica no ha sido descatalogada y que sufre fuertes limitaciones de suministro. La situación mantiene la alarma entre los usuarios mientras los comercios retiran sus listados por falta de unidades.",
-   "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-insists-the-rtx-5090-isnt-dead-despite-severe-shortages-and-removed-listings-at-multiple-retailers-flagship-gpu-is-missing-from-nvidias-store-and-commands-usd8-500-on-amazon",
-   "source": "Tom's Hardware",
-   "categoria": "PC",
    "slug": ""
   }
  ],
