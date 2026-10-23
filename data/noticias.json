@@ -1,6 +1,42 @@
 {
- "updated": "2026-10-22T19:01-04:00",
+ "updated": "2026-10-23T08:01-04:00",
  "items": [
+  {
+   "date": "2026-10-23",
+   "title": "El nuevo juego del Profesor Layton confirma que llegará doblado al español",
+   "summary": "Level-5 confirmó que 'El profesor Layton y el Nuevo Mundo a vapor' incluirá doblaje oficial a nueve idiomas, entre ellos español.",
+   "link": "https://vandal.elespanol.com/noticia/2026296009/el-profesor-layton-y-el-nuevo-mundo-a-vapor-el-nuevo-juego-de-puzles-de-la-saga-confirma-voces-en-espanol-y/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-23-el-nuevo-juego-del-profesor-layton-confirma-que-llegara-doblado-al-esp"
+  },
+  {
+   "date": "2026-10-23",
+   "title": "Ciberdelincuentes usan agentes de IA para atacar bancos de Latinoamérica",
+   "summary": "Un grupo delictivo emplea modelos como Claude y Grok para automatizar ofensivas contra instituciones financieras y aplicaciones de pago regionales.",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/cybercartel-hacking-gang-used-claude-and-grok-ai-agents-to-automate-attacks-on-latin-american-institutions-passwords-and-details-stolen-from-over-400-institutions-including-banks-and-payment-apps",
+   "source": "Tom's Hardware",
+   "categoria": "IA",
+   "slug": "2026-10-23-ciberdelincuentes-usan-agentes-de-ia-para-atacar-bancos-de-latinoameri"
+  },
+  {
+   "date": "2026-10-23",
+   "title": "Descubren el primer exploit en Switch 2 que permite ejecutar homebrew",
+   "summary": "Un fallo de desbordamiento de enteros en la herramienta SmileBasic permitió desbloquear el acceso a código casero en la consola.",
+   "link": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
+   "source": "Ars Technica",
+   "categoria": "CONSOLAS",
+   "slug": "2026-10-23-descubren-el-primer-exploit-en-switch-2-que-permite-ejecutar-homebrew"
+  },
+  {
+   "date": "2026-10-23",
+   "title": "Spotify usará códigos QR para frenar las cuentas familiares compartidas",
+   "summary": "La plataforma exigirá escanear periódicamente un código QR en el teléfono del titular para comprobar que los miembros conviven juntos.",
+   "link": "https://www.theverge.com/entertainment/1017214/spotify-family-plan-sharing-qr-codes",
+   "source": "The Verge",
+   "categoria": "TECH",
+   "slug": "2026-10-23-spotify-usara-codigos-qr-para-frenar-las-cuentas-familiares-compartida"
+  },
   {
    "date": "2026-10-22",
    "title": "EA confirma un nuevo Battlefield pese a los recortes en los estudios de la saga",
@@ -233,42 +269,6 @@
    "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090-shipment-worth-usd470-000-goes-missing-in-brazilian-airport-two-pallets-disappear-distributor-seeks-explanations-but-met-with-zero-answers",
    "source": "Tom's Hardware",
    "categoria": "PC",
-   "slug": ""
-  },
-  {
-   "date": "2026-10-18",
-   "title": "Crean una IA capaz de detectar armas ocultas usando señales Wi-Fi",
-   "summary": "El sistema WiFireNet logró identificar pistolas sin necesidad de cámaras ni arcos de metales con un 72,5% de precisión.",
-   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-train-ai-to-detect-concealed-handguns-using-wi-fi-signals-open-source-wifirenet-achieves-precision-detection-on-older-802-11a-standard-by-analyzing-how-weapons-distort-wireless-signals",
-   "source": "Tom's Hardware",
-   "categoria": "IA",
-   "slug": ""
-  },
-  {
-   "date": "2026-10-18",
-   "title": "El encarecimiento de memorias amenaza con extinguir los móviles baratos",
-   "summary": "La subida en los precios de memorias DRAM y NAND golpea la rentabilidad de los smartphones de gama baja tras un desplome en ventas.",
-   "link": "https://www.xataka.com/moviles/movil-120-euros-se-muere-no-va-a-volver",
-   "source": "Xataka",
-   "categoria": "MOVILES",
-   "slug": ""
-  },
-  {
-   "date": "2026-10-18",
-   "title": "Meta corrige un fallo que grababa conversaciones en sus gafas sin permiso",
-   "summary": "La compañía solucionó un error en las Ray-Ban Meta que registraba audio privado sin que los usuarios utilizaran el comando de activación.",
-   "link": "https://www.xataka.com/privacidad/esta-resuelto-meta-admite-error-sus-gafas-inteligentes-que-grababa-conversaciones-permiso",
-   "source": "Xataka",
-   "categoria": "TECH",
-   "slug": ""
-  },
-  {
-   "date": "2026-10-18",
-   "title": "Rockstar detalla el funcionamiento del \"perfil criminal\" en GTA 6",
-   "summary": "El sistema de reputación sustituirá las mecánicas clásicas de honor por una dinámica adaptada al contexto delictivo moderno del juego.",
-   "link": "https://vandal.elespanol.com/noticia/2026291001/rockstar-explica-en-que-consiste-el-perfil-criminal-de-gta-6-es-diferente-al-sistema-de-honor-de-rdr-2/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
    "slug": ""
   }
  ],
