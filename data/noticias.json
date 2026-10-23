@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-23T13:03-04:00",
+ "updated": "2026-10-23T19:01-04:00",
  "items": [
+  {
+   "date": "2026-10-23",
+   "title": "Epic Games prepara la llegada de Fortnite a Linux y Steam Deck",
+   "summary": "Epic Games trabaja en adaptar sus sistemas antitrampas para hacerlos compatibles con Linux. Este avance permitirá que el popular battle royale funcione finalmente de manera nativa en Steam Deck y otros entornos basados en este sistema operativo.",
+   "link": "https://vandal.elespanol.com/noticia/2026296030/fortnite-llegara-a-linux-y-eso-es-una-buena-noticia-para-quienes-tengan-steam-deck/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-23-epic-games-prepara-la-llegada-de-fortnite-a-linux-y-steam-deck"
+  },
   {
    "date": "2026-10-23",
    "title": "Google usará datos de Gmail y Google Fotos para personalizar anuncios con IA",
@@ -261,15 +270,6 @@
    "source": "Vandal",
    "categoria": "PC",
    "slug": "2026-10-19-acer-lanza-la-consola-portatil-predator-atlas-8-con-pantalla-de-120-hz"
-  },
-  {
-   "date": "2026-10-18",
-   "title": "GTA 6 permitirá cambiar de personaje y ser copiloto mientras conduces",
-   "summary": "Rockstar confirmó que en Grand Theft Auto VI podrás alternar el control entre Jason y Lucía cuando viajen en un mismo coche. Esto permitirá que la IA tome el volante mientras tú disparas o te relajas como copiloto.",
-   "link": "https://vandal.elespanol.com/noticia/2026291009/gta-6-permitira-cambiar-de-personaje-mientras-conduces-y-podras-relajarte-como-copiloto/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-18-gta-6-permitira-cambiar-de-personaje-y-ser-copiloto-mientras-conduces"
   }
  ],
  "freebies": [
@@ -316,6 +316,24 @@
  ],
  "security": [
   {
+   "cve": "CVE-2026-114625",
+   "vendor": "Arista",
+   "product": "VeloCloud Orchestrator",
+   "summary": "Afecta a Arista VeloCloud Orchestrator, permitiendo a atacantes remotos acceder a funciones privilegiadas y comprometer por completo el control del sistema y los datos que administra.",
+   "added": "2026-10-23",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625"
+  },
+  {
+   "cve": "CVE-2026-110447",
+   "vendor": "Collabora",
+   "product": "Collabora Online – Built-in CODE Server",
+   "summary": "Afecta al servidor CODE integrado de Collabora Online en NextCloud, permitiendo a atacantes remotos ejecutar comandos maliciosos y tomar el control del servidor.",
+   "added": "2026-10-23",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110447"
+  },
+  {
    "cve": "CVE-2026-96656",
    "vendor": "Plex",
    "product": "Media Server",
@@ -332,24 +350,6 @@
    "added": "2026-10-20",
    "ransomware": false,
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655"
-  },
-  {
-   "cve": "CVE-2026-96654",
-   "vendor": "Plex",
-   "product": "Media Server",
-   "summary": "Afecta a Plex Media Server y permite a un atacante llamar a funciones de otros complementos y enviar sus propios parámetros.",
-   "added": "2026-10-20",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654"
-  },
-  {
-   "cve": "CVE-2026-96652",
-   "vendor": "Plex",
-   "product": "Media Server",
-   "summary": "Afecta a Plex Media Server y permite a un atacante forzar al servidor a enviar datos a un destino elegido.",
-   "added": "2026-10-20",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652"
   }
  ]
 }
