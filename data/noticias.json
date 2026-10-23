@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-23T08:01-04:00",
+ "updated": "2026-10-23T13:03-04:00",
  "items": [
+  {
+   "date": "2026-10-23",
+   "title": "Google usará datos de Gmail y Google Fotos para personalizar anuncios con IA",
+   "summary": "Google ha modificado su política de privacidad para añadir una excepción importante. La compañía podrá mostrar anuncios dirigidos basados en datos personales de Gmail y Google Fotos a aquellos usuarios que activen funciones de IA personalizada.",
+   "link": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+   "source": "The Verge",
+   "categoria": "TECH",
+   "slug": "2026-10-23-google-usara-datos-de-gmail-y-google-fotos-para-personalizar-anuncios"
+  },
   {
    "date": "2026-10-23",
    "title": "El nuevo juego del Profesor Layton confirma que llegará doblado al español",
@@ -261,15 +270,6 @@
    "source": "Vandal",
    "categoria": "JUEGOS",
    "slug": "2026-10-18-gta-6-permitira-cambiar-de-personaje-y-ser-copiloto-mientras-conduces"
-  },
-  {
-   "date": "2026-10-18",
-   "title": "Desaparece en Brasil un cargamento de RTX 5090 valorado en 470.000 dólares",
-   "summary": "El distribuidor de tecnología Oderço denunció la desaparición de dos palés completos con tarjetas Zotac RTX 5090 tras arribar a un aeropuerto brasileño. El cargamento extraviado suma casi medio millón de dólares, en un contexto marcado por la fuerte escasez de esta nueva gráfica.",
-   "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090-shipment-worth-usd470-000-goes-missing-in-brazilian-airport-two-pallets-disappear-distributor-seeks-explanations-but-met-with-zero-answers",
-   "source": "Tom's Hardware",
-   "categoria": "PC",
-   "slug": ""
   }
  ],
  "freebies": [
