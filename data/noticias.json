@@ -1,6 +1,42 @@
 {
- "updated": "2026-10-23T19:01-04:00",
+ "updated": "2026-10-24T08:01-04:00",
  "items": [
+  {
+   "date": "2026-10-24",
+   "title": "Alertan por una estafa en WhatsApp que suplanta contactos pidiendo votos",
+   "summary": "Ciberdelincuentes utilizan mensajes de conocidos solicitando apoyo en supuestas votaciones para vulnerar y robar cuentas de WhatsApp.",
+   "link": "https://www.xataka.com/seguridad/podrias-votar-eliska-mensaje-inocente-que-puede-robarte-whatsapp",
+   "source": "Xataka",
+   "categoria": "MOVILES",
+   "slug": "2026-10-24-alertan-por-una-estafa-en-whatsapp-que-suplanta-contactos-pidiendo-vot"
+  },
+  {
+   "date": "2026-10-24",
+   "title": "Cult of the Lamb tendrá versión en Switch 2 con actualización gratuita",
+   "summary": "Massive Monster confirmó que su exitoso título llegará a la sucesora de Nintendo Switch y ofrecerá mejora sin costo adicional.",
+   "link": "https://www.nintendolife.com/news/2026/10/icymi-cult-of-the-lamb-summons-a-switch-2-version-includes-free-upgrade-path",
+   "source": "Nintendo Life",
+   "categoria": "CONSOLAS",
+   "slug": "2026-10-24-cult-of-the-lamb-tendra-version-en-switch-2-con-actualizacion-gratuita"
+  },
+  {
+   "date": "2026-10-24",
+   "title": "La directora de operaciones de Xbox deja su cargo a tres meses de crearse el puesto",
+   "summary": "Helen Chiang abandonó su rol como primera COO de Xbox tras apenas un trimestre, según comunicó internamente la compañía.",
+   "link": "https://www.ign.com/articles/xboxs-first-ever-chief-operating-officer-leaves-role-just-three-months-after-it-was-created",
+   "source": "IGN",
+   "categoria": "CONSOLAS",
+   "slug": "2026-10-24-la-directora-de-operaciones-de-xbox-deja-su-cargo-a-tres-meses-de-crea"
+  },
+  {
+   "date": "2026-10-24",
+   "title": "Proponen una ley en EE. UU. para garantizar la propiedad de los juegos digitales",
+   "summary": "Una iniciativa busca que los consumidores posean realmente sus videojuegos digitales en lugar de adquirir licencias revocables.",
+   "link": "https://vandal.elespanol.com/noticia/2026297004/estados-unidos-podria-tener-una-ley-de-proteccion-a-los-gamers-que-asegure-la-propiedad-de-los-juegos-digitales/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-24-proponen-una-ley-en-ee-uu-para-garantizar-la-propiedad-de-los-juegos-d"
+  },
   {
    "date": "2026-10-23",
    "title": "Epic Games prepara la llegada de Fortnite a Linux y Steam Deck",
@@ -234,42 +270,6 @@
    "source": "Nintendo Life",
    "categoria": "CONSOLAS",
    "slug": "2026-10-19-the-witcher-3-recibe-actualizacion-en-switch-2-con-mejoras-graficas"
-  },
-  {
-   "date": "2026-10-19",
-   "title": "Dell presenta el XPS 16 Creator Edition con nuevos procesadores RTX de Nvidia",
-   "summary": "El equipo está diseñado para creadores y desarrolladores que necesitan ejecutar tareas de inteligencia artificial localmente.",
-   "link": "https://www.xataka.com/seleccion/dell-inaugura-era-ia-agentica-nuevo-xps-16-creator-edition-superchips-nvidia-rtx-spark",
-   "source": "Xataka",
-   "categoria": "PC",
-   "slug": "2026-10-19-dell-presenta-el-xps-16-creator-edition-con-nuevos-procesadores-rtx-de"
-  },
-  {
-   "date": "2026-10-19",
-   "title": "No Rest for the Wicked duplicará su contenido con 24 clases en su versión 1.0",
-   "summary": "Moon Studios anunció que el RPG de acción llegará a PC y PS5 con seis facciones y profundos ajustes jugables.",
-   "link": "https://vandal.elespanol.com/noticia/2026292014/no-rest-for-the-wicked-duplicara-su-tamano-con-la-version-10-y-estrenara-24-clases-y-seis-facciones/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-19-no-rest-for-the-wicked-duplicara-su-contenido-con-24-clases-en-su-vers"
-  },
-  {
-   "date": "2026-10-19",
-   "title": "Una IA de Google logra terminar Minecraft sin intervención humana",
-   "summary": "Cuatro agentes Gemini 4 Argon vencieron al Ender Dragon tras más de 27 horas de partida en un hito histórico.",
-   "link": "https://www.ign.com/articles/google-ai-agents-killed-ender-dragon-minecraft",
-   "source": "IGN",
-   "categoria": "IA",
-   "slug": "2026-10-19-una-ia-de-google-logra-terminar-minecraft-sin-intervencion-humana"
-  },
-  {
-   "date": "2026-10-19",
-   "title": "Acer lanza la consola portátil Predator Atlas 8 con pantalla de 120 Hz",
-   "summary": "El nuevo dispositivo portátil con Windows 11 y procesador Intel Arc G3 Extreme ya está a la venta desde 1.099 euros.",
-   "link": "https://vandal.elespanol.com/noticia/2026292016/acer-lanza-en-espana-su-nueva-consola-portatil-predator-atlas-8-con-pantalla-de-120-hz-desde-1099-euros/",
-   "source": "Vandal",
-   "categoria": "PC",
-   "slug": "2026-10-19-acer-lanza-la-consola-portatil-predator-atlas-8-con-pantalla-de-120-hz"
   }
  ],
  "freebies": [
