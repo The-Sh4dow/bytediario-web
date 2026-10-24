@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-24T13:06-04:00",
+ "updated": "2026-10-24T19:02-04:00",
  "items": [
+  {
+   "date": "2026-10-24",
+   "title": "Microsoft y NVIDIA trabajan para reducir la compilación de shaders en PC",
+   "summary": "Microsoft y NVIDIA han comenzado a implementar mejoras para mitigar las molestas esperas al compilar shaders. La iniciativa busca evitar que la CPU pase largos minutos procesando antes de abrir un juego o tras instalar actualizaciones.",
+   "link": "https://www.3djuegos.com/pc/noticias/microsoft-nvidia-han-comenzado-a-solucionar-uno-problemas-molestos-pc-todavia-queda-mucho-camino",
+   "source": "3DJuegos",
+   "categoria": "PC",
+   "slug": "2026-10-24-microsoft-y-nvidia-trabajan-para-reducir-la-compilacion-de-shaders-en"
+  },
   {
    "date": "2026-10-24",
    "title": "Proton aloja el mapa con más de 300.000 cámaras de vigilancia de Flock",
@@ -261,15 +270,6 @@
    "source": "Xataka",
    "categoria": "TECH",
    "slug": "2026-10-20-ibai-llanos-traslada-la-velada-del-ano-a-netflix-en-exclusiva-hasta-20"
-  },
-  {
-   "date": "2026-10-19",
-   "title": "Apple celebrará un nuevo evento el 28 de octubre enfocado en los MacBook Pro",
-   "summary": "Apple ha confirmado un evento de presentación oficial para el próximo 28 de octubre. Todo apunta a que la compañía dará a conocer nuevas versiones del MacBook Pro y una posible renovación del iPad mini con chips más potentes.",
-   "link": "https://www.xataka.com/eventos/apple-anuncia-presentacion-para-28-octubre-todas-miradas-apuntan-a-nuevos-macbook-pro",
-   "source": "Xataka",
-   "categoria": "TECH",
-   "slug": "2026-10-19-apple-celebrara-un-nuevo-evento-el-28-de-octubre-enfocado-en-los-macbo"
   }
  ],
  "freebies": [
@@ -312,6 +312,14 @@
    "end_iso": "2026-11-02",
    "worth": "$1.99",
    "image": "https://www.gamerpower.com/offers/1b/6ad63cd807641.jpg"
+  },
+  {
+   "title": "MAFIA HOTEL",
+   "link": "https://www.gamerpower.com/open/mafia-hotel-epic-games-giveaway",
+   "platforms": "PC, Epic Games Store",
+   "end_iso": "2026-11-01",
+   "worth": "$1.99",
+   "image": "https://www.gamerpower.com/offers/1b/6add376bc36a0.jpg"
   }
  ],
  "security": [
