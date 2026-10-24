@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-24T12:02-04:00",
+ "updated": "2026-10-24T13:06-04:00",
  "items": [
+  {
+   "date": "2026-10-24",
+   "title": "Proton aloja el mapa con más de 300.000 cámaras de vigilancia de Flock",
+   "summary": "La compañía de privacidad Proton AG decidió hospedar públicamente el mapa de cámaras de vigilancia de Flock publicado por un investigador de seguridad. La empresa asumió el alojamiento desafiando las cartas de cese y desista emitidas contra el creador del proyecto.",
+   "link": "https://www.tomshardware.com/software/maps/proton-hosts-flock-map-revealing-over-300-000-cameras-defying-cease-and-desist-threats-against-creator-privacy-focused-company-hosts-site-on-swiss-servers-says-users-have-the-right-to-know-whos-recording-them",
+   "source": "Tom's Hardware",
+   "categoria": "TECH",
+   "slug": "2026-10-24-proton-aloja-el-mapa-con-mas-de-300-000-camaras-de-vigilancia-de-flock"
+  },
   {
    "date": "2026-10-24",
    "title": "Alertan por una estafa en WhatsApp que suplanta contactos pidiendo votos",
@@ -261,15 +270,6 @@
    "source": "Xataka",
    "categoria": "TECH",
    "slug": "2026-10-19-apple-celebrara-un-nuevo-evento-el-28-de-octubre-enfocado-en-los-macbo"
-  },
-  {
-   "date": "2026-10-19",
-   "title": "The Witcher 3 recibe actualización en Switch 2 con mejoras gráficas",
-   "summary": "CD Projekt Red ha lanzado la versión 5.01 de The Witcher 3: Wild Hunt Remastered, incorporando optimizaciones específicas y mejoras de rendimiento exclusivas para la nueva consola de Nintendo.",
-   "link": "https://www.nintendolife.com/news/2026/10/the-witcher-3-remastereds-latest-update-is-now-live-here-are-the-full-patch-notes",
-   "source": "Nintendo Life",
-   "categoria": "CONSOLAS",
-   "slug": "2026-10-19-the-witcher-3-recibe-actualizacion-en-switch-2-con-mejoras-graficas"
   }
  ],
  "freebies": [
