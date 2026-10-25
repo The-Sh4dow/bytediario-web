@@ -1,6 +1,42 @@
 {
- "updated": "2026-10-24T19:02-04:00",
+ "updated": "2026-10-25T08:05-04:00",
  "items": [
+  {
+   "date": "2026-10-25",
+   "title": "El 1080p pierde terreno: AOC vende por primera vez más monitores 1440p que Full HD",
+   "summary": "El fabricante AOC confirmó que las pantallas QHD han superado en ventas a las Full HD por primera vez en su historia.",
+   "link": "https://vandal.elespanol.com/noticia/2026298007/el-reinado-del-1080p-en-pc-empieza-a-tambalearse-aoc-ya-vende-mas-monitores-1440p/",
+   "source": "Vandal",
+   "categoria": "PC",
+   "slug": "2026-10-25-el-1080p-pierde-terreno-aoc-vende-por-primera-vez-mas-monitores-1440p"
+  },
+  {
+   "date": "2026-10-25",
+   "title": "Rockstar elimina el 'crunch' en GTA 6 pero acaba con el teletrabajo",
+   "summary": "El estudio reestructuró sus procesos y contrató más personal para evitar sobrecargas de trabajo durante la etapa final del desarrollo.",
+   "link": "https://vandal.elespanol.com/noticia/2026298001/rockstar-afirma-haber-erradicado-el-crunch-en-gta-6-pero-confiesan-que-eliminaron-el-teletrabajo-por-miedo/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-25-rockstar-elimina-el-crunch-en-gta-6-pero-acaba-con-el-teletrabajo"
+  },
+  {
+   "date": "2026-10-25",
+   "title": "Detectan que Smart TVs de Samsung usan IA para capturar audio y pantallas para anuncios",
+   "summary": "Un especialista en ciberseguridad reveló código interno que graba el micrófono y realiza capturas en televisores Samsung para publicidad.",
+   "link": "https://www.tomshardware.com/tech-industry/cyber-security/hacker-finds-own-samsung-tv-collecting-scary-amounts-of-user-information-and-gets-banned-by-openai-for-cyber-abuse-tv-runs-an-ai-model-that-collects-audio-screenshots-and-plenty-of-other-user-data-for-ad-targeting",
+   "source": "Tom's Hardware",
+   "categoria": "TECH",
+   "slug": "2026-10-25-detectan-que-smart-tvs-de-samsung-usan-ia-para-capturar-audio-y-pantal"
+  },
+  {
+   "date": "2026-10-25",
+   "title": "Valve publica SteamOS 3.9 con mejoras para Steam Deck y otros dispositivos",
+   "summary": "La nueva actualización de Valve renueva buena parte del sistema operativo enfocado en Steam Deck y equipos basados en Linux.",
+   "link": "https://www.3djuegos.com/pc/noticias/steamos-3-9-esta-disponible-no-viene-solo-a-corregir-errores-valve-ha-renovado-buena-parte-sistema-que-mueve-steam-deck-machine",
+   "source": "3DJuegos",
+   "categoria": "PC",
+   "slug": "2026-10-25-valve-publica-steamos-3-9-con-mejoras-para-steam-deck-y-otros-disposit"
+  },
   {
    "date": "2026-10-24",
    "title": "Microsoft y NVIDIA trabajan para reducir la compilación de shaders en PC",
@@ -234,42 +270,6 @@
    "source": "The Verge",
    "categoria": "CONSOLAS",
    "slug": "2026-10-20-amd-llevara-fsr-4-1-a-las-consolas-xbox-series-y-dispositivos-portatil"
-  },
-  {
-   "date": "2026-10-20",
-   "title": "ARC Raiders resucita con 1,7 millones de jugadores diarios tras su gran actualización",
-   "summary": "El shooter de Embark Studios recupera masivamente a su comunidad gracias a la actualización Frozen Trail y su nuevo modo PvE.",
-   "link": "https://vandal.elespanol.com/noticia/2026293011/arc-raiders-resucita-con-17-millones-de-jugadores-diarios-y-vende-150000-copias-en-apenas-tres-dias/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-20-arc-raiders-resucita-con-1-7-millones-de-jugadores-diarios-tras-su-gra"
-  },
-  {
-   "date": "2026-10-20",
-   "title": "Un mod permite duplicar el rendimiento con DLSS 5 mediante tecnología de foveation",
-   "summary": "La técnica de renderizado foveated imaging se integra en DLSS 5 para reducir la resolución en los bordes y facilitar su ejecución.",
-   "link": "https://www.tomshardware.com/pc-components/gpus/mods-can-almost-double-dlss-5-performance-through-foveation-reducing-resolution-at-the-edges-of-frames-technique-makes-dlss-5-possible-on-high-resolution-ultrawide-monitors",
-   "source": "Tom's Hardware",
-   "categoria": "PC",
-   "slug": "2026-10-20-un-mod-permite-duplicar-el-rendimiento-con-dlss-5-mediante-tecnologia"
-  },
-  {
-   "date": "2026-10-20",
-   "title": "PlayStation Plus Extra y Premium añaden Mafia: The Old Country y otros 8 juegos",
-   "summary": "Los suscriptores de PS Plus ya pueden descargar los nuevos títulos del catálogo, incluyendo clásicos y lanzamientos destacados.",
-   "link": "https://vandal.elespanol.com/noticia/2026293014/ya-disponibles-para-descargar-los-9-juegos-de-playstation-plus-extra-y-premium-que-incluyen-mafia-the-old-country/",
-   "source": "Vandal",
-   "categoria": "CONSOLAS",
-   "slug": "2026-10-20-playstation-plus-extra-y-premium-anaden-mafia-the-old-country-y-otros"
-  },
-  {
-   "date": "2026-10-20",
-   "title": "Ibai Llanos traslada La Velada del Año a Netflix en exclusiva hasta 2029",
-   "summary": "Netflix emitirá en directo y en exclusiva las ediciones de 2027 a 2029 de La Velada del Año, dejando atrás Twitch.",
-   "link": "https://www.xataka.com/magnet/ibai-le-alquila-a-netflix-su-noche-vista-velada-ano-sera-exclusiva-plataforma-2029",
-   "source": "Xataka",
-   "categoria": "TECH",
-   "slug": "2026-10-20-ibai-llanos-traslada-la-velada-del-ano-a-netflix-en-exclusiva-hasta-20"
   }
  ],
  "freebies": [
