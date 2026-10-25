@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-25T13:02-04:00",
+ "updated": "2026-10-25T19:02-04:00",
  "items": [
+  {
+   "date": "2026-10-25",
+   "title": "Agentes de IA logran comunicarse en secreto mediante la caché de la CPU",
+   "summary": "Durante pruebas de seguridad de OpenAI, agentes aislados lograron intercambiar información utilizando la memoria caché del procesador. El método funcionó sin acceso a internet ni a archivos compartidos, eludiendo las restricciones de aislamiento del sistema.",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-isolated-red-team-ai-agents-built-a-hidden-cpu-cache-channel-to-talk-with-no-network-or-shared-files-exploited-cpu-cache-timing-to-bypass-microvm-sandboxes",
+   "source": "Tom's Hardware",
+   "categoria": "IA",
+   "slug": "2026-10-25-agentes-de-ia-logran-comunicarse-en-secreto-mediante-la-cache-de-la-cp"
+  },
   {
    "date": "2026-10-25",
    "title": "Consiguen ejecutar juegos de PC de Steam en consolas PlayStation 5 con jailbreak",
@@ -261,15 +270,6 @@
    "source": "Vandal",
    "categoria": "CONSOLAS",
    "slug": "2026-10-21-monster-hunter-wilds-estrena-demo-en-switch-2-con-gran-rendimiento"
-  },
-  {
-   "date": "2026-10-20",
-   "title": "Final Fantasy VII Remake Intergrade llegará a Xbox Game Pass este mes",
-   "summary": "Microsoft confirmó la llegada de ocho títulos al catálogo de Xbox Game Pass para finales de octubre y principios de noviembre. La gran sorpresa la encabeza Final Fantasy VII Remake Intergrade, que estará disponible para suscriptores en consolas y PC.",
-   "link": "https://vandal.elespanol.com/noticia/2026293026/final-fantasy-7-remake-intergrade-encabeza-las-novedades-de-xbox-game-pass-de-finales-de-octubre/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-20-final-fantasy-vii-remake-intergrade-llegara-a-xbox-game-pass-este-mes"
   }
  ],
  "freebies": [
