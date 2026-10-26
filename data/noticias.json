@@ -1,6 +1,42 @@
 {
- "updated": "2026-10-25T19:02-04:00",
+ "updated": "2026-10-26T08:05-04:00",
  "items": [
+  {
+   "date": "2026-10-26",
+   "title": "Dinamarca abandona su intento de sustituir Microsoft Office por software libre",
+   "summary": "El Ministerio de Digitalización danés canceló tras seis meses su prueba con Collabora por quejas de los empleados ante problemas de formato.",
+   "link": "https://www.tomshardware.com/software/microsoft-office/denmarks-bid-to-ditch-microsoft-office-for-open-source-alternative-collabora-collapses-in-under-six-months-employees-cite-issues-with-style-formatting-and-tracking-changes",
+   "source": "Tom's Hardware",
+   "categoria": "TECH",
+   "slug": "2026-10-26-dinamarca-abandona-su-intento-de-sustituir-microsoft-office-por-softwa"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "Phantom Blade Zero detalla sus horarios de precarga y lanzamiento en PS5 y PC",
+   "summary": "El esperado juego de acción confirmó las fechas y horas exactas para comenzar la descarga anticipada antes de su estreno.",
+   "link": "https://vandal.elespanol.com/noticia/2026299016/cuando-se-podra-jugar-a-phantom-blade-zero-se-confirma-la-hora-exacta-de-lanzamiento-e-inicio-de-la-predescarga/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-26-phantom-blade-zero-detalla-sus-horarios-de-precarga-y-lanzamiento-en-p"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "Eliminan en Linux el límite de rendimiento de IA en las Nvidia RTX 20, 30 y 40",
+   "summary": "Desarrolladores crearon módulos del kernel de Linux que desbloquean la velocidad reducida de los núcleos Tensor en tarjetas GeForce.",
+   "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-20-30-and-40-series-gpus-hacked-to-remove-a-half-speed-ai-throttle-firmware-exploit-doubles-rtx-4090s-peak-tensor-rate-lifts-rtx-3090-ti-matrix-math-up-to-80-percent",
+   "source": "Tom's Hardware",
+   "categoria": "PC",
+   "slug": "2026-10-26-eliminan-en-linux-el-limite-de-rendimiento-de-ia-en-las-nvidia-rtx-20"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "Microsoft busca un socio para apoyar a Arkane Lyon y terminar Marvel's Blade",
+   "summary": "Xbox extendió el plazo para encontrar un comprador o inversor que permita al estudio completar el desarrollo de Marvel's Blade.",
+   "link": "https://vandal.elespanol.com/noticia/2026299014/microsoft-extiende-el-plazo-para-que-arkane-studios-encuentre-socio-y-termine-marvels-blade/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-26-microsoft-busca-un-socio-para-apoyar-a-arkane-lyon-y-terminar-marvel-s"
+  },
   {
    "date": "2026-10-25",
    "title": "Agentes de IA logran comunicarse en secreto mediante la caché de la CPU",
@@ -234,42 +270,6 @@
    "source": "Xataka",
    "categoria": "MOVILES",
    "slug": "2026-10-21-nuevos-oppo-find-x10-en-reserva-con-doble-almacenamiento-y-regalos"
-  },
-  {
-   "date": "2026-10-21",
-   "title": "Palworld anuncia 'Side by Side', su próxima gran actualización de invierno",
-   "summary": "Pocketpair confirmó una importante actualización de contenido para su exitoso juego de supervivencia, programada para lanzarse durante los próximos meses de frío.",
-   "link": "https://vandal.elespanol.com/noticia/2026294017/palworld-anuncia-y-pone-fecha-a-su-proxima-gran-actualizacion-side-by-side/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-21-palworld-anuncia-side-by-side-su-proxima-gran-actualizacion-de-inviern"
-  },
-  {
-   "date": "2026-10-21",
-   "title": "Sony actualiza el sistema de PS5 ante los avances de la comunidad jailbreak",
-   "summary": "PlayStation publicó un nuevo firmware diseñado para parchar vulnerabilidades del sistema mientras crecen los intentos de desbloqueo de la consola.",
-   "link": "https://www.ign.com/articles/sony-issues-new-ps5-firmware-update-as-jailbreak-race-heats-up-ahead-of-gta-6-release",
-   "source": "IGN",
-   "categoria": "CONSOLAS",
-   "slug": "2026-10-21-sony-actualiza-el-sistema-de-ps5-ante-los-avances-de-la-comunidad-jail"
-  },
-  {
-   "date": "2026-10-21",
-   "title": "Alerta por dos vulnerabilidades críticas en PHP que amenazan miles de webs",
-   "summary": "Los desarrolladores de PHP lanzarán parches urgentes para corregir fallos graves que podrían permitir la ejecución remota de código en sitios activos.",
-   "link": "https://www.theverge.com/tech/1015257/php-vulnerability-patch-website-security-wordpress",
-   "source": "The Verge",
-   "categoria": "TECH",
-   "slug": "2026-10-21-alerta-por-dos-vulnerabilidades-criticas-en-php-que-amenazan-miles-de"
-  },
-  {
-   "date": "2026-10-21",
-   "title": "Monster Hunter Wilds estrena demo en Switch 2 con gran rendimiento",
-   "summary": "Capcom lanzó el prólogo jugable del título en la consola de Nintendo, permitiendo comprobar su rendimiento técnico previo al estreno.",
-   "link": "https://vandal.elespanol.com/noticia/2026294015/monster-hunter-wilds-estrena-demo-en-switch-2-y-las-opiniones-hablan-de-una-version-sorprendentemente-buena/",
-   "source": "Vandal",
-   "categoria": "CONSOLAS",
-   "slug": "2026-10-21-monster-hunter-wilds-estrena-demo-en-switch-2-con-gran-rendimiento"
   }
  ],
  "freebies": [
