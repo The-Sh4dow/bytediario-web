@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-26T08:05-04:00",
+ "updated": "2026-10-26T13:05-04:00",
  "items": [
+  {
+   "date": "2026-10-26",
+   "title": "Un hacker recibe 50.000 dólares de Sony por reportar un fallo en PS5 hallado con IA",
+   "summary": "Sony recompensó a un investigador con 50.000 dólares por notificar en privado un exploit de PlayStation 5 descubierto mediante herramientas de IA. La decisión generó malestar en la comunidad 'homebrew', que prefería la publicación del fallo para abrir el sistema.",
+   "link": "https://www.ign.com/articles/50000-dollar-ps5-exploit-found-with-ai",
+   "source": "IGN",
+   "categoria": "CONSOLAS",
+   "slug": "2026-10-26-un-hacker-recibe-50-000-dolares-de-sony-por-reportar-un-fallo-en-ps5-h"
+  },
   {
    "date": "2026-10-26",
    "title": "Dinamarca abandona su intento de sustituir Microsoft Office por software libre",
@@ -261,15 +270,6 @@
    "source": "Vandal",
    "categoria": "JUEGOS",
    "slug": "2026-10-21-ea-cierra-bioware-y-cancela-el-proximo-mass-effect"
-  },
-  {
-   "date": "2026-10-21",
-   "title": "Nuevos Oppo Find X10 en reserva con doble almacenamiento y regalos",
-   "summary": "La nueva serie Oppo Find X10 ya se puede reservar en España con interesantes promociones de lanzamiento. Entre las ofertas destaca la versión de 512 GB al precio de la configuración de 256 GB, acompañada de varios regalos.",
-   "link": "https://www.xataka.com/seleccion/nuevos-oppo-find-x10-se-pueden-reservar-descuentos-version-512-gb-a-precio-256-regalos",
-   "source": "Xataka",
-   "categoria": "MOVILES",
-   "slug": "2026-10-21-nuevos-oppo-find-x10-en-reserva-con-doble-almacenamiento-y-regalos"
   }
  ],
  "freebies": [
