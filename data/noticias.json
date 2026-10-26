@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-26T13:05-04:00",
+ "updated": "2026-10-26T19:03-04:00",
  "items": [
+  {
+   "date": "2026-10-26",
+   "title": "Microsoft abre un plan masivo de salidas voluntarias para unos 60.000 empleados",
+   "summary": "Microsoft ha habilitado una oferta de salidas voluntarias dirigida a recortar hasta 60.000 puestos, cerca del 27% de su plantilla total. La medida representa una de las reestructuraciones más drásticas de la compañía tras diversos ajustes a lo largo del año.",
+   "link": "https://www.xataka.com/empresas-y-economia/microsoft-acaba-abrir-gigantesco-plan-salidas-voluntarias-para-cerca-27-su-plantilla-unos-60-000-empleados",
+   "source": "Xataka",
+   "categoria": "TECH",
+   "slug": "2026-10-26-microsoft-abre-un-plan-masivo-de-salidas-voluntarias-para-unos-60-000"
+  },
   {
    "date": "2026-10-26",
    "title": "Un hacker recibe 50.000 dólares de Sony por reportar un fallo en PS5 hallado con IA",
@@ -261,15 +270,6 @@
    "source": "Vandal",
    "categoria": "CONSOLAS",
    "slug": "2026-10-22-xbox-prueba-el-juego-en-la-nube-sin-game-pass-y-con-opcion-gratis-con"
-  },
-  {
-   "date": "2026-10-21",
-   "title": "EA cierra BioWare y cancela el próximo Mass Effect",
-   "summary": "Electronic Arts anunció el cierre definitivo del legendario estudio BioWare y el despido de 400 trabajadores. Como consecuencia directa, el esperado desarrollo del nuevo Mass Effect ha sido cancelado tras más de tres décadas de trayectoria.",
-   "link": "https://vandal.elespanol.com/noticia/2026294028/ea-cierra-bioware-cancela-el-proximo-mass-effect-y-despide-a-400-personas/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-21-ea-cierra-bioware-y-cancela-el-proximo-mass-effect"
   }
  ],
  "freebies": [
