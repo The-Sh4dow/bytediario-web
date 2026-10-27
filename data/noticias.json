@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-27T13:01-04:00",
+ "updated": "2026-10-27T19:03-04:00",
  "items": [
+  {
+   "date": "2026-10-27",
+   "title": "Capcom retira Street Fighter 5 de tiendas digitales y desactiva su online",
+   "summary": "Capcom ha retirado temporalmente Street Fighter V de las tiendas de PS4 y PC tras detectar un fallo de seguridad vinculado a PHP. La compañía también ha desactivado por completo las funciones en línea del videojuego mientras implementa una solución.",
+   "link": "https://vandal.elespanol.com/noticia/2026300039/capcom-retira-street-fighter-5-de-las-tiendas-digitales-y-cierra-sus-servidores-por-un-problema-de-seguridad/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-27-capcom-retira-street-fighter-5-de-tiendas-digitales-y-desactiva-su-onl"
+  },
   {
    "date": "2026-10-27",
    "title": "Más del 92 % de los videojuegos vendidos por Capcom ya son en formato digital",
@@ -261,15 +270,6 @@
    "source": "Tom's Hardware",
    "categoria": "TECH",
    "slug": "2026-10-22-sony-descataloga-su-ultimo-reproductor-blu-ray-4k-dedicado-en-japon"
-  },
-  {
-   "date": "2026-10-22",
-   "title": "Anunciado Serious Sam: The Third Encounter para mantener la acción clásica",
-   "summary": "Croteam y Devolver Digital hicieron oficial la secuela directa de The Second Encounter, prometiendo continuar la historia del icónico héroe de disparos.",
-   "link": "https://vandal.elespanol.com/noticia/2026295012/vuelve-sam-con-una-nueva-secuela-anunciado-serious-sam-the-third-encounter-con-toda-la-accion-de-los-clasicos/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-22-anunciado-serious-sam-the-third-encounter-para-mantener-la-accion-clas"
   }
  ],
  "freebies": [
@@ -324,6 +324,24 @@
  ],
  "security": [
   {
+   "cve": "CVE-2026-48356",
+   "vendor": "Adobe",
+   "product": "Commerce and Magento",
+   "summary": "Afecta a Adobe Commerce y Magento, permitiendo a atacantes subir archivos peligrosos para ejecutar código arbitrario y tomar el control de cuentas o sesiones de los usuarios.",
+   "added": "2026-10-27",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356"
+  },
+  {
+   "cve": "CVE-2026-111497",
+   "vendor": "Google",
+   "product": "Brotli",
+   "summary": "Afecta a Google Brotli y permite a atacantes remotos ejecutar código malicioso, robar datos de la memoria o tumbar el servicio usando archivos comprimidos modificados.",
+   "added": "2026-10-27",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497"
+  },
+  {
    "cve": "CVE-2026-109619",
    "vendor": "PHP Group",
    "product": "PHP",
@@ -340,24 +358,6 @@
    "added": "2026-10-26",
    "ransomware": false,
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618"
-  },
-  {
-   "cve": "CVE-2026-114625",
-   "vendor": "Arista",
-   "product": "VeloCloud Orchestrator",
-   "summary": "Afecta a Arista VeloCloud Orchestrator, permitiendo a atacantes remotos acceder a funciones privilegiadas y comprometer por completo el control del sistema y los datos que administra.",
-   "added": "2026-10-23",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625"
-  },
-  {
-   "cve": "CVE-2026-110447",
-   "vendor": "Collabora",
-   "product": "Collabora Online – Built-in CODE Server",
-   "summary": "Afecta al servidor CODE integrado de Collabora Online en NextCloud, permitiendo a atacantes remotos ejecutar comandos maliciosos y tomar el control del servidor.",
-   "added": "2026-10-23",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110447"
   }
  ]
 }
