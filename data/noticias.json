@@ -1,6 +1,33 @@
 {
- "updated": "2026-10-26T19:03-04:00",
+ "updated": "2026-10-27T08:01-04:00",
  "items": [
+  {
+   "date": "2026-10-27",
+   "title": "Más del 92 % de los videojuegos vendidos por Capcom ya son en formato digital",
+   "summary": "Capcom revela que casi el 92,4 % de sus ventas de juegos entre julio y septiembre correspondieron al formato digital.",
+   "link": "https://vandal.elespanol.com/noticia/2026300015/mas-del-92-de-los-juegos-que-vende-capcom-ya-son-digitales/",
+   "source": "Vandal",
+   "categoria": "CONSOLAS",
+   "slug": "2026-10-27-mas-del-92-de-los-videojuegos-vendidos-por-capcom-ya-son-en-formato-di"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "La consola portátil Acer Predator Atlas 8 llegará a Estados Unidos",
+   "summary": "Acer confirma la llegada al mercado estadounidense de su potente consola portátil Predator Atlas 8 con procesador Intel Arc.",
+   "link": "https://www.theverge.com/games/1019245/acer-predator-atlas-8-launch-price",
+   "source": "The Verge",
+   "categoria": "PC",
+   "slug": "2026-10-27-la-consola-portatil-acer-predator-atlas-8-llegara-a-estados-unidos"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Pokémon Unite cerrará sus servidores y terminará su servicio en marzo de 2027",
+   "summary": "The Pokémon Company ha anunciado oficialmente el cese definitivo de Pokémon Unite para marzo de 2027.",
+   "link": "https://www.nintendolife.com/news/2026/10/pokemon-unite-ending-service-for-switch-in-march-2027",
+   "source": "Nintendo Life",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-27-pokemon-unite-cerrara-sus-servidores-y-terminara-su-servicio-en-marzo"
+  },
   {
    "date": "2026-10-26",
    "title": "Microsoft abre un plan masivo de salidas voluntarias para unos 60.000 empleados",
@@ -243,33 +270,6 @@
    "source": "Vandal",
    "categoria": "JUEGOS",
    "slug": "2026-10-22-anunciado-serious-sam-the-third-encounter-para-mantener-la-accion-clas"
-  },
-  {
-   "date": "2026-10-22",
-   "title": "Cyberpunk 2077 añade contenido de 'Edgerunners 2' en una actualización gratuita",
-   "summary": "CD Projekt Red lanzó el parche 2.5 para Cyberpunk 2077, incluyendo objetos y elementos narrativos inspirados en la nueva temporada del anime de Netflix.",
-   "link": "https://news.xbox.com/en-us/2026/10/22/cyberpunk-2077-edgerunners-2-update/",
-   "source": "Xbox Wire",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-22-cyberpunk-2077-anade-contenido-de-edgerunners-2-en-una-actualizacion-g"
-  },
-  {
-   "date": "2026-10-22",
-   "title": "Capcom sufre una brecha de seguridad que compromete 12 millones de cuentas",
-   "summary": "La compañía detectó un acceso no autorizado a los datos de Capcom ID y advierte a los usuarios sobre posibles intentos de estafas por phishing.",
-   "link": "https://vandal.elespanol.com/noticia/2026295014/capcom-alerta-sobre-una-brecha-de-seguridad-que-afecta-a-casi-12-millones-de-cuentas-capcom-id/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-22-capcom-sufre-una-brecha-de-seguridad-que-compromete-12-millones-de-cue"
-  },
-  {
-   "date": "2026-10-22",
-   "title": "Xbox prueba el juego en la nube sin Game Pass y con opción gratis con anuncios",
-   "summary": "Microsoft permite a los Xbox Insiders retransmitir juegos comprados sin suscripción previa, ofreciendo tarifas por horas y un nivel gratuito financiado por publicidad.",
-   "link": "https://vandal.elespanol.com/noticia/2026295009/xbox-anuncia-los-precios-para-jugar-en-la-nube-sin-consola-ni-game-pass-incluyendo-opcion-gratuita-con-anuncios/",
-   "source": "Vandal",
-   "categoria": "CONSOLAS",
-   "slug": "2026-10-22-xbox-prueba-el-juego-en-la-nube-sin-game-pass-y-con-opcion-gratis-con"
   }
  ],
  "freebies": [
@@ -324,6 +324,24 @@
  ],
  "security": [
   {
+   "cve": "CVE-2026-109619",
+   "vendor": "PHP Group",
+   "product": "PHP",
+   "summary": "Esta vulnerabilidad en PHP permite a atacantes no autorizados ejecutar código malicioso de forma remota en los servidores afectados.",
+   "added": "2026-10-26",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619"
+  },
+  {
+   "cve": "CVE-2026-109618",
+   "vendor": "PHP Group",
+   "product": "PHP",
+   "summary": "Un fallo de corrupción de memoria en PHP permite a atacantes externos ejecutar código de manera remota sin necesidad de autenticarse.",
+   "added": "2026-10-26",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618"
+  },
+  {
    "cve": "CVE-2026-114625",
    "vendor": "Arista",
    "product": "VeloCloud Orchestrator",
@@ -340,24 +358,6 @@
    "added": "2026-10-23",
    "ransomware": false,
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110447"
-  },
-  {
-   "cve": "CVE-2026-96656",
-   "vendor": "Plex",
-   "product": "Media Server",
-   "summary": "Afecta a Plex Media Server y permite a un administrador escribir archivos arbitrarios que pueden ejecutarse al cargar.",
-   "added": "2026-10-20",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656"
-  },
-  {
-   "cve": "CVE-2026-96655",
-   "vendor": "Plex",
-   "product": "Media Server",
-   "summary": "Afecta a Plex Media Server y permite a un usuario autenticado realizar peticiones a direcciones internas o externas.",
-   "added": "2026-10-20",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655"
   }
  ]
 }
