@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-28T08:03-04:00",
+ "updated": "2026-10-28T13:01-04:00",
  "items": [
+  {
+   "date": "2026-10-28",
+   "title": "PlayStation Plus anuncia los juegos de noviembre",
+   "summary": "Sony ha revelado los tres títulos que se sumarán al catálogo de PS Plus Essential a partir del 3 de noviembre. Los suscriptores podrán descargar Dead Island 2, Tomb Raider IV–VI Remastered y Monster Train 2.",
+   "link": "https://www.ign.com/articles/ps-plus-november-2026-games",
+   "source": "IGN",
+   "categoria": "CONSOLAS",
+   "slug": "2026-10-28-playstation-plus-anuncia-los-juegos-de-noviembre"
+  },
   {
    "date": "2026-10-28",
    "title": "Amazon presenta el Echo Show 16, su nueva pantalla inteligente de gran formato",
@@ -261,15 +270,6 @@
    "source": "Vandal",
    "categoria": "JUEGOS",
    "slug": "2026-10-23-el-nuevo-juego-del-profesor-layton-confirma-que-llegara-doblado-al-esp"
-  },
-  {
-   "date": "2026-10-23",
-   "title": "Ciberdelincuentes usan agentes de IA para atacar bancos de Latinoamérica",
-   "summary": "Un grupo delictivo emplea modelos como Claude y Grok para automatizar ofensivas contra instituciones financieras y aplicaciones de pago regionales.",
-   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/cybercartel-hacking-gang-used-claude-and-grok-ai-agents-to-automate-attacks-on-latin-american-institutions-passwords-and-details-stolen-from-over-400-institutions-including-banks-and-payment-apps",
-   "source": "Tom's Hardware",
-   "categoria": "IA",
-   "slug": "2026-10-23-ciberdelincuentes-usan-agentes-de-ia-para-atacar-bancos-de-latinoameri"
   }
  ],
  "freebies": [
