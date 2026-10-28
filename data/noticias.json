@@ -1,6 +1,42 @@
 {
- "updated": "2026-10-27T19:03-04:00",
+ "updated": "2026-10-28T08:03-04:00",
  "items": [
+  {
+   "date": "2026-10-28",
+   "title": "Amazon presenta el Echo Show 16, su nueva pantalla inteligente de gran formato",
+   "summary": "Amazon anunció su dispositivo Echo Show 16 por 499,99 dólares, disponible para reserva e incluyendo soporte de pared y opción de pantalla mate.",
+   "link": "https://www.theverge.com/tech/1020286/amazon-echo-show-16-hands-on-price-screen-styles",
+   "source": "The Verge",
+   "categoria": "TECH",
+   "slug": "2026-10-28-amazon-presenta-el-echo-show-16-su-nueva-pantalla-inteligente-de-gran"
+  },
+  {
+   "date": "2026-10-28",
+   "title": "Conan Exiles Enhanced llegará gratis a PS5 y Xbox Series con Unreal Engine 5",
+   "summary": "Funcom anunció que la versión Enhanced de Conan Exiles se lanzará como actualización gratuita para los jugadores de consolas de actual generación.",
+   "link": "https://vandal.elespanol.com/noticia/2026301016/conan-exiles-enhanced-tambien-llegara-a-consolas-sera-una-actualizacion-gratuita-en-ps5-y-xbox-series/",
+   "source": "Vandal",
+   "categoria": "CONSOLAS",
+   "slug": "2026-10-28-conan-exiles-enhanced-llegara-gratis-a-ps5-y-xbox-series-con-unreal-en"
+  },
+  {
+   "date": "2026-10-28",
+   "title": "Empleados de Rockstar Games votarán la formación de un sindicato en pleno debut de GTA 6",
+   "summary": "El personal de Rockstar Games en Reino Unido celebrará una votación histórica de reconocimiento sindical durante el lanzamiento de GTA 6.",
+   "link": "https://www.ign.com/articles/rockstar-games-staff-set-for-historic-union-vote-at-the-same-time-gta-6-comes-out",
+   "source": "IGN",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-28-empleados-de-rockstar-games-votaran-la-formacion-de-un-sindicato-en-pl"
+  },
+  {
+   "date": "2026-10-28",
+   "title": "Apple renueva el iMac y el MacBook Pro de entrada con el nuevo procesador M6",
+   "summary": "Apple actualizó sus iMac y MacBook Pro de entrada con el chip M6 e integró conectividad Wi-Fi 7 y Bluetooth 6.",
+   "link": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
+   "source": "Ars Technica",
+   "categoria": "PC",
+   "slug": "2026-10-28-apple-renueva-el-imac-y-el-macbook-pro-de-entrada-con-el-nuevo-procesa"
+  },
   {
    "date": "2026-10-27",
    "title": "Capcom retira Street Fighter 5 de tiendas digitales y desactiva su online",
@@ -234,42 +270,6 @@
    "source": "Tom's Hardware",
    "categoria": "IA",
    "slug": "2026-10-23-ciberdelincuentes-usan-agentes-de-ia-para-atacar-bancos-de-latinoameri"
-  },
-  {
-   "date": "2026-10-23",
-   "title": "Descubren el primer exploit en Switch 2 que permite ejecutar homebrew",
-   "summary": "Un fallo de desbordamiento de enteros en la herramienta SmileBasic permitió desbloquear el acceso a código casero en la consola.",
-   "link": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
-   "source": "Ars Technica",
-   "categoria": "CONSOLAS",
-   "slug": "2026-10-23-descubren-el-primer-exploit-en-switch-2-que-permite-ejecutar-homebrew"
-  },
-  {
-   "date": "2026-10-23",
-   "title": "Spotify usará códigos QR para frenar las cuentas familiares compartidas",
-   "summary": "La plataforma exigirá escanear periódicamente un código QR en el teléfono del titular para comprobar que los miembros conviven juntos.",
-   "link": "https://www.theverge.com/entertainment/1017214/spotify-family-plan-sharing-qr-codes",
-   "source": "The Verge",
-   "categoria": "TECH",
-   "slug": "2026-10-23-spotify-usara-codigos-qr-para-frenar-las-cuentas-familiares-compartida"
-  },
-  {
-   "date": "2026-10-22",
-   "title": "EA confirma un nuevo Battlefield pese a los recortes en los estudios de la saga",
-   "summary": "Electronic Arts confirmó sus planes de continuar con la franquicia Battlefield mediante una nueva entrega en desarrollo. La medida llega tras aplicar despidos en los equipos responsables de la saga debido a que el éxito inicial no se mantuvo.",
-   "link": "https://vandal.elespanol.com/noticia/2026295028/electronic-arts-confirma-un-nuevo-battlefield-tras-diezmar-los-estudios-responsables-de-la-saga/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-22-ea-confirma-un-nuevo-battlefield-pese-a-los-recortes-en-los-estudios-d"
-  },
-  {
-   "date": "2026-10-22",
-   "title": "Sony descataloga su último reproductor Blu-ray 4K dedicado en Japón",
-   "summary": "Sony ha marcado como descontinuado su último modelo de reproductor Blu-ray 4K independiente en Japón. Con este movimiento, la compañía sigue los pasos de fabricantes como LG y reduce al mínimo la producción de estos equipos dedicados.",
-   "link": "https://www.tomshardware.com/tech-industry/sony-japan-marks-last-standalone-4k-blu-ray-player-as-discontinued-playstation-5-now-the-only-blu-ray-player-left-in-sonys-lineup",
-   "source": "Tom's Hardware",
-   "categoria": "TECH",
-   "slug": "2026-10-22-sony-descataloga-su-ultimo-reproductor-blu-ray-4k-dedicado-en-japon"
   }
  ],
  "freebies": [
