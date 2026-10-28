@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-28T13:01-04:00",
+ "updated": "2026-10-28T19:08-04:00",
  "items": [
+  {
+   "date": "2026-10-28",
+   "title": "Sony anuncia nuevos mandos DualSense y cubiertas transparentes para PS5",
+   "summary": "PlayStation presentó la colección Prism, una línea de accesorios con diseños translúcidos al estilo de los años 90. La gama incluye tres colores para mandos DualSense y cubiertas para la consola PS5, disponibles desde febrero.",
+   "link": "https://vandal.elespanol.com/noticia/2026301036/sony-recupera-los-mandos-transparentes-de-los-90-con-tres-nuevos-disenos-para-ps5-fecha-y-precios/",
+   "source": "Vandal",
+   "categoria": "CONSOLAS",
+   "slug": "2026-10-28-sony-anuncia-nuevos-mandos-dualsense-y-cubiertas-transparentes-para-ps"
+  },
   {
    "date": "2026-10-28",
    "title": "PlayStation Plus anuncia los juegos de noviembre",
@@ -261,15 +270,6 @@
    "source": "The Verge",
    "categoria": "TECH",
    "slug": "2026-10-23-google-usara-datos-de-gmail-y-google-fotos-para-personalizar-anuncios"
-  },
-  {
-   "date": "2026-10-23",
-   "title": "El nuevo juego del Profesor Layton confirma que llegará doblado al español",
-   "summary": "Level-5 confirmó que 'El profesor Layton y el Nuevo Mundo a vapor' incluirá doblaje oficial a nueve idiomas, entre ellos español.",
-   "link": "https://vandal.elespanol.com/noticia/2026296009/el-profesor-layton-y-el-nuevo-mundo-a-vapor-el-nuevo-juego-de-puzles-de-la-saga-confirma-voces-en-espanol-y/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-23-el-nuevo-juego-del-profesor-layton-confirma-que-llegara-doblado-al-esp"
   }
  ],
  "freebies": [
@@ -324,6 +324,24 @@
  ],
  "security": [
   {
+   "cve": "CVE-2026-46300",
+   "vendor": "Linux",
+   "product": "Kernel",
+   "summary": "Afecta al kernel de Linux y permite a un atacante modificar datos almacenados en memoria sin autorización para terminar implantando código malicioso en el sistema.",
+   "added": "2026-10-28",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300"
+  },
+  {
+   "cve": "CVE-2026-41709",
+   "vendor": "Broadcom",
+   "product": "VMware ESX",
+   "summary": "Afecta a Broadcom VMware ESX y permite a un atacante con acceso de administrador realizar operaciones dentro del sistema sin que queden registradas en los registros.",
+   "added": "2026-10-28",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709"
+  },
+  {
    "cve": "CVE-2026-48356",
    "vendor": "Adobe",
    "product": "Commerce and Magento",
@@ -340,24 +358,6 @@
    "added": "2026-10-27",
    "ransomware": false,
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497"
-  },
-  {
-   "cve": "CVE-2026-109619",
-   "vendor": "PHP Group",
-   "product": "PHP",
-   "summary": "Esta vulnerabilidad en PHP permite a atacantes no autorizados ejecutar código malicioso de forma remota en los servidores afectados.",
-   "added": "2026-10-26",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619"
-  },
-  {
-   "cve": "CVE-2026-109618",
-   "vendor": "PHP Group",
-   "product": "PHP",
-   "summary": "Un fallo de corrupción de memoria en PHP permite a atacantes externos ejecutar código de manera remota sin necesidad de autenticarse.",
-   "added": "2026-10-26",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618"
   }
  ]
 }
