@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-29T13:04-04:00",
+ "updated": "2026-10-29T19:03-04:00",
  "items": [
+  {
+   "date": "2026-10-29",
+   "title": "Reddit obligará a iniciar sesión para poder ver su contenido",
+   "summary": "La plataforma anunció que comenzará a exigir que los usuarios inicien sesión para navegar por el sitio. La medida pondrá fin al acceso abierto que permitía consultar debates y buscar soluciones sin registrarse.",
+   "link": "https://www.theverge.com/tech/1022571/reddit-login-requirement-q3-2026-earnings",
+   "source": "The Verge",
+   "categoria": "TECH",
+   "slug": "2026-10-29-reddit-obligara-a-iniciar-sesion-para-poder-ver-su-contenido"
+  },
   {
    "date": "2026-10-29",
    "title": "The Duskbloods, nuevo juego de FromSoftware, retrasa su estreno hasta 2027",
@@ -261,15 +270,6 @@
    "source": "Xataka",
    "categoria": "MOVILES",
    "slug": "2026-10-24-alertan-por-una-estafa-en-whatsapp-que-suplanta-contactos-pidiendo-vot"
-  },
-  {
-   "date": "2026-10-24",
-   "title": "Cult of the Lamb tendrá versión en Switch 2 con actualización gratuita",
-   "summary": "Massive Monster confirmó que su exitoso título llegará a la sucesora de Nintendo Switch y ofrecerá mejora sin costo adicional.",
-   "link": "https://www.nintendolife.com/news/2026/10/icymi-cult-of-the-lamb-summons-a-switch-2-version-includes-free-upgrade-path",
-   "source": "Nintendo Life",
-   "categoria": "CONSOLAS",
-   "slug": "2026-10-24-cult-of-the-lamb-tendra-version-en-switch-2-con-actualizacion-gratuita"
   }
  ],
  "freebies": [
@@ -290,6 +290,14 @@
    "image": "https://www.gamerpower.com/offers/1b/6a59119a8eb8d.jpg"
   },
   {
+   "title": "Hexologic",
+   "link": "https://www.gamerpower.com/open/hexologic-steam-giveaway",
+   "platforms": "PC, Steam",
+   "end_iso": "2026-10-31",
+   "worth": "$4.99",
+   "image": "https://www.gamerpower.com/offers/1b/6ae37c96c0b45.jpg"
+  },
+  {
    "title": "GetHigh.EXE",
    "link": "https://www.gamerpower.com/open/gethigh-exe-epic-games-giveaway",
    "platforms": "PC, Epic Games Store",
@@ -308,6 +316,24 @@
  ],
  "security": [
   {
+   "cve": "CVE-2026-97229",
+   "vendor": "GitLab",
+   "product": "Community Edition and Enterprise Edition",
+   "summary": "Afecta a GitLab Community y Enterprise Edition, permitiendo a atacantes remotos sin autenticar ejecutar código malicioso en el servidor mediante configuraciones de CI/CD manipuladas.",
+   "added": "2026-10-29",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229"
+  },
+  {
+   "cve": "CVE-2026-76418",
+   "vendor": "Cisco",
+   "product": "Secure Firewall ASA Software and Cisco Secure FTD Software",
+   "summary": "Afecta a cortafuegos Cisco Secure ASA y FTD, permitiendo a atacantes remotos reiniciar los dispositivos de forma inesperada para provocar la caída del servicio.",
+   "added": "2026-10-29",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418"
+  },
+  {
    "cve": "CVE-2026-46300",
    "vendor": "Linux",
    "product": "Kernel",
@@ -324,24 +350,6 @@
    "added": "2026-10-28",
    "ransomware": false,
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709"
-  },
-  {
-   "cve": "CVE-2026-48356",
-   "vendor": "Adobe",
-   "product": "Commerce and Magento",
-   "summary": "Afecta a Adobe Commerce y Magento, permitiendo a atacantes subir archivos peligrosos para ejecutar código arbitrario y tomar el control de cuentas o sesiones de los usuarios.",
-   "added": "2026-10-27",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356"
-  },
-  {
-   "cve": "CVE-2026-111497",
-   "vendor": "Google",
-   "product": "Brotli",
-   "summary": "Afecta a Google Brotli y permite a atacantes remotos ejecutar código malicioso, robar datos de la memoria o tumbar el servicio usando archivos comprimidos modificados.",
-   "added": "2026-10-27",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497"
   }
  ]
 }
