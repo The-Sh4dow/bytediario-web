@@ -1,6 +1,33 @@
 {
- "updated": "2026-10-28T19:08-04:00",
+ "updated": "2026-10-29T08:05-04:00",
  "items": [
+  {
+   "date": "2026-10-29",
+   "title": "Detectan emuladores falsos de PS5 que roban contraseñas",
+   "summary": "Repositores populares de GitHub contenían software malicioso disfrazado de emuladores para robar datos de los usuarios.",
+   "link": "https://www.tomshardware.com/tech-industry/cyber-security/fake-ps5-emulators-are-being-used-to-infect-gamers-computers-with-password-scraping-malware-two-well-known-github-repos-including-anyps5-hit",
+   "source": "Tom's Hardware",
+   "categoria": "TECH",
+   "slug": "2026-10-29-detectan-emuladores-falsos-de-ps5-que-roban-contrasenas"
+  },
+  {
+   "date": "2026-10-29",
+   "title": "Gran oferta en PC gaming con RTX 5070 Ti y 32GB de RAM",
+   "summary": "Una rebaja temporal en Newegg deja este potente equipo Alienware con procesador Intel de 24 núcleos a un precio más accesible.",
+   "link": "https://www.tomshardware.com/desktops/gaming-pcs/score-a-huge-usd1-250-saving-on-this-alienware-gaming-pc-with-an-rtx-5070-ti-and-32gb-ddr5-right-now-big-newegg-price-drop-means-you-can-grab-this-4k-ready-rig-with-a-24-core-intel-cpu-and-1tb-ssd-for-usd2-599-99",
+   "source": "Tom's Hardware",
+   "categoria": "OFERTAS",
+   "slug": "2026-10-29-gran-oferta-en-pc-gaming-con-rtx-5070-ti-y-32gb-de-ram"
+  },
+  {
+   "date": "2026-10-29",
+   "title": "Phantom Blade Zero arrasa en Steam en su lanzamiento",
+   "summary": "El nuevo juego de acción Phantom Blade Zero alcanza un pico de 448.000 jugadores simultáneos en su debut en Steam.",
+   "link": "https://www.ign.com/articles/phantom-blade-zero-beats-modern-warfare-4-steam-top-selling",
+   "source": "IGN",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-29-phantom-blade-zero-arrasa-en-steam-en-su-lanzamiento"
+  },
   {
    "date": "2026-10-28",
    "title": "Sony anuncia nuevos mandos DualSense y cubiertas transparentes para PS5",
@@ -243,33 +270,6 @@
    "source": "IGN",
    "categoria": "CONSOLAS",
    "slug": "2026-10-24-la-directora-de-operaciones-de-xbox-deja-su-cargo-a-tres-meses-de-crea"
-  },
-  {
-   "date": "2026-10-24",
-   "title": "Proponen una ley en EE. UU. para garantizar la propiedad de los juegos digitales",
-   "summary": "Una iniciativa busca que los consumidores posean realmente sus videojuegos digitales en lugar de adquirir licencias revocables.",
-   "link": "https://vandal.elespanol.com/noticia/2026297004/estados-unidos-podria-tener-una-ley-de-proteccion-a-los-gamers-que-asegure-la-propiedad-de-los-juegos-digitales/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-24-proponen-una-ley-en-ee-uu-para-garantizar-la-propiedad-de-los-juegos-d"
-  },
-  {
-   "date": "2026-10-23",
-   "title": "Epic Games prepara la llegada de Fortnite a Linux y Steam Deck",
-   "summary": "Epic Games trabaja en adaptar sus sistemas antitrampas para hacerlos compatibles con Linux. Este avance permitirá que el popular battle royale funcione finalmente de manera nativa en Steam Deck y otros entornos basados en este sistema operativo.",
-   "link": "https://vandal.elespanol.com/noticia/2026296030/fortnite-llegara-a-linux-y-eso-es-una-buena-noticia-para-quienes-tengan-steam-deck/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-23-epic-games-prepara-la-llegada-de-fortnite-a-linux-y-steam-deck"
-  },
-  {
-   "date": "2026-10-23",
-   "title": "Google usará datos de Gmail y Google Fotos para personalizar anuncios con IA",
-   "summary": "Google ha modificado su política de privacidad para añadir una excepción importante. La compañía podrá mostrar anuncios dirigidos basados en datos personales de Gmail y Google Fotos a aquellos usuarios que activen funciones de IA personalizada.",
-   "link": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
-   "source": "The Verge",
-   "categoria": "TECH",
-   "slug": "2026-10-23-google-usara-datos-de-gmail-y-google-fotos-para-personalizar-anuncios"
   }
  ],
  "freebies": [
