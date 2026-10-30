@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-30T13:05-04:00",
+ "updated": "2026-10-30T19:02-04:00",
  "items": [
+  {
+   "date": "2026-10-30",
+   "title": "Nvidia retira la RTX 5080 de su tienda tras hacer lo mismo con la RTX 5090",
+   "summary": "Nvidia retiró silenciosamente la RTX 5080 de su tienda oficial, poco después de hacer lo mismo con el modelo RTX 5090. La medida coincide con una escalada de precios en el mercado minorista, donde ya se vende a más del doble de su valor oficial.",
+   "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-store-quietly-pulls-the-rtx-5080-following-rtx-5090-removal-street-prices-climb-to-2-2x-over-msrp",
+   "source": "Tom's Hardware",
+   "categoria": "PC",
+   "slug": "2026-10-30-nvidia-retira-la-rtx-5080-de-su-tienda-tras-hacer-lo-mismo-con-la-rtx"
+  },
   {
    "date": "2026-10-29",
    "title": "Reddit obligará a iniciar sesión para poder ver su contenido",
@@ -261,15 +270,6 @@
    "source": "Tom's Hardware",
    "categoria": "TECH",
    "slug": "2026-10-24-proton-aloja-el-mapa-con-mas-de-300-000-camaras-de-vigilancia-de-flock"
-  },
-  {
-   "date": "2026-10-24",
-   "title": "Alertan por una estafa en WhatsApp que suplanta contactos pidiendo votos",
-   "summary": "Ciberdelincuentes utilizan mensajes de conocidos solicitando apoyo en supuestas votaciones para vulnerar y robar cuentas de WhatsApp.",
-   "link": "https://www.xataka.com/seguridad/podrias-votar-eliska-mensaje-inocente-que-puede-robarte-whatsapp",
-   "source": "Xataka",
-   "categoria": "MOVILES",
-   "slug": "2026-10-24-alertan-por-una-estafa-en-whatsapp-que-suplanta-contactos-pidiendo-vot"
   }
  ],
  "freebies": [
@@ -298,6 +298,14 @@
    "image": "https://www.gamerpower.com/offers/1b/6ae4af4cbf862.jpg"
   },
   {
+   "title": "Asleep: Act 1",
+   "link": "https://www.gamerpower.com/open/asleep-act-1-steam-giveaway",
+   "platforms": "PC, Steam",
+   "end_iso": "2026-11-02",
+   "worth": "$9.99",
+   "image": "https://www.gamerpower.com/offers/1b/6ae4ceb2e38bb.jpg"
+  },
+  {
    "title": "Hexologic",
    "link": "https://www.gamerpower.com/open/hexologic-steam-giveaway",
    "platforms": "PC, Steam",
@@ -324,6 +332,24 @@
  ],
  "security": [
   {
+   "cve": "CVE-2026-118527",
+   "vendor": "Ivanti",
+   "product": "Connect Secure",
+   "summary": "Afecta a Ivanti Connect Secure y permite a un atacante remoto autenticado subir archivos propios a ubicaciones específicas del sistema.",
+   "added": "2026-10-30",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527"
+  },
+  {
+   "cve": "CVE-2026-111357",
+   "vendor": "Ivanti",
+   "product": "Connect Secure",
+   "summary": "Afecta a Ivanti Connect Secure y permite que un atacante local autenticado eleve sus permisos dentro del sistema debido a fallas de autenticación.",
+   "added": "2026-10-30",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357"
+  },
+  {
    "cve": "CVE-2026-97229",
    "vendor": "GitLab",
    "product": "Community Edition and Enterprise Edition",
@@ -340,24 +366,6 @@
    "added": "2026-10-29",
    "ransomware": false,
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418"
-  },
-  {
-   "cve": "CVE-2026-46300",
-   "vendor": "Linux",
-   "product": "Kernel",
-   "summary": "Afecta al kernel de Linux y permite a un atacante modificar datos almacenados en memoria sin autorización para terminar implantando código malicioso en el sistema.",
-   "added": "2026-10-28",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300"
-  },
-  {
-   "cve": "CVE-2026-41709",
-   "vendor": "Broadcom",
-   "product": "VMware ESX",
-   "summary": "Afecta a Broadcom VMware ESX y permite a un atacante con acceso de administrador realizar operaciones dentro del sistema sin que queden registradas en los registros.",
-   "added": "2026-10-28",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709"
   }
  ]
 }
