@@ -3,8 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>ByteDiario</title>
-<meta name="claude:viewport-fit-sides" content="cover">
+<title>ByteDiario: tech y gaming, un byte al día</title>
 <meta name="description" content="ByteDiario: noticias de tecnología y gaming en español, un byte al día. Únete al canal en Telegram.">
 <meta property="og:title" content="ByteDiario">
 <meta property="og:description" content="Noticias de tecnología y gaming en español, un byte al día.">
@@ -22,24 +21,30 @@
 <link rel="canonical" href="https://bytediario.tech/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
 <style>
-  /* Identidad ByteDiario: grafito + lima. Hero en dos columnas (byte + teléfono con el canal),
-     cinta de titulares, noticias con barra lateral, horario como reloj de 24 h. */
+  /* ByteDiario: grafito + lima. Una sola idea: cada día tiene su byte.
+     Sin bordes, sin sombras, sin degradados: las superficies se separan por tono y espacio. */
   :root {
-    --bg: #0E1116; --bg-2: #0B0E12; --ink: #FFFFFF; --muted: #9BA3AF; --dim: #6B7380;
-    --line: #232934; --line-2: #2E3644; --surface: #141920; --surface-2: #1A2029;
-    --bit-off: #1A1F27; --bit-off-ink: #4B5563;
-    --brand: #C6F432; --brand-ink: #0E1116; --brand-glow: rgba(198, 244, 50, .28);
-    --focus: #36E2C6; --warn: #FFB020;
-    --tg: #17212B; --tg-bubble: #182533; --tg-ink: #E9EEF3; --tg-muted: #7D8B99; --tg-link: #6AB3F3;
-    --c-pc: #7AA2FF; --c-consolas: #36E2C6; --c-juegos: #C6F432; --c-moviles: #FFB020;
-    --c-ia: #C792FF; --c-ofertas: #FF7A90; --c-tech: #8FDDFF;
+    --bg: #0E1116; --field: #161B22; --field-2: #1D232C;
+    --ink: #FFFFFF; --muted: #B4BBC6;
+    --bit-off: #1D232C; --bit-off-ink: #7E8797;
+    --brand: #C6F432; --brand-ink: #0E1116;
+    --focus: #36E2C6; --warn: #FFB020; --alert: #FF6B6B;
+    --tg: #17212B; --tg-bubble: #182533; --tg-ink: #E9EEF3; --tg-muted: #8A97A5; --tg-link: #6AB3F3;
+    --c-pc: #8EB0FF; --c-consolas: #36E2C6; --c-juegos: #C6F432; --c-moviles: #FFB020;
+    --c-ia: #CFA2FF; --c-ofertas: #FF8C9F; --c-tech: #8FDDFF;
     --display: "Bricolage Grotesque", "Arial Black", system-ui, sans-serif;
     --body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
-    --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
-    --gutter-l: max(16px, env(safe-area-inset-left, 0px));
-    --gutter-r: max(16px, env(safe-area-inset-right, 0px));
+    /* Cinco tamaños */
+    --t-display: clamp(2.6rem, 7vw, 7rem);
+    --t-head: clamp(2rem, 4.4vw, 4rem);
+    --t-lead: 1.375rem;
+    --t-body: 1.125rem;
+    --t-small: 1rem;
+    --margin: clamp(16px, 3.4vw, 56px);
+    --gap-section: clamp(96px, 12vw, 176px);
+    --ease: cubic-bezier(.2, .8, .2, 1);
     color-scheme: dark;
   }
 
@@ -47,357 +52,277 @@
   html, body { margin: 0; }
   html { scroll-behavior: smooth; }
   body {
-    background: var(--bg);
-    color: var(--ink);
-    font-family: var(--body);
-    font-size: 1.0625rem;
-    line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
-    overflow-x: hidden;
+    background: var(--bg); color: var(--ink);
+    font-family: var(--body); font-size: var(--t-body); line-height: 1.55;
+    -webkit-font-smoothing: antialiased; overflow-x: hidden;
   }
   a { color: inherit; }
   :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 4px; }
-  h1, h2, h3 { text-wrap: balance; }
-  img { max-width: 100%; }
+  h1, h2, h3 { text-wrap: balance; margin: 0; }
+  p { margin: 0; }
+  img { max-width: 100%; display: block; }
+  ::selection { background: var(--brand); color: var(--brand-ink); }
 
-  .wrap { max-width: 72rem; margin: 0 auto; padding-left: var(--gutter-l); padding-right: var(--gutter-r); }
-  @media (min-width: 720px) {
-    .wrap { padding-left: max(32px, env(safe-area-inset-left, 0px)); padding-right: max(32px, env(safe-area-inset-right, 0px)); }
+  .wrap {
+    max-width: 92rem; margin: 0 auto;
+    padding-left: max(var(--margin), env(safe-area-inset-left, 0px));
+    padding-right: max(var(--margin), env(safe-area-inset-right, 0px));
   }
+  .grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: clamp(16px, 2.2vw, 32px); }
 
-  /* ── Encabezado ── */
-  body::before {
-    content: ""; position: fixed; inset: 0 0 auto; z-index: 60;
-    height: env(safe-area-inset-top, 0px); background: rgba(14, 17, 22, .92);
-  }
-  .top {
-    position: sticky; top: env(safe-area-inset-top, 0px); z-index: 50;
-    background: rgba(14, 17, 22, .72);
-    backdrop-filter: blur(16px) saturate(140%); -webkit-backdrop-filter: blur(16px) saturate(140%);
-    border-bottom: 1px solid transparent; transition: border-color .3s;
-  }
-  .top.scrolled { border-bottom-color: var(--line); }
-  .top .wrap { display: flex; justify-content: space-between; align-items: center; gap: 16px; height: 64px; }
-  .wordmark {
-    display: inline-flex; align-items: center; gap: 10px;
-    font-family: var(--display); font-weight: 800; font-size: 1.25rem; letter-spacing: -0.02em; text-decoration: none;
-  }
-  .wordmark span { color: var(--brand); }
-  .mini-byte { display: inline-grid; grid-template-columns: repeat(4, 5px); gap: 2px; }
-  .mini-byte i { width: 5px; height: 12px; border-radius: 1.5px; background: var(--bit-off); }
-  .mini-byte i.on { background: var(--brand); }
-  .top nav { display: flex; align-items: center; gap: 22px; }
-  .top nav a { color: var(--muted); text-decoration: none; font-weight: 700; font-size: .95rem; transition: color .2s; }
-  .top nav a:hover, .top nav a.current { color: var(--ink); }
-  .top nav a.nav-cta {
-    color: var(--brand-ink); background: var(--brand); padding: 7px 16px; border-radius: 999px;
-    transition: background-color .2s, transform .2s;
-  }
-  .top nav a.nav-cta:hover { background: #fff; transform: translateY(-1px); }
-  @media (max-width: 640px) { .nav-wide { display: none; } .top nav { gap: 14px; } }
+  h2 { font-family: var(--display); font-weight: 800; font-size: var(--t-head); line-height: 1; letter-spacing: -0.035em; }
+  .lead-text { font-size: var(--t-lead); line-height: 1.4; }
+  .small { font-size: var(--t-small); color: var(--muted); }
 
-  /* ── Portada ── */
-  .hero { position: relative; padding: 56px 0 64px; overflow: hidden; }
-  .hero::before {
-    content: ""; position: absolute; inset: -20% -10% auto auto; width: 70%; height: 120%;
-    background: radial-gradient(closest-side, rgba(198, 244, 50, .10), transparent 70%);
-    pointer-events: none;
-  }
-  .hero::after {
-    content: ""; position: absolute; inset: 0;
-    background-image: radial-gradient(rgba(255,255,255,.055) 1px, transparent 1px);
-    background-size: 22px 22px;
-    mask-image: linear-gradient(to bottom, #000 0%, transparent 85%);
-    -webkit-mask-image: linear-gradient(to bottom, #000 0%, transparent 85%);
-    pointer-events: none;
-  }
-  .hero-grid { position: relative; z-index: 1; display: grid; gap: 56px; align-items: center; }
-  @media (min-width: 960px) { .hero-grid { grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: 48px; } }
+  /* Categorías: el color va en la palabra, nada más */
+  .cat-PC { --c: var(--c-pc); } .cat-CONSOLAS { --c: var(--c-consolas); } .cat-JUEGOS { --c: var(--c-juegos); }
+  .cat-MOVILES { --c: var(--c-moviles); } .cat-IA { --c: var(--c-ia); } .cat-OFERTAS { --c: var(--c-ofertas); } .cat-TECH { --c: var(--c-tech); }
+  .cat { color: var(--c, var(--brand)); font-weight: 700; }
 
-  .byte { display: grid; grid-template-columns: repeat(8, 1fr); gap: clamp(4px, 1.1vw, 10px); max-width: 36rem; }
-  .bit { display: flex; flex-direction: column; align-items: center; gap: 8px; perspective: 400px; }
-  .cell {
-    width: 100%; aspect-ratio: 3 / 4; border-radius: clamp(4px, .9vw, 10px);
-    background: var(--bit-off); display: grid; place-items: center;
-    font-family: var(--display); font-weight: 800; font-size: clamp(1.3rem, 4.6vw, 3rem);
-    color: var(--bit-off-ink);
-    transition: background-color .35s ease, color .35s ease, box-shadow .5s ease;
-  }
-  .cell.flip { animation: flip .5s cubic-bezier(.3, .7, .3, 1); }
-  @keyframes flip { 0% { transform: rotateX(0); } 50% { transform: rotateX(90deg); } 100% { transform: rotateX(0); } }
-  .cell.on { background: var(--brand); color: var(--brand-ink); box-shadow: 0 0 28px var(--brand-glow); }
-  .place { font-family: var(--mono); font-size: .72rem; color: var(--dim); font-variant-numeric: tabular-nums; }
-  .reading { margin: 18px 0 0; color: var(--muted); max-width: 36rem; font-size: 1rem; }
-  .reading strong { color: var(--ink); font-family: var(--mono); font-weight: 500; }
-
-  h1 {
-    font-family: var(--display); font-weight: 800;
-    font-size: clamp(2.5rem, 6.4vw, 4.6rem); line-height: 1; letter-spacing: -0.04em;
-    margin: 40px 0 20px; max-width: 13ch;
-  }
-  h1 .hl { color: var(--brand); }
-  .lede { font-size: 1.2rem; color: var(--muted); max-width: 34rem; margin: 0 0 32px; }
-  .actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
-  .cta {
+  /* Botones: píldora, un solo relleno */
+  .btn {
     display: inline-flex; align-items: center; gap: 10px;
     background: var(--brand); color: var(--brand-ink);
-    padding: 14px 24px; border-radius: 999px; font-weight: 700; text-decoration: none;
-    box-shadow: 0 10px 30px -10px var(--brand-glow);
-    transition: background-color .2s, transform .2s, box-shadow .2s;
+    padding: 16px 28px; border-radius: 999px; font-weight: 700; font-size: var(--t-body); text-decoration: none;
+    transition: background-color .2s, transform .2s var(--ease);
   }
-  .cta:hover { background: #fff; transform: translateY(-2px); box-shadow: 0 16px 36px -12px rgba(255,255,255,.35); }
-  .cta svg { width: 20px; height: 20px; flex: none; }
-  .ghost {
-    display: inline-flex; align-items: center; gap: 8px; padding: 13px 22px; border-radius: 999px;
-    border: 1px solid var(--line-2); color: var(--ink); font-weight: 700; text-decoration: none;
-    transition: border-color .2s, background-color .2s;
-  }
-  .ghost:hover { border-color: var(--brand); background: var(--surface); }
+  .btn:hover { background: var(--ink); transform: translateY(-2px); }
+  .btn:active { transform: translateY(0) scale(.97); }
+  .btn svg { width: 20px; height: 20px; flex: none; }
+  .link-arrow { font-weight: 700; text-decoration: none; display: inline-flex; gap: 8px; align-items: center; }
+  .link-arrow span { transition: transform .25s var(--ease); }
+  .link-arrow:hover { color: var(--brand); }
+  .link-arrow:hover span { transform: translateX(4px); }
 
-  .in { animation: up .7s cubic-bezier(.2, .8, .2, 1) both; }
-  .d1 { animation-delay: .9s; } .d2 { animation-delay: 1s; } .d3 { animation-delay: 1.1s; } .d4 { animation-delay: .5s; }
-  @keyframes up { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+  /* ── Encabezado: barra plana ── */
+  .top { position: sticky; top: 0; z-index: 50; background: var(--bg); padding-top: env(safe-area-inset-top, 0px); }
+  .top .wrap { display: flex; justify-content: space-between; align-items: center; gap: 16px; height: 68px; }
+  .wordmark {
+    display: inline-flex; align-items: center; gap: 10px;
+    font-family: var(--display); font-weight: 800; font-size: 1.375rem; letter-spacing: -0.02em; text-decoration: none;
+  }
+  .wordmark b { color: var(--brand); font-weight: 800; }
+  .mini-byte { display: inline-grid; grid-template-columns: repeat(4, 5px); gap: 2px; }
+  .mini-byte i { width: 5px; height: 13px; border-radius: 1.5px; background: var(--bit-off); }
+  .mini-byte i.on { background: var(--brand); }
+  .top nav { display: flex; align-items: center; gap: 28px; }
+  .top nav a { color: var(--muted); text-decoration: none; font-weight: 700; font-size: var(--t-small); transition: color .2s; }
+  .top nav a:hover { color: var(--ink); }
+  .top nav a.nav-cta { color: var(--brand-ink); background: var(--brand); padding: 9px 18px; border-radius: 999px; transition: background-color .2s, transform .2s var(--ease); }
+  .top nav a.nav-cta:hover { background: var(--ink); transform: translateY(-1px); }
+  @media (max-width: 640px) { .nav-wide { display: none; } }
 
-  /* Teléfono con el canal */
-  .phone-wrap { display: flex; justify-content: center; }
-  .phone {
-    width: min(100%, 340px); border-radius: 44px; padding: 10px;
-    background: linear-gradient(160deg, #2A303A, #12161C 60%);
-    box-shadow: 0 50px 90px -30px rgba(0,0,0,.8), 0 0 0 1px #313845, 0 0 80px -20px var(--brand-glow);
-    animation: float 7s ease-in-out infinite;
+  /* ── Portada: el byte del día es la imagen ── */
+  .hero { padding: clamp(24px, 4vw, 56px) 0 clamp(64px, 8vw, 120px); }
+  .byte { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: clamp(5px, 1vw, 14px); }
+  .bit { display: flex; flex-direction: column; gap: 10px; perspective: 600px; }
+  .cell {
+    aspect-ratio: 4 / 5; border-radius: clamp(5px, .8vw, 12px);
+    background: var(--bit-off); color: var(--bit-off-ink);
+    display: grid; place-items: center;
+    font-family: var(--display); font-weight: 800; font-size: var(--t-display); line-height: 1;
+    transition: background-color .35s ease, color .35s ease;
   }
-  @keyframes float { 0%, 100% { transform: translateY(0) rotate(-1.2deg); } 50% { transform: translateY(-10px) rotate(-.4deg); } }
-  .screen { border-radius: 35px; overflow: hidden; background: #0E1621; height: 600px; display: flex; flex-direction: column; }
-  .tg-bar {
-    display: flex; align-items: center; gap: 10px; padding: 34px 14px 10px; background: var(--tg);
-    border-bottom: 1px solid rgba(255,255,255,.05);
+  .cell.flip { animation: flip .55s var(--ease); }
+  @keyframes flip { 0% { transform: rotateX(0); } 50% { transform: rotateX(90deg); } 100% { transform: rotateX(0); } }
+  .cell.on { background: var(--brand); color: var(--brand-ink); }
+  .place { font-size: var(--t-small); color: var(--muted); text-align: center; font-variant-numeric: tabular-nums; }
+  .reading { color: var(--muted); font-size: var(--t-small); max-width: 34rem; }
+  .reading strong { color: var(--brand); font-variant-numeric: tabular-nums; }
+
+  .hero-text { margin-top: clamp(64px, 5vw, 72px); row-gap: 28px; align-items: end; }
+  h1 {
+    grid-column: 1 / -1; font-family: var(--display); font-weight: 800;
+    font-size: var(--t-display); line-height: .95; letter-spacing: -0.045em;
   }
-  .tg-bar .back { color: var(--tg-link); font-size: 1.4rem; line-height: 1; }
-  .tg-avatar { width: 34px; height: 34px; border-radius: 50%; background: var(--bg); display: grid; place-items: center; flex: none; }
-  .tg-avatar .mini-byte { transform: scale(.8); }
-  .tg-title { min-width: 0; }
-  .tg-title b { display: block; font-size: .92rem; color: var(--tg-ink); line-height: 1.2; }
-  .tg-title span { font-size: .75rem; color: var(--tg-muted); }
-  .tg-feed {
-    flex: 1; padding: 14px 10px; display: flex; flex-direction: column; justify-content: flex-end; gap: 10px;
-    overflow: hidden;
-    background:
-      radial-gradient(circle at 20% 20%, rgba(106,179,243,.06), transparent 40%),
-      radial-gradient(circle at 80% 70%, rgba(198,244,50,.05), transparent 40%), #0E1621;
+  .hero-side { grid-column: 1 / -1; display: grid; gap: 24px; justify-items: start; }
+  .hero-side .lead-text { max-width: 34rem; }
+  .hero-actions { display: flex; flex-wrap: wrap; gap: 18px 28px; align-items: center; }
+  @media (min-width: 1000px) {
+    h1 { grid-column: 1 / span 7; }
+    .hero-side { grid-column: 8 / -1; padding-bottom: .4em; }
   }
-  .tg-day { align-self: center; font-size: .72rem; color: var(--tg-ink); background: rgba(0,0,0,.35); padding: 2px 10px; border-radius: 999px; }
-  .msg {
-    background: var(--tg-bubble); color: var(--tg-ink); border-radius: 14px 14px 14px 4px;
-    padding: 9px 11px 6px; font-size: .8rem; line-height: 1.45; max-width: 94%;
-    opacity: 0; transform: translateY(14px) scale(.98);
-    transition: opacity .5s ease, transform .5s cubic-bezier(.2, .8, .2, 1);
-  }
-  .msg.show { opacity: 1; transform: none; }
-  .msg .m-head { font-weight: 700; margin-bottom: 4px; }
-  .msg ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 4px; }
-  .msg li { display: grid; grid-template-columns: auto 1fr; gap: 6px; }
-  .msg .m-link { color: var(--tg-link); }
-  .msg .m-sum { color: #C3CDD6; margin-top: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .msg .m-foot { display: flex; justify-content: space-between; gap: 8px; margin-top: 6px; font-size: .68rem; color: var(--tg-muted); }
-  .msg .m-cat { color: var(--brand); font-weight: 700; }
-  .tg-join {
-    margin: 0 10px 12px; text-align: center; padding: 11px; border-radius: 12px;
-    background: var(--tg); color: var(--tg-link); font-weight: 700; font-size: .85rem; text-decoration: none;
-  }
-  .tg-join:hover { background: #1E2B38; }
 
   /* ── Cinta de titulares ── */
-  .ticker { border-block: 1px solid var(--line); background: var(--bg-2); overflow: hidden; position: relative; }
-  .ticker::before, .ticker::after { content: ""; position: absolute; top: 0; bottom: 0; width: 60px; z-index: 1; pointer-events: none; }
-  .ticker::before { left: 0; background: linear-gradient(90deg, var(--bg-2), transparent); }
-  .ticker::after { right: 0; background: linear-gradient(-90deg, var(--bg-2), transparent); }
-  .ticker-track { display: flex; width: max-content; animation: marquee 60s linear infinite; }
-  .ticker:hover .ticker-track { animation-play-state: paused; }
-  .ticker-track a {
-    display: inline-flex; align-items: center; gap: 10px; white-space: nowrap;
-    padding: 14px 28px; text-decoration: none; font-weight: 700; font-size: .95rem; color: var(--ink);
-  }
+  .ticker { background: var(--field); overflow: hidden; }
+  .ticker-track { display: flex; width: max-content; animation: marquee 70s linear infinite; }
+  .ticker:hover .ticker-track, .ticker:focus-within .ticker-track { animation-play-state: paused; }
+  .ticker-track a { display: inline-flex; gap: 10px; white-space: nowrap; padding: 18px 36px 18px 0; margin-left: 36px; text-decoration: none; font-weight: 700; font-size: var(--t-small); }
   .ticker-track a:hover { color: var(--brand); }
-  .ticker-track a::after { content: ""; width: 6px; height: 6px; background: var(--line-2); border-radius: 1px; margin-left: 28px; }
-  .ticker-track .k { font-family: var(--mono); font-size: .72rem; font-weight: 500; text-transform: uppercase; letter-spacing: .06em; color: var(--c, var(--brand)); }
   @keyframes marquee { to { transform: translateX(-50%); } }
 
   /* ── Secciones ── */
-  .section { padding: 72px 0; }
-  .section + .section { border-top: 1px solid var(--line); }
-  .eyebrow { font-family: var(--mono); font-size: .75rem; text-transform: uppercase; letter-spacing: .1em; color: var(--brand); margin: 0 0 10px; }
-  h2 {
-    font-family: var(--display); font-weight: 800; font-size: clamp(1.8rem, 3.6vw, 2.5rem);
-    letter-spacing: -0.03em; line-height: 1.1; margin: 0 0 10px;
-  }
-  .section-intro { color: var(--muted); margin: 0 0 36px; max-width: 40rem; }
+  .section { padding-top: var(--gap-section); }
+  .section-head { display: flex; justify-content: space-between; align-items: end; gap: 12px 32px; flex-wrap: wrap; margin-bottom: clamp(36px, 4vw, 64px); }
+  .section-head .small { margin-top: 14px; }
 
-  .js .reveal { opacity: 0; transform: translateY(22px); transition: opacity .7s ease, transform .7s cubic-bezier(.2, .8, .2, 1); }
-  .js .reveal.visible { opacity: 1; transform: none; }
-
-  /* Categorías */
-  .cat-PC { --c: var(--c-pc); } .cat-CONSOLAS { --c: var(--c-consolas); } .cat-JUEGOS { --c: var(--c-juegos); }
-  .cat-MOVILES { --c: var(--c-moviles); } .cat-IA { --c: var(--c-ia); } .cat-OFERTAS { --c: var(--c-ofertas); } .cat-TECH { --c: var(--c-tech); }
-  .chip {
-    display: inline-flex; align-items: center; gap: 6px;
-    font-family: var(--mono); font-size: .72rem; font-weight: 500; text-transform: uppercase; letter-spacing: .06em;
-    color: var(--c, var(--brand));
+  /* Noticias: titular grande + lista en letra grande */
+  .news { row-gap: 56px; }
+  .lead-story { grid-column: 1 / -1; text-decoration: none; display: grid; gap: 18px; align-content: start; }
+  @media (min-width: 1000px) {
+    .lead-story { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: clamp(16px, 2.2vw, 32px); align-items: start; }
+    .lead-story .title { grid-column: 1 / span 7; grid-row: 1 / span 3; }
+    .lead-story .meta, .lead-story .sum, .lead-story .go { grid-column: 8 / -1; }
   }
-  .chip::before { content: ""; width: 7px; height: 7px; border-radius: 2px; background: currentColor; }
-
-  /* ── Noticias ── */
-  .today-grid { display: grid; gap: 56px; }
-  @media (min-width: 960px) { .today-grid { grid-template-columns: minmax(0, 1fr) 21rem; gap: 56px; align-items: start; } }
-  .block-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 6px; flex-wrap: wrap; }
-  .block-head h2 { margin: 0; }
-  .block-head a { color: var(--muted); font-size: .95rem; font-weight: 700; text-decoration: none; white-space: nowrap; }
-  .block-head a:hover { color: var(--brand); }
-  .block-note { color: var(--muted); font-size: .9rem; margin: 0 0 22px; }
-
-  .news-grid { display: grid; gap: 14px; grid-template-columns: 1fr; }
-  @media (min-width: 640px) { .news-grid { grid-template-columns: 1fr 1fr; } }
-  .card {
-    position: relative; display: flex; flex-direction: column; gap: 8px; min-width: 0;
-    background: var(--surface); border: 1px solid var(--line); border-radius: 18px;
-    padding: 20px; text-decoration: none;
-    transition: border-color .25s, transform .25s cubic-bezier(.2, .8, .2, 1), background-color .25s;
+  .lead-story .meta { font-size: var(--t-small); color: var(--muted); }
+  .lead-story .title { margin: 0; }
+  .lead-story .title {
+    font-family: var(--display); font-weight: 800; font-size: clamp(1.5rem, 2.6vw, 2.25rem);
+    line-height: 1.08; letter-spacing: -0.025em; max-width: 44ch; transition: color .2s;
   }
-  a.card:hover { border-color: color-mix(in srgb, var(--c, var(--brand)) 55%, var(--line)); transform: translateY(-3px); background: var(--surface-2); }
-  .card-meta { display: flex; justify-content: space-between; gap: 10px; align-items: center; font-size: .82rem; color: var(--dim); }
-  .card-title { font-weight: 700; line-height: 1.35; font-size: 1.02rem; }
-  .card .arrow { margin-top: auto; padding-top: 6px; color: var(--dim); font-size: .85rem; transition: color .2s; }
-  a.card:hover .arrow { color: var(--c, var(--brand)); }
-  .card.lead {
-    grid-column: 1 / -1; padding: 28px; gap: 12px; overflow: hidden;
-    background:
-      radial-gradient(120% 140% at 100% 0%, color-mix(in srgb, var(--c, var(--brand)) 16%, transparent), transparent 55%),
-      var(--surface);
-  }
-  .card.lead .card-title { font-family: var(--display); font-weight: 800; font-size: clamp(1.45rem, 3vw, 2rem); line-height: 1.12; letter-spacing: -0.025em; }
-  .card.lead p { margin: 0; color: var(--muted); max-width: 46rem; }
-  .card.lead .badge {
-    align-self: flex-start; font-family: var(--mono); font-size: .7rem; letter-spacing: .06em;
-    text-transform: uppercase; color: var(--brand-ink); background: var(--brand); padding: 3px 9px; border-radius: 999px;
-  }
-  .skeleton { height: 120px; border-radius: 18px; background: linear-gradient(90deg, var(--surface) 0%, var(--surface-2) 50%, var(--surface) 100%); background-size: 200% 100%; animation: shimmer 1.4s infinite; }
-  .skeleton.big { grid-column: 1 / -1; height: 190px; }
-  @keyframes shimmer { to { background-position: -200% 0; } }
-  .feed-more {
-    display: inline-flex; align-items: center; gap: 8px; margin-top: 22px; color: var(--ink); font-weight: 700; text-decoration: none;
-    border: 1px solid var(--line-2); border-radius: 999px; padding: 10px 20px; transition: border-color .2s;
-  }
-  .feed-more:hover { border-color: var(--brand); }
-  .news-empty { color: var(--muted); margin: 0; }
+  .lead-story:hover .title { color: var(--brand); }
+  .lead-story .sum { color: var(--muted); max-width: 40rem; font-size: var(--t-lead); line-height: 1.4; }
+  .lead-story .go { font-weight: 700; color: var(--c, var(--brand)); }
+  .story-list { grid-column: 1 / -1; list-style: none; margin: 0; padding: 0; display: grid; gap: 8px 32px; }
+  @media (min-width: 760px) { .story-list { grid-template-columns: 1fr 1fr; } }
+  .story-list a { display: grid; gap: 6px; padding: 16px 18px; margin: 0 -18px; border-radius: 12px; text-decoration: none; transition: background-color .2s; }
+  .story-list a:hover { background: var(--field); }
+  .story-list .meta { font-size: var(--t-small); color: var(--muted); }
+  .story-list .title { font-weight: 700; font-size: var(--t-lead); line-height: 1.3; }
+  .news-empty { color: var(--muted); }
+  .skeleton { height: 1.4em; border-radius: 8px; background: var(--field); margin-bottom: 14px; }
 
-  /* Barra lateral */
-  .side { display: grid; gap: 22px; }
-  .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 22px; min-width: 0; }
-  .panel h2 { font-size: 1.35rem; }
-  .rows { list-style: none; margin: 0; padding: 0; }
-  .rows li + li { border-top: 1px solid var(--line); }
-  .rows a, .rows .row { display: flex; gap: 12px; align-items: center; padding: 12px 0; text-decoration: none; }
-  .rows a:hover .row-title { color: var(--brand); }
-  .row-body { min-width: 0; flex: 1; }
-  .row-title { display: block; font-weight: 700; line-height: 1.3; transition: color .2s; }
-  .row-sub { display: block; font-size: .85rem; color: var(--muted); }
-  .row-sub .soon { color: var(--warn); font-weight: 700; }
-  .thumb { width: 76px; height: 44px; border-radius: 8px; object-fit: cover; flex: none; background: var(--bit-off); }
-  .free { font-family: var(--mono); font-size: .68rem; font-weight: 500; letter-spacing: .04em; text-transform: uppercase; color: var(--brand-ink); background: var(--brand); padding: 3px 8px; border-radius: 999px; flex: none; }
-  .vuln-sum { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; font-size: .88rem; color: var(--muted); margin-top: 2px; }
-  .rows.vulns a { align-items: flex-start; }
-  .cve { font-family: var(--mono); font-size: .78rem; }
-  .tag-ransom { display: inline-block; margin-top: 6px; font-size: .72rem; font-weight: 700; color: var(--brand-ink); background: var(--warn); border-radius: 6px; padding: 1px 7px; }
-  .pulse { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #FF5D5D; margin-right: 8px; vertical-align: 2px; box-shadow: 0 0 0 0 rgba(255, 93, 93, .6); animation: ping 1.8s infinite; }
-  @keyframes ping { 70% { box-shadow: 0 0 0 8px rgba(255, 93, 93, 0); } 100% { box-shadow: 0 0 0 0 rgba(255, 93, 93, 0); } }
-  .side-more { margin-top: 6px; background: none; border: 0; padding: 4px 0; cursor: pointer; color: var(--muted); font: inherit; font-size: .9rem; font-weight: 700; }
-  .side-more:hover { color: var(--brand); }
-  .sec-tip { margin: 14px 0 0; padding: 12px 14px; border-left: 3px solid var(--brand); background: var(--bg); border-radius: 0 10px 10px 0; font-size: .9rem; }
-  .sec-tip strong { display: block; }
-  .sec-tip span { color: var(--muted); }
-  .source-note { color: var(--dim); font-size: .8rem; margin: 12px 0 0; }
+  /* Juegos gratis: campo de color con las portadas */
+  .free-band { background: var(--field); margin-top: var(--gap-section); padding: clamp(56px, 6vw, 96px) 0; }
+  .games { list-style: none; margin: 0; padding: 0; display: grid; gap: 40px 28px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr)); }
+  .games a { display: grid; gap: 14px; text-decoration: none; }
+  .cover { aspect-ratio: 460 / 215; background: var(--field-2); border-radius: 10px; overflow: hidden; }
+  .cover img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s var(--ease); }
+  .games a:hover .cover img { transform: scale(1.04); }
+  .cover.no-img { display: grid; place-items: center; background: var(--field-2); color: var(--muted); font-weight: 700; font-size: var(--t-body); padding: 16px; text-align: center; }
+  .game-title { font-weight: 700; font-size: var(--t-lead); line-height: 1.25; }
+  .games a:hover .game-title { color: var(--brand); }
+  .game-sub { font-size: var(--t-small); color: var(--muted); }
+  .game-sub .soon { color: var(--warn); font-weight: 700; }
+  .game-sub .was { text-decoration: line-through; }
+  .more-btn { margin-top: 36px; background: var(--field-2); color: var(--ink); border: 0; border-radius: 999px; padding: 12px 22px; font: inherit; font-weight: 700; font-size: var(--t-small); cursor: pointer; transition: background-color .2s, transform .2s var(--ease); }
+  .more-btn:hover { background: var(--brand); color: var(--brand-ink); }
+  .more-btn:active { transform: scale(.97); }
+  .source-note { margin-top: 28px; }
 
-  /* ── Horario ── */
-  .clock { background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 26px 26px 22px; margin-bottom: 40px; }
-  .clock-top { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px 20px; margin-bottom: 26px; }
-  .clock-next { font-weight: 700; }
+  /* Seguridad */
+  .security { row-gap: 48px; }
+  .sec-intro { grid-column: 1 / -1; display: grid; gap: 28px; align-content: start; }
+  .sec-intro h2 { display: flex; align-items: center; gap: 18px; }
+  .pulse { width: .28em; height: .28em; border-radius: 50%; background: var(--alert); flex: none; }
+  @keyframes pulse { 50% { transform: scale(.6); opacity: .5; } }
+  .tip { background: var(--brand); color: var(--brand-ink); border-radius: 14px; padding: 26px 28px; display: grid; gap: 8px; max-width: 34rem; }
+  .tip strong { font-size: var(--t-small); }
+  .tip span { font-size: var(--t-lead); line-height: 1.35; font-weight: 700; }
+  .vulns { grid-column: 1 / -1; list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+  .vulns a, .vulns .row { display: grid; gap: 6px; padding: 18px 20px; border-radius: 12px; background: var(--field); text-decoration: none; transition: background-color .2s; }
+  .vulns a:hover { background: var(--field-2); }
+  .vuln-title { font-weight: 700; font-size: var(--t-lead); line-height: 1.25; }
+  .vuln-sub { font-size: var(--t-small); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .vuln-sum { color: var(--muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .tag-ransom { justify-self: start; font-size: var(--t-small); font-weight: 700; color: var(--brand-ink); background: var(--warn); border-radius: 6px; padding: 4px 10px; }
+  @media (min-width: 1000px) {
+    .sec-intro { grid-column: 1 / span 5; position: sticky; top: 100px; }
+    .vulns { grid-column: 7 / -1; }
+  }
+
+  /* Horario */
+  .clock { margin-bottom: clamp(56px, 6vw, 96px); }
+  .clock-top { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px 28px; margin-bottom: 36px; }
+  .clock-next { font-size: var(--t-lead); }
   .clock-next b { color: var(--brand); }
-  .countdown { font-family: var(--mono); font-size: 1.6rem; font-weight: 500; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
-  .track { position: relative; height: 56px; margin: 0 6px; }
-  .track-line { position: absolute; left: 0; right: 0; top: 26px; height: 4px; border-radius: 4px; background: var(--bit-off); }
-  .track-fill { position: absolute; left: 0; top: 26px; height: 4px; border-radius: 4px; background: linear-gradient(90deg, rgba(198,244,50,.15), var(--brand)); width: 0; transition: width 1.4s cubic-bezier(.2, .8, .2, 1); }
-  .stop { position: absolute; top: 18px; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 10px; }
-  .stop i { width: 20px; height: 20px; border-radius: 6px; background: var(--bg); border: 2px solid var(--line-2); }
-  .stop.done i { background: var(--brand); border-color: var(--brand); }
-  .stop.next i { border-color: var(--brand); box-shadow: 0 0 0 6px rgba(198,244,50,.12); }
-  .stop span { font-family: var(--mono); font-size: .75rem; color: var(--muted); white-space: nowrap; }
-  .now { position: absolute; top: 6px; width: 2px; height: 44px; background: var(--ink); border-radius: 2px; transform: translateX(-50%); transition: left 1.4s cubic-bezier(.2, .8, .2, 1); }
-  .now::before { content: "Ahora"; position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); font-family: var(--mono); font-size: .65rem; color: var(--ink); padding-bottom: 2px; }
-  .hours { display: flex; justify-content: space-between; margin: 6px 6px 0; font-family: var(--mono); font-size: .68rem; color: var(--dim); }
+  .countdown { font-family: var(--display); font-weight: 800; font-size: var(--t-head); letter-spacing: -0.03em; line-height: 1; font-variant-numeric: tabular-nums; }
+  .track { position: relative; height: 92px; }
+  .track-line { position: absolute; left: 0; right: 0; top: 30px; height: 12px; border-radius: 12px; background: var(--field-2); }
+  .track-fill { position: absolute; left: 0; top: 30px; height: 12px; border-radius: 12px; background: var(--brand); width: 0; transition: width 1.4s var(--ease); }
+  .stop { position: absolute; top: 22px; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 14px; }
+  .stop i { width: 28px; height: 28px; border-radius: 8px; background: var(--field-2); }
+  .stop.done i { background: var(--brand); }
+  .stop.next i { background: var(--ink); animation: pulse 1.6s ease-in-out infinite; }
+  .stop span { font-size: var(--t-small); font-weight: 700; color: var(--muted); white-space: nowrap; }
+  .now { position: absolute; top: 0; width: 4px; height: 72px; background: var(--ink); border-radius: 4px; transform: translateX(-50%); transition: left 1.4s var(--ease); }
+  .hours { display: flex; justify-content: space-between; font-size: var(--t-small); color: var(--muted); }
 
-  .schedule { display: grid; gap: 40px; }
-  @media (min-width: 760px) { .schedule { grid-template-columns: 1fr 1fr; gap: 56px; } }
-  .schedule h3 { font-size: 1.1rem; margin: 0 0 8px; }
-  .slots { list-style: none; margin: 0; padding: 0; }
-  .slots li { display: grid; grid-template-columns: 7.2rem 1fr; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--line); }
-  .slots li:first-child { border-top: 1px solid var(--line); }
-  .slot-when { font-family: var(--mono); font-weight: 500; font-size: .95rem; white-space: nowrap; font-variant-numeric: tabular-nums; padding-top: 1px; }
-  .slot-what strong { display: block; }
-  .slot-what span { color: var(--muted); font-size: .95rem; }
+  .schedule { row-gap: 56px; align-items: start; }
+  .slots-block { grid-column: 1 / -1; display: grid; gap: 22px; align-content: start; }
+  .slots-block h3 { font-size: var(--t-lead); }
+  .slots { list-style: none; margin: 0; padding: 0; display: grid; gap: 44px; }
+  .slot-when { display: block; font-family: var(--display); font-weight: 800; font-size: clamp(2rem, 2.5vw, 2.25rem); letter-spacing: -0.03em; line-height: 1.05; font-variant-numeric: tabular-nums; }
+  .slot-what strong { display: block; margin-top: 4px; }
+  .slot-what span { color: var(--muted); }
   .slots li.is-next .slot-when, .slots li.is-today .slot-when { color: var(--brand); }
-  .week { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; margin: 0 0 18px; }
-  .week span { text-align: center; font-family: var(--mono); font-size: .72rem; padding: 8px 0; border-radius: 8px; background: var(--bit-off); color: var(--dim); }
-  .week span.has { color: var(--ink); background: var(--surface-2); }
-  .week span.today { outline: 2px solid var(--brand); outline-offset: -2px; color: var(--brand); }
-  .tz { color: var(--muted); font-size: .9rem; margin: 22px 0 0; }
-
-  /* ── Temas ── */
-  .topic-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
-  @media (min-width: 760px) { .topic-list { grid-template-columns: repeat(3, 1fr); } }
-  .topic { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 24px; transition: transform .25s, border-color .25s; }
-  .topic:hover { transform: translateY(-3px); border-color: color-mix(in srgb, var(--c) 50%, var(--line)); }
-  .topic .ico { width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; margin-bottom: 16px; color: var(--c); background: color-mix(in srgb, var(--c) 14%, transparent); }
-  .topic .ico svg { width: 22px; height: 22px; }
-  .topic h3 { font-size: 1.1rem; margin: 0 0 6px; }
-  .topic p { margin: 0; color: var(--muted); }
-  .sources { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 28px; }
-  .sources span { font-size: .85rem; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; }
-
-  /* ── Llamada final ── */
-  .join { padding: 0 0 80px; }
-  .join-box {
-    position: relative; overflow: hidden; border-radius: 26px; padding: clamp(28px, 5vw, 56px);
-    background: var(--brand); color: var(--brand-ink);
-    display: grid; gap: 24px; align-items: center;
+  .week { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; }
+  .week span { text-align: center; font-size: var(--t-small); font-weight: 700; padding: 10px 0; border-radius: 8px; background: var(--field); color: var(--muted); }
+  .week span.has { background: var(--field-2); color: var(--ink); }
+  .week span.today { background: var(--brand); color: var(--brand-ink); }
+  .tz { margin-top: 48px; }
+  .phone-wrap { grid-column: 1 / -1; display: flex; justify-content: center; }
+  @media (min-width: 760px) { .slots-block { grid-column: span 6; } }
+  @media (min-width: 1100px) {
+    .slots-block { grid-column: span 4; }
+    .phone-wrap { grid-column: span 4; justify-content: flex-end; }
   }
-  @media (min-width: 760px) { .join-box { grid-template-columns: 1fr auto; } }
-  .join-box::after {
-    content: "01000010 01111001 01110100 01100101"; position: absolute; right: -10px; bottom: -18px;
-    font-family: var(--mono); font-size: 4.2rem; line-height: 1; color: rgba(14,17,22,.07); white-space: nowrap; pointer-events: none;
-  }
-  .join-box h2 { margin: 0 0 8px; color: var(--brand-ink); }
-  .join-box p { margin: 0; max-width: 34rem; }
-  .join-box .cta { background: var(--brand-ink); color: #fff; box-shadow: none; position: relative; z-index: 1; }
-  .join-box .cta:hover { background: #2A3140; }
 
-  footer { border-top: 1px solid var(--line); padding: 32px 0 48px; color: var(--muted); font-size: .95rem; }
-  footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
-  footer a { text-decoration: none; }
-  footer a:hover { color: var(--brand); }
+  /* El teléfono es un fragmento de interfaz real (Telegram): conserva sus propias formas */
+  .phone { width: min(100%, 340px); border-radius: 44px; padding: 10px; background: #232933; animation: float 8s ease-in-out infinite; }
+  @keyframes float { 50% { transform: translateY(-10px); } }
+  .screen { border-radius: 35px; overflow: hidden; background: #0E1621; height: 560px; display: flex; flex-direction: column; }
+  .tg-bar { display: flex; align-items: center; gap: 10px; padding: 30px 14px 10px; background: var(--tg); }
+  .tg-bar .back { color: var(--tg-link); font-size: 1.4rem; line-height: 1; }
+  .tg-avatar { width: 36px; height: 36px; border-radius: 50%; background: var(--bg); display: grid; place-items: center; flex: none; }
+  .tg-avatar .mini-byte { transform: scale(.8); }
+  .tg-title b { display: block; font-size: .95rem; color: var(--tg-ink); line-height: 1.2; }
+  .tg-title span { font-size: .8125rem; color: var(--tg-muted); }
+  .tg-feed { flex: 1; padding: 14px 10px; display: flex; flex-direction: column; justify-content: flex-end; gap: 10px; overflow: hidden; }
+  .tg-day { align-self: center; font-size: .8125rem; color: var(--tg-ink); background: rgba(0,0,0,.35); padding: 4px 12px; border-radius: 999px; }
+  .msg { background: var(--tg-bubble); color: var(--tg-ink); border-radius: 14px 14px 14px 4px; padding: 10px 12px 7px; font-size: .875rem; line-height: 1.45; opacity: 0; transform: translateY(14px); transition: opacity .5s ease, transform .5s var(--ease); }
+  .msg.show { opacity: 1; transform: none; }
+  .msg .m-head { font-weight: 700; margin-bottom: 4px; }
+  .msg ul { margin: 0; padding: 0 0 0 1.1em; display: grid; gap: 4px; }
+  .msg .m-link { color: var(--tg-link); }
+  .msg .m-sum { color: #C3CDD6; margin-top: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .msg .m-foot { display: flex; justify-content: space-between; gap: 8px; margin-top: 6px; font-size: .8125rem; color: var(--tg-muted); }
+  .msg .m-cat { color: var(--brand); font-weight: 700; }
+  .tg-join { margin: 0 10px 12px; text-align: center; padding: 12px; border-radius: 12px; background: var(--tg); color: var(--tg-link); font-weight: 700; font-size: .875rem; text-decoration: none; }
+  .tg-join:hover { background: #1E2B38; }
+
+  /* Fuentes */
+  .sources { row-gap: 32px; align-items: start; }
+  .sources h2 { grid-column: 1 / -1; }
+  .sources-body { grid-column: 1 / -1; display: grid; gap: 28px; }
+  .sources-body .statement { font-size: clamp(1.5rem, 2.5vw, 2.25rem); line-height: 1.2; letter-spacing: -0.015em; font-weight: 700; max-width: 40rem; }
+  .sources-body .statement em { font-style: normal; color: var(--brand); }
+  .sources-body .lead-text { color: var(--muted); max-width: 40rem; }
+  @media (min-width: 1000px) { .sources h2 { grid-column: 1 / span 5; } .sources-body { grid-column: 7 / -1; } }
+
+  /* Llamada final: campo lima a todo el ancho */
+  .join { background: var(--brand); color: var(--brand-ink); margin-top: var(--gap-section); padding: clamp(72px, 9vw, 140px) 0; }
+  .join .grid { row-gap: 32px; align-items: end; }
+  .join h2 { grid-column: 1 / -1; }
+  .join-side { grid-column: 1 / -1; display: grid; gap: 28px; justify-items: start; }
+  .join .btn { background: var(--brand-ink); color: var(--ink); }
+  .join .btn:hover { background: #2A3140; }
+  @media (min-width: 1000px) { .join h2 { grid-column: 1 / span 7; } .join-side { grid-column: 8 / -1; } }
+
+  /* Pie: el nombre vuelve a todo el ancho */
+  footer { padding: clamp(56px, 7vw, 104px) 0 40px; }
+  .footer-name { font-family: var(--display); font-weight: 800; font-size: clamp(3.5rem, 18.6vw, 17.5rem); line-height: .8; letter-spacing: -0.06em; margin: 0 0 40px -0.04em; }
+  .footer-name b { color: var(--brand); font-weight: 800; }
+  .footer-row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 32px; color: var(--muted); font-size: var(--t-small); }
+  .footer-row a { text-decoration: none; }
+  .footer-row a:hover { color: var(--brand); }
+
+  /* Entradas escalonadas: el contenido es visible sin script */
+  .js .rise { opacity: 0; transform: translateY(26px); transition: opacity .7s ease, transform .8s var(--ease); transition-delay: calc(var(--i, 0) * 80ms); }
+  .js .rise.in { opacity: 1; transform: none; }
+  .js .hero .rise { transition-delay: calc(900ms + var(--i, 0) * 90ms); }
 
   @media (max-width: 520px) {
-    .screen { height: 560px; }
-    .clock { padding: 20px 16px 18px; }
-    .stop span { font-size: .65rem; }
-    .slots li { grid-template-columns: 6.4rem 1fr; gap: 12px; }
-    .slot-when { font-size: .82rem; }
-    .card.lead { padding: 22px; }
+    .screen { height: 520px; }
+    .track { height: 84px; }
+    .stop span { font-size: .8125rem; }
+    .tip span { font-size: var(--t-body); }
   }
-
   @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
     *, *::before, *::after { animation: none !important; transition: none !important; }
-    .js .reveal, .msg { opacity: 1; transform: none; }
-    }
+    .js .rise, .msg { opacity: 1; transform: none; }
+  }
 </style>
 <script src="/assets/analytics.js" defer></script>
 </head>
@@ -407,9 +332,9 @@
   <symbol id="tg" viewBox="0 0 24 24"><path fill="currentColor" d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6.2 13.1 1.4 11.6c-1-.3-1.1-1 .2-1.5L20.6 2.8c.9-.3 1.6.2 1.3 1.5Z"/></symbol>
 </svg>
 
-<header class="top" id="top">
+<header class="top">
   <div class="wrap">
-    <a class="wordmark" href="/"><span class="mini-byte" aria-hidden="true"><i class="on"></i><i></i><i class="on"></i><i class="on"></i></span>Byte<span>Diario</span></a>
+    <a class="wordmark" href="/"><span class="mini-byte" aria-hidden="true"><i class="on"></i><i></i><i class="on"></i><i class="on"></i></span>Byte<b>Diario</b></a>
     <nav aria-label="Principal">
       <a href="#noticias" class="nav-wide">Noticias</a>
       <a href="#gratis" id="nav-gratis" class="nav-wide" hidden>Gratis</a>
@@ -421,32 +346,17 @@
 
 <main>
   <section class="hero">
-    <div class="wrap hero-grid">
-      <div>
-        <div class="byte" id="byte" aria-hidden="true"></div>
-        <p class="reading" id="reading">Cada día tiene su byte.</p>
+    <div class="wrap">
+      <div class="byte" id="byte" aria-hidden="true"></div>
 
-        <h1 class="in d1">Noticias de tecnología, <span class="hl">un byte al día.</span></h1>
-        <p class="lede in d2">Lo más importante de tecnología y gaming, resumido en español y publicado cada día en nuestro canal de Telegram. Pocos posts, bien elegidos.</p>
-
-        <div class="actions in d3">
-          <a class="cta" href="https://t.me/bytediario"><svg aria-hidden="true"><use href="#tg"/></svg>Unirme al canal</a>
-          <a class="ghost" href="#noticias">Ver las noticias de hoy</a>
-        </div>
-      </div>
-
-      <div class="phone-wrap in d4" aria-label="Así se ve el canal de ByteDiario en Telegram">
-        <div class="phone">
-          <div class="screen">
-            <div class="tg-bar">
-              <span class="back" aria-hidden="true">‹</span>
-              <span class="tg-avatar" aria-hidden="true"><span class="mini-byte"><i class="on"></i><i></i><i class="on"></i><i class="on"></i></span></span>
-              <span class="tg-title"><b>ByteDiario</b><span>canal</span></span>
-            </div>
-            <div class="tg-feed" id="tg-feed">
-              <span class="tg-day" id="tg-day">Hoy</span>
-            </div>
-            <a class="tg-join" href="https://t.me/bytediario">UNIRSE</a>
+      <div class="grid hero-text">
+        <h1 class="rise" style="--i:0">Tech y gaming, un byte al día.</h1>
+        <div class="hero-side">
+          <p class="reading rise" style="--i:1" id="reading">Cada día tiene su byte.</p>
+          <p class="lead-text rise" style="--i:1">ByteDiario resume en español lo más importante de tecnología y videojuegos, y lo publica tres veces al día en Telegram.</p>
+          <div class="hero-actions rise" style="--i:2">
+            <a class="btn" href="https://t.me/bytediario"><svg aria-hidden="true"><use href="#tg"/></svg>Unirme al canal</a>
+            <a class="link-arrow" href="#noticias">Ver las noticias de hoy <span aria-hidden="true">↓</span></a>
           </div>
         </div>
       </div>
@@ -457,46 +367,57 @@
     <div class="ticker-track" id="ticker-track"></div>
   </div>
 
-  <section class="section" id="noticias">
-    <div class="wrap today-grid">
-      <div>
-        <div class="block-head reveal">
-          <div><p class="eyebrow">En el canal</p><h2>Últimas noticias</h2></div>
-          <a href="/noticias/">Ver todas →</a>
+  <section class="section" id="noticias" aria-labelledby="h-noticias">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2 id="h-noticias" class="rise">Últimas noticias</h2>
+          <p class="small rise" style="--i:1" id="updated">Lo último que publicamos en el canal.</p>
         </div>
-        <p class="block-note reveal" id="updated">Lo último que publicamos en el canal.</p>
-        <div id="news" aria-live="polite">
-          <div class="news-grid"><div class="skeleton big"></div><div class="skeleton"></div><div class="skeleton"></div></div>
-        </div>
-        <noscript><p class="news-empty">Activa JavaScript para ver las noticias, o léelas en <a href="https://t.me/bytediario">el canal de Telegram</a>.</p></noscript>
+        <a class="link-arrow rise" style="--i:2" href="/noticias/">Ver todas <span aria-hidden="true">→</span></a>
       </div>
-
-      <aside class="side">
-        <section class="panel reveal" id="gratis" hidden>
-          <div class="block-head"><h2>Juegos gratis</h2></div>
-          <p class="block-note">Reclámalos y son tuyos para siempre.</p>
-          <ul class="rows" id="games"></ul>
-          <p class="source-note">Datos de <a href="https://www.gamerpower.com">GamerPower</a></p>
-        </section>
-
-        <section class="panel reveal" id="seguridad" hidden>
-          <div class="block-head"><h2><span class="pulse" aria-hidden="true"></span>Alerta de seguridad</h2></div>
-          <p class="block-note">Fallos que ya se están explotando. Si usas alguno, actualiza.</p>
-          <ul class="rows vulns" id="vulns"></ul>
-          <p class="sec-tip"><strong>Consejo de la semana</strong><span id="tip"></span></p>
-          <p class="source-note">Fuente: <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">catálogo KEV de CISA</a></p>
-        </section>
-      </aside>
+      <div id="news" aria-live="polite">
+        <div class="skeleton" style="width:70%"></div><div class="skeleton" style="width:55%"></div><div class="skeleton" style="width:62%"></div>
+      </div>
+      <noscript><p class="news-empty">Activa JavaScript para ver las noticias, o léelas en <a href="/noticias/">el archivo</a> o en <a href="https://t.me/bytediario">el canal de Telegram</a>.</p></noscript>
     </div>
   </section>
 
-  <section class="section" id="horario">
+  <section class="free-band" id="gratis" hidden aria-labelledby="h-gratis">
     <div class="wrap">
-      <p class="eyebrow reveal">Horario</p>
-      <h2 class="reveal">Cuándo publicamos</h2>
-      <p class="section-intro reveal">Un ritmo fijo para que sepas cuándo mirar el canal, sin llenarte de notificaciones.</p>
+      <div class="section-head">
+        <div>
+          <h2 id="h-gratis" class="rise">Juegos gratis esta semana</h2>
+          <p class="small rise" style="--i:1">Reclámalos antes de la fecha y son tuyos para siempre.</p>
+        </div>
+      </div>
+      <ul class="games" id="games"></ul>
+      <p class="small source-note">Datos de <a href="https://www.gamerpower.com">GamerPower</a>. Las portadas pertenecen a sus editoras.</p>
+    </div>
+  </section>
 
-      <div class="clock reveal" id="clock">
+  <section class="section" id="seguridad" hidden aria-labelledby="h-seguridad">
+    <div class="wrap grid security">
+      <div class="sec-intro">
+        <h2 id="h-seguridad" class="rise"><span class="pulse" aria-hidden="true"></span>Alerta de seguridad</h2>
+        <p class="lead-text rise" style="--i:1">Fallos que ya se están explotando. Si usas alguno de estos productos, actualízalo hoy.</p>
+        <p class="tip rise" style="--i:2"><strong>Consejo de la semana</strong><span id="tip"></span></p>
+        <p class="small">Fuente: <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">catálogo KEV de CISA</a></p>
+      </div>
+      <ul class="vulns" id="vulns"></ul>
+    </div>
+  </section>
+
+  <section class="section" id="horario" aria-labelledby="h-horario">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2 id="h-horario" class="rise">Cuándo publicamos</h2>
+          <p class="small rise" style="--i:1">Un ritmo fijo, para que sepas cuándo mirar el canal.</p>
+        </div>
+      </div>
+
+      <div class="clock rise" id="clock">
         <div class="clock-top">
           <span class="clock-next" id="next-text">Próxima publicación</span>
           <span class="countdown" id="countdown" aria-live="off">--:--</span>
@@ -509,8 +430,8 @@
         <div class="hours" aria-hidden="true"><span>0 h</span><span>6 h</span><span>12 h</span><span>18 h</span><span>24 h</span></div>
       </div>
 
-      <div class="schedule">
-        <div class="reveal">
+      <div class="grid schedule">
+        <div class="slots-block rise">
           <h3>Todos los días</h3>
           <ul class="slots" id="daily">
             <li data-time="8:00">
@@ -527,7 +448,7 @@
             </li>
           </ul>
         </div>
-        <div class="reveal">
+        <div class="slots-block rise" style="--i:1">
           <h3>Cada semana</h3>
           <div class="week" id="week" aria-hidden="true"></div>
           <ul class="slots" id="weekly">
@@ -545,47 +466,43 @@
             </li>
           </ul>
         </div>
-      </div>
-      <p class="tz reveal">Horario de República Dominicana (UTC−4). Si sale una noticia muy importante, la publicamos al momento.</p>
-    </div>
-  </section>
 
-  <section class="section" id="temas">
-    <div class="wrap">
-      <p class="eyebrow reveal">Temas</p>
-      <h2 class="reveal">Qué vas a encontrar</h2>
-      <p class="section-intro reveal">Noticias de medios de confianza, elegidas y resumidas para que te enteres en un minuto.</p>
-      <ul class="topic-list">
-        <li class="topic cat-PC reveal">
-          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></span>
-          <h3>Tecnología y PC</h3>
-          <p>Hardware, móviles, inteligencia artificial y los lanzamientos que mueven la industria.</p>
-        </li>
-        <li class="topic cat-CONSOLAS reveal">
-          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9h4M8 7v4M15 10h.01M18 8h.01"/><path d="M7 4h10a4 4 0 0 1 4 4l1 7a3 3 0 0 1-5.4 1.8L15 15H9l-1.6 1.8A3 3 0 0 1 2 15l1-7a4 4 0 0 1 4-4z"/></svg></span>
-          <h3>Consolas y videojuegos</h3>
-          <p>PlayStation, Xbox, Nintendo y PC: estrenos, fechas, precios y actualizaciones.</p>
-        </li>
-        <li class="topic cat-OFERTAS reveal">
-          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v9H4v-9M2 7h20v5H2zM12 21V7M12 7H7.5a2.5 2.5 0 1 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 1 0 0-5C13 2 12 7 12 7z"/></svg></span>
-          <h3>Ofertas y juegos gratis</h3>
-          <p>Descuentos que valen la pena y juegos que puedes quedarte para siempre.</p>
-        </li>
-      </ul>
-      <div class="sources reveal" id="sources" aria-label="Algunas de nuestras fuentes">
-        <span>The Verge</span><span>Xataka</span><span>IGN</span><span>3DJuegos</span><span>Vandal</span>
-      </div>
-    </div>
-  </section>
-
-  <section class="join">
-    <div class="wrap">
-      <div class="join-box reveal">
-        <div>
-          <h2>Tu byte diario, directo en Telegram.</h2>
-          <p>Tres posts al día, siempre a la misma hora. Sin spam y sin llenarte de notificaciones.</p>
+        <div class="phone-wrap rise" style="--i:2" role="img" aria-label="Así se ve el canal de ByteDiario en Telegram">
+          <div class="phone" data-ui>
+            <div class="screen">
+              <div class="tg-bar">
+                <span class="back" aria-hidden="true">‹</span>
+                <span class="tg-avatar" aria-hidden="true"><span class="mini-byte"><i class="on"></i><i></i><i class="on"></i><i class="on"></i></span></span>
+                <span class="tg-title"><b>ByteDiario</b><span>canal</span></span>
+              </div>
+              <div class="tg-feed" id="tg-feed">
+                <span class="tg-day" id="tg-day">Hoy</span>
+              </div>
+              <a class="tg-join" href="https://t.me/bytediario" tabindex="-1">UNIRSE</a>
+            </div>
+          </div>
         </div>
-        <a class="cta" href="https://t.me/bytediario"><svg aria-hidden="true"><use href="#tg"/></svg>Unirme al canal</a>
+      </div>
+      <p class="small tz">Horario de República Dominicana (UTC−4). Si sale una noticia muy importante, la publicamos al momento.</p>
+    </div>
+  </section>
+
+  <section class="section" id="fuentes" aria-labelledby="h-fuentes">
+    <div class="wrap grid sources">
+      <h2 id="h-fuentes" class="rise">De dónde salen las noticias</h2>
+      <div class="sources-body">
+        <p class="statement rise" style="--i:1">Leemos <em id="source-names">The Verge, Xataka, IGN, 3DJuegos y Vandal</em> cada día, para que tú no tengas que hacerlo.</p>
+        <p class="lead-text rise" style="--i:2">Hardware, móviles e inteligencia artificial. PlayStation, Xbox, Nintendo y PC. Ofertas que valen la pena y juegos que te puedes quedar. Cada noticia lleva su enlace a la fuente original.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="join" aria-labelledby="h-join">
+    <div class="wrap grid">
+      <h2 id="h-join" class="rise">Tu byte diario, directo en Telegram.</h2>
+      <div class="join-side">
+        <p class="lead-text rise" style="--i:1">Tres posts al día, siempre a la misma hora. Sin spam y sin llenarte de notificaciones.</p>
+        <a class="btn rise" style="--i:2" href="https://t.me/bytediario"><svg aria-hidden="true"><use href="#tg"/></svg>Unirme al canal</a>
       </div>
     </div>
   </section>
@@ -593,8 +510,12 @@
 
 <footer>
   <div class="wrap">
-    <span>© <span id="year">2026</span> ByteDiario</span>
-    <a href="mailto:contacto@bytediario.tech">contacto@bytediario.tech</a>
+    <p class="footer-name" aria-hidden="true">Byte<b>Diario</b></p>
+    <div class="footer-row">
+      <span>© <span id="year">2026</span> ByteDiario</span>
+      <a href="/noticias/">Archivo de noticias</a>
+      <a href="mailto:contacto@bytediario.tech">contacto@bytediario.tech</a>
+    </div>
   </div>
 </footer>
 
@@ -605,7 +526,7 @@
                   "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
     var CATS = { PC: "PC", CONSOLAS: "Consolas", JUEGOS: "Juegos", MOVILES: "Móviles",
                  IA: "IA", OFERTAS: "Ofertas", TECH: "Tecnología" };
-    var FEED_ITEMS = 7;
+    var LIST_ITEMS = 6;
     var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
     // Hora de República Dominicana (UTC-4, sin horario de verano)
@@ -629,21 +550,14 @@
     var yesterday = isoDay(new Date(now.getTime() - 86400000));
     document.getElementById("year").textContent = now.getFullYear();
 
-    // ── Encabezado con borde al hacer scroll ──
-    var top = document.getElementById("top");
-    window.addEventListener("scroll", function () { top.classList.toggle("scrolled", window.scrollY > 8); }, { passive: true });
-
-    // ── Aparecer al hacer scroll ──
-    var revealObs = "IntersectionObserver" in window ? new IntersectionObserver(function (entries) {
-      entries.forEach(function (e, i) {
-        if (e.isIntersecting) {
-          setTimeout(function () { e.target.classList.add("visible"); }, i * 70);
-          revealObs.unobserve(e.target);
-        }
+    // ── Entradas al hacer scroll (una vez) ──
+    var obs = "IntersectionObserver" in window && !reduce ? new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add("in"); obs.unobserve(e.target); }
       });
-    }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }) : null;
-    function watch(node) { if (revealObs && !reduce) revealObs.observe(node); else node.classList.add("visible"); }
-    document.querySelectorAll(".reveal").forEach(watch);
+    }, { threshold: 0.1, rootMargin: "0px 0px -40px 0px" }) : null;
+    function watch(node) { if (obs) obs.observe(node); else node.classList.add("in"); }
+    document.querySelectorAll(".rise").forEach(watch);
 
     // ── El byte del día ──
     var day = now.getDate();
@@ -665,16 +579,14 @@
         setTimeout(function () {
           cell.textContent = bits[i];
           if (bits[i] === "1") cell.classList.add("on");
-        }, reduce ? 0 : 250);
+        }, reduce ? 0 : 270);
       };
-      if (reduce) light(); else setTimeout(light, 200 + i * 120);
+      if (reduce) light(); else setTimeout(light, 200 + i * 110);
     });
     var reading = document.getElementById("reading");
-    reading.textContent = "Hoy es " + day + " de " + MONTHS[now.getMonth()] + ". El día ";
-    reading.appendChild(el("strong", null, String(day)));
-    reading.appendChild(document.createTextNode(" en binario es "));
+    reading.textContent = "Hoy es " + day + " de " + MONTHS[now.getMonth()] + ", y el " + day + " en binario es ";
     reading.appendChild(el("strong", null, bits));
-    reading.appendChild(document.createTextNode("."));
+    reading.appendChild(document.createTextNode(". Cada día tiene su byte."));
 
     // ── Horario: próxima publicación, reloj de 24 h y semana ──
     var slots = Array.prototype.slice.call(document.querySelectorAll("#daily li"));
@@ -691,7 +603,7 @@
     });
     function fmtLeft(mins) {
       var h = Math.floor(mins / 60), m = mins % 60;
-      return (h ? h + " h " : "") + String(m).padStart(h ? 2 : 1, "0") + " min";
+      return (h ? h + " h " : "") + m + " min";
     }
     function tickClock() {
       var n = rdNow();
@@ -710,7 +622,7 @@
       var left = (next.m - mins + 1440) % 1440 || 1440;
       var name = next.li.querySelector("strong").textContent;
       var nt = document.getElementById("next-text");
-      nt.textContent = "Próxima: ";
+      nt.textContent = "Próximo: ";
       nt.appendChild(el("b", null, name.toLowerCase()));
       nt.appendChild(document.createTextNode(", " + (tomorrow ? "mañana" : "hoy") + " a las " + next.li.querySelector(".slot-when").textContent));
       document.getElementById("countdown").textContent = "en " + fmtLeft(left);
@@ -729,8 +641,7 @@
       if (+li.dataset.day === now.getDay()) li.classList.add("is-today");
     });
     weekIdx.forEach(function (d, k) {
-      var s = el("span", (special[d] ? "has" : "") + (d === now.getDay() ? " today" : ""), weekNames[k]);
-      weekBox.appendChild(s);
+      weekBox.appendChild(el("span", (special[d] ? "has" : "") + (d === now.getDay() ? " today" : ""), weekNames[k]));
     });
 
     // ── Noticias ──
@@ -753,6 +664,12 @@
       if (!u.own) { a.target = "_blank"; a.rel = "noopener"; }
       return true;
     }
+    function metaLine(it) {
+      var m = el("span", "meta");
+      m.appendChild(el("span", "cat", CATS[it.categoria] || "Tecnología"));
+      m.appendChild(document.createTextNode(" · " + dayShort(it.date) + (it.source ? " · " + it.source : "")));
+      return m;
+    }
 
     function render(items) {
       newsBox.textContent = "";
@@ -760,27 +677,31 @@
         newsBox.appendChild(el("p", "news-empty", "Todavía no hay noticias publicadas. Vuelve después de las 8 a. m."));
         return;
       }
-      var grid = el("div", "news-grid");
-      items.slice(0, FEED_ITEMS).forEach(function (it, i) {
-        var a = el("a", "card cat-" + catKey(it.categoria) + (i === 0 ? " lead" : "") + " reveal");
-        if (!linkify(a, it)) a = el("div", a.className);
-        var meta = el("span", "card-meta");
-        meta.appendChild(el("span", "chip", CATS[it.categoria] || "Tecnología"));
-        meta.appendChild(el("span", null, dayShort(it.date) + (it.source ? " · " + it.source : "")));
-        a.appendChild(meta);
-        if (i === 0 && it.date === today) a.appendChild(el("span", "badge", "Lo último"));
-        a.appendChild(el("span", "card-title", it.title));
-        if (i === 0 && it.summary) a.appendChild(el("p", null, it.summary));
-        a.appendChild(el("span", "arrow", itemUrl(it).own ? "Leer →" : "Leer en " + (it.source || "la fuente") + " ↗"));
-        grid.appendChild(a);
-        watch(a);
+      var grid = el("div", "grid news");
+      var lead = items[0];
+      var a = el("a", "lead-story cat-" + catKey(lead.categoria) + " rise");
+      if (!linkify(a, lead)) a = el("div", a.className);
+      a.appendChild(el("p", "title", lead.title));
+      a.appendChild(metaLine(lead));
+      if (lead.summary) a.appendChild(el("p", "sum", lead.summary));
+      a.appendChild(el("span", "go", itemUrl(lead).own ? "Leer la noticia →" : "Leer en " + (lead.source || "la fuente") + " ↗"));
+      grid.appendChild(a);
+      watch(a);
+
+      var ul = el("ul", "story-list");
+      items.slice(1, 1 + LIST_ITEMS).forEach(function (it, k) {
+        var li = el("li", "rise");
+        li.style.setProperty("--i", k + 1);
+        var la = el("a", "cat-" + catKey(it.categoria));
+        if (!linkify(la, it)) la = el("div", la.className);
+        la.appendChild(metaLine(it));
+        la.appendChild(el("span", "title", it.title));
+        li.appendChild(la);
+        ul.appendChild(li);
+        watch(li);
       });
+      grid.appendChild(ul);
       newsBox.appendChild(grid);
-      if (items.length > FEED_ITEMS) {
-        var more = el("a", "feed-more", "Ver todas las noticias →");
-        more.href = "/noticias/";
-        newsBox.appendChild(more);
-      }
     }
 
     // ── Cinta de titulares ──
@@ -793,7 +714,7 @@
           var a = el("a", "cat-" + catKey(it.categoria));
           if (!linkify(a, it)) return;
           if (pass) { a.setAttribute("aria-hidden", "true"); a.tabIndex = -1; }
-          a.appendChild(el("span", "k", CATS[it.categoria] || "Tecnología"));
+          a.appendChild(el("span", "cat", CATS[it.categoria] || "Tecnología"));
           a.appendChild(document.createTextNode(it.title));
           trackEl.appendChild(a);
         });
@@ -812,13 +733,10 @@
 
       var m1 = el("div", "msg");
       var p = latestDay.split("-");
-      m1.appendChild(el("div", "m-head", "☀️ Resumen de la mañana · " + +p[2] + " de " + MONTHS[+p[1] - 1]));
+      m1.appendChild(el("div", "m-head", "Resumen de la mañana · " + +p[2] + " de " + MONTHS[+p[1] - 1]));
       var ul = el("ul");
       (dayItems.length >= 3 ? dayItems : items).slice(1, 4).forEach(function (it) {
-        var li = el("li");
-        li.appendChild(el("span", null, "▸"));
-        li.appendChild(el("span", "m-link", it.title));
-        ul.appendChild(li);
+        ul.appendChild(el("li", "m-link", it.title));
       });
       m1.appendChild(ul);
       var f1 = el("div", "m-foot");
@@ -829,7 +747,7 @@
 
       var lead = items[0];
       var m2 = el("div", "msg");
-      m2.appendChild(el("div", "m-cat", "⚡ " + (CATS[lead.categoria] || "Tecnología")));
+      m2.appendChild(el("div", "m-cat", CATS[lead.categoria] || "Tecnología"));
       m2.appendChild(el("div", "m-head", lead.title));
       if (lead.summary) m2.appendChild(el("div", "m-sum", lead.summary));
       var f2 = el("div", "m-foot");
@@ -838,22 +756,29 @@
       m2.appendChild(f2);
       msgs.push(m2);
 
-      msgs.forEach(function (m, k) {
-        feed.appendChild(m);
-        if (reduce) m.classList.add("show");
-        else setTimeout(function () { m.classList.add("show"); }, 1300 + k * 900);
-      });
+      var shown = false;
+      function show() {
+        if (shown) return; shown = true;
+        msgs.forEach(function (m, k) {
+          if (reduce) m.classList.add("show");
+          else setTimeout(function () { m.classList.add("show"); }, 400 + k * 900);
+        });
+      }
+      msgs.forEach(function (m) { feed.appendChild(m); });
+      if (reduce || !("IntersectionObserver" in window)) { show(); return; }
+      var po = new IntersectionObserver(function (e) { if (e[0].isIntersecting) { show(); po.disconnect(); } }, { threshold: 0.3 });
+      po.observe(feed);
     }
 
-    // Lista corta con botón "ver más" para la barra lateral
+    // Lista con botón "ver más"
     function collapsible(ul, shown, one, many) {
       var extra = Array.prototype.slice.call(ul.children, shown);
       if (!extra.length) return;
       extra.forEach(function (li) { li.hidden = true; });
-      var btn = el("button", "side-more", "Ver " + extra.length + " " + (extra.length === 1 ? one : many) + " más");
+      var btn = el("button", "more-btn", "Ver " + extra.length + " " + (extra.length === 1 ? one : many) + " más");
       btn.type = "button";
       btn.addEventListener("click", function () {
-        extra.forEach(function (li) { li.hidden = false; });
+        extra.forEach(function (li) { li.hidden = false; li.classList.add("in"); });
         btn.remove();
       });
       ul.after(btn);
@@ -870,19 +795,23 @@
       list = (list || []).filter(function (g) { return safeUrl(g.link) && (!g.end_iso || g.end_iso >= today); });
       if (!list.length) return;
       var ul = document.getElementById("games");
-      list.forEach(function (g) {
-        var li = el("li");
+      list.forEach(function (g, k) {
+        var li = el("li", "rise");
+        li.style.setProperty("--i", k % 3);
         var a = el("a");
         a.href = g.link; a.target = "_blank"; a.rel = "noopener";
+        var cover = el("span", "cover");
+        cover.setAttribute("aria-hidden", "true");
         if (safeUrl(g.image)) {
-          var img = el("img", "thumb");
-          img.src = g.image; img.alt = ""; img.loading = "lazy";
-          img.addEventListener("error", function () { img.remove(); });
-          a.appendChild(img);
-        }
-        var body = el("span", "row-body");
-        body.appendChild(el("span", "row-title", g.title));
-        var sub = el("span", "row-sub", storeOf(g.platforms));
+          var img = el("img");
+          img.src = g.image; img.alt = "Portada de " + g.title; img.loading = "lazy";
+          img.addEventListener("error", function () { img.remove(); cover.classList.add("no-img"); cover.textContent = storeOf(g.platforms) || "Gratis"; });
+          cover.appendChild(img);
+        } else { cover.classList.add("no-img"); cover.textContent = storeOf(g.platforms) || "Gratis"; }
+        a.appendChild(cover);
+        a.appendChild(el("span", "game-title", g.title));
+        var sub = el("span", "game-sub", storeOf(g.platforms));
+        if (g.worth) { sub.appendChild(document.createTextNode(" · gratis, antes ")); sub.appendChild(el("span", "was", g.worth)); }
         if (g.end_iso) {
           var p = g.end_iso.split("-");
           var end = new Date(+p[0], +p[1] - 1, +p[2]);
@@ -891,17 +820,12 @@
           sub.appendChild(document.createTextNode(" · "));
           sub.appendChild(el("span", days <= 2 ? "soon" : null, txt));
         }
-        body.appendChild(sub);
-        a.appendChild(body);
-        if (g.worth) {
-          var free = el("span", "free", "Gratis");
-          free.title = "Antes " + g.worth;
-          a.appendChild(free);
-        }
+        a.appendChild(sub);
         li.appendChild(a);
         ul.appendChild(li);
+        watch(li);
       });
-      collapsible(ul, 3, "juego", "juegos");
+      collapsible(ul, 6, "juego", "juegos");
       document.getElementById("gratis").hidden = false;
       document.getElementById("nav-gratis").hidden = false;
     }
@@ -928,33 +852,32 @@
       list = (list || []).filter(function (v) { return v.cve; });
       if (!list.length) return;
       var ul = document.getElementById("vulns");
-      list.forEach(function (v) {
-        var li = el("li");
-        var a = el("a");
+      list.forEach(function (v, k) {
+        var li = el("li", "rise");
+        li.style.setProperty("--i", Math.min(k, 3));
+        var a = el(safeUrl(v.link) ? "a" : "div", safeUrl(v.link) ? null : "row");
         if (safeUrl(v.link)) { a.href = v.link; a.target = "_blank"; a.rel = "noopener"; }
-        var body = el("span", "row-body");
-        body.appendChild(el("span", "row-title", [v.vendor, v.product].filter(Boolean).join(" ")));
-        var sub = el("span", "row-sub");
-        sub.appendChild(el("span", "cve", v.cve));
-        if (v.added) { var p = v.added.split("-"); sub.appendChild(document.createTextNode(" · " + +p[2] + " de " + MONTHS[+p[1] - 1])); }
-        body.appendChild(sub);
-        if (v.summary) body.appendChild(el("span", "vuln-sum", v.summary));
-        if (v.ransomware) body.appendChild(el("span", "tag-ransom", "Usada en ransomware"));
-        a.appendChild(body);
+        a.appendChild(el("span", "vuln-title", [v.vendor, v.product].filter(Boolean).join(" ")));
+        var sub = el("span", "vuln-sub", v.cve);
+        if (v.added) { var p = v.added.split("-"); sub.appendChild(document.createTextNode(" · añadida el " + +p[2] + " de " + MONTHS[+p[1] - 1])); }
+        a.appendChild(sub);
+        if (v.summary) a.appendChild(el("span", "vuln-sum", v.summary));
+        if (v.ransomware) a.appendChild(el("span", "tag-ransom", "Usada en ransomware"));
         li.appendChild(a);
         ul.appendChild(li);
+        watch(li);
       });
-      collapsible(ul, 3, "alerta", "alertas");
+      collapsible(ul, 4, "alerta", "alertas");
       document.getElementById("seguridad").hidden = false;
     }
 
-    function fallbackSources(items) {
+    function fillSources(items) {
       var seen = {}, names = [];
       items.forEach(function (it) { if (it.source && !seen[it.source]) { seen[it.source] = 1; names.push(it.source); } });
       if (names.length < 3) return;
-      var box = document.getElementById("sources");
-      box.textContent = "";
-      names.slice(0, 8).forEach(function (n) { box.appendChild(el("span", null, n)); });
+      names = names.slice(0, 5);
+      var last = names.pop();
+      document.getElementById("source-names").textContent = names.join(", ") + " y " + last;
     }
 
     fetch("data/noticias.json?v=" + Date.now(), { cache: "no-store" })
@@ -964,7 +887,7 @@
         render(items);
         try { renderTicker(items); } catch (e) { /* opcional */ }
         try { renderPhone(items); } catch (e) { /* opcional */ }
-        try { fallbackSources(items); } catch (e) { /* opcional */ }
+        try { fillSources(items); } catch (e) { /* opcional */ }
         try { renderGames(data.freebies); } catch (e) { /* sección opcional */ }
         try { renderSecurity(data.security); } catch (e) { /* sección opcional */ }
         if (data.updated) {
