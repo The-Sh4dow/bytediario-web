@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-31T12:01-04:00",
+ "updated": "2026-10-31T13:03-04:00",
  "items": [
+  {
+   "date": "2026-10-31",
+   "title": "Intel prioriza chips para IA y reduce su producción de procesadores de consumo",
+   "summary": "Intel ha comenzado a desviar parte de su capacidad de fabricación hacia procesadores para servidores y centros de datos de inteligencia artificial. Esta decisión responde a una demanda corporativa sin precedentes, en detrimento del mercado tradicional de computadoras.",
+   "link": "https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history",
+   "source": "Tom's Hardware",
+   "categoria": "PC",
+   "slug": "2026-10-31-intel-prioriza-chips-para-ia-y-reduce-su-produccion-de-procesadores-de"
+  },
   {
    "date": "2026-10-31",
    "title": "CD Projekt ficha a modders para la mitad del equipo de Cyberpunk 2",
@@ -261,15 +270,6 @@
    "source": "Vandal",
    "categoria": "PC",
    "slug": "2026-10-25-el-1080p-pierde-terreno-aoc-vende-por-primera-vez-mas-monitores-1440p"
-  },
-  {
-   "date": "2026-10-25",
-   "title": "Rockstar elimina el 'crunch' en GTA 6 pero acaba con el teletrabajo",
-   "summary": "El estudio reestructuró sus procesos y contrató más personal para evitar sobrecargas de trabajo durante la etapa final del desarrollo.",
-   "link": "https://vandal.elespanol.com/noticia/2026298001/rockstar-afirma-haber-erradicado-el-crunch-en-gta-6-pero-confiesan-que-eliminaron-el-teletrabajo-por-miedo/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-25-rockstar-elimina-el-crunch-en-gta-6-pero-acaba-con-el-teletrabajo"
   }
  ],
  "freebies": [
