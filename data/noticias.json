@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-31T13:03-04:00",
+ "updated": "2026-10-31T19:00-04:00",
  "items": [
+  {
+   "date": "2026-10-31",
+   "title": "Anthropic bloquea en Claude Opus la creación de clones de juegos con IA",
+   "summary": "Anthropic lanzó una actualización para Claude Opus que impide generar clones de videojuegos mediante inteligencia artificial. La medida busca frenar la avalancha de títulos clónicos automatizados que han estado saturando tiendas digitales como Steam.",
+   "link": "https://www.ign.com/articles/anthropic-blocks-ai-game-clones-in-claude-opus-update",
+   "source": "IGN",
+   "categoria": "IA",
+   "slug": "2026-10-31-anthropic-bloquea-en-claude-opus-la-creacion-de-clones-de-juegos-con-i"
+  },
   {
    "date": "2026-10-31",
    "title": "Intel prioriza chips para IA y reduce su producción de procesadores de consumo",
@@ -261,15 +270,6 @@
    "source": "Tom's Hardware",
    "categoria": "CONSOLAS",
    "slug": "2026-10-25-consiguen-ejecutar-juegos-de-pc-de-steam-en-consolas-playstation-5-con"
-  },
-  {
-   "date": "2026-10-25",
-   "title": "El 1080p pierde terreno: AOC vende por primera vez más monitores 1440p que Full HD",
-   "summary": "El fabricante AOC confirmó que las pantallas QHD han superado en ventas a las Full HD por primera vez en su historia.",
-   "link": "https://vandal.elespanol.com/noticia/2026298007/el-reinado-del-1080p-en-pc-empieza-a-tambalearse-aoc-ya-vende-mas-monitores-1440p/",
-   "source": "Vandal",
-   "categoria": "PC",
-   "slug": "2026-10-25-el-1080p-pierde-terreno-aoc-vende-por-primera-vez-mas-monitores-1440p"
   }
  ],
  "freebies": [
@@ -306,12 +306,20 @@
    "image": "https://www.gamerpower.com/offers/1b/6ae4ceb2e38bb.jpg"
   },
   {
-   "title": "Hexologic",
-   "link": "https://www.gamerpower.com/open/hexologic-steam-giveaway",
-   "platforms": "PC, Steam",
-   "end_iso": "2026-10-31",
-   "worth": "$4.99",
-   "image": "https://www.gamerpower.com/offers/1b/6ae37c96c0b45.jpg"
+   "title": "Gladiator: Blades of Fury",
+   "link": "https://www.gamerpower.com/open/gladiator-blades-of-fury-epic-games-giveaway",
+   "platforms": "PC, Epic Games Store",
+   "end_iso": "2026-11-08",
+   "worth": "$9.99",
+   "image": "https://www.gamerpower.com/offers/1b/6ae6414cb0f67.jpg"
+  },
+  {
+   "title": "Quiztopia: The Ultimate Trivia",
+   "link": "https://www.gamerpower.com/open/quiztopia-the-ultimate-trivia-epic-games-giveaway",
+   "platforms": "PC, Epic Games Store",
+   "end_iso": "2026-11-08",
+   "worth": "$7.99",
+   "image": "https://www.gamerpower.com/offers/1b/6ae64030ca5f5.jpg"
   },
   {
    "title": "GetHigh.EXE",
