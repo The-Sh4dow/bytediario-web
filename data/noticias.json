@@ -1,6 +1,42 @@
 {
- "updated": "2026-10-30T19:02-04:00",
+ "updated": "2026-10-31T08:03-04:00",
  "items": [
+  {
+   "date": "2026-10-31",
+   "title": "CD Projekt ficha a modders para la mitad del equipo de Cyberpunk 2",
+   "summary": "El estudio reveló que el 50% de sus diseñadores de misiones para la secuela provienen de la comunidad de creadores.",
+   "link": "https://vandal.elespanol.com/noticia/2026304002/cd-projekt-revela-su-arma-secreta-para-cyberpunk-2-la-mitad-del-equipo-son-modders-fichados-de-la-comunidad/",
+   "source": "Vandal",
+   "categoria": "PC",
+   "slug": "2026-10-31-cd-projekt-ficha-a-modders-para-la-mitad-del-equipo-de-cyberpunk-2"
+  },
+  {
+   "date": "2026-10-31",
+   "title": "Detectan problemas de roturas en la pantalla del nuevo iPhone Duo",
+   "summary": "A una semana de su lanzamiento, usuarios reportan quiebres espontáneos en el panel del dispositivo de Apple.",
+   "link": "https://www.xataka.com/moviles/parece-que-han-encontrado-a-culpable-rotura-pantalla-algunos-iphone-duo-esto-pone-campana-navidena-a-tiritar",
+   "source": "Xataka",
+   "categoria": "MOVILES",
+   "slug": "2026-10-31-detectan-problemas-de-roturas-en-la-pantalla-del-nuevo-iphone-duo"
+  },
+  {
+   "date": "2026-10-31",
+   "title": "Final Fantasy XIV retrasa la expansión Evercold hasta febrero de 2027",
+   "summary": "Square Enix anunció que la sexta gran expansión del MMORPG pospone su llegada unas semanas más allá de Año Nuevo.",
+   "link": "https://www.ign.com/articles/final-fantasy-xiv-evercold-delayed-new-release-date-announced-at-ffxiv-fan-fest",
+   "source": "IGN",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-31-final-fantasy-xiv-retrasa-la-expansion-evercold-hasta-febrero-de-2027"
+  },
+  {
+   "date": "2026-10-31",
+   "title": "GTA 6 superará a GTA V como el juego con más vehículos de la franquicia",
+   "summary": "Guinness World Records confirmó que Grand Theft Auto VI romperá la marca histórica de vehículos presentes en la saga.",
+   "link": "https://vandal.elespanol.com/noticia/2026304001/gta-6-no-ha-salido-y-ya-ha-pulverizado-un-record-guinness-de-gta-v-sera-el-juego-con-mas-coches-de-la-saga/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-10-31-gta-6-superara-a-gta-v-como-el-juego-con-mas-vehiculos-de-la-franquici"
+  },
   {
    "date": "2026-10-30",
    "title": "Nvidia retira la RTX 5080 de su tienda tras hacer lo mismo con la RTX 5090",
@@ -234,42 +270,6 @@
    "source": "Vandal",
    "categoria": "JUEGOS",
    "slug": "2026-10-25-rockstar-elimina-el-crunch-en-gta-6-pero-acaba-con-el-teletrabajo"
-  },
-  {
-   "date": "2026-10-25",
-   "title": "Detectan que Smart TVs de Samsung usan IA para capturar audio y pantallas para anuncios",
-   "summary": "Un especialista en ciberseguridad reveló código interno que graba el micrófono y realiza capturas en televisores Samsung para publicidad.",
-   "link": "https://www.tomshardware.com/tech-industry/cyber-security/hacker-finds-own-samsung-tv-collecting-scary-amounts-of-user-information-and-gets-banned-by-openai-for-cyber-abuse-tv-runs-an-ai-model-that-collects-audio-screenshots-and-plenty-of-other-user-data-for-ad-targeting",
-   "source": "Tom's Hardware",
-   "categoria": "TECH",
-   "slug": "2026-10-25-detectan-que-smart-tvs-de-samsung-usan-ia-para-capturar-audio-y-pantal"
-  },
-  {
-   "date": "2026-10-25",
-   "title": "Valve publica SteamOS 3.9 con mejoras para Steam Deck y otros dispositivos",
-   "summary": "La nueva actualización de Valve renueva buena parte del sistema operativo enfocado en Steam Deck y equipos basados en Linux.",
-   "link": "https://www.3djuegos.com/pc/noticias/steamos-3-9-esta-disponible-no-viene-solo-a-corregir-errores-valve-ha-renovado-buena-parte-sistema-que-mueve-steam-deck-machine",
-   "source": "3DJuegos",
-   "categoria": "PC",
-   "slug": "2026-10-25-valve-publica-steamos-3-9-con-mejoras-para-steam-deck-y-otros-disposit"
-  },
-  {
-   "date": "2026-10-24",
-   "title": "Microsoft y NVIDIA trabajan para reducir la compilación de shaders en PC",
-   "summary": "Microsoft y NVIDIA han comenzado a implementar mejoras para mitigar las molestas esperas al compilar shaders. La iniciativa busca evitar que la CPU pase largos minutos procesando antes de abrir un juego o tras instalar actualizaciones.",
-   "link": "https://www.3djuegos.com/pc/noticias/microsoft-nvidia-han-comenzado-a-solucionar-uno-problemas-molestos-pc-todavia-queda-mucho-camino",
-   "source": "3DJuegos",
-   "categoria": "PC",
-   "slug": "2026-10-24-microsoft-y-nvidia-trabajan-para-reducir-la-compilacion-de-shaders-en"
-  },
-  {
-   "date": "2026-10-24",
-   "title": "Proton aloja el mapa con más de 300.000 cámaras de vigilancia de Flock",
-   "summary": "La compañía de privacidad Proton AG decidió hospedar públicamente el mapa de cámaras de vigilancia de Flock publicado por un investigador de seguridad. La empresa asumió el alojamiento desafiando las cartas de cese y desista emitidas contra el creador del proyecto.",
-   "link": "https://www.tomshardware.com/software/maps/proton-hosts-flock-map-revealing-over-300-000-cameras-defying-cease-and-desist-threats-against-creator-privacy-focused-company-hosts-site-on-swiss-servers-says-users-have-the-right-to-know-whos-recording-them",
-   "source": "Tom's Hardware",
-   "categoria": "TECH",
-   "slug": "2026-10-24-proton-aloja-el-mapa-con-mas-de-300-000-camaras-de-vigilancia-de-flock"
   }
  ],
  "freebies": [
