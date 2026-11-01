@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-01T13:05-04:00",
+ "updated": "2026-11-01T19:01-04:00",
  "items": [
+  {
+   "date": "2026-11-01",
+   "title": "GOG estudia relanzar videojuegos de PC en formato físico",
+   "summary": "La tienda digital busca vender títulos en formato físico para dar más libertad a los jugadores y contrarrestar la tendencia exclusivamente digital. Sin embargo, la compañía aún debe resolver la logística y obtener los permisos necesarios de las distribuidoras.",
+   "link": "https://www.tomshardware.com/video-games/gog-explores-reviving-physical-pc-game-releases-digital-storefront-needs-publisher-approvals-has-to-figure-out-the-logistics-and-legal-challenges",
+   "source": "Tom's Hardware",
+   "categoria": "PC",
+   "slug": "2026-11-01-gog-estudia-relanzar-videojuegos-de-pc-en-formato-fisico"
+  },
   {
    "date": "2026-11-01",
    "title": "Una herramienta libera la potencia de IA bloqueada por Nvidia en tarjetas RTX",
@@ -261,15 +270,6 @@
    "source": "IGN",
    "categoria": "CONSOLAS",
    "slug": "2026-10-26-un-hacker-recibe-50-000-dolares-de-sony-por-reportar-un-fallo-en-ps5-h"
-  },
-  {
-   "date": "2026-10-26",
-   "title": "Dinamarca abandona su intento de sustituir Microsoft Office por software libre",
-   "summary": "El Ministerio de Digitalización danés canceló tras seis meses su prueba con Collabora por quejas de los empleados ante problemas de formato.",
-   "link": "https://www.tomshardware.com/software/microsoft-office/denmarks-bid-to-ditch-microsoft-office-for-open-source-alternative-collabora-collapses-in-under-six-months-employees-cite-issues-with-style-formatting-and-tracking-changes",
-   "source": "Tom's Hardware",
-   "categoria": "TECH",
-   "slug": "2026-10-26-dinamarca-abandona-su-intento-de-sustituir-microsoft-office-por-softwa"
   }
  ],
  "freebies": [
@@ -280,6 +280,14 @@
    "end_iso": "2026-11-05",
    "worth": "$24.99",
    "image": "https://www.gamerpower.com/offers/1b/69481a230819b.jpg"
+  },
+  {
+   "title": "Horse Racing",
+   "link": "https://www.gamerpower.com/open/horse-racing-epic-games-giveaway",
+   "platforms": "PC, Epic Games Store",
+   "end_iso": "2026-11-08",
+   "worth": "$9.99",
+   "image": "https://www.gamerpower.com/offers/1b/6ae7b210288b2.jpg"
   },
   {
    "title": "Dwarven Realms (Steam) Key",
@@ -328,14 +336,6 @@
    "end_iso": "2026-11-08",
    "worth": "$6.99",
    "image": "https://www.gamerpower.com/offers/1b/6ae74d1a29ca6.jpg"
-  },
-  {
-   "title": "GetHigh.EXE",
-   "link": "https://www.gamerpower.com/open/gethigh-exe-epic-games-giveaway",
-   "platforms": "PC, Epic Games Store",
-   "end_iso": "2026-11-02",
-   "worth": "$1.99",
-   "image": "https://www.gamerpower.com/offers/1b/6ad63cd807641.jpg"
   }
  ],
  "security": [
