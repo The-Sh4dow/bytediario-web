@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-01T08:02-04:00",
+ "updated": "2026-11-01T13:05-04:00",
  "items": [
+  {
+   "date": "2026-11-01",
+   "title": "Una herramienta libera la potencia de IA bloqueada por Nvidia en tarjetas RTX",
+   "summary": "La utilidad de código abierto nv-uefi-unlocker permite eliminar la limitación impuesta por Nvidia en Windows sobre las GPU RTX series 20, 30 y 40. Gracias a este ajuste vía UEFI, los núcleos Tensor pueden operar a su máxima velocidad en tareas de inteligencia artificial.",
+   "link": "https://www.tomshardware.com/pc-components/gpus/open-source-usb-tool-unlocks-nvidias-half-speed-gpu-ai-limiter-on-windows-lifts-gpus-fp16-math-performance-up-to-65-percent-uefi-unlocker-covers-rtx-20-30-and-40-series-desktops-and-laptops",
+   "source": "Tom's Hardware",
+   "categoria": "PC",
+   "slug": "2026-11-01-una-herramienta-libera-la-potencia-de-ia-bloqueada-por-nvidia-en-tarje"
+  },
   {
    "date": "2026-11-01",
    "title": "The Finals añade comentaristas con IA que leen los nombres de los jugadores",
@@ -261,15 +270,6 @@
    "source": "Tom's Hardware",
    "categoria": "TECH",
    "slug": "2026-10-26-dinamarca-abandona-su-intento-de-sustituir-microsoft-office-por-softwa"
-  },
-  {
-   "date": "2026-10-26",
-   "title": "Phantom Blade Zero detalla sus horarios de precarga y lanzamiento en PS5 y PC",
-   "summary": "El esperado juego de acción confirmó las fechas y horas exactas para comenzar la descarga anticipada antes de su estreno.",
-   "link": "https://vandal.elespanol.com/noticia/2026299016/cuando-se-podra-jugar-a-phantom-blade-zero-se-confirma-la-hora-exacta-de-lanzamiento-e-inicio-de-la-predescarga/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-26-phantom-blade-zero-detalla-sus-horarios-de-precarga-y-lanzamiento-en-p"
   }
  ],
  "freebies": [
@@ -322,20 +322,20 @@
    "image": "https://www.gamerpower.com/offers/1b/6ae64030ca5f5.jpg"
   },
   {
+   "title": "Epic World - Hunt For Quest",
+   "link": "https://www.gamerpower.com/open/epic-world-hunt-for-quest-epic-games-giveaway",
+   "platforms": "PC, Epic Games Store",
+   "end_iso": "2026-11-08",
+   "worth": "$6.99",
+   "image": "https://www.gamerpower.com/offers/1b/6ae74d1a29ca6.jpg"
+  },
+  {
    "title": "GetHigh.EXE",
    "link": "https://www.gamerpower.com/open/gethigh-exe-epic-games-giveaway",
    "platforms": "PC, Epic Games Store",
    "end_iso": "2026-11-02",
    "worth": "$1.99",
    "image": "https://www.gamerpower.com/offers/1b/6ad63cd807641.jpg"
-  },
-  {
-   "title": "MAFIA HOTEL",
-   "link": "https://www.gamerpower.com/open/mafia-hotel-epic-games-giveaway",
-   "platforms": "PC, Epic Games Store",
-   "end_iso": "2026-11-01",
-   "worth": "$1.99",
-   "image": "https://www.gamerpower.com/offers/1b/6add376bc36a0.jpg"
   }
  ],
  "security": [
