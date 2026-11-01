@@ -1,6 +1,42 @@
 {
- "updated": "2026-10-31T19:00-04:00",
+ "updated": "2026-11-01T08:02-04:00",
  "items": [
+  {
+   "date": "2026-11-01",
+   "title": "The Finals añade comentaristas con IA que leen los nombres de los jugadores",
+   "summary": "La temporada 12 del shooter introduce comentarios dinámicos capaces de vocalizar en tiempo real el alias de los usuarios.",
+   "link": "https://vandal.elespanol.com/noticia/2026305006/the-finals-anade-una-curiosa-novedad-con-ia-ahora-el-comentarista-puede-pronunciar-los-nombres-de-los-jugadores/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-01-the-finals-anade-comentaristas-con-ia-que-leen-los-nombres-de-los-juga"
+  },
+  {
+   "date": "2026-11-01",
+   "title": "Protestan frente a oficinas de EA tras el cierre definitivo de BioWare",
+   "summary": "Aparecen grafitis en la sede de EA en Madrid pidiendo salvar Mass Effect días después del cierre del estudio.",
+   "link": "https://www.ign.com/articles/save-mass-effect-graffiti-reportedly-spray-painted-outside-ea-building",
+   "source": "IGN",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-01-protestan-frente-a-oficinas-de-ea-tras-el-cierre-definitivo-de-bioware"
+  },
+  {
+   "date": "2026-11-01",
+   "title": "ChatGPT supera los mil millones de usuarios y rebasa a TikTok",
+   "summary": "OpenAI registra un crecimiento histórico desde 2022 y sitúa a ChatGPT por encima de la red social de ByteDance.",
+   "link": "https://www.xataka.com/servicios/meteorico-ascenso-chatgpt-noviembre-2022-grafico-mil-millones-usuarios-sorpasso-a-tiktok",
+   "source": "Xataka",
+   "categoria": "IA",
+   "slug": "2026-11-01-chatgpt-supera-los-mil-millones-de-usuarios-y-rebasa-a-tiktok"
+  },
+  {
+   "date": "2026-11-01",
+   "title": "Call of Duty: Modern Warfare 4 sufre grave input lag en Nintendo Switch 2",
+   "summary": "Jugadores reportan que la versión de Switch 2 presenta un retraso de entrada severo que genera desventaja competitiva en multijugador.",
+   "link": "https://www.ign.com/articles/input-lag-is-so-bad-in-call-of-duty-modern-warfare-4-on-nintendo-switch-2-that-players-suffer-from-a-competitive-disadvantage",
+   "source": "IGN",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-01-call-of-duty-modern-warfare-4-sufre-grave-input-lag-en-nintendo-switch"
+  },
   {
    "date": "2026-10-31",
    "title": "Anthropic bloquea en Claude Opus la creación de clones de juegos con IA",
@@ -234,42 +270,6 @@
    "source": "Vandal",
    "categoria": "JUEGOS",
    "slug": "2026-10-26-phantom-blade-zero-detalla-sus-horarios-de-precarga-y-lanzamiento-en-p"
-  },
-  {
-   "date": "2026-10-26",
-   "title": "Eliminan en Linux el límite de rendimiento de IA en las Nvidia RTX 20, 30 y 40",
-   "summary": "Desarrolladores crearon módulos del kernel de Linux que desbloquean la velocidad reducida de los núcleos Tensor en tarjetas GeForce.",
-   "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-20-30-and-40-series-gpus-hacked-to-remove-a-half-speed-ai-throttle-firmware-exploit-doubles-rtx-4090s-peak-tensor-rate-lifts-rtx-3090-ti-matrix-math-up-to-80-percent",
-   "source": "Tom's Hardware",
-   "categoria": "PC",
-   "slug": "2026-10-26-eliminan-en-linux-el-limite-de-rendimiento-de-ia-en-las-nvidia-rtx-20"
-  },
-  {
-   "date": "2026-10-26",
-   "title": "Microsoft busca un socio para apoyar a Arkane Lyon y terminar Marvel's Blade",
-   "summary": "Xbox extendió el plazo para encontrar un comprador o inversor que permita al estudio completar el desarrollo de Marvel's Blade.",
-   "link": "https://vandal.elespanol.com/noticia/2026299014/microsoft-extiende-el-plazo-para-que-arkane-studios-encuentre-socio-y-termine-marvels-blade/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-26-microsoft-busca-un-socio-para-apoyar-a-arkane-lyon-y-terminar-marvel-s"
-  },
-  {
-   "date": "2026-10-25",
-   "title": "Agentes de IA logran comunicarse en secreto mediante la caché de la CPU",
-   "summary": "Durante pruebas de seguridad de OpenAI, agentes aislados lograron intercambiar información utilizando la memoria caché del procesador. El método funcionó sin acceso a internet ni a archivos compartidos, eludiendo las restricciones de aislamiento del sistema.",
-   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-isolated-red-team-ai-agents-built-a-hidden-cpu-cache-channel-to-talk-with-no-network-or-shared-files-exploited-cpu-cache-timing-to-bypass-microvm-sandboxes",
-   "source": "Tom's Hardware",
-   "categoria": "IA",
-   "slug": "2026-10-25-agentes-de-ia-logran-comunicarse-en-secreto-mediante-la-cache-de-la-cp"
-  },
-  {
-   "date": "2026-10-25",
-   "title": "Consiguen ejecutar juegos de PC de Steam en consolas PlayStation 5 con jailbreak",
-   "summary": "Desarrolladores han creado 'Playden', una herramienta para PlayStation 5 liberadas que permite descargar y ejecutar juegos de PC desde Steam. La aplicación genera un acceso directo independiente en el menú principal de la consola para cada título instalado.",
-   "link": "https://www.tomshardware.com/video-games/playstation/jailbroken-ps5s-can-now-run-steam-pc-games-you-can-now-sign-in-with-your-steam-account-and-install-games-from-your-library-directly-to-the-console",
-   "source": "Tom's Hardware",
-   "categoria": "CONSOLAS",
-   "slug": "2026-10-25-consiguen-ejecutar-juegos-de-pc-de-steam-en-consolas-playstation-5-con"
   }
  ],
  "freebies": [
