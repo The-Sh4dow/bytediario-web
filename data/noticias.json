@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-02T08:04-04:00",
+ "updated": "2026-11-02T13:05-04:00",
  "items": [
+  {
+   "date": "2026-11-02",
+   "title": "La Raspberry Pi 5 de 16 GB sube a 385 dólares por la escasez de RAM",
+   "summary": "El modelo de 16 GB de la Raspberry Pi 5 ha sufrido un nuevo incremento de 80 dólares impulsado por la escasez de memoria, situando su precio en 385 dólares. La placa ya cuesta más del triple frente a sus 120 dólares de lanzamiento.",
+   "link": "https://www.theverge.com/tech/1024342/raspberry-pi-5-16gb-price-hike-ram",
+   "source": "The Verge",
+   "categoria": "PC",
+   "slug": "2026-11-02-la-raspberry-pi-5-de-16-gb-sube-a-385-dolares-por-la-escasez-de-ram"
+  },
   {
    "date": "2026-11-02",
    "title": "Un estudio revela que el 94 % de las desarrolladoras occidentales ya utiliza IA",
@@ -261,15 +270,6 @@
    "source": "Vandal",
    "categoria": "JUEGOS",
    "slug": "2026-10-27-capcom-retira-street-fighter-5-de-tiendas-digitales-y-desactiva-su-onl"
-  },
-  {
-   "date": "2026-10-27",
-   "title": "Más del 92 % de los videojuegos vendidos por Capcom ya son en formato digital",
-   "summary": "Capcom revela que casi el 92,4 % de sus ventas de juegos entre julio y septiembre correspondieron al formato digital.",
-   "link": "https://vandal.elespanol.com/noticia/2026300015/mas-del-92-de-los-juegos-que-vende-capcom-ya-son-digitales/",
-   "source": "Vandal",
-   "categoria": "CONSOLAS",
-   "slug": "2026-10-27-mas-del-92-de-los-videojuegos-vendidos-por-capcom-ya-son-en-formato-di"
   }
  ],
  "freebies": [
@@ -306,14 +306,6 @@
    "image": "https://www.gamerpower.com/offers/1b/6a59119a8eb8d.jpg"
   },
   {
-   "title": "A New Beginning: Final Cut",
-   "link": "https://www.gamerpower.com/open/a-new-beginning-final-cut-gog-giveaway",
-   "platforms": "PC, GOG, DRM-Free",
-   "end_iso": "2026-11-02",
-   "worth": "$9.99",
-   "image": "https://www.gamerpower.com/offers/1b/6ae4af4cbf862.jpg"
-  },
-  {
    "title": "Asleep: Act 1",
    "link": "https://www.gamerpower.com/open/asleep-act-1-steam-giveaway",
    "platforms": "PC, Steam",
@@ -336,6 +328,14 @@
    "end_iso": "2026-11-08",
    "worth": "$7.99",
    "image": "https://www.gamerpower.com/offers/1b/6ae7c63220dc4.jpg"
+  },
+  {
+   "title": "Quiztopia: The Ultimate Trivia",
+   "link": "https://www.gamerpower.com/open/quiztopia-the-ultimate-trivia-epic-games-giveaway",
+   "platforms": "PC, Epic Games Store",
+   "end_iso": "2026-11-08",
+   "worth": "$7.99",
+   "image": "https://www.gamerpower.com/offers/1b/6ae64030ca5f5.jpg"
   }
  ],
  "security": [
