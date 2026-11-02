@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-02T13:05-04:00",
+ "updated": "2026-11-02T19:01-04:00",
  "items": [
+  {
+   "date": "2026-11-02",
+   "title": "Meta finalizará las actualizaciones para Quest 2 y Quest Pro en 2027",
+   "summary": "Meta ha anunciado que la última actualización de sistema para sus gafas de realidad virtual Quest 2 y Quest Pro llegará en marzo de 2027 con la versión v213. A partir de esa fecha, la compañía se centrará exclusivamente en enviar parches de seguridad puntuales.",
+   "link": "https://www.theverge.com/tech/1024835/meta-vr-quest-2-pro-os-end-updates",
+   "source": "The Verge",
+   "categoria": "TECH",
+   "slug": "2026-11-02-meta-finalizara-las-actualizaciones-para-quest-2-y-quest-pro-en-2027"
+  },
   {
    "date": "2026-11-02",
    "title": "La Raspberry Pi 5 de 16 GB sube a 385 dólares por la escasez de RAM",
@@ -261,15 +270,6 @@
    "source": "Ars Technica",
    "categoria": "PC",
    "slug": "2026-10-28-apple-renueva-el-imac-y-el-macbook-pro-de-entrada-con-el-nuevo-procesa"
-  },
-  {
-   "date": "2026-10-27",
-   "title": "Capcom retira Street Fighter 5 de tiendas digitales y desactiva su online",
-   "summary": "Capcom ha retirado temporalmente Street Fighter V de las tiendas de PS4 y PC tras detectar un fallo de seguridad vinculado a PHP. La compañía también ha desactivado por completo las funciones en línea del videojuego mientras implementa una solución.",
-   "link": "https://vandal.elespanol.com/noticia/2026300039/capcom-retira-street-fighter-5-de-las-tiendas-digitales-y-cierra-sus-servidores-por-un-problema-de-seguridad/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-27-capcom-retira-street-fighter-5-de-tiendas-digitales-y-desactiva-su-onl"
   }
  ],
  "freebies": [
@@ -306,14 +306,6 @@
    "image": "https://www.gamerpower.com/offers/1b/6a59119a8eb8d.jpg"
   },
   {
-   "title": "Asleep: Act 1",
-   "link": "https://www.gamerpower.com/open/asleep-act-1-steam-giveaway",
-   "platforms": "PC, Steam",
-   "end_iso": "2026-11-02",
-   "worth": "$9.99",
-   "image": "https://www.gamerpower.com/offers/1b/6ae4ceb2e38bb.jpg"
-  },
-  {
    "title": "Gladiator: Blades of Fury",
    "link": "https://www.gamerpower.com/open/gladiator-blades-of-fury-epic-games-giveaway",
    "platforms": "PC, Epic Games Store",
@@ -336,6 +328,14 @@
    "end_iso": "2026-11-08",
    "worth": "$7.99",
    "image": "https://www.gamerpower.com/offers/1b/6ae64030ca5f5.jpg"
+  },
+  {
+   "title": "Epic World - Hunt For Quest",
+   "link": "https://www.gamerpower.com/open/epic-world-hunt-for-quest-epic-games-giveaway",
+   "platforms": "PC, Epic Games Store",
+   "end_iso": "2026-11-08",
+   "worth": "$6.99",
+   "image": "https://www.gamerpower.com/offers/1b/6ae74d1a29ca6.jpg"
   }
  ],
  "security": [
