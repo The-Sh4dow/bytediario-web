@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-01T19:01-04:00",
+ "updated": "2026-11-02T08:04-04:00",
  "items": [
+  {
+   "date": "2026-11-02",
+   "title": "Un estudio revela que el 94 % de las desarrolladoras occidentales ya utiliza IA",
+   "summary": "Un informe de Vivrato demuestra la adopción casi unánime de herramientas de inteligencia artificial en los estudios de videojuegos de Occidente.",
+   "link": "https://vandal.elespanol.com/noticia/2026306010/un-nuevo-estudio-desvela-que-el-94-de-las-companias-usan-ia-para-desarrollar-sus-videojuegos/",
+   "source": "Vandal",
+   "categoria": "IA",
+   "slug": "2026-11-02-un-estudio-revela-que-el-94-de-las-desarrolladoras-occidentales-ya-uti"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "Sony lanza una nueva actualización de PS5 para frenar el avance del 'jailbreak'",
+   "summary": "La compañía publica un nuevo firmware para proteger la consola frente a los intentos de la comunidad de ejecutar código no autorizado.",
+   "link": "https://www.ign.com/articles/sony-issues-yet-another-ps5-firmware-update-as-jailbreak-whac-a-mole-continues-ahead-of-gta-6-release",
+   "source": "IGN",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-02-sony-lanza-una-nueva-actualizacion-de-ps5-para-frenar-el-avance-del-ja"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "Cierra Nagoshi Studio y se cancela Gang of Dragon, el nuevo juego del creador de Yakuza",
+   "summary": "El estudio fundado por Toshihiro Nagoshi tras abandonar Sega cesa sus actividades y clausura el desarrollo de su esperado proyecto.",
+   "link": "https://vandal.elespanol.com/noticia/2026306011/se-confirma-el-cierre-de-nagoshi-studio-y-la-cancelacion-de-gang-of-dragon-el-rival-de-yakuza/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-02-cierra-nagoshi-studio-y-se-cancela-gang-of-dragon-el-nuevo-juego-del-c"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "Phantom Blade Zero supera los 4 millones de copias vendidas en solo 72 horas",
+   "summary": "El juego de acción desarrollado por S-Game logra un impresionante éxito comercial a los pocos días de su estreno en el mercado.",
+   "link": "https://www.ign.com/articles/phantom-blade-zero-sells-4-million-copies-in-72-hours",
+   "source": "IGN",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-02-phantom-blade-zero-supera-los-4-millones-de-copias-vendidas-en-solo-72"
+  },
   {
    "date": "2026-11-01",
    "title": "GOG estudia relanzar videojuegos de PC en formato físico",
@@ -234,42 +270,6 @@
    "source": "Vandal",
    "categoria": "CONSOLAS",
    "slug": "2026-10-27-mas-del-92-de-los-videojuegos-vendidos-por-capcom-ya-son-en-formato-di"
-  },
-  {
-   "date": "2026-10-27",
-   "title": "La consola portátil Acer Predator Atlas 8 llegará a Estados Unidos",
-   "summary": "Acer confirma la llegada al mercado estadounidense de su potente consola portátil Predator Atlas 8 con procesador Intel Arc.",
-   "link": "https://www.theverge.com/games/1019245/acer-predator-atlas-8-launch-price",
-   "source": "The Verge",
-   "categoria": "PC",
-   "slug": "2026-10-27-la-consola-portatil-acer-predator-atlas-8-llegara-a-estados-unidos"
-  },
-  {
-   "date": "2026-10-27",
-   "title": "Pokémon Unite cerrará sus servidores y terminará su servicio en marzo de 2027",
-   "summary": "The Pokémon Company ha anunciado oficialmente el cese definitivo de Pokémon Unite para marzo de 2027.",
-   "link": "https://www.nintendolife.com/news/2026/10/pokemon-unite-ending-service-for-switch-in-march-2027",
-   "source": "Nintendo Life",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-27-pokemon-unite-cerrara-sus-servidores-y-terminara-su-servicio-en-marzo"
-  },
-  {
-   "date": "2026-10-26",
-   "title": "Microsoft abre un plan masivo de salidas voluntarias para unos 60.000 empleados",
-   "summary": "Microsoft ha habilitado una oferta de salidas voluntarias dirigida a recortar hasta 60.000 puestos, cerca del 27% de su plantilla total. La medida representa una de las reestructuraciones más drásticas de la compañía tras diversos ajustes a lo largo del año.",
-   "link": "https://www.xataka.com/empresas-y-economia/microsoft-acaba-abrir-gigantesco-plan-salidas-voluntarias-para-cerca-27-su-plantilla-unos-60-000-empleados",
-   "source": "Xataka",
-   "categoria": "TECH",
-   "slug": "2026-10-26-microsoft-abre-un-plan-masivo-de-salidas-voluntarias-para-unos-60-000"
-  },
-  {
-   "date": "2026-10-26",
-   "title": "Un hacker recibe 50.000 dólares de Sony por reportar un fallo en PS5 hallado con IA",
-   "summary": "Sony recompensó a un investigador con 50.000 dólares por notificar en privado un exploit de PlayStation 5 descubierto mediante herramientas de IA. La decisión generó malestar en la comunidad 'homebrew', que prefería la publicación del fallo para abrir el sistema.",
-   "link": "https://www.ign.com/articles/50000-dollar-ps5-exploit-found-with-ai",
-   "source": "IGN",
-   "categoria": "CONSOLAS",
-   "slug": "2026-10-26-un-hacker-recibe-50-000-dolares-de-sony-por-reportar-un-fallo-en-ps5-h"
   }
  ],
  "freebies": [
@@ -288,6 +288,14 @@
    "end_iso": "2026-11-08",
    "worth": "$9.99",
    "image": "https://www.gamerpower.com/offers/1b/6ae7b210288b2.jpg"
+  },
+  {
+   "title": "Highway Driving",
+   "link": "https://www.gamerpower.com/open/highway-driving-epic-games-giveaway",
+   "platforms": "PC, Epic Games Store",
+   "end_iso": "2026-11-08",
+   "worth": "$9.99",
+   "image": "https://www.gamerpower.com/offers/1b/6ae7cab593610.jpg"
   },
   {
    "title": "Dwarven Realms (Steam) Key",
@@ -322,20 +330,12 @@
    "image": "https://www.gamerpower.com/offers/1b/6ae6414cb0f67.jpg"
   },
   {
-   "title": "Quiztopia: The Ultimate Trivia",
-   "link": "https://www.gamerpower.com/open/quiztopia-the-ultimate-trivia-epic-games-giveaway",
+   "title": "Dark Mystery",
+   "link": "https://www.gamerpower.com/open/dark-mystery-epic-games-giveaway",
    "platforms": "PC, Epic Games Store",
    "end_iso": "2026-11-08",
    "worth": "$7.99",
-   "image": "https://www.gamerpower.com/offers/1b/6ae64030ca5f5.jpg"
-  },
-  {
-   "title": "Epic World - Hunt For Quest",
-   "link": "https://www.gamerpower.com/open/epic-world-hunt-for-quest-epic-games-giveaway",
-   "platforms": "PC, Epic Games Store",
-   "end_iso": "2026-11-08",
-   "worth": "$6.99",
-   "image": "https://www.gamerpower.com/offers/1b/6ae74d1a29ca6.jpg"
+   "image": "https://www.gamerpower.com/offers/1b/6ae7c63220dc4.jpg"
   }
  ],
  "security": [
