@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-02T19:01-04:00",
+ "updated": "2026-11-03T08:48-04:00",
  "items": [
+  {
+   "date": "2026-11-03",
+   "title": "La encuesta de Steam refleja una sorpresiva caída en PCs con 32 GB de RAM",
+   "summary": "Los datos más recientes de Steam muestran una disminución de más del 5 % en sistemas con 32 GB de RAM y 1 TB de almacenamiento.",
+   "link": "https://www.tomshardware.com/pc-components/ram/steam-survey-shockwaves-felt-as-proportion-of-32gb-ram-systems-drops-by-more-than-5-percent-the-percentage-of-pc-gamers-with-1tb-total-storage-also-shrunk-by-nearly-5-percent",
+   "source": "Tom's Hardware",
+   "categoria": "PC",
+   "slug": "2026-11-03-la-encuesta-de-steam-refleja-una-sorpresiva-caida-en-pcs-con-32-gb-de"
+  },
+  {
+   "date": "2026-11-03",
+   "title": "Redmagic actualiza su smartphone gaming con refrigeración líquida e iluminación RGB",
+   "summary": "El nuevo Redmagic 12 Pro incorpora luces RGB integradas en el circuito transparente de refrigeración por líquido.",
+   "link": "https://www.theverge.com/gadgets/1024504/redmagic-12-pro-liquid-cooling-rgb-lighting-185hz-camera",
+   "source": "The Verge",
+   "categoria": "MOVILES",
+   "slug": "2026-11-03-redmagic-actualiza-su-smartphone-gaming-con-refrigeracion-liquida-e-il"
+  },
+  {
+   "date": "2026-11-03",
+   "title": "Un monitor QD-OLED de 360 Hz cae a un precio mínimo de 349 dólares",
+   "summary": "Un monitor gaming de 27 pulgadas con panel QD-OLED, 360 Hz de refresco y antena Wi-Fi integrada recibe una gran rebaja.",
+   "link": "https://www.tomshardware.com/monitors/gaming-monitors/snag-this-360hz-qd-oled-gaming-monitor-for-only-usd349-sumptuous-27-inch-display-also-features-an-integrated-wi-fi-antenna",
+   "source": "Tom's Hardware",
+   "categoria": "PC",
+   "slug": "2026-11-03-un-monitor-qd-oled-de-360-hz-cae-a-un-precio-minimo-de-349-dolares"
+  },
+  {
+   "date": "2026-11-03",
+   "title": "Sony adelanta el Black Friday en PlayStation Store con descuentos de hasta el 75 %",
+   "summary": "Las ofertas del Black Friday en PlayStation Store comenzarán el 4 de noviembre y se extenderán durante todo el mes.",
+   "link": "https://vandal.elespanol.com/noticia/2026307019/el-black-friday-durara-todo-el-mes-en-playstation-store-sony-anuncia-que-las-ofertas-empezaran-el-4-de-noviembre/",
+   "source": "Vandal",
+   "categoria": "OFERTAS",
+   "slug": "2026-11-03-sony-adelanta-el-black-friday-en-playstation-store-con-descuentos-de-h"
+  },
   {
    "date": "2026-11-02",
    "title": "Meta finalizará las actualizaciones para Quest 2 y Quest Pro en 2027",
@@ -234,42 +270,6 @@
    "source": "IGN",
    "categoria": "CONSOLAS",
    "slug": "2026-10-28-playstation-plus-anuncia-los-juegos-de-noviembre"
-  },
-  {
-   "date": "2026-10-28",
-   "title": "Amazon presenta el Echo Show 16, su nueva pantalla inteligente de gran formato",
-   "summary": "Amazon anunció su dispositivo Echo Show 16 por 499,99 dólares, disponible para reserva e incluyendo soporte de pared y opción de pantalla mate.",
-   "link": "https://www.theverge.com/tech/1020286/amazon-echo-show-16-hands-on-price-screen-styles",
-   "source": "The Verge",
-   "categoria": "TECH",
-   "slug": "2026-10-28-amazon-presenta-el-echo-show-16-su-nueva-pantalla-inteligente-de-gran"
-  },
-  {
-   "date": "2026-10-28",
-   "title": "Conan Exiles Enhanced llegará gratis a PS5 y Xbox Series con Unreal Engine 5",
-   "summary": "Funcom anunció que la versión Enhanced de Conan Exiles se lanzará como actualización gratuita para los jugadores de consolas de actual generación.",
-   "link": "https://vandal.elespanol.com/noticia/2026301016/conan-exiles-enhanced-tambien-llegara-a-consolas-sera-una-actualizacion-gratuita-en-ps5-y-xbox-series/",
-   "source": "Vandal",
-   "categoria": "CONSOLAS",
-   "slug": "2026-10-28-conan-exiles-enhanced-llegara-gratis-a-ps5-y-xbox-series-con-unreal-en"
-  },
-  {
-   "date": "2026-10-28",
-   "title": "Empleados de Rockstar Games votarán la formación de un sindicato en pleno debut de GTA 6",
-   "summary": "El personal de Rockstar Games en Reino Unido celebrará una votación histórica de reconocimiento sindical durante el lanzamiento de GTA 6.",
-   "link": "https://www.ign.com/articles/rockstar-games-staff-set-for-historic-union-vote-at-the-same-time-gta-6-comes-out",
-   "source": "IGN",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-28-empleados-de-rockstar-games-votaran-la-formacion-de-un-sindicato-en-pl"
-  },
-  {
-   "date": "2026-10-28",
-   "title": "Apple renueva el iMac y el MacBook Pro de entrada con el nuevo procesador M6",
-   "summary": "Apple actualizó sus iMac y MacBook Pro de entrada con el chip M6 e integró conectividad Wi-Fi 7 y Bluetooth 6.",
-   "link": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
-   "source": "Ars Technica",
-   "categoria": "PC",
-   "slug": "2026-10-28-apple-renueva-el-imac-y-el-macbook-pro-de-entrada-con-el-nuevo-procesa"
   }
  ],
  "freebies": [
