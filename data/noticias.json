@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-03T13:02-04:00",
+ "updated": "2026-11-03T19:02-04:00",
  "items": [
+  {
+   "date": "2026-11-03",
+   "title": "La precarga de GTA 6 en PS5 comenzará el próximo 10 de noviembre",
+   "summary": "Sony y PlayStation han anunciado que los jugadores podrán descargar los archivos de Grand Theft Auto VI a partir del 10 de noviembre, días antes de su estreno mundial el 19 de noviembre en PS5.",
+   "link": "https://blog.playstation.com/2026/11/03/grand-theft-auto-vi-pre-download-begins-november-10/",
+   "source": "PlayStation Blog",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-03-la-precarga-de-gta-6-en-ps5-comenzara-el-proximo-10-de-noviembre"
+  },
   {
    "date": "2026-11-03",
    "title": "La encuesta de Steam refleja una sorpresiva caída en PCs con 32 GB de RAM",
@@ -261,15 +270,6 @@
    "source": "Vandal",
    "categoria": "CONSOLAS",
    "slug": "2026-10-28-sony-anuncia-nuevos-mandos-dualsense-y-cubiertas-transparentes-para-ps"
-  },
-  {
-   "date": "2026-10-28",
-   "title": "PlayStation Plus anuncia los juegos de noviembre",
-   "summary": "Sony ha revelado los tres títulos que se sumarán al catálogo de PS Plus Essential a partir del 3 de noviembre. Los suscriptores podrán descargar Dead Island 2, Tomb Raider IV–VI Remastered y Monster Train 2.",
-   "link": "https://www.ign.com/articles/ps-plus-november-2026-games",
-   "source": "IGN",
-   "categoria": "CONSOLAS",
-   "slug": "2026-10-28-playstation-plus-anuncia-los-juegos-de-noviembre"
   }
  ],
  "freebies": [
@@ -340,6 +340,15 @@
  ],
  "security": [
   {
+   "cve": "CVE-2026-119977",
+   "vendor": "WordPress",
+   "product": "WordPress Core",
+   "summary": "Afecta al núcleo de WordPress y permite a atacantes no autorizados ejecutar código malicioso en el servidor aprovechando una falla durante las actualizaciones del sistema.",
+   "added": "2026-11-03",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977"
+  },
+  {
    "cve": "CVE-2026-118527",
    "vendor": "Ivanti",
    "product": "Connect Secure",
@@ -365,15 +374,6 @@
    "added": "2026-10-29",
    "ransomware": false,
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229"
-  },
-  {
-   "cve": "CVE-2026-76418",
-   "vendor": "Cisco",
-   "product": "Secure Firewall ASA Software and Cisco Secure FTD Software",
-   "summary": "Afecta a cortafuegos Cisco Secure ASA y FTD, permitiendo a atacantes remotos reiniciar los dispositivos de forma inesperada para provocar la caída del servicio.",
-   "added": "2026-10-29",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418"
   }
  ]
 }
