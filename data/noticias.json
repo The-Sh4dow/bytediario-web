@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-04T08:01-04:00",
+ "updated": "2026-11-04T13:01-04:00",
  "items": [
+  {
+   "date": "2026-11-04",
+   "title": "El remake de Zelda: Ocarina of Time en Switch 2 deslumbra a la crítica",
+   "summary": "Digital Foundry ha alabado el apartado gráfico del remake de The Legend of Zelda: Ocarina of Time para Switch 2, destacando sus fluidos 60 FPS. El título ya se sitúa como uno de los lanzamientos mejor valorados del año.",
+   "link": "https://vandal.elespanol.com/noticia/2026308037/uno-de-los-juegos-de-nintendo-que-mejor-se-ve-expertos-dictan-sentencia-con-el-remake-de-zelda-ocarina-of-time/",
+   "source": "Vandal",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-04-el-remake-de-zelda-ocarina-of-time-en-switch-2-deslumbra-a-la-critica"
+  },
   {
    "date": "2026-11-04",
    "title": "Google descubre una puerta trasera en millones de TV boxes",
@@ -261,15 +270,6 @@
    "source": "The Verge",
    "categoria": "TECH",
    "slug": "2026-10-29-reddit-obligara-a-iniciar-sesion-para-poder-ver-su-contenido"
-  },
-  {
-   "date": "2026-10-29",
-   "title": "The Duskbloods, nuevo juego de FromSoftware, retrasa su estreno hasta 2027",
-   "summary": "FromSoftware confirmó que The Duskbloods no llegará en 2026 como estaba previsto y mueve su lanzamiento al 2027. El esperado nuevo proyecto del creador de Dark Souls y Elden Ring necesitará más tiempo de desarrollo.",
-   "link": "https://www.3djuegos.com/juegos/the-duskbloods/noticias/nuevo-juego-padre-dark-souls-elden-ring-no-llegara-a-tiempo-the-duskbloods-confirma-que-todos-temian-se-pierde-2026",
-   "source": "3DJuegos",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-29-the-duskbloods-nuevo-juego-de-fromsoftware-retrasa-su-estreno-hasta-20"
   }
  ],
  "freebies": [
@@ -330,12 +330,12 @@
    "image": "https://www.gamerpower.com/offers/1b/6ae64030ca5f5.jpg"
   },
   {
-   "title": "Epic World - Hunt For Quest",
-   "link": "https://www.gamerpower.com/open/epic-world-hunt-for-quest-epic-games-giveaway",
-   "platforms": "PC, Epic Games Store",
-   "end_iso": "2026-11-08",
+   "title": "Letter Quest: Grimm's Journey Remastered Steam Key",
+   "link": "https://www.gamerpower.com/open/letter-quest-grimm-s-journey-remastered-steam-key-giveaway",
+   "platforms": "PC, Steam",
+   "end_iso": "2026-11-06",
    "worth": "$6.99",
-   "image": "https://www.gamerpower.com/offers/1b/6ae74d1a29ca6.jpg"
+   "image": "https://www.gamerpower.com/offers/1b/6aeb27dbc0e38.jpg"
   }
  ],
  "security": [
