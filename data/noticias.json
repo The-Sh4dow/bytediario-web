@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-04T13:01-04:00",
+ "updated": "2026-11-04T19:04-04:00",
  "items": [
+  {
+   "date": "2026-11-04",
+   "title": "God of War Laufey retrasa su lanzamiento oficialmente hasta el 20 de mayo",
+   "summary": "Santa Monica Studio ha anunciado que God of War Laufey no llegará en febrero como estaba previsto. Su estreno se mueve al 20 de mayo para que el equipo de desarrollo pueda pulir la experiencia y optimizar su rendimiento.",
+   "link": "https://vandal.elespanol.com/noticia/2026308040/oficial-god-of-war-laufey-no-llegara-en-febrero-y-su-lanzamiento-se-retrasa-unos-meses/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-04-god-of-war-laufey-retrasa-su-lanzamiento-oficialmente-hasta-el-20-de-m"
+  },
   {
    "date": "2026-11-04",
    "title": "El remake de Zelda: Ocarina of Time en Switch 2 deslumbra a la crítica",
@@ -261,15 +270,6 @@
    "source": "Tom's Hardware",
    "categoria": "PC",
    "slug": "2026-10-30-nvidia-retira-la-rtx-5080-de-su-tienda-tras-hacer-lo-mismo-con-la-rtx"
-  },
-  {
-   "date": "2026-10-29",
-   "title": "Reddit obligará a iniciar sesión para poder ver su contenido",
-   "summary": "La plataforma anunció que comenzará a exigir que los usuarios inicien sesión para navegar por el sitio. La medida pondrá fin al acceso abierto que permitía consultar debates y buscar soluciones sin registrarse.",
-   "link": "https://www.theverge.com/tech/1022571/reddit-login-requirement-q3-2026-earnings",
-   "source": "The Verge",
-   "categoria": "TECH",
-   "slug": "2026-10-29-reddit-obligara-a-iniciar-sesion-para-poder-ver-su-contenido"
   }
  ],
  "freebies": [
@@ -340,6 +340,15 @@
  ],
  "security": [
   {
+   "cve": "CVE-2024-27834",
+   "vendor": "Apple",
+   "product": "Multiple Products",
+   "summary": "Afecta a varios sistemas de Apple, como iOS y macOS, permitiendo a atacantes con acceso de lectura y escritura evadir protecciones clave de seguridad del dispositivo.",
+   "added": "2026-11-04",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834"
+  },
+  {
    "cve": "CVE-2026-119977",
    "vendor": "WordPress",
    "product": "WordPress Core",
@@ -365,15 +374,6 @@
    "added": "2026-10-30",
    "ransomware": false,
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357"
-  },
-  {
-   "cve": "CVE-2026-97229",
-   "vendor": "GitLab",
-   "product": "Community Edition and Enterprise Edition",
-   "summary": "Afecta a GitLab Community y Enterprise Edition, permitiendo a atacantes remotos sin autenticar ejecutar código malicioso en el servidor mediante configuraciones de CI/CD manipuladas.",
-   "added": "2026-10-29",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229"
   }
  ]
 }
