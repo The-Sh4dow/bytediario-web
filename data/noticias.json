@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-03T19:02-04:00",
+ "updated": "2026-11-04T08:01-04:00",
  "items": [
+  {
+   "date": "2026-11-04",
+   "title": "Google descubre una puerta trasera en millones de TV boxes",
+   "summary": "Un fabricante certificado ocultó código malicioso en más de un millón de dispositivos Android TV para fraude publicitario.",
+   "link": "https://www.tomshardware.com/tech-industry/cyber-security/certified-android-tv-manufacturer-put-unauthorized-backdoor-in-set-top-boxes-google-reveals-oem-sold-access-to-criminal-affiliates-for-1-3-million-devices-used-massive-network-as-botnet-for-ad-fraud-residential-proxy",
+   "source": "Tom's Hardware",
+   "categoria": "TECH",
+   "slug": "2026-11-04-google-descubre-una-puerta-trasera-en-millones-de-tv-boxes"
+  },
+  {
+   "date": "2026-11-04",
+   "title": "Nexus Mods obliga a revelar el uso de IA y añade filtros",
+   "summary": "La plataforma de modificaciones exige declarar si se usó inteligencia artificial en el código y permite filtrarlas.",
+   "link": "https://www.ign.com/articles/nexus-mods-forces-mandatory-generative-ai-disclosures-and-filters",
+   "source": "IGN",
+   "categoria": "PC",
+   "slug": "2026-11-04-nexus-mods-obliga-a-revelar-el-uso-de-ia-y-anade-filtros"
+  },
+  {
+   "date": "2026-11-04",
+   "title": "AMD registra el trimestre más rentable de su historia gracias al hardware",
+   "summary": "La compañía reportó ingresos récord por 13.400 millones de dólares impulsados fuertemente por su negocio de centros de datos.",
+   "link": "https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc",
+   "source": "The Verge",
+   "categoria": "TECH",
+   "slug": "2026-11-04-amd-registra-el-trimestre-mas-rentable-de-su-historia-gracias-al-hardw"
+  },
+  {
+   "date": "2026-11-04",
+   "title": "Rockstar endurece su política antiprivacidad y avisos de GTA 6",
+   "summary": "Rockstar advierte que podrá eliminar publicaciones con spoilers de Grand Theft Auto VI incluso después de su lanzamiento oficial.",
+   "link": "https://vandal.elespanol.com/noticia/2026308016/rockstar-contra-los-spoilers-de-gta-6-puede-tumbar-publicaciones-incluso-tras-su-lanzamiento/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-04-rockstar-endurece-su-politica-antiprivacidad-y-avisos-de-gta-6"
+  },
   {
    "date": "2026-11-03",
    "title": "La precarga de GTA 6 en PS5 comenzará el próximo 10 de noviembre",
@@ -234,42 +270,6 @@
    "source": "3DJuegos",
    "categoria": "JUEGOS",
    "slug": "2026-10-29-the-duskbloods-nuevo-juego-de-fromsoftware-retrasa-su-estreno-hasta-20"
-  },
-  {
-   "date": "2026-10-29",
-   "title": "Detectan emuladores falsos de PS5 que roban contraseñas",
-   "summary": "Repositores populares de GitHub contenían software malicioso disfrazado de emuladores para robar datos de los usuarios.",
-   "link": "https://www.tomshardware.com/tech-industry/cyber-security/fake-ps5-emulators-are-being-used-to-infect-gamers-computers-with-password-scraping-malware-two-well-known-github-repos-including-anyps5-hit",
-   "source": "Tom's Hardware",
-   "categoria": "TECH",
-   "slug": "2026-10-29-detectan-emuladores-falsos-de-ps5-que-roban-contrasenas"
-  },
-  {
-   "date": "2026-10-29",
-   "title": "Gran oferta en PC gaming con RTX 5070 Ti y 32GB de RAM",
-   "summary": "Una rebaja temporal en Newegg deja este potente equipo Alienware con procesador Intel de 24 núcleos a un precio más accesible.",
-   "link": "https://www.tomshardware.com/desktops/gaming-pcs/score-a-huge-usd1-250-saving-on-this-alienware-gaming-pc-with-an-rtx-5070-ti-and-32gb-ddr5-right-now-big-newegg-price-drop-means-you-can-grab-this-4k-ready-rig-with-a-24-core-intel-cpu-and-1tb-ssd-for-usd2-599-99",
-   "source": "Tom's Hardware",
-   "categoria": "OFERTAS",
-   "slug": "2026-10-29-gran-oferta-en-pc-gaming-con-rtx-5070-ti-y-32gb-de-ram"
-  },
-  {
-   "date": "2026-10-29",
-   "title": "Phantom Blade Zero arrasa en Steam en su lanzamiento",
-   "summary": "El nuevo juego de acción Phantom Blade Zero alcanza un pico de 448.000 jugadores simultáneos en su debut en Steam.",
-   "link": "https://www.ign.com/articles/phantom-blade-zero-beats-modern-warfare-4-steam-top-selling",
-   "source": "IGN",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-29-phantom-blade-zero-arrasa-en-steam-en-su-lanzamiento"
-  },
-  {
-   "date": "2026-10-28",
-   "title": "Sony anuncia nuevos mandos DualSense y cubiertas transparentes para PS5",
-   "summary": "PlayStation presentó la colección Prism, una línea de accesorios con diseños translúcidos al estilo de los años 90. La gama incluye tres colores para mandos DualSense y cubiertas para la consola PS5, disponibles desde febrero.",
-   "link": "https://vandal.elespanol.com/noticia/2026301036/sony-recupera-los-mandos-transparentes-de-los-90-con-tres-nuevos-disenos-para-ps5-fecha-y-precios/",
-   "source": "Vandal",
-   "categoria": "CONSOLAS",
-   "slug": "2026-10-28-sony-anuncia-nuevos-mandos-dualsense-y-cubiertas-transparentes-para-ps"
   }
  ],
  "freebies": [
