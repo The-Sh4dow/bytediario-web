@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-05T12:30-04:00",
+ "updated": "2026-11-05T13:01-04:00",
  "items": [
+  {
+   "date": "2026-11-05",
+   "title": "Xbox mejora su aplicación de PC con un rendimiento hasta un 60% más rápido",
+   "summary": "Los miembros de Xbox Insiders ya pueden probar una aplicación de PC renovada que inicia un 60% más rápido. La actualización facilita la búsqueda de juegos, la conexión con amigos y el acceso al juego en la nube.",
+   "link": "https://news.xbox.com/en-us/2026/11/05/a-faster-simpler-xbox-experience-is-coming-to-pc-web-and-cloud/",
+   "source": "Xbox Wire",
+   "categoria": "PC",
+   "slug": "2026-11-05-xbox-mejora-su-aplicacion-de-pc-con-un-rendimiento-hasta-un-60-mas-rap"
+  },
   {
    "date": "2026-11-05",
    "title": "Los creadores de Genshin Impact fechan Honkai: Nexus Anima para la primavera de 2027",
@@ -261,15 +270,6 @@
    "source": "Tom's Hardware",
    "categoria": "PC",
    "slug": "2026-10-31-intel-prioriza-chips-para-ia-y-reduce-su-produccion-de-procesadores-de"
-  },
-  {
-   "date": "2026-10-31",
-   "title": "CD Projekt ficha a modders para la mitad del equipo de Cyberpunk 2",
-   "summary": "El estudio reveló que el 50% de sus diseñadores de misiones para la secuela provienen de la comunidad de creadores.",
-   "link": "https://vandal.elespanol.com/noticia/2026304002/cd-projekt-revela-su-arma-secreta-para-cyberpunk-2-la-mitad-del-equipo-son-modders-fichados-de-la-comunidad/",
-   "source": "Vandal",
-   "categoria": "PC",
-   "slug": "2026-10-31-cd-projekt-ficha-a-modders-para-la-mitad-del-equipo-de-cyberpunk-2"
   }
  ],
  "freebies": [
