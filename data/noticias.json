@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-05T13:01-04:00",
+ "updated": "2026-11-05T19:01-04:00",
  "items": [
+  {
+   "date": "2026-11-05",
+   "title": "Xbox añade soporte para el reescalado AMD FSR 4.1 en Series X|S y ROG Ally",
+   "summary": "Microsoft confirmó que la tecnología de reescalado AMD FSR 4.1 ya está disponible para desarrolladores en Xbox Series X/S y portátiles como la ASUS ROG Ally. Esto permitirá optimizar la calidad gráfica y la tasa de cuadros en futuros lanzamientos.",
+   "link": "https://vandal.elespanol.com/noticia/2026309043/los-desarrolladores-de-xbox-ya-pueden-utilizar-el-reescalado-amd-fsr-412-en-sus-juegos/",
+   "source": "Vandal",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-05-xbox-anade-soporte-para-el-reescalado-amd-fsr-4-1-en-series-x-s-y-rog"
+  },
   {
    "date": "2026-11-05",
    "title": "Xbox mejora su aplicación de PC con un rendimiento hasta un 60% más rápido",
@@ -261,15 +270,6 @@
    "source": "IGN",
    "categoria": "IA",
    "slug": "2026-10-31-anthropic-bloquea-en-claude-opus-la-creacion-de-clones-de-juegos-con-i"
-  },
-  {
-   "date": "2026-10-31",
-   "title": "Intel prioriza chips para IA y reduce su producción de procesadores de consumo",
-   "summary": "Intel ha comenzado a desviar parte de su capacidad de fabricación hacia procesadores para servidores y centros de datos de inteligencia artificial. Esta decisión responde a una demanda corporativa sin precedentes, en detrimento del mercado tradicional de computadoras.",
-   "link": "https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history",
-   "source": "Tom's Hardware",
-   "categoria": "PC",
-   "slug": "2026-10-31-intel-prioriza-chips-para-ia-y-reduce-su-produccion-de-procesadores-de"
   }
  ],
  "freebies": [
