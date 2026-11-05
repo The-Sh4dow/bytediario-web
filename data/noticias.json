@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-04T19:04-04:00",
+ "updated": "2026-11-05T08:02-04:00",
  "items": [
+  {
+   "date": "2026-11-05",
+   "title": "Los creadores de Genshin Impact fechan Honkai: Nexus Anima para la primavera de 2027",
+   "summary": "HoYoverse revela que su juego gratuito de coleccionismo de criaturas al estilo Palworld llegará a PC e iOS en 2027.",
+   "link": "https://vandal.elespanol.com/noticia/2026309021/el-palworld-de-mihoyo-una-aventura-de-coleccionismo-de-criaturas-gratuita-pone-fecha-al-lanzamiento-y-beta/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-05-los-creadores-de-genshin-impact-fechan-honkai-nexus-anima-para-la-prim"
+  },
+  {
+   "date": "2026-11-05",
+   "title": "Valve actualiza el proceso de revisión en Steam para frenar la saturación de juegos",
+   "summary": "La compañía implementa nuevos controles antes de publicar juegos en la tienda tras el abrumador incremento de títulos diarios.",
+   "link": "https://www.3djuegos.com/pc/noticias/valve-reconoce-que-steam-tiene-problema-cantidad-juegos-que-se-publican-no-esta-brazos-cruzados",
+   "source": "3DJuegos",
+   "categoria": "PC",
+   "slug": "2026-11-05-valve-actualiza-el-proceso-de-revision-en-steam-para-frenar-la-saturac"
+  },
+  {
+   "date": "2026-11-05",
+   "title": "PS5 roza los 100 millones de consolas vendidas y Sony aborda el futuro con PS6",
+   "summary": "La consola de Sony mantiene un ritmo de ventas masivo mientras la compañía aborda públicamente la transición hacia su próxima generación.",
+   "link": "https://www.3djuegos.com/ps5/noticias/ps5-se-acerca-a-100-millones-consolas-vendidas-sony-aprovecha-para-hablar-ps6",
+   "source": "3DJuegos",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-05-ps5-roza-los-100-millones-de-consolas-vendidas-y-sony-aborda-el-futuro"
+  },
+  {
+   "date": "2026-11-05",
+   "title": "Discord migra su aplicación a Rust para reducir el consumo de memoria RAM",
+   "summary": "La plataforma abandona la tecnología Electron en su cliente de escritorio para optimizar el rendimiento y usar menos recursos del sistema.",
+   "link": "https://www.theverge.com/news/1027379/discord-ditching-electron-web-app",
+   "source": "The Verge",
+   "categoria": "TECH",
+   "slug": "2026-11-05-discord-migra-su-aplicacion-a-rust-para-reducir-el-consumo-de-memoria"
+  },
   {
    "date": "2026-11-04",
    "title": "God of War Laufey retrasa su lanzamiento oficialmente hasta el 20 de mayo",
@@ -234,42 +270,6 @@
    "source": "Vandal",
    "categoria": "PC",
    "slug": "2026-10-31-cd-projekt-ficha-a-modders-para-la-mitad-del-equipo-de-cyberpunk-2"
-  },
-  {
-   "date": "2026-10-31",
-   "title": "Detectan problemas de roturas en la pantalla del nuevo iPhone Duo",
-   "summary": "A una semana de su lanzamiento, usuarios reportan quiebres espontáneos en el panel del dispositivo de Apple.",
-   "link": "https://www.xataka.com/moviles/parece-que-han-encontrado-a-culpable-rotura-pantalla-algunos-iphone-duo-esto-pone-campana-navidena-a-tiritar",
-   "source": "Xataka",
-   "categoria": "MOVILES",
-   "slug": "2026-10-31-detectan-problemas-de-roturas-en-la-pantalla-del-nuevo-iphone-duo"
-  },
-  {
-   "date": "2026-10-31",
-   "title": "Final Fantasy XIV retrasa la expansión Evercold hasta febrero de 2027",
-   "summary": "Square Enix anunció que la sexta gran expansión del MMORPG pospone su llegada unas semanas más allá de Año Nuevo.",
-   "link": "https://www.ign.com/articles/final-fantasy-xiv-evercold-delayed-new-release-date-announced-at-ffxiv-fan-fest",
-   "source": "IGN",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-31-final-fantasy-xiv-retrasa-la-expansion-evercold-hasta-febrero-de-2027"
-  },
-  {
-   "date": "2026-10-31",
-   "title": "GTA 6 superará a GTA V como el juego con más vehículos de la franquicia",
-   "summary": "Guinness World Records confirmó que Grand Theft Auto VI romperá la marca histórica de vehículos presentes en la saga.",
-   "link": "https://vandal.elespanol.com/noticia/2026304001/gta-6-no-ha-salido-y-ya-ha-pulverizado-un-record-guinness-de-gta-v-sera-el-juego-con-mas-coches-de-la-saga/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-10-31-gta-6-superara-a-gta-v-como-el-juego-con-mas-vehiculos-de-la-franquici"
-  },
-  {
-   "date": "2026-10-30",
-   "title": "Nvidia retira la RTX 5080 de su tienda tras hacer lo mismo con la RTX 5090",
-   "summary": "Nvidia retiró silenciosamente la RTX 5080 de su tienda oficial, poco después de hacer lo mismo con el modelo RTX 5090. La medida coincide con una escalada de precios en el mercado minorista, donde ya se vende a más del doble de su valor oficial.",
-   "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-store-quietly-pulls-the-rtx-5080-following-rtx-5090-removal-street-prices-climb-to-2-2x-over-msrp",
-   "source": "Tom's Hardware",
-   "categoria": "PC",
-   "slug": "2026-10-30-nvidia-retira-la-rtx-5080-de-su-tienda-tras-hacer-lo-mismo-con-la-rtx"
   }
  ],
  "freebies": [
