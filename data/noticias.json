@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-05T19:01-04:00",
+ "updated": "2026-11-06T08:01-04:00",
  "items": [
+  {
+   "date": "2026-11-06",
+   "title": "EA recupera el clásico Road Rash en PC optimizado y por menos de 5 euros",
+   "summary": "El recordado juego de carreras y combates sobre motos regresa adaptado a mandos modernos, mejoras de rendimiento y videos restaurados.",
+   "link": "https://vandal.elespanol.com/noticia/2026310015/vuelve-road-rash-30-anos-despues-el-clasico-de-motos-y-peleas-regresa-mejorado-a-pc-y-cuesta-menos-de-5-euros/",
+   "source": "Vandal",
+   "categoria": "OFERTAS",
+   "slug": "2026-11-06-ea-recupera-el-clasico-road-rash-en-pc-optimizado-y-por-menos-de-5-eur"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "Nintendo confirma que seguirá haciendo remakes de sus clásicos para Switch 2",
+   "summary": "La compañía considera que las reediciones de sus juegos históricos tienen la misma importancia estratégica que los títulos completamente nuevos.",
+   "link": "https://vandal.elespanol.com/noticia/2026310014/nintendo-quiere-seguir-haciendo-remakes-de-sus-grandes-clasicos-tras-zelda-ocarina-of-time-y-star-fox/",
+   "source": "Vandal",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-06-nintendo-confirma-que-seguira-haciendo-remakes-de-sus-clasicos-para-sw"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "Un fallo en el parche de NieR: Automata dispara su peso a 366 GB en PC",
+   "summary": "Una actualización destinada a sumar idiomas provocó un fallo que incrementó el archivo del juego desde sus 50 GB habituales.",
+   "link": "https://vandal.elespanol.com/noticia/2026310012/nier-automata-pasa-a-ocupar-366-gb-en-steam-por-un-extrano-bug-provocado-por-su-nueva-actualizacion/",
+   "source": "Vandal",
+   "categoria": "PC",
+   "slug": "2026-11-06-un-fallo-en-el-parche-de-nier-automata-dispara-su-peso-a-366-gb-en-pc"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "El fondo saudí PIF y Silver Lake buscan adquirir la empresa del motor Unity",
+   "summary": "Tras comprar Electronic Arts, los inversores están en conversaciones para adquirir la compañía dueña del motor gráfico Unity.",
+   "link": "https://vandal.elespanol.com/noticia/2026310016/los-fondos-que-compraron-electronic-arts-podrian-adquirir-unity-otra-de-las-grandes-empresas-del-sector/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-06-el-fondo-saudi-pif-y-silver-lake-buscan-adquirir-la-empresa-del-motor"
+  },
   {
    "date": "2026-11-05",
    "title": "Xbox añade soporte para el reescalado AMD FSR 4.1 en Series X|S y ROG Ally",
@@ -234,42 +270,6 @@
    "source": "Vandal",
    "categoria": "JUEGOS",
    "slug": "2026-11-01-the-finals-anade-comentaristas-con-ia-que-leen-los-nombres-de-los-juga"
-  },
-  {
-   "date": "2026-11-01",
-   "title": "Protestan frente a oficinas de EA tras el cierre definitivo de BioWare",
-   "summary": "Aparecen grafitis en la sede de EA en Madrid pidiendo salvar Mass Effect días después del cierre del estudio.",
-   "link": "https://www.ign.com/articles/save-mass-effect-graffiti-reportedly-spray-painted-outside-ea-building",
-   "source": "IGN",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-01-protestan-frente-a-oficinas-de-ea-tras-el-cierre-definitivo-de-bioware"
-  },
-  {
-   "date": "2026-11-01",
-   "title": "ChatGPT supera los mil millones de usuarios y rebasa a TikTok",
-   "summary": "OpenAI registra un crecimiento histórico desde 2022 y sitúa a ChatGPT por encima de la red social de ByteDance.",
-   "link": "https://www.xataka.com/servicios/meteorico-ascenso-chatgpt-noviembre-2022-grafico-mil-millones-usuarios-sorpasso-a-tiktok",
-   "source": "Xataka",
-   "categoria": "IA",
-   "slug": "2026-11-01-chatgpt-supera-los-mil-millones-de-usuarios-y-rebasa-a-tiktok"
-  },
-  {
-   "date": "2026-11-01",
-   "title": "Call of Duty: Modern Warfare 4 sufre grave input lag en Nintendo Switch 2",
-   "summary": "Jugadores reportan que la versión de Switch 2 presenta un retraso de entrada severo que genera desventaja competitiva en multijugador.",
-   "link": "https://www.ign.com/articles/input-lag-is-so-bad-in-call-of-duty-modern-warfare-4-on-nintendo-switch-2-that-players-suffer-from-a-competitive-disadvantage",
-   "source": "IGN",
-   "categoria": "CONSOLAS",
-   "slug": "2026-11-01-call-of-duty-modern-warfare-4-sufre-grave-input-lag-en-nintendo-switch"
-  },
-  {
-   "date": "2026-10-31",
-   "title": "Anthropic bloquea en Claude Opus la creación de clones de juegos con IA",
-   "summary": "Anthropic lanzó una actualización para Claude Opus que impide generar clones de videojuegos mediante inteligencia artificial. La medida busca frenar la avalancha de títulos clónicos automatizados que han estado saturando tiendas digitales como Steam.",
-   "link": "https://www.ign.com/articles/anthropic-blocks-ai-game-clones-in-claude-opus-update",
-   "source": "IGN",
-   "categoria": "IA",
-   "slug": "2026-10-31-anthropic-bloquea-en-claude-opus-la-creacion-de-clones-de-juegos-con-i"
   }
  ],
  "freebies": [
@@ -296,6 +296,14 @@
    "end_iso": "2026-11-08",
    "worth": "$9.99",
    "image": "https://www.gamerpower.com/offers/1b/6ae7cab593610.jpg"
+  },
+  {
+   "title": "GMH - Good Morning Human (Epic Games) Giveaways",
+   "link": "https://www.gamerpower.com/open/gmh-good-morning-human-epic-games-giveaways",
+   "platforms": "PC, Epic Games Store",
+   "end_iso": "2026-11-08",
+   "worth": "$9.99",
+   "image": "https://www.gamerpower.com/offers/1b/6aed159f0ca1d.jpg"
   },
   {
    "title": "Dwarven Realms (Steam) Key",
@@ -328,14 +336,6 @@
    "end_iso": "2026-11-08",
    "worth": "$7.99",
    "image": "https://www.gamerpower.com/offers/1b/6ae64030ca5f5.jpg"
-  },
-  {
-   "title": "Letter Quest: Grimm's Journey Remastered Steam Key",
-   "link": "https://www.gamerpower.com/open/letter-quest-grimm-s-journey-remastered-steam-key-giveaway",
-   "platforms": "PC, Steam",
-   "end_iso": "2026-11-06",
-   "worth": "$6.99",
-   "image": "https://www.gamerpower.com/offers/1b/6aeb27dbc0e38.jpg"
   }
  ],
  "security": [
