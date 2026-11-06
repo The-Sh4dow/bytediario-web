@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-06T08:01-04:00",
+ "updated": "2026-11-06T13:01-04:00",
  "items": [
+  {
+   "date": "2026-11-06",
+   "title": "Roban 11,4 millones de dólares en tarjetas gráficas NVIDIA en un atraco en EE. UU.",
+   "summary": "Seis palés cargados con tarjetas gráficas NVIDIA, valorados en 11,4 millones de dólares, fueron robados durante un atraco a un camión en California. Los expertos advierten que estos chips de alta tecnología podrían ser desviados para su venta en el mercado negro.",
+   "link": "https://www.tomshardware.com/pc-components/gpus/six-pallets-of-nvidia-gpus-worth-usd11-4-million-stolen-in-california-cargo-heist-authorities-investigate-after-truck-posing-as-a-food-transport-company-disappears",
+   "source": "Tom's Hardware",
+   "categoria": "PC",
+   "slug": "2026-11-06-roban-11-4-millones-de-dolares-en-tarjetas-graficas-nvidia-en-un-atrac"
+  },
   {
    "date": "2026-11-06",
    "title": "EA recupera el clásico Road Rash en PC optimizado y por menos de 5 euros",
@@ -261,15 +270,6 @@
    "source": "Tom's Hardware",
    "categoria": "PC",
    "slug": "2026-11-01-una-herramienta-libera-la-potencia-de-ia-bloqueada-por-nvidia-en-tarje"
-  },
-  {
-   "date": "2026-11-01",
-   "title": "The Finals añade comentaristas con IA que leen los nombres de los jugadores",
-   "summary": "La temporada 12 del shooter introduce comentarios dinámicos capaces de vocalizar en tiempo real el alias de los usuarios.",
-   "link": "https://vandal.elespanol.com/noticia/2026305006/the-finals-anade-una-curiosa-novedad-con-ia-ahora-el-comentarista-puede-pronunciar-los-nombres-de-los-jugadores/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-01-the-finals-anade-comentaristas-con-ia-que-leen-los-nombres-de-los-juga"
   }
  ],
  "freebies": [
