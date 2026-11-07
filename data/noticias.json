@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-06T19:01-04:00",
+ "updated": "2026-11-07T08:00-04:00",
  "items": [
+  {
+   "date": "2026-11-07",
+   "title": "EA relanza las sagas clásicas Ultima y Wing Commander en Steam y GOG",
+   "summary": "Electronic Arts ha puesto a la venta varias entregas históricas de ambas franquicias de rol y combate espacial en PC.",
+   "link": "https://arstechnica.com/gaming/2026/11/ea-producer-tells-the-inside-story-behind-new-wing-commander-remasters/",
+   "source": "Ars Technica",
+   "categoria": "PC",
+   "slug": "2026-11-07-ea-relanza-las-sagas-clasicas-ultima-y-wing-commander-en-steam-y-gog"
+  },
+  {
+   "date": "2026-11-07",
+   "title": "Un fallo de seguridad en Linux permitía entrar sin contraseña durante una década",
+   "summary": "Una vulnerabilidad presente durante diez años en configuraciones específicas de Linux permitía eludir la autenticación sin requerir ninguna clave.",
+   "link": "https://www.xataka.com/seguridad/algunos-sistemas-linux-permiten-entrar-conocer-contrasena-fallo-llevaba-decada-escondido",
+   "source": "Xataka",
+   "categoria": "TECH",
+   "slug": "2026-11-07-un-fallo-de-seguridad-en-linux-permitia-entrar-sin-contrasena-durante"
+  },
+  {
+   "date": "2026-11-07",
+   "title": "China reclutó a una ejecutiva para espiar al CEO de Nvidia y sus chips de IA",
+   "summary": "El servicio de inteligencia chino intentó obtener secretos sobre procesadores estadounidenses vigilando de cerca los movimientos de Jensen Huang.",
+   "link": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+   "source": "The Verge",
+   "categoria": "TECH",
+   "slug": "2026-11-07-china-recluto-a-una-ejecutiva-para-espiar-al-ceo-de-nvidia-y-sus-chips"
+  },
+  {
+   "date": "2026-11-07",
+   "title": "OpenAI alcanza una valoración de 1,25 billones de dólares tras una nueva ronda",
+   "summary": "La creadora de ChatGPT sumó 11.000 millones de dólares en financiación, situándose entre las compañías más valiosas del planeta.",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+   "source": "The Verge",
+   "categoria": "IA",
+   "slug": "2026-11-07-openai-alcanza-una-valoracion-de-1-25-billones-de-dolares-tras-una-nue"
+  },
   {
    "date": "2026-11-06",
    "title": "SpaceX busca convertir Starlink Mobile en una gran operadora de telefonía",
@@ -234,42 +270,6 @@
    "source": "Vandal",
    "categoria": "IA",
    "slug": "2026-11-02-un-estudio-revela-que-el-94-de-las-desarrolladoras-occidentales-ya-uti"
-  },
-  {
-   "date": "2026-11-02",
-   "title": "Sony lanza una nueva actualización de PS5 para frenar el avance del 'jailbreak'",
-   "summary": "La compañía publica un nuevo firmware para proteger la consola frente a los intentos de la comunidad de ejecutar código no autorizado.",
-   "link": "https://www.ign.com/articles/sony-issues-yet-another-ps5-firmware-update-as-jailbreak-whac-a-mole-continues-ahead-of-gta-6-release",
-   "source": "IGN",
-   "categoria": "CONSOLAS",
-   "slug": "2026-11-02-sony-lanza-una-nueva-actualizacion-de-ps5-para-frenar-el-avance-del-ja"
-  },
-  {
-   "date": "2026-11-02",
-   "title": "Cierra Nagoshi Studio y se cancela Gang of Dragon, el nuevo juego del creador de Yakuza",
-   "summary": "El estudio fundado por Toshihiro Nagoshi tras abandonar Sega cesa sus actividades y clausura el desarrollo de su esperado proyecto.",
-   "link": "https://vandal.elespanol.com/noticia/2026306011/se-confirma-el-cierre-de-nagoshi-studio-y-la-cancelacion-de-gang-of-dragon-el-rival-de-yakuza/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-02-cierra-nagoshi-studio-y-se-cancela-gang-of-dragon-el-nuevo-juego-del-c"
-  },
-  {
-   "date": "2026-11-02",
-   "title": "Phantom Blade Zero supera los 4 millones de copias vendidas en solo 72 horas",
-   "summary": "El juego de acción desarrollado por S-Game logra un impresionante éxito comercial a los pocos días de su estreno en el mercado.",
-   "link": "https://www.ign.com/articles/phantom-blade-zero-sells-4-million-copies-in-72-hours",
-   "source": "IGN",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-02-phantom-blade-zero-supera-los-4-millones-de-copias-vendidas-en-solo-72"
-  },
-  {
-   "date": "2026-11-01",
-   "title": "GOG estudia relanzar videojuegos de PC en formato físico",
-   "summary": "La tienda digital busca vender títulos en formato físico para dar más libertad a los jugadores y contrarrestar la tendencia exclusivamente digital. Sin embargo, la compañía aún debe resolver la logística y obtener los permisos necesarios de las distribuidoras.",
-   "link": "https://www.tomshardware.com/video-games/gog-explores-reviving-physical-pc-game-releases-digital-storefront-needs-publisher-approvals-has-to-figure-out-the-logistics-and-legal-challenges",
-   "source": "Tom's Hardware",
-   "categoria": "PC",
-   "slug": "2026-11-01-gog-estudia-relanzar-videojuegos-de-pc-en-formato-fisico"
   }
  ],
  "freebies": [
