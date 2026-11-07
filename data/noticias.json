@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-07T13:05-04:00",
+ "updated": "2026-11-07T19:00-04:00",
  "items": [
+  {
+   "date": "2026-11-07",
+   "title": "Sony retrasa de forma indefinida los altavoces Pulse Elevate a días de su estreno",
+   "summary": "Sony ha aplazado por tiempo indefinido el lanzamiento global de los altavoces inalámbricos Pulse Elevate, programado originalmente para estos días. La compañía no ha ofrecido detalles sobre los motivos de la decisión ni una fecha estimada de llegada al mercado.",
+   "link": "https://www.ign.com/articles/sony-announces-indefinite-delay-for-playstations-pulse-elevate-wireless-speakers-days-before-launch",
+   "source": "IGN",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-07-sony-retrasa-de-forma-indefinida-los-altavoces-pulse-elevate-a-dias-de"
+  },
   {
    "date": "2026-11-07",
    "title": "El nuevo Bluetooth HDT alcanzará 7,5 Mbps para permitir audio sin pérdidas",
@@ -261,15 +270,6 @@
    "source": "The Verge",
    "categoria": "TECH",
    "slug": "2026-11-02-meta-finalizara-las-actualizaciones-para-quest-2-y-quest-pro-en-2027"
-  },
-  {
-   "date": "2026-11-02",
-   "title": "La Raspberry Pi 5 de 16 GB sube a 385 dólares por la escasez de RAM",
-   "summary": "El modelo de 16 GB de la Raspberry Pi 5 ha sufrido un nuevo incremento de 80 dólares impulsado por la escasez de memoria, situando su precio en 385 dólares. La placa ya cuesta más del triple frente a sus 120 dólares de lanzamiento.",
-   "link": "https://www.theverge.com/tech/1024342/raspberry-pi-5-16gb-price-hike-ram",
-   "source": "The Verge",
-   "categoria": "PC",
-   "slug": "2026-11-02-la-raspberry-pi-5-de-16-gb-sube-a-385-dolares-por-la-escasez-de-ram"
   }
  ],
  "freebies": [
