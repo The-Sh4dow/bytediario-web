@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-07T12:04-04:00",
+ "updated": "2026-11-07T13:05-04:00",
  "items": [
+  {
+   "date": "2026-11-07",
+   "title": "El nuevo Bluetooth HDT alcanzará 7,5 Mbps para permitir audio sin pérdidas",
+   "summary": "El nuevo estándar Bluetooth High Data Throughput (HDT) ofrecerá un ancho de banda de hasta 7,5 Mbps. Esta velocidad permitirá transmitir archivos pesados y audio de alta fidelidad sin compresión en dispositivos inalámbricos avanzados.",
+   "link": "https://www.tomshardware.com/peripherals/wearable-tech/new-bluetooth-high-data-throughput-may-finally-satisfy-audiophiles-bluetooth-hdt-offers-a-maximum-bandwidth-of-7-5mbps-allowing-true-lossless-transmission",
+   "source": "Tom's Hardware",
+   "categoria": "TECH",
+   "slug": "2026-11-07-el-nuevo-bluetooth-hdt-alcanzara-7-5-mbps-para-permitir-audio-sin-perd"
+  },
   {
    "date": "2026-11-07",
    "title": "EA relanza las sagas clásicas Ultima y Wing Commander en Steam y GOG",
@@ -261,15 +270,6 @@
    "source": "The Verge",
    "categoria": "PC",
    "slug": "2026-11-02-la-raspberry-pi-5-de-16-gb-sube-a-385-dolares-por-la-escasez-de-ram"
-  },
-  {
-   "date": "2026-11-02",
-   "title": "Un estudio revela que el 94 % de las desarrolladoras occidentales ya utiliza IA",
-   "summary": "Un informe de Vivrato demuestra la adopción casi unánime de herramientas de inteligencia artificial en los estudios de videojuegos de Occidente.",
-   "link": "https://vandal.elespanol.com/noticia/2026306010/un-nuevo-estudio-desvela-que-el-94-de-las-companias-usan-ia-para-desarrollar-sus-videojuegos/",
-   "source": "Vandal",
-   "categoria": "IA",
-   "slug": "2026-11-02-un-estudio-revela-que-el-94-de-las-desarrolladoras-occidentales-ya-uti"
   }
  ],
  "freebies": [
