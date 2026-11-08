@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-07T19:00-04:00",
+ "updated": "2026-11-08T08:04-04:00",
  "items": [
+  {
+   "date": "2026-11-08",
+   "title": "Valve expulsa de Steam a varios juegos tras una disputa por plagio y robo de código",
+   "summary": "La plataforma eliminó tres títulos basados en buscar agujas en un pajar tras acusaciones cruzadas de copia entre desarrolladores independientes.",
+   "link": "https://vandal.elespanol.com/noticia/2026312006/clonan-un-juego-en-steam-otra-copia-les-roba-el-codigo-y-valve-les-echa-de-la-plataforma/",
+   "source": "Vandal",
+   "categoria": "PC",
+   "slug": "2026-11-08-valve-expulsa-de-steam-a-varios-juegos-tras-una-disputa-por-plagio-y-r"
+  },
+  {
+   "date": "2026-11-08",
+   "title": "Uno de cada tres estudios de videojuegos cierra tras ser adquirido por otra compañía",
+   "summary": "Un análisis a casi 400 desarrolladoras revela que la mitad de los cierres posteriores a compras ocurren en menos de cinco años.",
+   "link": "https://www.3djuegos.com/pc/noticias/analisis-casi-400-estudios-evidencia-realidades-duras-industria-ser-adquirido-otra-empresa-apuesta-peligrosa",
+   "source": "3DJuegos",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-08-uno-de-cada-tres-estudios-de-videojuegos-cierra-tras-ser-adquirido-por"
+  },
+  {
+   "date": "2026-11-08",
+   "title": "El lanzamiento de WoW: Forever requirió más de 70.000 núcleos de CPU y 251 TB de RAM",
+   "summary": "Blizzard reveló la colosal infraestructura de servidores necesaria para mantener conectados a millones de jugadores de manera simultánea y sin interrupciones.",
+   "link": "https://www.tomshardware.com/video-games/pc-gaming/wow-forever-launch-used-70-480-cpu-cores-and-251-terabytes-of-ram-3-924-virtual-machines-powered-one-of-world-of-warcrafts-smoothest-launches-ever",
+   "source": "Tom's Hardware",
+   "categoria": "TECH",
+   "slug": "2026-11-08-el-lanzamiento-de-wow-forever-requirio-mas-de-70-000-nucleos-de-cpu-y"
+  },
+  {
+   "date": "2026-11-08",
+   "title": "Epic Games revela las probabilidades del Pirate Token en Fortnite tras presión comunitaria",
+   "summary": "La desarrolladora publicó la tasa exacta de aparición del polémico objeto luego de que los jugadores amenazaran con denunciar ante la FTC.",
+   "link": "https://www.ign.com/articles/epic-reveals-drop-rate-for-fortnites-pirate-token-following-pressure-from-fans",
+   "source": "IGN",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-08-epic-games-revela-las-probabilidades-del-pirate-token-en-fortnite-tras"
+  },
   {
    "date": "2026-11-07",
    "title": "Sony retrasa de forma indefinida los altavoces Pulse Elevate a días de su estreno",
@@ -234,42 +270,6 @@
    "source": "Tom's Hardware",
    "categoria": "PC",
    "slug": "2026-11-03-la-encuesta-de-steam-refleja-una-sorpresiva-caida-en-pcs-con-32-gb-de"
-  },
-  {
-   "date": "2026-11-03",
-   "title": "Redmagic actualiza su smartphone gaming con refrigeración líquida e iluminación RGB",
-   "summary": "El nuevo Redmagic 12 Pro incorpora luces RGB integradas en el circuito transparente de refrigeración por líquido.",
-   "link": "https://www.theverge.com/gadgets/1024504/redmagic-12-pro-liquid-cooling-rgb-lighting-185hz-camera",
-   "source": "The Verge",
-   "categoria": "MOVILES",
-   "slug": "2026-11-03-redmagic-actualiza-su-smartphone-gaming-con-refrigeracion-liquida-e-il"
-  },
-  {
-   "date": "2026-11-03",
-   "title": "Un monitor QD-OLED de 360 Hz cae a un precio mínimo de 349 dólares",
-   "summary": "Un monitor gaming de 27 pulgadas con panel QD-OLED, 360 Hz de refresco y antena Wi-Fi integrada recibe una gran rebaja.",
-   "link": "https://www.tomshardware.com/monitors/gaming-monitors/snag-this-360hz-qd-oled-gaming-monitor-for-only-usd349-sumptuous-27-inch-display-also-features-an-integrated-wi-fi-antenna",
-   "source": "Tom's Hardware",
-   "categoria": "PC",
-   "slug": "2026-11-03-un-monitor-qd-oled-de-360-hz-cae-a-un-precio-minimo-de-349-dolares"
-  },
-  {
-   "date": "2026-11-03",
-   "title": "Sony adelanta el Black Friday en PlayStation Store con descuentos de hasta el 75 %",
-   "summary": "Las ofertas del Black Friday en PlayStation Store comenzarán el 4 de noviembre y se extenderán durante todo el mes.",
-   "link": "https://vandal.elespanol.com/noticia/2026307019/el-black-friday-durara-todo-el-mes-en-playstation-store-sony-anuncia-que-las-ofertas-empezaran-el-4-de-noviembre/",
-   "source": "Vandal",
-   "categoria": "OFERTAS",
-   "slug": "2026-11-03-sony-adelanta-el-black-friday-en-playstation-store-con-descuentos-de-h"
-  },
-  {
-   "date": "2026-11-02",
-   "title": "Meta finalizará las actualizaciones para Quest 2 y Quest Pro en 2027",
-   "summary": "Meta ha anunciado que la última actualización de sistema para sus gafas de realidad virtual Quest 2 y Quest Pro llegará en marzo de 2027 con la versión v213. A partir de esa fecha, la compañía se centrará exclusivamente en enviar parches de seguridad puntuales.",
-   "link": "https://www.theverge.com/tech/1024835/meta-vr-quest-2-pro-os-end-updates",
-   "source": "The Verge",
-   "categoria": "TECH",
-   "slug": "2026-11-02-meta-finalizara-las-actualizaciones-para-quest-2-y-quest-pro-en-2027"
   }
  ],
  "freebies": [
