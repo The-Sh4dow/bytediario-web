@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-08T10:01-04:00",
+ "updated": "2026-11-08T13:04-04:00",
  "items": [
+  {
+   "date": "2026-11-08",
+   "title": "La adopción de 64 GB de RAM en PC cae un 18% por el encarecimiento de la memoria",
+   "summary": "Datos de CPU-Z revelan que la capacidad media de memoria en ordenadores cayó por primera vez en la historia. El fuerte aumento en los precios de la memoria DRAM, impulsado por la demanda de la industria de la IA, provocó una caída interanual del 18% en sistemas con 64 GB.",
+   "link": "https://www.tomshardware.com/pc-components/ram/pcs-with-64gb-of-ram-plummet-18-percent-as-memory-prices-soar-cpu-z-install-base-data-shows-ddr4-making-a-surprise-comeback",
+   "source": "Tom's Hardware",
+   "categoria": "PC",
+   "slug": "2026-11-08-la-adopcion-de-64-gb-de-ram-en-pc-cae-un-18-por-el-encarecimiento-de-l"
+  },
   {
    "date": "2026-11-08",
    "title": "Valve expulsa de Steam a varios juegos tras una disputa por plagio y robo de código",
@@ -261,15 +270,6 @@
    "source": "PlayStation Blog",
    "categoria": "CONSOLAS",
    "slug": "2026-11-03-la-precarga-de-gta-6-en-ps5-comenzara-el-proximo-10-de-noviembre"
-  },
-  {
-   "date": "2026-11-03",
-   "title": "La encuesta de Steam refleja una sorpresiva caída en PCs con 32 GB de RAM",
-   "summary": "Los datos más recientes de Steam muestran una disminución de más del 5 % en sistemas con 32 GB de RAM y 1 TB de almacenamiento.",
-   "link": "https://www.tomshardware.com/pc-components/ram/steam-survey-shockwaves-felt-as-proportion-of-32gb-ram-systems-drops-by-more-than-5-percent-the-percentage-of-pc-gamers-with-1tb-total-storage-also-shrunk-by-nearly-5-percent",
-   "source": "Tom's Hardware",
-   "categoria": "PC",
-   "slug": "2026-11-03-la-encuesta-de-steam-refleja-una-sorpresiva-caida-en-pcs-con-32-gb-de"
   }
  ],
  "freebies": [
