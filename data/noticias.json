@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-09T13:05-04:00",
+ "updated": "2026-11-09T19:04-04:00",
  "items": [
+  {
+   "date": "2026-11-09",
+   "title": "Anthropic lanza Claude Fable 5.2 y Mythos 5.2, sus modelos de IA más potentes",
+   "summary": "Anthropic anunció sus nuevos modelos de inteligencia artificial Claude Fable 5.2 y Mythos 5.2, orientados a resolver problemas técnicos complejos. Según la compañía, ofrecen avances notables en programación, razonamiento y procesamiento visual, manteniendo uno de ellos con acceso general y otro con disponibilidad restringida.",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+   "source": "The Verge",
+   "categoria": "IA",
+   "slug": "2026-11-09-anthropic-lanza-claude-fable-5-2-y-mythos-5-2-sus-modelos-de-ia-mas-po"
+  },
   {
    "date": "2026-11-09",
    "title": "Sony lanzará un PlayStation Portal renovado con almacenamiento interno",
@@ -261,15 +270,6 @@
    "source": "The Verge",
    "categoria": "TECH",
    "slug": "2026-11-05-discord-migra-su-aplicacion-a-rust-para-reducir-el-consumo-de-memoria"
-  },
-  {
-   "date": "2026-11-04",
-   "title": "God of War Laufey retrasa su lanzamiento oficialmente hasta el 20 de mayo",
-   "summary": "Santa Monica Studio ha anunciado que God of War Laufey no llegará en febrero como estaba previsto. Su estreno se mueve al 20 de mayo para que el equipo de desarrollo pueda pulir la experiencia y optimizar su rendimiento.",
-   "link": "https://vandal.elespanol.com/noticia/2026308040/oficial-god-of-war-laufey-no-llegara-en-febrero-y-su-lanzamiento-se-retrasa-unos-meses/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-04-god-of-war-laufey-retrasa-su-lanzamiento-oficialmente-hasta-el-20-de-m"
   }
  ],
  "freebies": [
@@ -291,6 +291,15 @@
   }
  ],
  "security": [
+  {
+   "cve": "CVE-2026-123218",
+   "vendor": "IBM",
+   "product": "Aspera Faspex",
+   "summary": "Afecta a IBM Aspera Faspex y permite a un usuario con acceso evadir las restricciones de seguridad para elevar sus privilegios en el sistema.",
+   "added": "2026-11-09",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218"
+  },
   {
    "cve": "CVE-2026-123158",
    "vendor": "OpenBSD",
@@ -317,15 +326,6 @@
    "added": "2026-11-09",
    "ransomware": false,
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895"
-  },
-  {
-   "cve": "CVE-2026-19868",
-   "vendor": "SonicWall",
-   "product": "SonicOS SSLVPN",
-   "summary": "Afecta a SonicWall SonicOS SSLVPN y permite a atacantes eludir los controles de autenticación SAML y el doble factor de verificación usando credenciales de un método alternativo.",
-   "added": "2026-11-06",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868"
   }
  ]
 }
