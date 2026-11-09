@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-09T08:07-04:00",
+ "updated": "2026-11-09T13:05-04:00",
  "items": [
+  {
+   "date": "2026-11-09",
+   "title": "Sony lanzará un PlayStation Portal renovado con almacenamiento interno",
+   "summary": "Sony prepara el lanzamiento en Japón de una versión actualizada de su PlayStation Portal en color negro. Este nuevo modelo integrará almacenamiento interno adicional pensado para dar soporte a futuras funciones del dispositivo.",
+   "link": "https://www.theverge.com/news/1029822/sony-playstation-portal-japan-model-additional-storage",
+   "source": "The Verge",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-09-sony-lanzara-un-playstation-portal-renovado-con-almacenamiento-interno"
+  },
   {
    "date": "2026-11-09",
    "title": "Call of Duty: Modern Warfare 4 estrena una prueba gratuita por tiempo limitado",
@@ -261,15 +270,6 @@
    "source": "Vandal",
    "categoria": "JUEGOS",
    "slug": "2026-11-04-god-of-war-laufey-retrasa-su-lanzamiento-oficialmente-hasta-el-20-de-m"
-  },
-  {
-   "date": "2026-11-04",
-   "title": "El remake de Zelda: Ocarina of Time en Switch 2 deslumbra a la crítica",
-   "summary": "Digital Foundry ha alabado el apartado gráfico del remake de The Legend of Zelda: Ocarina of Time para Switch 2, destacando sus fluidos 60 FPS. El título ya se sitúa como uno de los lanzamientos mejor valorados del año.",
-   "link": "https://vandal.elespanol.com/noticia/2026308037/uno-de-los-juegos-de-nintendo-que-mejor-se-ve-expertos-dictan-sentencia-con-el-remake-de-zelda-ocarina-of-time/",
-   "source": "Vandal",
-   "categoria": "CONSOLAS",
-   "slug": "2026-11-04-el-remake-de-zelda-ocarina-of-time-en-switch-2-deslumbra-a-la-critica"
   }
  ],
  "freebies": [
@@ -282,63 +282,42 @@
    "image": "https://www.gamerpower.com/offers/1b/6aeca99004384.jpg"
   },
   {
-   "title": "Horse Racing",
-   "link": "https://www.gamerpower.com/open/horse-racing-epic-games-giveaway",
-   "platforms": "PC, Epic Games Store",
-   "end_iso": "2026-11-08",
-   "worth": "$9.99",
-   "image": "https://www.gamerpower.com/offers/1b/6ae7b210288b2.jpg"
-  },
-  {
-   "title": "Highway Driving",
-   "link": "https://www.gamerpower.com/open/highway-driving-epic-games-giveaway",
-   "platforms": "PC, Epic Games Store",
-   "end_iso": "2026-11-08",
-   "worth": "$9.99",
-   "image": "https://www.gamerpower.com/offers/1b/6ae7cab593610.jpg"
-  },
-  {
-   "title": "GMH - Good Morning Human (Epic Games) Giveaways",
-   "link": "https://www.gamerpower.com/open/gmh-good-morning-human-epic-games-giveaways",
-   "platforms": "PC, Epic Games Store",
-   "end_iso": "2026-11-08",
-   "worth": "$9.99",
-   "image": "https://www.gamerpower.com/offers/1b/6aed159f0ca1d.jpg"
-  },
-  {
    "title": "Dwarven Realms (Steam) Key",
    "link": "https://www.gamerpower.com/open/dwarven-realms-steam-key-giveaway",
    "platforms": "PC, Steam",
    "end_iso": "",
    "worth": "$9.99",
    "image": "https://www.gamerpower.com/offers/1b/6a59119a8eb8d.jpg"
-  },
-  {
-   "title": "Gladiator: Blades of Fury",
-   "link": "https://www.gamerpower.com/open/gladiator-blades-of-fury-epic-games-giveaway",
-   "platforms": "PC, Epic Games Store",
-   "end_iso": "2026-11-08",
-   "worth": "$9.99",
-   "image": "https://www.gamerpower.com/offers/1b/6ae6414cb0f67.jpg"
-  },
-  {
-   "title": "Dark Mystery",
-   "link": "https://www.gamerpower.com/open/dark-mystery-epic-games-giveaway",
-   "platforms": "PC, Epic Games Store",
-   "end_iso": "2026-11-08",
-   "worth": "$7.99",
-   "image": "https://www.gamerpower.com/offers/1b/6ae7c63220dc4.jpg"
-  },
-  {
-   "title": "Quiztopia: The Ultimate Trivia",
-   "link": "https://www.gamerpower.com/open/quiztopia-the-ultimate-trivia-epic-games-giveaway",
-   "platforms": "PC, Epic Games Store",
-   "end_iso": "2026-11-08",
-   "worth": "$7.99",
-   "image": "https://www.gamerpower.com/offers/1b/6ae64030ca5f5.jpg"
   }
  ],
  "security": [
+  {
+   "cve": "CVE-2026-123158",
+   "vendor": "OpenBSD",
+   "product": "OpenSSH",
+   "summary": "Una vulnerabilidad en OpenSSH para Linux permite a un atacante eludir el proceso de autenticación y acceder al sistema sin credenciales válidas.",
+   "added": "2026-11-09",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
+  },
+  {
+   "cve": "CVE-2026-116779",
+   "vendor": "SignalWire",
+   "product": "FreeSwitch",
+   "summary": "Un fallo de inyección de código en SignalWire FreeSwitch permite a atacantes controlar llamadas, ejecutar comandos remotos y robar credenciales del sistema.",
+   "added": "2026-11-09",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779"
+  },
+  {
+   "cve": "CVE-2026-102895",
+   "vendor": "GPUStack",
+   "product": "GPUStack",
+   "summary": "Una falla de autenticación en GPUStack permite a atacantes obtener acceso administrativo sin contraseña, robar secretos del sistema y ejecutar código no autorizado.",
+   "added": "2026-11-09",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895"
+  },
   {
    "cve": "CVE-2026-19868",
    "vendor": "SonicWall",
@@ -347,33 +326,6 @@
    "added": "2026-11-06",
    "ransomware": false,
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868"
-  },
-  {
-   "cve": "CVE-2024-27834",
-   "vendor": "Apple",
-   "product": "Multiple Products",
-   "summary": "Afecta a varios sistemas de Apple, como iOS y macOS, permitiendo a atacantes con acceso de lectura y escritura evadir protecciones clave de seguridad del dispositivo.",
-   "added": "2026-11-04",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834"
-  },
-  {
-   "cve": "CVE-2026-119977",
-   "vendor": "WordPress",
-   "product": "WordPress Core",
-   "summary": "Afecta al núcleo de WordPress y permite a atacantes no autorizados ejecutar código malicioso en el servidor aprovechando una falla durante las actualizaciones del sistema.",
-   "added": "2026-11-03",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977"
-  },
-  {
-   "cve": "CVE-2026-118527",
-   "vendor": "Ivanti",
-   "product": "Connect Secure",
-   "summary": "Afecta a Ivanti Connect Secure y permite a un atacante remoto autenticado subir archivos propios a ubicaciones específicas del sistema.",
-   "added": "2026-10-30",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527"
   }
  ]
 }
