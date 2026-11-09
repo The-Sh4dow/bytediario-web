@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-08T19:02-04:00",
+ "updated": "2026-11-09T08:07-04:00",
  "items": [
+  {
+   "date": "2026-11-09",
+   "title": "Call of Duty: Modern Warfare 4 estrena una prueba gratuita por tiempo limitado",
+   "summary": "Activision habilitó el acceso sin costo al modo DMZ en PC, PlayStation 5 y Xbox Series durante este periodo promocional.",
+   "link": "https://vandal.elespanol.com/noticia/2026313020/call-of-duty-modern-warfare-4-se-puede-jugar-gratis-por-tiempo-limitado-aunque-no-en-switch-2/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-09-call-of-duty-modern-warfare-4-estrena-una-prueba-gratuita-por-tiempo-l"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "Un error en Claude Code expuso el correo de sus usuarios a sitios web externos",
+   "summary": "La herramienta de IA guardaba el correo electrónico para identificar la cuenta, pero terminó enviándolo a varias páginas web visitadas.",
+   "link": "https://www.xataka.com/robotica-e-ia/claude-code-guardaba-tu-correo-para-saber-quien-eres-algunas-webs-acabaron-recibiendolo",
+   "source": "Xataka",
+   "categoria": "IA",
+   "slug": "2026-11-09-un-error-en-claude-code-expuso-el-correo-de-sus-usuarios-a-sitios-web"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "Pruebas revelan problemas de píxeles muertos en televisores con paneles LG WOLED",
+   "summary": "Un análisis de RTings detectó degradación y muerte de píxeles en los bordes en modelos fabricados entre 2019 y 2023.",
+   "link": "https://www.tomshardware.com/monitors/lg-woled-tvs-suffer-from-edge-rot-pixel-death-pixels-go-dark-around-the-edges-similar-to-a-mold-pattern-nearly-all-woled-test-units-show-clear-signs-of-degradation",
+   "source": "Tom's Hardware",
+   "categoria": "TECH",
+   "slug": "2026-11-09-pruebas-revelan-problemas-de-pixeles-muertos-en-televisores-con-panele"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "Un fallo en los drivers de AMD desgasta los SSD al escribir datos continuamente",
+   "summary": "AMD investiga un error en su utilidad externa que escribe hasta 5 MB/s constantemente en el almacenamiento, incluso con el equipo en reposo.",
+   "link": "https://www.tomshardware.com/pc-components/gpu-drivers/amd-adrenalin-bug-could-be-writing-data-continuously-wearing-out-ssds-radeon-owner-claims-external-events-utility-used-up-1-percent-of-ssd-health-every-month-for-over-a-year",
+   "source": "Tom's Hardware",
+   "categoria": "PC",
+   "slug": "2026-11-09-un-fallo-en-los-drivers-de-amd-desgasta-los-ssd-al-escribir-datos-cont"
+  },
   {
    "date": "2026-11-08",
    "title": "Epic Games confirma la llegada oficial de su launcher a SteamOS y Linux",
@@ -234,42 +270,6 @@
    "source": "Vandal",
    "categoria": "CONSOLAS",
    "slug": "2026-11-04-el-remake-de-zelda-ocarina-of-time-en-switch-2-deslumbra-a-la-critica"
-  },
-  {
-   "date": "2026-11-04",
-   "title": "Google descubre una puerta trasera en millones de TV boxes",
-   "summary": "Un fabricante certificado ocultó código malicioso en más de un millón de dispositivos Android TV para fraude publicitario.",
-   "link": "https://www.tomshardware.com/tech-industry/cyber-security/certified-android-tv-manufacturer-put-unauthorized-backdoor-in-set-top-boxes-google-reveals-oem-sold-access-to-criminal-affiliates-for-1-3-million-devices-used-massive-network-as-botnet-for-ad-fraud-residential-proxy",
-   "source": "Tom's Hardware",
-   "categoria": "TECH",
-   "slug": "2026-11-04-google-descubre-una-puerta-trasera-en-millones-de-tv-boxes"
-  },
-  {
-   "date": "2026-11-04",
-   "title": "Nexus Mods obliga a revelar el uso de IA y añade filtros",
-   "summary": "La plataforma de modificaciones exige declarar si se usó inteligencia artificial en el código y permite filtrarlas.",
-   "link": "https://www.ign.com/articles/nexus-mods-forces-mandatory-generative-ai-disclosures-and-filters",
-   "source": "IGN",
-   "categoria": "PC",
-   "slug": "2026-11-04-nexus-mods-obliga-a-revelar-el-uso-de-ia-y-anade-filtros"
-  },
-  {
-   "date": "2026-11-04",
-   "title": "AMD registra el trimestre más rentable de su historia gracias al hardware",
-   "summary": "La compañía reportó ingresos récord por 13.400 millones de dólares impulsados fuertemente por su negocio de centros de datos.",
-   "link": "https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc",
-   "source": "The Verge",
-   "categoria": "TECH",
-   "slug": "2026-11-04-amd-registra-el-trimestre-mas-rentable-de-su-historia-gracias-al-hardw"
-  },
-  {
-   "date": "2026-11-04",
-   "title": "Rockstar endurece su política antiprivacidad y avisos de GTA 6",
-   "summary": "Rockstar advierte que podrá eliminar publicaciones con spoilers de Grand Theft Auto VI incluso después de su lanzamiento oficial.",
-   "link": "https://vandal.elespanol.com/noticia/2026308016/rockstar-contra-los-spoilers-de-gta-6-puede-tumbar-publicaciones-incluso-tras-su-lanzamiento/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-04-rockstar-endurece-su-politica-antiprivacidad-y-avisos-de-gta-6"
   }
  ],
  "freebies": [
