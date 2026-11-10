@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-09T19:04-04:00",
+ "updated": "2026-11-10T08:05-04:00",
  "items": [
+  {
+   "date": "2026-11-10",
+   "title": "Un fallo de seguridad permitía abrir y encender autos conectados de forma remota",
+   "summary": "Una falla en las API de dos importantes fabricantes automotrices dejaba a hackers desbloquear puertas y arrancar motores sin llave.",
+   "link": "https://www.tomshardware.com/tech-industry/cyber-security/all-net-connected-vehicles-from-two-major-automakers-allowed-hackers-to-remotely-unlock-doors-and-start-the-engine-now-patched-hard-coded-credentials-and-bypassed-mfa-security-showcase-a-lack-of-101-level-best-practices",
+   "source": "Tom's Hardware",
+   "categoria": "TECH",
+   "slug": "2026-11-10-un-fallo-de-seguridad-permitia-abrir-y-encender-autos-conectados-de-fo"
+  },
+  {
+   "date": "2026-11-10",
+   "title": "Steam mostrará los FPS promedio de los juegos antes de comprarlos",
+   "summary": "Valve añadió una función que muestra el rendimiento medio en tiempo real que obtienen otros usuarios según su hardware.",
+   "link": "https://vandal.elespanol.com/noticia/2026314013/steam-estrena-una-util-funcion-que-permite-saber-a-cuantos-fps-funciona-un-juego-en-steam-deck-antes-de-comprarlo/",
+   "source": "Vandal",
+   "categoria": "PC",
+   "slug": "2026-11-10-steam-mostrara-los-fps-promedio-de-los-juegos-antes-de-comprarlos"
+  },
+  {
+   "date": "2026-11-10",
+   "title": "Hollow Knight: Silksong recibirá más expansiones gratuitas en el futuro",
+   "summary": "El manual de la edición física del juego reveló que 'Sea of Sorrow' será la primera de varias expansiones de contenido totalmente gratis.",
+   "link": "https://vandal.elespanol.com/noticia/2026314012/hollow-knight-silksong-recibira-mas-dlc-gratis-en-el-futuro-segun-revela-su-edicion-fisica/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-10-hollow-knight-silksong-recibira-mas-expansiones-gratuitas-en-el-futuro"
+  },
+  {
+   "date": "2026-11-10",
+   "title": "Demandan a NVIDIA tras la confesión de su CEO sobre un caso de espionaje",
+   "summary": "Una firma de abogados presentó una demanda colectiva contra NVIDIA luego de que Jensen Huang confirmara una relación inapropiada con una supuesta espía china.",
+   "link": "https://www.tomshardware.com/tech-industry/big-tech/law-firm-files-class-action-lawsuit-against-nvidia-after-ceo-jensen-huang-confirms-affair-with-alleged-chinese-spy-more-to-come-as-multiple-other-law-firms-investigate-securities-fraud-following-stock-drop",
+   "source": "Tom's Hardware",
+   "categoria": "IA",
+   "slug": "2026-11-10-demandan-a-nvidia-tras-la-confesion-de-su-ceo-sobre-un-caso-de-espiona"
+  },
   {
    "date": "2026-11-09",
    "title": "Anthropic lanza Claude Fable 5.2 y Mythos 5.2, sus modelos de IA más potentes",
@@ -234,42 +270,6 @@
    "source": "Xbox Wire",
    "categoria": "PC",
    "slug": "2026-11-05-xbox-mejora-su-aplicacion-de-pc-con-un-rendimiento-hasta-un-60-mas-rap"
-  },
-  {
-   "date": "2026-11-05",
-   "title": "Los creadores de Genshin Impact fechan Honkai: Nexus Anima para la primavera de 2027",
-   "summary": "HoYoverse revela que su juego gratuito de coleccionismo de criaturas al estilo Palworld llegará a PC e iOS en 2027.",
-   "link": "https://vandal.elespanol.com/noticia/2026309021/el-palworld-de-mihoyo-una-aventura-de-coleccionismo-de-criaturas-gratuita-pone-fecha-al-lanzamiento-y-beta/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-05-los-creadores-de-genshin-impact-fechan-honkai-nexus-anima-para-la-prim"
-  },
-  {
-   "date": "2026-11-05",
-   "title": "Valve actualiza el proceso de revisión en Steam para frenar la saturación de juegos",
-   "summary": "La compañía implementa nuevos controles antes de publicar juegos en la tienda tras el abrumador incremento de títulos diarios.",
-   "link": "https://www.3djuegos.com/pc/noticias/valve-reconoce-que-steam-tiene-problema-cantidad-juegos-que-se-publican-no-esta-brazos-cruzados",
-   "source": "3DJuegos",
-   "categoria": "PC",
-   "slug": "2026-11-05-valve-actualiza-el-proceso-de-revision-en-steam-para-frenar-la-saturac"
-  },
-  {
-   "date": "2026-11-05",
-   "title": "PS5 roza los 100 millones de consolas vendidas y Sony aborda el futuro con PS6",
-   "summary": "La consola de Sony mantiene un ritmo de ventas masivo mientras la compañía aborda públicamente la transición hacia su próxima generación.",
-   "link": "https://www.3djuegos.com/ps5/noticias/ps5-se-acerca-a-100-millones-consolas-vendidas-sony-aprovecha-para-hablar-ps6",
-   "source": "3DJuegos",
-   "categoria": "CONSOLAS",
-   "slug": "2026-11-05-ps5-roza-los-100-millones-de-consolas-vendidas-y-sony-aborda-el-futuro"
-  },
-  {
-   "date": "2026-11-05",
-   "title": "Discord migra su aplicación a Rust para reducir el consumo de memoria RAM",
-   "summary": "La plataforma abandona la tecnología Electron en su cliente de escritorio para optimizar el rendimiento y usar menos recursos del sistema.",
-   "link": "https://www.theverge.com/news/1027379/discord-ditching-electron-web-app",
-   "source": "The Verge",
-   "categoria": "TECH",
-   "slug": "2026-11-05-discord-migra-su-aplicacion-a-rust-para-reducir-el-consumo-de-memoria"
   }
  ],
  "freebies": [
