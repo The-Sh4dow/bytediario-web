@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-10T13:02-04:00",
+ "updated": "2026-11-10T19:01-04:00",
  "items": [
+  {
+   "date": "2026-11-10",
+   "title": "Sony anuncia el cierre de la app de PlayStation Plus para PC",
+   "summary": "Sony retirará la aplicación de PlayStation Plus para PC el próximo 10 de diciembre. La herramienta permitía a los suscriptores Premium transmitir ciertos juegos directamente en ordenadores.",
+   "link": "https://www.theverge.com/games/1031144/sony-playstation-plus-windows-pc-app-shutting-down",
+   "source": "The Verge",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-10-sony-anuncia-el-cierre-de-la-app-de-playstation-plus-para-pc"
+  },
   {
    "date": "2026-11-10",
    "title": "Sony y Rockstar confirman la precarga de GTA 6 en PS5",
@@ -261,15 +270,6 @@
    "source": "Vandal",
    "categoria": "JUEGOS",
    "slug": "2026-11-06-el-fondo-saudi-pif-y-silver-lake-buscan-adquirir-la-empresa-del-motor"
-  },
-  {
-   "date": "2026-11-05",
-   "title": "Xbox añade soporte para el reescalado AMD FSR 4.1 en Series X|S y ROG Ally",
-   "summary": "Microsoft confirmó que la tecnología de reescalado AMD FSR 4.1 ya está disponible para desarrolladores en Xbox Series X/S y portátiles como la ASUS ROG Ally. Esto permitirá optimizar la calidad gráfica y la tasa de cuadros en futuros lanzamientos.",
-   "link": "https://vandal.elespanol.com/noticia/2026309043/los-desarrolladores-de-xbox-ya-pueden-utilizar-el-reescalado-amd-fsr-412-en-sus-juegos/",
-   "source": "Vandal",
-   "categoria": "CONSOLAS",
-   "slug": "2026-11-05-xbox-anade-soporte-para-el-reescalado-amd-fsr-4-1-en-series-x-s-y-rog"
   }
  ],
  "freebies": [
@@ -292,40 +292,40 @@
  ],
  "security": [
   {
-   "cve": "CVE-2026-123218",
-   "vendor": "IBM",
-   "product": "Aspera Faspex",
-   "summary": "Afecta a IBM Aspera Faspex y permite a un usuario con acceso evadir las restricciones de seguridad para elevar sus privilegios en el sistema.",
-   "added": "2026-11-09",
+   "cve": "CVE-2026-20320",
+   "vendor": "Cisco",
+   "product": "BroadWorks",
+   "summary": "Afecta a Cisco BroadWorks y permite a un atacante remoto leer información de configuración confidencial sin autenticación.",
+   "added": "2026-11-10",
    "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218"
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320"
   },
   {
-   "cve": "CVE-2026-123158",
-   "vendor": "OpenBSD",
-   "product": "OpenSSH",
-   "summary": "Una vulnerabilidad en OpenSSH para Linux permite a un atacante eludir el proceso de autenticación y acceder al sistema sin credenciales válidas.",
-   "added": "2026-11-09",
+   "cve": "CVE-2026-125350",
+   "vendor": "Google",
+   "product": "Chromium",
+   "summary": "Afecta a Google Chromium y navegadores basados en este motor, permitiendo ejecutar código malicioso mediante una página web preparada.",
+   "added": "2026-11-10",
    "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350"
   },
   {
-   "cve": "CVE-2026-116779",
-   "vendor": "SignalWire",
-   "product": "FreeSwitch",
-   "summary": "Un fallo de inyección de código en SignalWire FreeSwitch permite a atacantes controlar llamadas, ejecutar comandos remotos y robar credenciales del sistema.",
-   "added": "2026-11-09",
+   "cve": "CVE-2026-124194",
+   "vendor": "Microsoft",
+   "product": "Office",
+   "summary": "Afecta a Microsoft Outlook y permite a un atacante realizar suplantación de identidad (spoofing) en la red sin requerir interacción del usuario.",
+   "added": "2026-11-10",
    "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779"
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
   },
   {
-   "cve": "CVE-2026-102895",
-   "vendor": "GPUStack",
-   "product": "GPUStack",
-   "summary": "Una falla de autenticación en GPUStack permite a atacantes obtener acceso administrativo sin contraseña, robar secretos del sistema y ejecutar código no autorizado.",
-   "added": "2026-11-09",
+   "cve": "CVE-2026-116606",
+   "vendor": "Barracuda Networks",
+   "product": "Barracuda Email Security Gateway (ESG)",
+   "summary": "Afecta a Barracuda Email Security Gateway y permite a atacantes modificar la configuración global del sistema mediante respaldos manipulados.",
+   "added": "2026-11-10",
    "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895"
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
   }
  ]
 }
