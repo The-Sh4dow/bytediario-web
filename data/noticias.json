@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-11T13:01-04:00",
+ "updated": "2026-11-11T19:03-04:00",
  "items": [
+  {
+   "date": "2026-11-11",
+   "title": "CD Projekt Red usará IA para la voz de Geralt en The Witcher 3",
+   "summary": "CD Projekt Red confirmó que utilizará inteligencia artificial para modificar la voz de Geralt en una nueva expansión de The Witcher 3. La medida se tomó para apoyar al actor de voz original en polaco, quien atraviesa problemas de salud.",
+   "link": "https://www.ign.com/articles/cd-projekt-red-used-ai-to-alter-geralts-voice-due-to-polish-actors-health-issues",
+   "source": "IGN",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-11-cd-projekt-red-usara-ia-para-la-voz-de-geralt-en-the-witcher-3"
+  },
   {
    "date": "2026-11-11",
    "title": "PlayStation 5 alcanza los 100 millones de consolas vendidas a nivel mundial",
@@ -261,15 +270,6 @@
    "source": "The Verge",
    "categoria": "TECH",
    "slug": "2026-11-06-spacex-busca-convertir-starlink-mobile-en-una-gran-operadora-de-telefo"
-  },
-  {
-   "date": "2026-11-06",
-   "title": "Roban 11,4 millones de dólares en tarjetas gráficas NVIDIA en un atraco en EE. UU.",
-   "summary": "Seis palés cargados con tarjetas gráficas NVIDIA, valorados en 11,4 millones de dólares, fueron robados durante un atraco a un camión en California. Los expertos advierten que estos chips de alta tecnología podrían ser desviados para su venta en el mercado negro.",
-   "link": "https://www.tomshardware.com/pc-components/gpus/six-pallets-of-nvidia-gpus-worth-usd11-4-million-stolen-in-california-cargo-heist-authorities-investigate-after-truck-posing-as-a-food-transport-company-disappears",
-   "source": "Tom's Hardware",
-   "categoria": "PC",
-   "slug": "2026-11-06-roban-11-4-millones-de-dolares-en-tarjetas-graficas-nvidia-en-un-atrac"
   }
  ],
  "freebies": [
