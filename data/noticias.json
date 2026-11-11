@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-10T19:01-04:00",
+ "updated": "2026-11-11T08:06-04:00",
  "items": [
+  {
+   "date": "2026-11-11",
+   "title": "PlayStation 5 alcanza los 100 millones de consolas vendidas a nivel mundial",
+   "summary": "Sony confirmó que PS5 ha superado los 100 millones de unidades distribuidas tras seis años desde su lanzamiento original.",
+   "link": "https://www.ign.com/articles/ps5-hits-100-million-units-sold-mark-6-years-after-launch-heres-how-it-compares-to-other-playstation-consoles",
+   "source": "IGN",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-11-playstation-5-alcanza-los-100-millones-de-consolas-vendidas-a-nivel-mu"
+  },
+  {
+   "date": "2026-11-11",
+   "title": "Microsoft lanza Auto SR, su tecnología de reescalado con IA, en la Xbox Ally X",
+   "summary": "La herramienta de reescalado automático de Microsoft, rival de DLSS, ya está disponible en modo portátil para consolas como la Xbox Ally X.",
+   "link": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
+   "source": "The Verge",
+   "categoria": "PC",
+   "slug": "2026-11-11-microsoft-lanza-auto-sr-su-tecnologia-de-reescalado-con-ia-en-la-xbox"
+  },
+  {
+   "date": "2026-11-11",
+   "title": "La Unión Europea propone prohibir las cajas de botín y el 'pay to win' en menores",
+   "summary": "La Comisión Europea presentó una nueva legislación para restringir las microtransacciones y las monedas virtuales en videojuegos orientados a menores.",
+   "link": "https://vandal.elespanol.com/noticia/2026315029/la-union-europea-quiere-prohibir-las-cajas-de-botin-y-los-juegos-pay-to-win-para-menores-de-edad/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-11-la-union-europea-propone-prohibir-las-cajas-de-botin-y-el-pay-to-win-e"
+  },
+  {
+   "date": "2026-11-11",
+   "title": "Xbox y Take-Two firman una alianza de 10 años para llevar GTA 6 a la nube",
+   "summary": "Microsoft y Take-Two han alcanzado un acuerdo estratégico que estrenará el juego en la nube de GTA 6 en consolas y PC.",
+   "link": "https://vandal.elespanol.com/noticia/2026315026/xbox-y-taketwo-anuncian-una-alianza-de-10-anos-gta-6-sera-el-primer-beneficiado-del-acuerdo/",
+   "source": "Vandal",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-11-xbox-y-take-two-firman-una-alianza-de-10-anos-para-llevar-gta-6-a-la-n"
+  },
   {
    "date": "2026-11-10",
    "title": "Sony anuncia el cierre de la app de PlayStation Plus para PC",
@@ -234,42 +270,6 @@
    "source": "Tom's Hardware",
    "categoria": "PC",
    "slug": "2026-11-06-roban-11-4-millones-de-dolares-en-tarjetas-graficas-nvidia-en-un-atrac"
-  },
-  {
-   "date": "2026-11-06",
-   "title": "EA recupera el clásico Road Rash en PC optimizado y por menos de 5 euros",
-   "summary": "El recordado juego de carreras y combates sobre motos regresa adaptado a mandos modernos, mejoras de rendimiento y videos restaurados.",
-   "link": "https://vandal.elespanol.com/noticia/2026310015/vuelve-road-rash-30-anos-despues-el-clasico-de-motos-y-peleas-regresa-mejorado-a-pc-y-cuesta-menos-de-5-euros/",
-   "source": "Vandal",
-   "categoria": "OFERTAS",
-   "slug": "2026-11-06-ea-recupera-el-clasico-road-rash-en-pc-optimizado-y-por-menos-de-5-eur"
-  },
-  {
-   "date": "2026-11-06",
-   "title": "Nintendo confirma que seguirá haciendo remakes de sus clásicos para Switch 2",
-   "summary": "La compañía considera que las reediciones de sus juegos históricos tienen la misma importancia estratégica que los títulos completamente nuevos.",
-   "link": "https://vandal.elespanol.com/noticia/2026310014/nintendo-quiere-seguir-haciendo-remakes-de-sus-grandes-clasicos-tras-zelda-ocarina-of-time-y-star-fox/",
-   "source": "Vandal",
-   "categoria": "CONSOLAS",
-   "slug": "2026-11-06-nintendo-confirma-que-seguira-haciendo-remakes-de-sus-clasicos-para-sw"
-  },
-  {
-   "date": "2026-11-06",
-   "title": "Un fallo en el parche de NieR: Automata dispara su peso a 366 GB en PC",
-   "summary": "Una actualización destinada a sumar idiomas provocó un fallo que incrementó el archivo del juego desde sus 50 GB habituales.",
-   "link": "https://vandal.elespanol.com/noticia/2026310012/nier-automata-pasa-a-ocupar-366-gb-en-steam-por-un-extrano-bug-provocado-por-su-nueva-actualizacion/",
-   "source": "Vandal",
-   "categoria": "PC",
-   "slug": "2026-11-06-un-fallo-en-el-parche-de-nier-automata-dispara-su-peso-a-366-gb-en-pc"
-  },
-  {
-   "date": "2026-11-06",
-   "title": "El fondo saudí PIF y Silver Lake buscan adquirir la empresa del motor Unity",
-   "summary": "Tras comprar Electronic Arts, los inversores están en conversaciones para adquirir la compañía dueña del motor gráfico Unity.",
-   "link": "https://vandal.elespanol.com/noticia/2026310016/los-fondos-que-compraron-electronic-arts-podrian-adquirir-unity-otra-de-las-grandes-empresas-del-sector/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-06-el-fondo-saudi-pif-y-silver-lake-buscan-adquirir-la-empresa-del-motor"
   }
  ],
  "freebies": [
