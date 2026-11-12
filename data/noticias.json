@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-11T19:03-04:00",
+ "updated": "2026-11-12T08:04-04:00",
  "items": [
+  {
+   "date": "2026-11-12",
+   "title": "Square Enix casi triplica sus beneficios por las ventas digitales",
+   "summary": "Las ventas digitales de juegos nuevos y de catálogo han permitido a Square Enix multiplicar sus ingresos y beneficios.",
+   "link": "https://vandal.elespanol.com/noticia/2026316022/square-enix-casi-triplica-sus-beneficios-gracias-a-las-ventas-digitales-de-juegos-nuevos-y-de-catalogo/",
+   "source": "Vandal",
+   "categoria": "TECH",
+   "slug": "2026-11-12-square-enix-casi-triplica-sus-beneficios-por-las-ventas-digitales"
+  },
+  {
+   "date": "2026-11-12",
+   "title": "El POCO X8 Pro Max se desploma de precio antes del Black Friday",
+   "summary": "El nuevo móvil de POCO reduce su precio significativamente gracias a la eficiencia de sus baterías de silicio-carbono.",
+   "link": "https://www.xataka.com/seleccion/autonomia-para-tres-dias-su-mejor-precio-fecha-poco-x8-pro-max-se-desploma-antes-black-friday",
+   "source": "Xataka",
+   "categoria": "MOVILES",
+   "slug": "2026-11-12-el-poco-x8-pro-max-se-desploma-de-precio-antes-del-black-friday"
+  },
+  {
+   "date": "2026-11-12",
+   "title": "LG presenta su primer monitor gaming de 1.000 Hz nativos",
+   "summary": "LG ha anunciado un monitor para eSports que rompe la barrera del submilisegundo con una frecuencia de 1.000 Hz.",
+   "link": "https://www.xataka.com/seleccion/primer-monitor-gaming-que-rompe-barrera-submilisegundo-lg-presenta-su-bestia-1-000-hz-nativos-para-esports",
+   "source": "Xataka",
+   "categoria": "PC",
+   "slug": "2026-11-12-lg-presenta-su-primer-monitor-gaming-de-1-000-hz-nativos"
+  },
+  {
+   "date": "2026-11-12",
+   "title": "Resident Evil Requiem arrasa en los Golden Joystick Awards 2026",
+   "summary": "Resident Evil Requiem ha sido coronado como el 'Juego del Año' en los premios Golden Joystick 2026.",
+   "link": "https://vandal.elespanol.com/noticia/2026316016/resident-evil-requiem-es-el-juego-del-ano-en-los-golden-joystick-awards-2026/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-12-resident-evil-requiem-arrasa-en-los-golden-joystick-awards-2026"
+  },
   {
    "date": "2026-11-11",
    "title": "CD Projekt Red usará IA para la voz de Geralt en The Witcher 3",
@@ -234,42 +270,6 @@
    "source": "Ars Technica",
    "categoria": "PC",
    "slug": "2026-11-07-ea-relanza-las-sagas-clasicas-ultima-y-wing-commander-en-steam-y-gog"
-  },
-  {
-   "date": "2026-11-07",
-   "title": "Un fallo de seguridad en Linux permitía entrar sin contraseña durante una década",
-   "summary": "Una vulnerabilidad presente durante diez años en configuraciones específicas de Linux permitía eludir la autenticación sin requerir ninguna clave.",
-   "link": "https://www.xataka.com/seguridad/algunos-sistemas-linux-permiten-entrar-conocer-contrasena-fallo-llevaba-decada-escondido",
-   "source": "Xataka",
-   "categoria": "TECH",
-   "slug": "2026-11-07-un-fallo-de-seguridad-en-linux-permitia-entrar-sin-contrasena-durante"
-  },
-  {
-   "date": "2026-11-07",
-   "title": "China reclutó a una ejecutiva para espiar al CEO de Nvidia y sus chips de IA",
-   "summary": "El servicio de inteligencia chino intentó obtener secretos sobre procesadores estadounidenses vigilando de cerca los movimientos de Jensen Huang.",
-   "link": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-   "source": "The Verge",
-   "categoria": "TECH",
-   "slug": "2026-11-07-china-recluto-a-una-ejecutiva-para-espiar-al-ceo-de-nvidia-y-sus-chips"
-  },
-  {
-   "date": "2026-11-07",
-   "title": "OpenAI alcanza una valoración de 1,25 billones de dólares tras una nueva ronda",
-   "summary": "La creadora de ChatGPT sumó 11.000 millones de dólares en financiación, situándose entre las compañías más valiosas del planeta.",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-   "source": "The Verge",
-   "categoria": "IA",
-   "slug": "2026-11-07-openai-alcanza-una-valoracion-de-1-25-billones-de-dolares-tras-una-nue"
-  },
-  {
-   "date": "2026-11-06",
-   "title": "SpaceX busca convertir Starlink Mobile en una gran operadora de telefonía",
-   "summary": "La compañía de Elon Musk anunció planes para expandir Starlink Mobile como un operador global importante. Tras desplegar miles de satélites direct-to-cell, su siguiente objetivo será construir una red terrestre 5G para ofrecer cobertura móvil directa.",
-   "link": "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news",
-   "source": "The Verge",
-   "categoria": "TECH",
-   "slug": "2026-11-06-spacex-busca-convertir-starlink-mobile-en-una-gran-operadora-de-telefo"
   }
  ],
  "freebies": [
