@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-12T13:01-04:00",
+ "updated": "2026-11-12T19:01-04:00",
  "items": [
+  {
+   "date": "2026-11-12",
+   "title": "Microsoft lleva 25 juegos originales de Xbox a PC",
+   "summary": "Para celebrar el 25 aniversario de la marca, Microsoft ha lanzado 25 juegos clásicos de la primera Xbox jugables en Windows PC con retrocompatibilidad. Una gran noticia para los fans de la veterana consola.",
+   "link": "https://www.theverge.com/games/1032321/microsoft-xbox-original-games-pc-backwards-compatibility",
+   "source": "The Verge",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-12-microsoft-lleva-25-juegos-originales-de-xbox-a-pc"
+  },
   {
    "date": "2026-11-12",
    "title": "Square Enix casi triplica sus beneficios por las ventas digitales",
@@ -261,25 +270,16 @@
    "source": "Tom's Hardware",
    "categoria": "TECH",
    "slug": "2026-11-07-el-nuevo-bluetooth-hdt-alcanzara-7-5-mbps-para-permitir-audio-sin-perd"
-  },
-  {
-   "date": "2026-11-07",
-   "title": "EA relanza las sagas clásicas Ultima y Wing Commander en Steam y GOG",
-   "summary": "Electronic Arts ha puesto a la venta varias entregas históricas de ambas franquicias de rol y combate espacial en PC.",
-   "link": "https://arstechnica.com/gaming/2026/11/ea-producer-tells-the-inside-story-behind-new-wing-commander-remasters/",
-   "source": "Ars Technica",
-   "categoria": "PC",
-   "slug": "2026-11-07-ea-relanza-las-sagas-clasicas-ultima-y-wing-commander-en-steam-y-gog"
   }
  ],
  "freebies": [
   {
-   "title": "Flotsam",
-   "link": "https://www.gamerpower.com/open/flotsam-epic-games-giveaway",
-   "platforms": "PC, Epic Games Store",
-   "end_iso": "2026-11-12",
-   "worth": "$24.99",
-   "image": "https://www.gamerpower.com/offers/1b/6aeca99004384.jpg"
+   "title": "Knightica",
+   "link": "https://www.gamerpower.com/open/knightica-epic-games-giveaway",
+   "platforms": "PC, Android, iOS, Epic Games Store",
+   "end_iso": "2026-11-19",
+   "worth": "$14.99",
+   "image": "https://www.gamerpower.com/offers/1b/6af5f33e49913.jpg"
   },
   {
    "title": "Dwarven Realms (Steam) Key",
