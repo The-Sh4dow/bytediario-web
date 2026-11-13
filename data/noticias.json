@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-13T08:03-04:00",
+ "updated": "2026-11-13T19:06-04:00",
  "items": [
+  {
+   "date": "2026-11-13",
+   "title": "La tecnología de reescalado por IA QSSR llega a varios juegos de PlayStation 5",
+   "summary": "Sony comenzó a implementar Quick Spectral Super Resolution (QSSR) en títulos como Marvel's Spider-Man 2, The Finals y ARC Raiders. Esta tecnología de reescalado guiada por IA busca optimizar la calidad visual y el rendimiento en la consola.",
+   "link": "https://blog.playstation.com/2026/11/13/qssr-arrives-in-marvels-spider-man-2-control-resonant-the-finals-arc-raiders-and-hell-let-loose-vietnam/",
+   "source": "PlayStation Blog",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-13-la-tecnologia-de-reescalado-por-ia-qssr-llega-a-varios-juegos-de-plays"
+  },
   {
    "date": "2026-11-13",
    "title": "The Game Awards 2026 se emitirá en Disney+ con anuncios de sus sagas",
@@ -261,15 +270,6 @@
    "source": "Vandal",
    "categoria": "PC",
    "slug": "2026-11-08-valve-expulsa-de-steam-a-varios-juegos-tras-una-disputa-por-plagio-y-r"
-  },
-  {
-   "date": "2026-11-08",
-   "title": "Uno de cada tres estudios de videojuegos cierra tras ser adquirido por otra compañía",
-   "summary": "Un análisis a casi 400 desarrolladoras revela que la mitad de los cierres posteriores a compras ocurren en menos de cinco años.",
-   "link": "https://www.3djuegos.com/pc/noticias/analisis-casi-400-estudios-evidencia-realidades-duras-industria-ser-adquirido-otra-empresa-apuesta-peligrosa",
-   "source": "3DJuegos",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-08-uno-de-cada-tres-estudios-de-videojuegos-cierra-tras-ser-adquirido-por"
   }
  ],
  "freebies": [
@@ -292,6 +292,24 @@
  ],
  "security": [
   {
+   "cve": "CVE-2026-123039",
+   "vendor": "Check Point",
+   "product": "Multiple Products",
+   "summary": "Afecta a varios productos de seguridad de Check Point, permitiendo a un usuario local con acceso ejecutar comandos con permisos de administrador en el sistema.",
+   "added": "2026-11-13",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
+  },
+  {
+   "cve": "CVE-2026-114713",
+   "vendor": "UnrealIRCd",
+   "product": "UnrealIRCd",
+   "summary": "Afecta a servidores de chat UnrealIRCd conectados en red, permitiendo a cualquier usuario inyectar y ejecutar comandos no autorizados con privilegios del propio servidor.",
+   "added": "2026-11-13",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713"
+  },
+  {
    "cve": "CVE-2026-20320",
    "vendor": "Cisco",
    "product": "BroadWorks",
@@ -308,24 +326,6 @@
    "added": "2026-11-10",
    "ransomware": false,
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350"
-  },
-  {
-   "cve": "CVE-2026-124194",
-   "vendor": "Microsoft",
-   "product": "Office",
-   "summary": "Afecta a Microsoft Outlook y permite a un atacante realizar suplantación de identidad (spoofing) en la red sin requerir interacción del usuario.",
-   "added": "2026-11-10",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
-  },
-  {
-   "cve": "CVE-2026-116606",
-   "vendor": "Barracuda Networks",
-   "product": "Barracuda Email Security Gateway (ESG)",
-   "summary": "Afecta a Barracuda Email Security Gateway y permite a atacantes modificar la configuración global del sistema mediante respaldos manipulados.",
-   "added": "2026-11-10",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
   }
  ]
 }
