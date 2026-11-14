@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-14T13:01-04:00",
+ "updated": "2026-11-14T19:01-04:00",
  "items": [
+  {
+   "date": "2026-11-14",
+   "title": "Riot Games anuncia 'League of Legends: New Dawn', un rediseño masivo para 2027",
+   "summary": "Durante las finales del mundial de LoL, Riot Games presentó oficialmente 'New Dawn', una gran actualización prevista para 2027. Este proyecto renovará por completo el cliente, la Grieta del Invocador, el apartado visual y la jugabilidad del famoso MOBA.",
+   "link": "https://www.ign.com/articles/league-of-legends-new-dawn-unveiled-with-debut-trailer-riot-announces-major-overhaul-coming-in-2027",
+   "source": "IGN",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-14-riot-games-anuncia-league-of-legends-new-dawn-un-rediseno-masivo-para"
+  },
   {
    "date": "2026-11-14",
    "title": "Acusan a IA chinas de entrenarse con chips Nvidia Blackwell prohibidos",
@@ -261,15 +270,6 @@
    "source": "Vandal",
    "categoria": "JUEGOS",
    "slug": "2026-11-09-call-of-duty-modern-warfare-4-estrena-una-prueba-gratuita-por-tiempo-l"
-  },
-  {
-   "date": "2026-11-09",
-   "title": "Un error en Claude Code expuso el correo de sus usuarios a sitios web externos",
-   "summary": "La herramienta de IA guardaba el correo electrónico para identificar la cuenta, pero terminó enviándolo a varias páginas web visitadas.",
-   "link": "https://www.xataka.com/robotica-e-ia/claude-code-guardaba-tu-correo-para-saber-quien-eres-algunas-webs-acabaron-recibiendolo",
-   "source": "Xataka",
-   "categoria": "IA",
-   "slug": "2026-11-09-un-error-en-claude-code-expuso-el-correo-de-sus-usuarios-a-sitios-web"
   }
  ],
  "freebies": [
