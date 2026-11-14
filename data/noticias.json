@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-14T12:02-04:00",
+ "updated": "2026-11-14T13:01-04:00",
  "items": [
+  {
+   "date": "2026-11-14",
+   "title": "Acusan a IA chinas de entrenarse con chips Nvidia Blackwell prohibidos",
+   "summary": "Investigadores afirman que modelos de inteligencia artificial chinos como DeepSeek y Kimi fueron entrenados con aceleradores Nvidia Blackwell, violando las restricciones de exportación impuestas por Estados Unidos.",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-allege-deepseek-kimi-and-other-chinese-ai-models-were-trained-on-export-controlled-nvidia-blackwell-chips-statistical-analysis-on-model-weights-reveals-high-correlation-to-nvidia-hardware",
+   "source": "Tom's Hardware",
+   "categoria": "IA",
+   "slug": "2026-11-14-acusan-a-ia-chinas-de-entrenarse-con-chips-nvidia-blackwell-prohibidos"
+  },
   {
    "date": "2026-11-14",
    "title": "La nave Starship de SpaceX alcanza la órbita en su decimoquinto vuelo",
@@ -261,15 +270,6 @@
    "source": "Xataka",
    "categoria": "IA",
    "slug": "2026-11-09-un-error-en-claude-code-expuso-el-correo-de-sus-usuarios-a-sitios-web"
-  },
-  {
-   "date": "2026-11-09",
-   "title": "Pruebas revelan problemas de píxeles muertos en televisores con paneles LG WOLED",
-   "summary": "Un análisis de RTings detectó degradación y muerte de píxeles en los bordes en modelos fabricados entre 2019 y 2023.",
-   "link": "https://www.tomshardware.com/monitors/lg-woled-tvs-suffer-from-edge-rot-pixel-death-pixels-go-dark-around-the-edges-similar-to-a-mold-pattern-nearly-all-woled-test-units-show-clear-signs-of-degradation",
-   "source": "Tom's Hardware",
-   "categoria": "TECH",
-   "slug": "2026-11-09-pruebas-revelan-problemas-de-pixeles-muertos-en-televisores-con-panele"
   }
  ],
  "freebies": [
