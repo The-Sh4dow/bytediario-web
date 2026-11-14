@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-13T19:06-04:00",
+ "updated": "2026-11-14T08:11-04:00",
  "items": [
+  {
+   "date": "2026-11-14",
+   "title": "La nave Starship de SpaceX alcanza la órbita en su decimoquinto vuelo",
+   "summary": "El gigantesco cohete completó con éxito su ascenso orbital y prepara el terreno para intentar capturar el propulsor.",
+   "link": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
+   "source": "Ars Technica",
+   "categoria": "TECH",
+   "slug": "2026-11-14-la-nave-starship-de-spacex-alcanza-la-orbita-en-su-decimoquinto-vuelo"
+  },
+  {
+   "date": "2026-11-14",
+   "title": "El dueño de Rockstar prevé un papel marginal para los juegos físicos",
+   "summary": "Strauss Zelnick afirmó que el formato físico representará una porción mínima del negocio en el futuro inmediato de los videojuegos.",
+   "link": "https://www.3djuegos.com/industria-gaming/noticias/strauss-zelnick-69-anos-dueno-rockstar-futuro-formato-fisico-videojuegos-sera-parte-muy-pequena-negocio",
+   "source": "3DJuegos",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-14-el-dueno-de-rockstar-preve-un-papel-marginal-para-los-juegos-fisicos"
+  },
+  {
+   "date": "2026-11-14",
+   "title": "Blade Runner prepara su regreso con un nuevo videojuego AAA",
+   "summary": "Los propietarios de la franquicia confirmaron negociaciones avanzadas para desarrollar un juego de gran presupuesto basado en su universo cyberpunk.",
+   "link": "https://www.ign.com/articles/blade-runner-2099-executive-producers-confirm-franchise-owners-are-in-talks-for-aaa-video-game-adaptation",
+   "source": "IGN",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-14-blade-runner-prepara-su-regreso-con-un-nuevo-videojuego-aaa"
+  },
+  {
+   "date": "2026-11-14",
+   "title": "ARC Raiders desata polémica al usar voces generadas por IA",
+   "summary": "Embark Studios confirmó el uso de inteligencia artificial para doblar diálogos en el videojuego, desatando críticas entre la comunidad.",
+   "link": "https://vandal.elespanol.com/noticia/2026318009/polemica-a-la-vista-el-shooter-arc-raiders-abre-la-puerta-a-usar-actores-de-voz-generados-por-ia/",
+   "source": "Vandal",
+   "categoria": "IA",
+   "slug": "2026-11-14-arc-raiders-desata-polemica-al-usar-voces-generadas-por-ia"
+  },
   {
    "date": "2026-11-13",
    "title": "La tecnología de reescalado por IA QSSR llega a varios juegos de PlayStation 5",
@@ -234,42 +270,6 @@
    "source": "Tom's Hardware",
    "categoria": "TECH",
    "slug": "2026-11-09-pruebas-revelan-problemas-de-pixeles-muertos-en-televisores-con-panele"
-  },
-  {
-   "date": "2026-11-09",
-   "title": "Un fallo en los drivers de AMD desgasta los SSD al escribir datos continuamente",
-   "summary": "AMD investiga un error en su utilidad externa que escribe hasta 5 MB/s constantemente en el almacenamiento, incluso con el equipo en reposo.",
-   "link": "https://www.tomshardware.com/pc-components/gpu-drivers/amd-adrenalin-bug-could-be-writing-data-continuously-wearing-out-ssds-radeon-owner-claims-external-events-utility-used-up-1-percent-of-ssd-health-every-month-for-over-a-year",
-   "source": "Tom's Hardware",
-   "categoria": "PC",
-   "slug": "2026-11-09-un-fallo-en-los-drivers-de-amd-desgasta-los-ssd-al-escribir-datos-cont"
-  },
-  {
-   "date": "2026-11-08",
-   "title": "Epic Games confirma la llegada oficial de su launcher a SteamOS y Linux",
-   "summary": "Epic Games anunció que su nuevo cliente tendrá soporte oficial para SteamOS y otras distribuciones de Linux. Esto facilitará instalar y ejecutar títulos de su tienda sin depender de herramientas externas o configuraciones complejas.",
-   "link": "https://www.3djuegos.com/pc/noticias/epic-games-confirma-que-su-nuevo-launcher-llegara-a-steamos-distribuciones-linux-sigue-habiendo-gran-incognita",
-   "source": "3DJuegos",
-   "categoria": "PC",
-   "slug": "2026-11-08-epic-games-confirma-la-llegada-oficial-de-su-launcher-a-steamos-y-linu"
-  },
-  {
-   "date": "2026-11-08",
-   "title": "La adopción de 64 GB de RAM en PC cae un 18% por el encarecimiento de la memoria",
-   "summary": "Datos de CPU-Z revelan que la capacidad media de memoria en ordenadores cayó por primera vez en la historia. El fuerte aumento en los precios de la memoria DRAM, impulsado por la demanda de la industria de la IA, provocó una caída interanual del 18% en sistemas con 64 GB.",
-   "link": "https://www.tomshardware.com/pc-components/ram/pcs-with-64gb-of-ram-plummet-18-percent-as-memory-prices-soar-cpu-z-install-base-data-shows-ddr4-making-a-surprise-comeback",
-   "source": "Tom's Hardware",
-   "categoria": "PC",
-   "slug": "2026-11-08-la-adopcion-de-64-gb-de-ram-en-pc-cae-un-18-por-el-encarecimiento-de-l"
-  },
-  {
-   "date": "2026-11-08",
-   "title": "Valve expulsa de Steam a varios juegos tras una disputa por plagio y robo de código",
-   "summary": "La plataforma eliminó tres títulos basados en buscar agujas en un pajar tras acusaciones cruzadas de copia entre desarrolladores independientes.",
-   "link": "https://vandal.elespanol.com/noticia/2026312006/clonan-un-juego-en-steam-otra-copia-les-roba-el-codigo-y-valve-les-echa-de-la-plataforma/",
-   "source": "Vandal",
-   "categoria": "PC",
-   "slug": "2026-11-08-valve-expulsa-de-steam-a-varios-juegos-tras-una-disputa-por-plagio-y-r"
   }
  ],
  "freebies": [
