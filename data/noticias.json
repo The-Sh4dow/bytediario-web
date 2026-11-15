@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-15T13:03-04:00",
+ "updated": "2026-11-15T19:00-04:00",
  "items": [
+  {
+   "date": "2026-11-15",
+   "title": "La justicia rechaza archivar la demanda contra fabricantes de RAM por pactar precios",
+   "summary": "Un juez de Estados Unidos denegó la petición de Micron, Samsung y SK hynix para desestimar la demanda por fijación de precios en memorias DRAM. El tribunal considera plausible la colusión tras registrarse un aumento del 500% en los precios.",
+   "link": "https://www.tomshardware.com/tech-industry/big-tech/judge-denies-motion-to-dismiss-dram-price-fixing-lawsuit-against-micron-samsung-and-sk-hynix-says-chipmakers-acted-like-hawks-flying-in-formation-finds-evidence-of-dram-collusion-plausible-after-500-percent-price-surge",
+   "source": "Tom's Hardware",
+   "categoria": "PC",
+   "slug": "2026-11-15-la-justicia-rechaza-archivar-la-demanda-contra-fabricantes-de-ram-por"
+  },
   {
    "date": "2026-11-15",
    "title": "Valve actualiza SteamOS con mejoras para televisores y compatibilidad con Nvidia",
@@ -261,15 +270,6 @@
    "source": "Tom's Hardware",
    "categoria": "TECH",
    "slug": "2026-11-10-un-fallo-de-seguridad-permitia-abrir-y-encender-autos-conectados-de-fo"
-  },
-  {
-   "date": "2026-11-10",
-   "title": "Steam mostrará los FPS promedio de los juegos antes de comprarlos",
-   "summary": "Valve añadió una función que muestra el rendimiento medio en tiempo real que obtienen otros usuarios según su hardware.",
-   "link": "https://vandal.elespanol.com/noticia/2026314013/steam-estrena-una-util-funcion-que-permite-saber-a-cuantos-fps-funciona-un-juego-en-steam-deck-antes-de-comprarlo/",
-   "source": "Vandal",
-   "categoria": "PC",
-   "slug": "2026-11-10-steam-mostrara-los-fps-promedio-de-los-juegos-antes-de-comprarlos"
   }
  ],
  "freebies": [
