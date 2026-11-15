@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-15T10:03-04:00",
+ "updated": "2026-11-15T13:03-04:00",
  "items": [
+  {
+   "date": "2026-11-15",
+   "title": "Valve actualiza SteamOS con mejoras para televisores y compatibilidad con Nvidia",
+   "summary": "Una nueva actualización de SteamOS optimiza el sistema para pantallas de televisión y amplía las capacidades para tarjetas gráficas Nvidia. El movimiento acerca el software de Steam Deck a más configuraciones de PC.",
+   "link": "https://www.3djuegos.com/pc/noticias/valve-vuelve-a-mejorar-corazon-steam-deck-machine-su-nueva-actualizacion-apunta-a-televisores-amplia-posibilidades-gpu-nvidia",
+   "source": "3DJuegos",
+   "categoria": "PC",
+   "slug": "2026-11-15-valve-actualiza-steamos-con-mejoras-para-televisores-y-compatibilidad"
+  },
   {
    "date": "2026-11-15",
    "title": "Minecraft sumará control estilo ratón con los mandos de Switch 2",
@@ -261,15 +270,6 @@
    "source": "Vandal",
    "categoria": "PC",
    "slug": "2026-11-10-steam-mostrara-los-fps-promedio-de-los-juegos-antes-de-comprarlos"
-  },
-  {
-   "date": "2026-11-10",
-   "title": "Hollow Knight: Silksong recibirá más expansiones gratuitas en el futuro",
-   "summary": "El manual de la edición física del juego reveló que 'Sea of Sorrow' será la primera de varias expansiones de contenido totalmente gratis.",
-   "link": "https://vandal.elespanol.com/noticia/2026314012/hollow-knight-silksong-recibira-mas-dlc-gratis-en-el-futuro-segun-revela-su-edicion-fisica/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-10-hollow-knight-silksong-recibira-mas-expansiones-gratuitas-en-el-futuro"
   }
  ],
  "freebies": [
