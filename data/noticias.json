@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-14T19:01-04:00",
+ "updated": "2026-11-15T08:06-04:00",
  "items": [
+  {
+   "date": "2026-11-15",
+   "title": "Minecraft sumará control estilo ratón con los mandos de Switch 2",
+   "summary": "Una próxima actualización integrará compatibilidad de puntero mediante los controles de la nueva consola de Nintendo.",
+   "link": "https://www.nintendolife.com/news/2026/11/minecraft-is-getting-joy-con-mouse-controls-on-switch-2-in-a-future-update",
+   "source": "Nintendo Life",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-15-minecraft-sumara-control-estilo-raton-con-los-mandos-de-switch-2"
+  },
+  {
+   "date": "2026-11-15",
+   "title": "Nvidia busca alternativas a Samsung ante la escasez de memoria para IA",
+   "summary": "Nvidia planea reducir su dependencia del fabricante surcoreano frente a los problemas de suministro que podrían extenderse hasta 2028.",
+   "link": "https://www.xataka.com/componentes/produccion-memoria-siendo-drama-nvidia-planea-dar-salto-para-no-depender-samsung-se-habria-pedido-a-tsmc",
+   "source": "Xataka",
+   "categoria": "PC",
+   "slug": "2026-11-15-nvidia-busca-alternativas-a-samsung-ante-la-escasez-de-memoria-para-ia"
+  },
+  {
+   "date": "2026-11-15",
+   "title": "Alien: Isolation 2 detalla cómo su xenomorfo aprenderá sin hacer trampas",
+   "summary": "Los desarrolladores confirmaron que la criatura adaptará su conducta a los encuentros del jugador sin recurrir a teletransportaciones.",
+   "link": "https://vandal.elespanol.com/noticia/2026319009/el-xenomorfo-de-alien-isolation-2-aprendera-de-tus-encuentros-pero-no-hara-trampas-no-puede-teletransportarse/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-15-alien-isolation-2-detalla-como-su-xenomorfo-aprendera-sin-hacer-trampa"
+  },
+  {
+   "date": "2026-11-15",
+   "title": "Italia multa a Meta con 805 millones de euros por acceder a fotos de usuarios",
+   "summary": "La autoridad italiana de privacidad sancionó a Meta tras descubrir que accedió a la galería de 20 millones de móviles.",
+   "link": "https://www.xataka.com/privacidad/italia-multa-a-meta-805-millones-euros-mirar-galeria-20-millones-moviles",
+   "source": "Xataka",
+   "categoria": "TECH",
+   "slug": "2026-11-15-italia-multa-a-meta-con-805-millones-de-euros-por-acceder-a-fotos-de-u"
+  },
   {
    "date": "2026-11-14",
    "title": "Riot Games anuncia 'League of Legends: New Dawn', un rediseño masivo para 2027",
@@ -234,42 +270,6 @@
    "source": "Vandal",
    "categoria": "JUEGOS",
    "slug": "2026-11-10-hollow-knight-silksong-recibira-mas-expansiones-gratuitas-en-el-futuro"
-  },
-  {
-   "date": "2026-11-10",
-   "title": "Demandan a NVIDIA tras la confesión de su CEO sobre un caso de espionaje",
-   "summary": "Una firma de abogados presentó una demanda colectiva contra NVIDIA luego de que Jensen Huang confirmara una relación inapropiada con una supuesta espía china.",
-   "link": "https://www.tomshardware.com/tech-industry/big-tech/law-firm-files-class-action-lawsuit-against-nvidia-after-ceo-jensen-huang-confirms-affair-with-alleged-chinese-spy-more-to-come-as-multiple-other-law-firms-investigate-securities-fraud-following-stock-drop",
-   "source": "Tom's Hardware",
-   "categoria": "IA",
-   "slug": "2026-11-10-demandan-a-nvidia-tras-la-confesion-de-su-ceo-sobre-un-caso-de-espiona"
-  },
-  {
-   "date": "2026-11-09",
-   "title": "Anthropic lanza Claude Fable 5.2 y Mythos 5.2, sus modelos de IA más potentes",
-   "summary": "Anthropic anunció sus nuevos modelos de inteligencia artificial Claude Fable 5.2 y Mythos 5.2, orientados a resolver problemas técnicos complejos. Según la compañía, ofrecen avances notables en programación, razonamiento y procesamiento visual, manteniendo uno de ellos con acceso general y otro con disponibilidad restringida.",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
-   "source": "The Verge",
-   "categoria": "IA",
-   "slug": "2026-11-09-anthropic-lanza-claude-fable-5-2-y-mythos-5-2-sus-modelos-de-ia-mas-po"
-  },
-  {
-   "date": "2026-11-09",
-   "title": "Sony lanzará un PlayStation Portal renovado con almacenamiento interno",
-   "summary": "Sony prepara el lanzamiento en Japón de una versión actualizada de su PlayStation Portal en color negro. Este nuevo modelo integrará almacenamiento interno adicional pensado para dar soporte a futuras funciones del dispositivo.",
-   "link": "https://www.theverge.com/news/1029822/sony-playstation-portal-japan-model-additional-storage",
-   "source": "The Verge",
-   "categoria": "CONSOLAS",
-   "slug": "2026-11-09-sony-lanzara-un-playstation-portal-renovado-con-almacenamiento-interno"
-  },
-  {
-   "date": "2026-11-09",
-   "title": "Call of Duty: Modern Warfare 4 estrena una prueba gratuita por tiempo limitado",
-   "summary": "Activision habilitó el acceso sin costo al modo DMZ en PC, PlayStation 5 y Xbox Series durante este periodo promocional.",
-   "link": "https://vandal.elespanol.com/noticia/2026313020/call-of-duty-modern-warfare-4-se-puede-jugar-gratis-por-tiempo-limitado-aunque-no-en-switch-2/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-09-call-of-duty-modern-warfare-4-estrena-una-prueba-gratuita-por-tiempo-l"
   }
  ],
  "freebies": [
