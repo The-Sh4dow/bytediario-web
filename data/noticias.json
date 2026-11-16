@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-15T19:00-04:00",
+ "updated": "2026-11-16T08:00-04:00",
  "items": [
+  {
+   "date": "2026-11-16",
+   "title": "El cohete Vulcan fracasa durante su lanzamiento y golpea a los rivales de SpaceX",
+   "summary": "United Launch Alliance sufrió el primer fallo total de una misión en sus 20 años de historia tras el incidente del cohete Vulcan.",
+   "link": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+   "source": "Ars Technica",
+   "categoria": "TECH",
+   "slug": "2026-11-16-el-cohete-vulcan-fracasa-durante-su-lanzamiento-y-golpea-a-los-rivales"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "PlayStation amplía sus ofertas de Black Friday a juegos físicos de PS5 y DualSense",
+   "summary": "La campaña de descuentos de Sony ya incluye títulos en formato físico y mandos, aunque las consolas PS5 mantienen su precio habitual.",
+   "link": "https://www.ign.com/articles/playstation-black-friday-video-game-deals-2026",
+   "source": "IGN",
+   "categoria": "OFERTAS",
+   "slug": "2026-11-16-playstation-amplia-sus-ofertas-de-black-friday-a-juegos-fisicos-de-ps5"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "Dune: Awakening añade un modo para un jugador sin conexión a internet",
+   "summary": "Funcom ha lanzado una actualización que permite disfrutar del juego sin necesidad de mantener una conexión permanente.",
+   "link": "https://vandal.elespanol.com/noticia/2026320016/dune-awakening-recibe-su-novedad-mas-deseada-un-modo-para-un-jugador-que-no-requiere-conexion-a-internet/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-16-dune-awakening-anade-un-modo-para-un-jugador-sin-conexion-a-internet"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "Nvidia acumula 530.000 millones en garantías financieras para dominar la IA",
+   "summary": "Los compromisos de suministro de la compañía aumentaron en casi un cuarto de billón de dólares en un solo trimestre.",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-amassed-usd530-billion-in-financial-guarantees-to-corner-the-ai-market-supply-commitments-rose-by-nearly-a-quarter-of-a-trillion-dollars-in-a-single-quarter",
+   "source": "Tom's Hardware",
+   "categoria": "IA",
+   "slug": "2026-11-16-nvidia-acumula-530-000-millones-en-garantias-financieras-para-dominar"
+  },
   {
    "date": "2026-11-15",
    "title": "La justicia rechaza archivar la demanda contra fabricantes de RAM por pactar precios",
@@ -234,42 +270,6 @@
    "source": "Vandal",
    "categoria": "JUEGOS",
    "slug": "2026-11-11-la-union-europea-propone-prohibir-las-cajas-de-botin-y-el-pay-to-win-e"
-  },
-  {
-   "date": "2026-11-11",
-   "title": "Xbox y Take-Two firman una alianza de 10 años para llevar GTA 6 a la nube",
-   "summary": "Microsoft y Take-Two han alcanzado un acuerdo estratégico que estrenará el juego en la nube de GTA 6 en consolas y PC.",
-   "link": "https://vandal.elespanol.com/noticia/2026315026/xbox-y-taketwo-anuncian-una-alianza-de-10-anos-gta-6-sera-el-primer-beneficiado-del-acuerdo/",
-   "source": "Vandal",
-   "categoria": "CONSOLAS",
-   "slug": "2026-11-11-xbox-y-take-two-firman-una-alianza-de-10-anos-para-llevar-gta-6-a-la-n"
-  },
-  {
-   "date": "2026-11-10",
-   "title": "Sony anuncia el cierre de la app de PlayStation Plus para PC",
-   "summary": "Sony retirará la aplicación de PlayStation Plus para PC el próximo 10 de diciembre. La herramienta permitía a los suscriptores Premium transmitir ciertos juegos directamente en ordenadores.",
-   "link": "https://www.theverge.com/games/1031144/sony-playstation-plus-windows-pc-app-shutting-down",
-   "source": "The Verge",
-   "categoria": "CONSOLAS",
-   "slug": "2026-11-10-sony-anuncia-el-cierre-de-la-app-de-playstation-plus-para-pc"
-  },
-  {
-   "date": "2026-11-10",
-   "title": "Sony y Rockstar confirman la precarga de GTA 6 en PS5",
-   "summary": "Sony y Rockstar han habilitado la descarga anticipada de Grand Theft Auto VI en PlayStation 5. El juego se ha convertido en el título más reservado de la historia de la tienda digital de PlayStation.",
-   "link": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/",
-   "source": "PlayStation Blog",
-   "categoria": "CONSOLAS",
-   "slug": "2026-11-10-sony-y-rockstar-confirman-la-precarga-de-gta-6-en-ps5"
-  },
-  {
-   "date": "2026-11-10",
-   "title": "Un fallo de seguridad permitía abrir y encender autos conectados de forma remota",
-   "summary": "Una falla en las API de dos importantes fabricantes automotrices dejaba a hackers desbloquear puertas y arrancar motores sin llave.",
-   "link": "https://www.tomshardware.com/tech-industry/cyber-security/all-net-connected-vehicles-from-two-major-automakers-allowed-hackers-to-remotely-unlock-doors-and-start-the-engine-now-patched-hard-coded-credentials-and-bypassed-mfa-security-showcase-a-lack-of-101-level-best-practices",
-   "source": "Tom's Hardware",
-   "categoria": "TECH",
-   "slug": "2026-11-10-un-fallo-de-seguridad-permitia-abrir-y-encender-autos-conectados-de-fo"
   }
  ],
  "freebies": [
