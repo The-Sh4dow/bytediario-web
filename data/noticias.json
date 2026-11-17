@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-17T13:03-04:00",
+ "updated": "2026-11-17T19:00-04:00",
  "items": [
+  {
+   "date": "2026-11-17",
+   "title": "The Game Awards 2026 anuncia sus nominados con GTA VI a la cabeza",
+   "summary": "Geoff Keighley ha revelado la lista completa de candidatos a los premios The Game Awards 2026. Grand Theft Auto VI lidera las nominaciones con ocho candidaturas, incluyendo Juego del Año. Los ganadores se conocerán en la gala del próximo 10 de diciembre.",
+   "link": "https://vandal.elespanol.com/noticia/2026321037/estos-son-los-juegos-nominados-en-the-game-awards-lista-completa-de-candidatos-a-goty-2026/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-17-the-game-awards-2026-anuncia-sus-nominados-con-gta-vi-a-la-cabeza"
+  },
   {
    "date": "2026-11-17",
    "title": "Xiaomi presenta la Smart Band 11 con pantalla de 2.000 nits y versión con NFC",
@@ -261,15 +270,6 @@
    "source": "The Verge",
    "categoria": "CONSOLAS",
    "slug": "2026-11-12-microsoft-lleva-25-juegos-originales-de-xbox-a-pc"
-  },
-  {
-   "date": "2026-11-12",
-   "title": "Square Enix casi triplica sus beneficios por las ventas digitales",
-   "summary": "Las ventas digitales de juegos nuevos y de catálogo han permitido a Square Enix multiplicar sus ingresos y beneficios.",
-   "link": "https://vandal.elespanol.com/noticia/2026316022/square-enix-casi-triplica-sus-beneficios-gracias-a-las-ventas-digitales-de-juegos-nuevos-y-de-catalogo/",
-   "source": "Vandal",
-   "categoria": "TECH",
-   "slug": "2026-11-12-square-enix-casi-triplica-sus-beneficios-por-las-ventas-digitales"
   }
  ],
  "freebies": [
@@ -300,6 +300,15 @@
  ],
  "security": [
   {
+   "cve": "CVE-2026-115731",
+   "vendor": "Perforce",
+   "product": "Puppet Enterprise",
+   "summary": "Afecta a Perforce Puppet Enterprise y permite a un atacante con un certificado de agente ejecutar código arbitrario en el servidor.",
+   "added": "2026-11-17",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
+  },
+  {
    "cve": "CVE-2026-123039",
    "vendor": "Check Point",
    "product": "Multiple Products",
@@ -325,15 +334,6 @@
    "added": "2026-11-10",
    "ransomware": false,
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320"
-  },
-  {
-   "cve": "CVE-2026-125350",
-   "vendor": "Google",
-   "product": "Chromium",
-   "summary": "Afecta a Google Chromium y navegadores basados en este motor, permitiendo ejecutar código malicioso mediante una página web preparada.",
-   "added": "2026-11-10",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350"
   }
  ]
 }
