@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-17T08:02-04:00",
+ "updated": "2026-11-17T13:03-04:00",
  "items": [
+  {
+   "date": "2026-11-17",
+   "title": "Xiaomi presenta la Smart Band 11 con pantalla de 2.000 nits y versión con NFC",
+   "summary": "Xiaomi ha hecho oficial la Smart Band 11, su nueva pulsera cuantificadora. El dispositivo destaca por incorporar una pantalla con 2.000 nits de brillo, una batería que alcanza hasta 21 días de autonomía y opciones con NFC para realizar pagos directamente desde la muñeca.",
+   "link": "https://www.xataka.com/seleccion/xiaomi-smart-band-11-oficial-pantalla-2-000-nits-21-dias-bateria-versiones-nfc-para-pagar-muneca",
+   "source": "Xataka",
+   "categoria": "MOVILES",
+   "slug": "2026-11-17-xiaomi-presenta-la-smart-band-11-con-pantalla-de-2-000-nits-y-version"
+  },
   {
    "date": "2026-11-17",
    "title": "Sospechan de un hackeo al superordenador más potente de Japón con 4.000 afectados",
@@ -261,15 +270,6 @@
    "source": "Vandal",
    "categoria": "TECH",
    "slug": "2026-11-12-square-enix-casi-triplica-sus-beneficios-por-las-ventas-digitales"
-  },
-  {
-   "date": "2026-11-12",
-   "title": "El POCO X8 Pro Max se desploma de precio antes del Black Friday",
-   "summary": "El nuevo móvil de POCO reduce su precio significativamente gracias a la eficiencia de sus baterías de silicio-carbono.",
-   "link": "https://www.xataka.com/seleccion/autonomia-para-tres-dias-su-mejor-precio-fecha-poco-x8-pro-max-se-desploma-antes-black-friday",
-   "source": "Xataka",
-   "categoria": "MOVILES",
-   "slug": "2026-11-12-el-poco-x8-pro-max-se-desploma-de-precio-antes-del-black-friday"
   }
  ],
  "freebies": [
@@ -288,6 +288,14 @@
    "end_iso": "",
    "worth": "$9.99",
    "image": "https://www.gamerpower.com/offers/1b/6a59119a8eb8d.jpg"
+  },
+  {
+   "title": "Contractor: The Clean Up Part 2",
+   "link": "https://www.gamerpower.com/open/contractor-the-clean-up-part-2-epic-games-giveaway",
+   "platforms": "PC, Epic Games Store",
+   "end_iso": "2026-12-02",
+   "worth": "$4.99",
+   "image": "https://www.gamerpower.com/offers/1b/6afc554f06761.jpg"
   }
  ],
  "security": [
