@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-17T19:00-04:00",
+ "updated": "2026-11-18T08:01-04:00",
  "items": [
+  {
+   "date": "2026-11-18",
+   "title": "China amenaza con represalias por nuevas restricciones a GPUs de IA",
+   "summary": "Pekín advierte sobre posibles contramedidas tras el endurecimiento de los límites de exportación y alquiler de chips Blackwell.",
+   "link": "https://www.tomshardware.com/pc-components/gpus/china-threatens-countermeasures-on-the-face-of-new-ai-gpu-rental-and-export-restrictions-beijing-threatens-retaliation-ahead-of-thursdays-xi-jinping-meeting-sino-american-trade-war-may-be-renewed-for-a-new-season",
+   "source": "Tom's Hardware",
+   "categoria": "TECH",
+   "slug": "2026-11-18-china-amenaza-con-represalias-por-nuevas-restricciones-a-gpus-de-ia"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "Microsoft integra Word, Excel y PowerPoint dentro de Copilot",
+   "summary": "Las principales aplicaciones de Office ahora funcionan directamente en la interfaz de su asistente de inteligencia artificial.",
+   "link": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+   "source": "Ars Technica",
+   "categoria": "IA",
+   "slug": "2026-11-18-microsoft-integra-word-excel-y-powerpoint-dentro-de-copilot"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "Nintendo arranca su Black Friday con rebajas de hasta el 75 %",
+   "summary": "La compañía ofrece descuentos en cientos de juegos digitales de la eShop, además de packs de consola y mandos.",
+   "link": "https://vandal.elespanol.com/noticia/2026322017/nintendo-anuncia-sus-descuentos-del-black-friday-en-juegos-de-hasta-el-75-packs-de-consola-y-mandos/",
+   "source": "Vandal",
+   "categoria": "OFERTAS",
+   "slug": "2026-11-18-nintendo-arranca-su-black-friday-con-rebajas-de-hasta-el-75"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "GTA 6 empata con Zelda: Ocarina of Time como el juego mejor valorado",
+   "summary": "Las primeras reseñas de Grand Theft Auto 6 lo sitúan en Metacritic al mismo nivel que el clásico de Nintendo 64.",
+   "link": "https://www.nintendolife.com/news/2026/11/gta-6-ties-with-zelda-ocarina-of-time-as-the-highest-rated-game-ever",
+   "source": "Nintendo Life",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-18-gta-6-empata-con-zelda-ocarina-of-time-como-el-juego-mejor-valorado"
+  },
   {
    "date": "2026-11-17",
    "title": "The Game Awards 2026 anuncia sus nominados con GTA VI a la cabeza",
@@ -234,42 +270,6 @@
    "source": "Vandal",
    "categoria": "JUEGOS",
    "slug": "2026-11-13-the-game-awards-2026-se-emitira-en-disney-con-anuncios-de-sus-sagas"
-  },
-  {
-   "date": "2026-11-13",
-   "title": "Google presenta Gemini 4 Hydrogen, su modelo de IA más rápido y barato",
-   "summary": "Google lanza un nuevo modelo lingüístico de inteligencia artificial enfocado en ofrecer mayor velocidad de respuesta con menores costes de procesamiento.",
-   "link": "https://www.xataka.com/robotica-e-ia/google-cree-haber-dado-santo-grial-ia-gemini-4-hydrogen-rapido-bueno-casi-barato",
-   "source": "Xataka",
-   "categoria": "IA",
-   "slug": "2026-11-13-google-presenta-gemini-4-hydrogen-su-modelo-de-ia-mas-rapido-y-barato"
-  },
-  {
-   "date": "2026-11-13",
-   "title": "Una caída global de Microsoft deja sin servicio a Outlook y Teams",
-   "summary": "Un fallo masivo en la infraestructura de Microsoft 365 ha dejado incomunicados a millones de usuarios e instituciones en todo el mundo.",
-   "link": "https://www.3djuegos.com/tecnologia/noticias/servicios-microsoft-han-caido-espana-medio-mundo-pequeno-error-podria-haber-provocado-desastre-mundial-dificil-solucionar",
-   "source": "3DJuegos",
-   "categoria": "TECH",
-   "slug": "2026-11-13-una-caida-global-de-microsoft-deja-sin-servicio-a-outlook-y-teams"
-  },
-  {
-   "date": "2026-11-13",
-   "title": "Xbox y MachineGames anuncian oficialmente Wolfenstein 3",
-   "summary": "La esperada tercera entrega de la saga de disparos en primera persona ha entrado oficialmente en fase de desarrollo.",
-   "link": "https://www.theverge.com/news/1032431/xbox-bethesda-wolfenstein-3",
-   "source": "The Verge",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-13-xbox-y-machinegames-anuncian-oficialmente-wolfenstein-3"
-  },
-  {
-   "date": "2026-11-12",
-   "title": "Microsoft lleva 25 juegos originales de Xbox a PC",
-   "summary": "Para celebrar el 25 aniversario de la marca, Microsoft ha lanzado 25 juegos clásicos de la primera Xbox jugables en Windows PC con retrocompatibilidad. Una gran noticia para los fans de la veterana consola.",
-   "link": "https://www.theverge.com/games/1032321/microsoft-xbox-original-games-pc-backwards-compatibility",
-   "source": "The Verge",
-   "categoria": "CONSOLAS",
-   "slug": "2026-11-12-microsoft-lleva-25-juegos-originales-de-xbox-a-pc"
   }
  ],
  "freebies": [
