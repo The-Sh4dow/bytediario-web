@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-18T19:00-04:00",
+ "updated": "2026-11-19T08:04-04:00",
  "items": [
+  {
+   "date": "2026-11-19",
+   "title": "Microsoft pide opinión tras imponer fondos de GTA 6 en Xbox",
+   "summary": "Xbox abrió una encuesta sobre sus fondos de eventos tras reemplazar los fondos personalizados de los usuarios con arte de GTA 6.",
+   "link": "https://www.ign.com/articles/microsoft-polls-users-after-plastering-gta-6-artwork-over-xbox-custom-dashboard-backgrounds",
+   "source": "IGN",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-19-microsoft-pide-opinion-tras-imponer-fondos-de-gta-6-en-xbox"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Distritos escolares de EE. UU. evalúan dejar Google Search por su IA obligatoria",
+   "summary": "Escuelas de Nueva York, Los Ángeles y Chicago buscan alternativas tras el aviso de Google de desactivar el buscador si rechazan su IA.",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+   "source": "The Verge",
+   "categoria": "IA",
+   "slug": "2026-11-19-distritos-escolares-de-ee-uu-evaluan-dejar-google-search-por-su-ia-obl"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Una vulnerabilidad crítica en Java pone en riesgo a millones de dispositivos",
+   "summary": "Un fallo grave en Java permite la ejecución remota de código simplemente introduciendo texto repetido.",
+   "link": "https://www.tomshardware.com/tech-industry/cyber-security/critical-java-vulnerability-puts-millions-of-sites-services-and-devices-at-risk-of-remote-code-execution-triggers-with-64-as-and-an-sign-openjdk-optimization-bug-lets-an-attacker-trigger-it-just-by-inputting-repeated-text",
+   "source": "Tom's Hardware",
+   "categoria": "TECH",
+   "slug": "2026-11-19-una-vulnerabilidad-critica-en-java-pone-en-riesgo-a-millones-de-dispos"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "La memoria DDR6 reduce su tamaño un 44 % y cuadruplica el ancho de banda de DDR5",
+   "summary": "JEDEC adelanta módulos DDR6 de 74 mm que alcanzan 12,8 GT/s y hasta 1 TB de capacidad por ranura.",
+   "link": "https://www.tomshardware.com/pc-components/ram/ddr6-ram-shrinks-by-44-percent-while-delivering-4x-ddr5s-baseline-bandwidth-jedec-previews-12-8-gt-s-modules-with-up-to-1-terabyte-of-capacity-per-slot",
+   "source": "Tom's Hardware",
+   "categoria": "PC",
+   "slug": "2026-11-19-la-memoria-ddr6-reduce-su-tamano-un-44-y-cuadruplica-el-ancho-de-banda"
+  },
   {
    "date": "2026-11-18",
    "title": "Un fallo en los drivers de Nvidia satura los SSD con hasta 30 GB por hora",
@@ -234,42 +270,6 @@
    "source": "Tom's Hardware",
    "categoria": "IA",
    "slug": "2026-11-14-acusan-a-ia-chinas-de-entrenarse-con-chips-nvidia-blackwell-prohibidos"
-  },
-  {
-   "date": "2026-11-14",
-   "title": "La nave Starship de SpaceX alcanza la órbita en su decimoquinto vuelo",
-   "summary": "El gigantesco cohete completó con éxito su ascenso orbital y prepara el terreno para intentar capturar el propulsor.",
-   "link": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
-   "source": "Ars Technica",
-   "categoria": "TECH",
-   "slug": "2026-11-14-la-nave-starship-de-spacex-alcanza-la-orbita-en-su-decimoquinto-vuelo"
-  },
-  {
-   "date": "2026-11-14",
-   "title": "El dueño de Rockstar prevé un papel marginal para los juegos físicos",
-   "summary": "Strauss Zelnick afirmó que el formato físico representará una porción mínima del negocio en el futuro inmediato de los videojuegos.",
-   "link": "https://www.3djuegos.com/industria-gaming/noticias/strauss-zelnick-69-anos-dueno-rockstar-futuro-formato-fisico-videojuegos-sera-parte-muy-pequena-negocio",
-   "source": "3DJuegos",
-   "categoria": "CONSOLAS",
-   "slug": "2026-11-14-el-dueno-de-rockstar-preve-un-papel-marginal-para-los-juegos-fisicos"
-  },
-  {
-   "date": "2026-11-14",
-   "title": "Blade Runner prepara su regreso con un nuevo videojuego AAA",
-   "summary": "Los propietarios de la franquicia confirmaron negociaciones avanzadas para desarrollar un juego de gran presupuesto basado en su universo cyberpunk.",
-   "link": "https://www.ign.com/articles/blade-runner-2099-executive-producers-confirm-franchise-owners-are-in-talks-for-aaa-video-game-adaptation",
-   "source": "IGN",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-14-blade-runner-prepara-su-regreso-con-un-nuevo-videojuego-aaa"
-  },
-  {
-   "date": "2026-11-14",
-   "title": "ARC Raiders desata polémica al usar voces generadas por IA",
-   "summary": "Embark Studios confirmó el uso de inteligencia artificial para doblar diálogos en el videojuego, desatando críticas entre la comunidad.",
-   "link": "https://vandal.elespanol.com/noticia/2026318009/polemica-a-la-vista-el-shooter-arc-raiders-abre-la-puerta-a-usar-actores-de-voz-generados-por-ia/",
-   "source": "Vandal",
-   "categoria": "IA",
-   "slug": "2026-11-14-arc-raiders-desata-polemica-al-usar-voces-generadas-por-ia"
   }
  ],
  "freebies": [
