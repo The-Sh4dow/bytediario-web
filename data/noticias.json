@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-19T12:30-04:00",
+ "updated": "2026-11-19T13:02-04:00",
  "items": [
+  {
+   "date": "2026-11-19",
+   "title": "Ubisoft anuncia nuevos despidos y elimina 166 puestos de trabajo",
+   "summary": "La compañía detrás de Assassin's Creed ha confirmado una nueva ronda de reestructuración que afecta a 166 empleados y conlleva la cancelación de varios proyectos en sus estudios de Montreal y Quebec.",
+   "link": "https://www.ign.com/articles/ubisoft-cuts-166-jobs-assassins-creed",
+   "source": "IGN",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-19-ubisoft-anuncia-nuevos-despidos-y-elimina-166-puestos-de-trabajo"
+  },
   {
    "date": "2026-11-19",
    "title": "Microsoft pide opinión tras imponer fondos de GTA 6 en Xbox",
@@ -261,15 +270,6 @@
    "source": "IGN",
    "categoria": "JUEGOS",
    "slug": "2026-11-14-riot-games-anuncia-league-of-legends-new-dawn-un-rediseno-masivo-para"
-  },
-  {
-   "date": "2026-11-14",
-   "title": "Acusan a IA chinas de entrenarse con chips Nvidia Blackwell prohibidos",
-   "summary": "Investigadores afirman que modelos de inteligencia artificial chinos como DeepSeek y Kimi fueron entrenados con aceleradores Nvidia Blackwell, violando las restricciones de exportación impuestas por Estados Unidos.",
-   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-allege-deepseek-kimi-and-other-chinese-ai-models-were-trained-on-export-controlled-nvidia-blackwell-chips-statistical-analysis-on-model-weights-reveals-high-correlation-to-nvidia-hardware",
-   "source": "Tom's Hardware",
-   "categoria": "IA",
-   "slug": "2026-11-14-acusan-a-ia-chinas-de-entrenarse-con-chips-nvidia-blackwell-prohibidos"
   }
  ],
  "freebies": [
