@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-19T13:02-04:00",
+ "updated": "2026-11-19T19:00-04:00",
  "items": [
+  {
+   "date": "2026-11-19",
+   "title": "Un fallo zero-day en Windows 11 permite saltar el bloqueo y acceder a PCs con BitLocker",
+   "summary": "Se ha descubierto una vulnerabilidad zero-day en la pantalla de bloqueo de Windows 11 que permite a atacantes ejecutar software con solo pulsar unas teclas. El fallo afecta incluso a equipos protegidos con el cifrado BitLocker.",
+   "link": "https://www.tomshardware.com/tech-industry/cyber-security/new-windows-11-lock-screen-zero-day-unlocks-bitlocker-protected-pcs-with-just-a-few-keystrokes-win-u-keyboard-trick-lets-physical-attackers-run-usb-payloads-or-create-new-admin-accounts",
+   "source": "Tom's Hardware",
+   "categoria": "PC",
+   "slug": "2026-11-19-un-fallo-zero-day-en-windows-11-permite-saltar-el-bloqueo-y-acceder-a"
+  },
   {
    "date": "2026-11-19",
    "title": "Ubisoft anuncia nuevos despidos y elimina 166 puestos de trabajo",
@@ -261,15 +270,6 @@
    "source": "Xataka",
    "categoria": "TECH",
    "slug": "2026-11-15-italia-multa-a-meta-con-805-millones-de-euros-por-acceder-a-fotos-de-u"
-  },
-  {
-   "date": "2026-11-14",
-   "title": "Riot Games anuncia 'League of Legends: New Dawn', un rediseño masivo para 2027",
-   "summary": "Durante las finales del mundial de LoL, Riot Games presentó oficialmente 'New Dawn', una gran actualización prevista para 2027. Este proyecto renovará por completo el cliente, la Grieta del Invocador, el apartado visual y la jugabilidad del famoso MOBA.",
-   "link": "https://www.ign.com/articles/league-of-legends-new-dawn-unveiled-with-debut-trailer-riot-announces-major-overhaul-coming-in-2027",
-   "source": "IGN",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-14-riot-games-anuncia-league-of-legends-new-dawn-un-rediseno-masivo-para"
   }
  ],
  "freebies": [
