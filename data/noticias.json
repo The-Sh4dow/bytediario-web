@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-20T13:03-04:00",
+ "updated": "2026-11-20T19:01-04:00",
  "items": [
+  {
+   "date": "2026-11-20",
+   "title": "Apps en Windows 11 podrán negarse a arrancar si tu PC no supera un control de seguridad",
+   "summary": "Microsoft presentó Windows Baseline Protection, una función que permite a los programas verificar si el equipo tiene activadas defensas como el arranque seguro. Empresas como Adobe y plataformas como Battle.net ya colaboran en las pruebas, lo que podría impedir ejecutar ciertas aplicaciones y juegos si el sistema no cumple los requisitos.",
+   "link": "https://vandal.elespanol.com/noticia/2026324034/algunas-apps-de-windows-11-podran-negarse-a-arrancar-si-tu-pc-no-supera-un-nuevo-control-de-seguridad/",
+   "source": "Vandal",
+   "categoria": "PC",
+   "slug": "2026-11-20-apps-en-windows-11-podran-negarse-a-arrancar-si-tu-pc-no-supera-un-con"
+  },
   {
    "date": "2026-11-20",
    "title": "Signal bloquea a Gemini y Siri para evitar que la IA lea tus mensajes en el móvil",
@@ -261,15 +270,6 @@
    "source": "Tom's Hardware",
    "categoria": "IA",
    "slug": "2026-11-16-nvidia-acumula-530-000-millones-en-garantias-financieras-para-dominar"
-  },
-  {
-   "date": "2026-11-15",
-   "title": "La justicia rechaza archivar la demanda contra fabricantes de RAM por pactar precios",
-   "summary": "Un juez de Estados Unidos denegó la petición de Micron, Samsung y SK hynix para desestimar la demanda por fijación de precios en memorias DRAM. El tribunal considera plausible la colusión tras registrarse un aumento del 500% en los precios.",
-   "link": "https://www.tomshardware.com/tech-industry/big-tech/judge-denies-motion-to-dismiss-dram-price-fixing-lawsuit-against-micron-samsung-and-sk-hynix-says-chipmakers-acted-like-hawks-flying-in-formation-finds-evidence-of-dram-collusion-plausible-after-500-percent-price-surge",
-   "source": "Tom's Hardware",
-   "categoria": "PC",
-   "slug": "2026-11-15-la-justicia-rechaza-archivar-la-demanda-contra-fabricantes-de-ram-por"
   }
  ],
  "freebies": [
@@ -300,40 +300,40 @@
  ],
  "security": [
   {
-   "cve": "CVE-2026-90817",
-   "vendor": "Vanderbilt University",
-   "product": "Research Electronic Data Capture (REDCap)",
-   "summary": "Afecta a REDCap de la Universidad Vanderbilt y permite a un atacante sin autenticar ejecutar código arbitrario en el servidor.",
-   "added": "2026-11-18",
+   "cve": "CVE-2026-76466",
+   "vendor": "Cisco",
+   "product": "Expressway Series",
+   "summary": "Afecta a Cisco Expressway Series y permite a atacantes remotos no identificados ejecutar comandos con privilegios totales de administrador en los equipos vulnerables.",
+   "added": "2026-11-20",
    "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817"
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466"
   },
   {
-   "cve": "CVE-2026-90436",
+   "cve": "CVE-2026-129448",
    "vendor": "Apache",
-   "product": "Axis",
-   "summary": "Afecta a Apache Axis y permite a un atacante remoto sin autenticar ejecutar código arbitrario mediante mensajes SOAP manipulados.",
-   "added": "2026-11-18",
+   "product": "Roller",
+   "summary": "Afecta a Apache Roller y permite a atacantes remotos sin credenciales ejecutar código dañino en el servidor mediante el procesamiento indebido de datos recibidos.",
+   "added": "2026-11-20",
    "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436"
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448"
   },
   {
-   "cve": "CVE-2026-40217",
-   "vendor": "BerriAI",
-   "product": "LiteLLM",
-   "summary": "Afecta a BerriAI LiteLLM y permite a atacantes remotos ejecutar código arbitrario en el sistema.",
-   "added": "2026-11-18",
+   "cve": "CVE-2026-123890",
+   "vendor": "Broadcom",
+   "product": "VMware vCenter",
+   "summary": "Afecta a VMware vCenter de Broadcom y permite a atacantes en la red evadir el inicio de sesión para acceder al sistema sin autorización previa.",
+   "added": "2026-11-20",
    "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
   },
   {
-   "cve": "CVE-2024-10441",
-   "vendor": "Synology",
-   "product": "DiskStation Manager (DSM)",
-   "summary": "Afecta a Synology DiskStation Manager (DSM) y BeeStation OS, permitiendo a un atacante remoto ejecutar código arbitrario.",
-   "added": "2026-11-18",
+   "cve": "CVE-2025-42884",
+   "vendor": "SAP",
+   "product": "NetWeaver",
+   "summary": "Afecta a SAP NetWeaver Enterprise Portal y permite a atacantes sin autenticar consultar o alterar información interna del servidor mediante la inyección de consultas.",
+   "added": "2026-11-20",
    "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
   }
  ]
 }
