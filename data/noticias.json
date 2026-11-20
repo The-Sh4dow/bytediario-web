@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-20T08:01-04:00",
+ "updated": "2026-11-20T13:03-04:00",
  "items": [
+  {
+   "date": "2026-11-20",
+   "title": "Signal bloquea a Gemini y Siri para evitar que la IA lea tus mensajes en el móvil",
+   "summary": "Signal ha actualizado sus aplicaciones para Android e iOS restringiendo la lectura de pantalla por parte del sistema operativo. La medida busca impedir que agentes de inteligencia artificial analicen el contenido de tus conversaciones privadas.",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+   "source": "The Verge",
+   "categoria": "MOVILES",
+   "slug": "2026-11-20-signal-bloquea-a-gemini-y-siri-para-evitar-que-la-ia-lea-tus-mensajes"
+  },
   {
    "date": "2026-11-20",
    "title": "Xenoblade Chronicles 3 recibe la actualización 3.0.0 antes de su Switch 2 Edition",
@@ -261,15 +270,6 @@
    "source": "Tom's Hardware",
    "categoria": "PC",
    "slug": "2026-11-15-la-justicia-rechaza-archivar-la-demanda-contra-fabricantes-de-ram-por"
-  },
-  {
-   "date": "2026-11-15",
-   "title": "Valve actualiza SteamOS con mejoras para televisores y compatibilidad con Nvidia",
-   "summary": "Una nueva actualización de SteamOS optimiza el sistema para pantallas de televisión y amplía las capacidades para tarjetas gráficas Nvidia. El movimiento acerca el software de Steam Deck a más configuraciones de PC.",
-   "link": "https://www.3djuegos.com/pc/noticias/valve-vuelve-a-mejorar-corazon-steam-deck-machine-su-nueva-actualizacion-apunta-a-televisores-amplia-posibilidades-gpu-nvidia",
-   "source": "3DJuegos",
-   "categoria": "PC",
-   "slug": "2026-11-15-valve-actualiza-steamos-con-mejoras-para-televisores-y-compatibilidad"
   }
  ],
  "freebies": [
