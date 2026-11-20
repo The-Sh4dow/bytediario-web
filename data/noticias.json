@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-19T19:00-04:00",
+ "updated": "2026-11-20T08:01-04:00",
  "items": [
+  {
+   "date": "2026-11-20",
+   "title": "Xenoblade Chronicles 3 recibe la actualización 3.0.0 antes de su Switch 2 Edition",
+   "summary": "Nintendo y Monolith Soft lanzaron el parche 3.0.0 como preparación previa al estreno de la versión para Switch 2 el 3 de diciembre.",
+   "link": "https://www.nintendolife.com/news/2026/11/xenoblade-chronicles-3-version-3-0-0-is-now-live-here-are-the-patch-notes",
+   "source": "Nintendo Life",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-20-xenoblade-chronicles-3-recibe-la-actualizacion-3-0-0-antes-de-su-switc"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "OpenAI ayudó a AMD a mejorar un 14 % el diseño de su próxima GPU insignia",
+   "summary": "Los modelos GPT colaboraron con AMD para optimizar el rendimiento por área y consumo de sus futuras tarjetas gráficas y procesadores.",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-helped-amd-improve-its-upcoming-flagship-gpu-design-by-14-percent-ppa-gpt-models-also-helping-lisa-sus-outfit-boost-its-new-cpus",
+   "source": "Tom's Hardware",
+   "categoria": "PC",
+   "slug": "2026-11-20-openai-ayudo-a-amd-a-mejorar-un-14-el-diseno-de-su-proxima-gpu-insigni"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Apple busca ingenieros para desarrollar su propio agente de IA",
+   "summary": "Una oferta de empleo revela que Apple trabaja en un agente de IA capaz de navegar, usar apps, escribir código y llamar servicios.",
+   "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+   "source": "The Verge",
+   "categoria": "IA",
+   "slug": "2026-11-20-apple-busca-ingenieros-para-desarrollar-su-propio-agente-de-ia"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Estiman que GTA 6 vendió cerca de 25 millones de copias en su primer día",
+   "summary": "Aunque Take-Two y Rockstar no han dado cifras oficiales, las estimaciones apuntan a casi 25 millones de copias vendidas en 24 horas.",
+   "link": "https://vandal.elespanol.com/noticia/2026324017/gta-6-arraso-en-su-debut-estiman-que-ronda-los-25-millones-de-copias-vendidas/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-20-estiman-que-gta-6-vendio-cerca-de-25-millones-de-copias-en-su-primer-d"
+  },
   {
    "date": "2026-11-19",
    "title": "Un fallo zero-day en Windows 11 permite saltar el bloqueo y acceder a PCs con BitLocker",
@@ -234,42 +270,6 @@
    "source": "3DJuegos",
    "categoria": "PC",
    "slug": "2026-11-15-valve-actualiza-steamos-con-mejoras-para-televisores-y-compatibilidad"
-  },
-  {
-   "date": "2026-11-15",
-   "title": "Minecraft sumará control estilo ratón con los mandos de Switch 2",
-   "summary": "Una próxima actualización integrará compatibilidad de puntero mediante los controles de la nueva consola de Nintendo.",
-   "link": "https://www.nintendolife.com/news/2026/11/minecraft-is-getting-joy-con-mouse-controls-on-switch-2-in-a-future-update",
-   "source": "Nintendo Life",
-   "categoria": "CONSOLAS",
-   "slug": "2026-11-15-minecraft-sumara-control-estilo-raton-con-los-mandos-de-switch-2"
-  },
-  {
-   "date": "2026-11-15",
-   "title": "Nvidia busca alternativas a Samsung ante la escasez de memoria para IA",
-   "summary": "Nvidia planea reducir su dependencia del fabricante surcoreano frente a los problemas de suministro que podrían extenderse hasta 2028.",
-   "link": "https://www.xataka.com/componentes/produccion-memoria-siendo-drama-nvidia-planea-dar-salto-para-no-depender-samsung-se-habria-pedido-a-tsmc",
-   "source": "Xataka",
-   "categoria": "PC",
-   "slug": "2026-11-15-nvidia-busca-alternativas-a-samsung-ante-la-escasez-de-memoria-para-ia"
-  },
-  {
-   "date": "2026-11-15",
-   "title": "Alien: Isolation 2 detalla cómo su xenomorfo aprenderá sin hacer trampas",
-   "summary": "Los desarrolladores confirmaron que la criatura adaptará su conducta a los encuentros del jugador sin recurrir a teletransportaciones.",
-   "link": "https://vandal.elespanol.com/noticia/2026319009/el-xenomorfo-de-alien-isolation-2-aprendera-de-tus-encuentros-pero-no-hara-trampas-no-puede-teletransportarse/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-15-alien-isolation-2-detalla-como-su-xenomorfo-aprendera-sin-hacer-trampa"
-  },
-  {
-   "date": "2026-11-15",
-   "title": "Italia multa a Meta con 805 millones de euros por acceder a fotos de usuarios",
-   "summary": "La autoridad italiana de privacidad sancionó a Meta tras descubrir que accedió a la galería de 20 millones de móviles.",
-   "link": "https://www.xataka.com/privacidad/italia-multa-a-meta-805-millones-euros-mirar-galeria-20-millones-moviles",
-   "source": "Xataka",
-   "categoria": "TECH",
-   "slug": "2026-11-15-italia-multa-a-meta-con-805-millones-de-euros-por-acceder-a-fotos-de-u"
   }
  ],
  "freebies": [
