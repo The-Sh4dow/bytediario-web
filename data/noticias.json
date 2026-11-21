@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-21T12:10-04:00",
+ "updated": "2026-11-21T13:02-04:00",
  "items": [
+  {
+   "date": "2026-11-21",
+   "title": "Anuncian la Supersega SSS, portátil capaz de leer cartuchos y discos de SEGA",
+   "summary": "Desarrollan en España la Supersega SSS, una consola portátil híbrida diseñada para ejecutar juegos originales en formato físico de Dreamcast, Saturn, Mega Drive y Master System, además de poder conectarse al televisor.",
+   "link": "https://vandal.elespanol.com/noticia/2026325004/anuncian-la-supersega-sss-una-ambiciosa-consola-retro-portatil-que-lee-cartuchos-y-discos-originales-de-sega/",
+   "source": "Vandal",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-21-anuncian-la-supersega-sss-portatil-capaz-de-leer-cartuchos-y-discos-de"
+  },
   {
    "date": "2026-11-20",
    "title": "Apps en Windows 11 podrán negarse a arrancar si tu PC no supera un control de seguridad",
@@ -261,15 +270,6 @@
    "source": "Vandal",
    "categoria": "JUEGOS",
    "slug": "2026-11-16-dune-awakening-anade-un-modo-para-un-jugador-sin-conexion-a-internet"
-  },
-  {
-   "date": "2026-11-16",
-   "title": "Nvidia acumula 530.000 millones en garantías financieras para dominar la IA",
-   "summary": "Los compromisos de suministro de la compañía aumentaron en casi un cuarto de billón de dólares en un solo trimestre.",
-   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-amassed-usd530-billion-in-financial-guarantees-to-corner-the-ai-market-supply-commitments-rose-by-nearly-a-quarter-of-a-trillion-dollars-in-a-single-quarter",
-   "source": "Tom's Hardware",
-   "categoria": "IA",
-   "slug": "2026-11-16-nvidia-acumula-530-000-millones-en-garantias-financieras-para-dominar"
   }
  ],
  "freebies": [
