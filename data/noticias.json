@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-21T19:00-04:00",
+ "updated": "2026-11-22T08:02-04:00",
  "items": [
+  {
+   "date": "2026-11-22",
+   "title": "Retiran música hecha con IA de The Binding of Isaac tras críticas en Steam",
+   "summary": "Nicalis eliminó música generada con IA en Repentance+ tras una campaña de reseñas negativas y la respuesta del creador Edmund McMillen.",
+   "link": "https://www.ign.com/articles/the-binding-of-isaac-dev-removes-undisclosed-ai-generated-music-from-repentance-following-creator-response-review-bombing",
+   "source": "IGN",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-22-retiran-musica-hecha-con-ia-de-the-binding-of-isaac-tras-criticas-en-s"
+  },
+  {
+   "date": "2026-11-22",
+   "title": "Portátil gaming OLED con RTX 5060 baja 650 dólares en Black Friday",
+   "summary": "El Lenovo Legion 5i con pantalla OLED, RTX 5060 y procesador Intel Core Ultra 7 cae a 1,349 dólares en B&H.",
+   "link": "https://www.tomshardware.com/laptops/gaming-laptops/oled-gaming-laptop-with-rtx-5060-and-intel-core-ultra-7-cpu-price-crashes-by-usd650-in-black-friday-offer-lenovo-legion-5i-laptop-drops-to-usd1-349-with-free-games-at-b-and-h",
+   "source": "Tom's Hardware",
+   "categoria": "OFERTAS",
+   "slug": "2026-11-22-portatil-gaming-oled-con-rtx-5060-baja-650-dolares-en-black-friday"
+  },
+  {
+   "date": "2026-11-22",
+   "title": "El 40 % de los desarrolladores ya usa IA generativa en sus juegos",
+   "summary": "Un informe de la GDC revela que el 40 % de los profesionales usa IA generativa, aunque el 55 % cree que perjudica al sector.",
+   "link": "https://vandal.elespanol.com/noticia/2026326008/un-informe-revela-que-el-40-de-los-desarrolladores-ya-utiliza-ia-generativa-en-sus-juegos/",
+   "source": "Vandal",
+   "categoria": "IA",
+   "slug": "2026-11-22-el-40-de-los-desarrolladores-ya-usa-ia-generativa-en-sus-juegos"
+  },
+  {
+   "date": "2026-11-22",
+   "title": "Nintendo Switch 2 recibe su primer descuento oficial de Black Friday",
+   "summary": "El paquete de Nintendo Switch 2 con Mario Kart World baja a 499 dólares por tiempo limitado.",
+   "link": "https://www.ign.com/articles/nintendo-switch-2-black-friday-deal-mario-kart-world-bundle",
+   "source": "IGN",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-22-nintendo-switch-2-recibe-su-primer-descuento-oficial-de-black-friday"
+  },
   {
    "date": "2026-11-21",
    "title": "Jugadores de GTA 6 en PS5 reportan bloqueos por el error CE-108255-1",
@@ -234,42 +270,6 @@
    "source": "Vandal",
    "categoria": "JUEGOS",
    "slug": "2026-11-17-gta-6-recibe-su-segundo-parche-prelanzamiento-a-dos-dias-de-su-estreno"
-  },
-  {
-   "date": "2026-11-16",
-   "title": "Jensen Huang podría volver como CEO de Nvidia tras su reciente dimisión",
-   "summary": "Tras anunciar su dimisión después de 33 años al frente de Nvidia, Jensen Huang estaría buscando la manera de regresar como director ejecutivo. La compañía atraviesa una guerra interna por el control de la empresa.",
-   "link": "https://www.xataka.com/empresas-y-economia/guerra-interna-control-nvidia-vuelta-jensen-huang-como-ceo-esta-encima-mesa",
-   "source": "Xataka",
-   "categoria": "TECH",
-   "slug": "2026-11-16-jensen-huang-podria-volver-como-ceo-de-nvidia-tras-su-reciente-dimisio"
-  },
-  {
-   "date": "2026-11-16",
-   "title": "Project Helix, la nueva Xbox, tendrá la preservación de juegos como pilar",
-   "summary": "Jason Ronald, directivo de Xbox, ha explicado que la preservación del videojuego es uno de los pilares fundamentales sobre los que están creando Project Helix, la nueva consola de la compañía.",
-   "link": "https://vandal.elespanol.com/noticia/2026320024/la-preservacion-del-videojuego-sera-uno-de-los-pilares-de-project-helix-la-nueva-consola-de-xbox/",
-   "source": "Vandal",
-   "categoria": "CONSOLAS",
-   "slug": "2026-11-16-project-helix-la-nueva-xbox-tendra-la-preservacion-de-juegos-como-pila"
-  },
-  {
-   "date": "2026-11-16",
-   "title": "El cohete Vulcan fracasa durante su lanzamiento y golpea a los rivales de SpaceX",
-   "summary": "United Launch Alliance sufrió el primer fallo total de una misión en sus 20 años de historia tras el incidente del cohete Vulcan.",
-   "link": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
-   "source": "Ars Technica",
-   "categoria": "TECH",
-   "slug": "2026-11-16-el-cohete-vulcan-fracasa-durante-su-lanzamiento-y-golpea-a-los-rivales"
-  },
-  {
-   "date": "2026-11-16",
-   "title": "PlayStation amplía sus ofertas de Black Friday a juegos físicos de PS5 y DualSense",
-   "summary": "La campaña de descuentos de Sony ya incluye títulos en formato físico y mandos, aunque las consolas PS5 mantienen su precio habitual.",
-   "link": "https://www.ign.com/articles/playstation-black-friday-video-game-deals-2026",
-   "source": "IGN",
-   "categoria": "OFERTAS",
-   "slug": "2026-11-16-playstation-amplia-sus-ofertas-de-black-friday-a-juegos-fisicos-de-ps5"
   }
  ],
  "freebies": [
