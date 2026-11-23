@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-22T19:00-04:00",
+ "updated": "2026-11-23T08:00-04:00",
  "items": [
+  {
+   "date": "2026-11-23",
+   "title": "La IA Meta Muse ya puede hacer tus compras de Black Friday en Walmart",
+   "summary": "Walmart integrará el agente de inteligencia artificial Muse de Meta para buscar y comprar ofertas automáticamente en su tienda online.",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+   "source": "The Verge",
+   "categoria": "IA",
+   "slug": "2026-11-23-la-ia-meta-muse-ya-puede-hacer-tus-compras-de-black-friday-en-walmart"
+  },
+  {
+   "date": "2026-11-23",
+   "title": "Intel prepararía el chip Arc G3 Play para portátiles más económicos",
+   "summary": "Ante la subida de precios, Intel desarrollaría una versión más asequible de sus procesadores Arc G3 para equipos portátiles.",
+   "link": "https://vandal.elespanol.com/noticia/2026327021/intel-estaria-preparando-un-nuevo-modelo-de-chip-arc-g3-pensado-para-portatiles-mas-asequibles/",
+   "source": "Vandal",
+   "categoria": "PC",
+   "slug": "2026-11-23-intel-prepararia-el-chip-arc-g3-play-para-portatiles-mas-economicos"
+  },
+  {
+   "date": "2026-11-23",
+   "title": "Walmart rebaja juegos recientes como Donkey Kong Bananza a 30 dólares",
+   "summary": "Walmart lanzó ofertas de Black Friday que rebajan a 30 dólares títulos recientes como Donkey Kong Bananza y Assassin's Creed Black Flag Resynced.",
+   "link": "https://www.ign.com/articles/walmart-drops-a-whole-bunch-ps5-and-switch-2-games-to-just-30-for-a-limited-time-black-friday-2026",
+   "source": "IGN",
+   "categoria": "OFERTAS",
+   "slug": "2026-11-23-walmart-rebaja-juegos-recientes-como-donkey-kong-bananza-a-30-dolares"
+  },
+  {
+   "date": "2026-11-23",
+   "title": "GTA 6 arrasa en su estreno: más de la mitad de jugadores de consola lo jugó",
+   "summary": "Según Circana, más del 50 % de los usuarios activos de consolas jugaron a Grand Theft Auto VI una media de 8 horas en su lanzamiento.",
+   "link": "https://vandal.elespanol.com/noticia/2026327014/mas-de-la-mitad-de-los-jugadores-activos-de-consolas-jugaron-a-gta-6-el-dia-de-su-estreno-es-una-locura/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-23-gta-6-arrasa-en-su-estreno-mas-de-la-mitad-de-jugadores-de-consola-lo"
+  },
   {
    "date": "2026-11-22",
    "title": "Epic Games presenta Unreal Engine 5.9 con mejoras gráficas y de rendimiento",
@@ -234,42 +270,6 @@
    "source": "Nintendo Life",
    "categoria": "JUEGOS",
    "slug": "2026-11-18-gta-6-empata-con-zelda-ocarina-of-time-como-el-juego-mejor-valorado"
-  },
-  {
-   "date": "2026-11-17",
-   "title": "The Game Awards 2026 anuncia sus nominados con GTA VI a la cabeza",
-   "summary": "Geoff Keighley ha revelado la lista completa de candidatos a los premios The Game Awards 2026. Grand Theft Auto VI lidera las nominaciones con ocho candidaturas, incluyendo Juego del Año. Los ganadores se conocerán en la gala del próximo 10 de diciembre.",
-   "link": "https://vandal.elespanol.com/noticia/2026321037/estos-son-los-juegos-nominados-en-the-game-awards-lista-completa-de-candidatos-a-goty-2026/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-17-the-game-awards-2026-anuncia-sus-nominados-con-gta-vi-a-la-cabeza"
-  },
-  {
-   "date": "2026-11-17",
-   "title": "Xiaomi presenta la Smart Band 11 con pantalla de 2.000 nits y versión con NFC",
-   "summary": "Xiaomi ha hecho oficial la Smart Band 11, su nueva pulsera cuantificadora. El dispositivo destaca por incorporar una pantalla con 2.000 nits de brillo, una batería que alcanza hasta 21 días de autonomía y opciones con NFC para realizar pagos directamente desde la muñeca.",
-   "link": "https://www.xataka.com/seleccion/xiaomi-smart-band-11-oficial-pantalla-2-000-nits-21-dias-bateria-versiones-nfc-para-pagar-muneca",
-   "source": "Xataka",
-   "categoria": "MOVILES",
-   "slug": "2026-11-17-xiaomi-presenta-la-smart-band-11-con-pantalla-de-2-000-nits-y-version"
-  },
-  {
-   "date": "2026-11-17",
-   "title": "Sospechan de un hackeo al superordenador más potente de Japón con 4.000 afectados",
-   "summary": "Fugaku habría sufrido una brecha de seguridad que expuso datos personales de más de 4.000 usuarios.",
-   "link": "https://www.tomshardware.com/tech-industry/supercomputers/japans-most-powerful-supercomputer-may-have-been-hacked-over-4-000-users-personal-data-stolen-investigation-opened-into-fugaku-breach-after-unauthorized-software-installed",
-   "source": "Tom's Hardware",
-   "categoria": "TECH",
-   "slug": "2026-11-17-sospechan-de-un-hackeo-al-superordenador-mas-potente-de-japon-con-4-00"
-  },
-  {
-   "date": "2026-11-17",
-   "title": "Sony lanza una actualización de seguridad para PS5 justo antes de GTA 6",
-   "summary": "El nuevo firmware llega un día antes del estreno del juego de Rockstar y tras nuevas afirmaciones de hackers sobre la consola.",
-   "link": "https://www.ign.com/articles/sony-squeezes-in-last-minute-ps5-firmware-security-update-ahead-of-gta-6-release-date-amid-fresh-hacker-claim",
-   "source": "IGN",
-   "categoria": "CONSOLAS",
-   "slug": "2026-11-17-sony-lanza-una-actualizacion-de-seguridad-para-ps5-justo-antes-de-gta"
   }
  ],
  "freebies": [
