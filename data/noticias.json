@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-23T08:00-04:00",
+ "updated": "2026-11-24T08:02-04:00",
  "items": [
+  {
+   "date": "2026-11-24",
+   "title": "Escape from Tarkov se actualiza al motor Unity 6",
+   "summary": "El popular shooter de extracción estrena el parche 1.3.5.0, mejorando su tecnología base y optimizando el rendimiento.",
+   "link": "https://vandal.elespanol.com/noticia/2026328018/escape-from-tarkov-renueva-su-tecnologia-con-unity-6-se-lanza-la-actualizacion-1350/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-24-escape-from-tarkov-se-actualiza-al-motor-unity-6"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "Llega la primera versión de prueba de Ladybird",
+   "summary": "El navegador web independiente con un motor construido desde cero ya se puede probar en alfa para macOS y Linux.",
+   "link": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
+   "source": "The Verge",
+   "categoria": "TECH",
+   "slug": "2026-11-24-llega-la-primera-version-de-prueba-de-ladybird"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "ASUS valora reducir la memoria RAM en equipos de gama baja",
+   "summary": "La continua crisis de la RAM podría llevar a ASUS a ofrecer portátiles económicos con 8 GB en lugar de 16 GB.",
+   "link": "https://vandal.elespanol.com/noticia/2026328019/la-crisis-de-la-ram-continua-asus-podria-reducir-de-16-gb-a-8-gb-sus-equipos-de-gama-baja/",
+   "source": "Vandal",
+   "categoria": "PC",
+   "slug": "2026-11-24-asus-valora-reducir-la-memoria-ram-en-equipos-de-gama-baja"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "Wave Race: Blue Storm llega a Nintendo Switch Online",
+   "summary": "El clásico de GameCube ya está disponible en el servicio de suscripción de Nintendo junto con una nueva función.",
+   "link": "https://www.ign.com/articles/nintendo-switch-online-just-got-a-long-awaited-update-alongside-another-gamecube-classic",
+   "source": "IGN",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-24-wave-race-blue-storm-llega-a-nintendo-switch-online"
+  },
   {
    "date": "2026-11-23",
    "title": "La IA Meta Muse ya puede hacer tus compras de Black Friday en Walmart",
@@ -234,42 +270,6 @@
    "source": "3DJuegos",
    "categoria": "JUEGOS",
    "slug": "2026-11-18-digital-foundry-define-gta-6-como-un-hito-tecnico-fundamental"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "China amenaza con represalias por nuevas restricciones a GPUs de IA",
-   "summary": "Pekín advierte sobre posibles contramedidas tras el endurecimiento de los límites de exportación y alquiler de chips Blackwell.",
-   "link": "https://www.tomshardware.com/pc-components/gpus/china-threatens-countermeasures-on-the-face-of-new-ai-gpu-rental-and-export-restrictions-beijing-threatens-retaliation-ahead-of-thursdays-xi-jinping-meeting-sino-american-trade-war-may-be-renewed-for-a-new-season",
-   "source": "Tom's Hardware",
-   "categoria": "TECH",
-   "slug": "2026-11-18-china-amenaza-con-represalias-por-nuevas-restricciones-a-gpus-de-ia"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Microsoft integra Word, Excel y PowerPoint dentro de Copilot",
-   "summary": "Las principales aplicaciones de Office ahora funcionan directamente en la interfaz de su asistente de inteligencia artificial.",
-   "link": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
-   "source": "Ars Technica",
-   "categoria": "IA",
-   "slug": "2026-11-18-microsoft-integra-word-excel-y-powerpoint-dentro-de-copilot"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Nintendo arranca su Black Friday con rebajas de hasta el 75 %",
-   "summary": "La compañía ofrece descuentos en cientos de juegos digitales de la eShop, además de packs de consola y mandos.",
-   "link": "https://vandal.elespanol.com/noticia/2026322017/nintendo-anuncia-sus-descuentos-del-black-friday-en-juegos-de-hasta-el-75-packs-de-consola-y-mandos/",
-   "source": "Vandal",
-   "categoria": "OFERTAS",
-   "slug": "2026-11-18-nintendo-arranca-su-black-friday-con-rebajas-de-hasta-el-75"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "GTA 6 empata con Zelda: Ocarina of Time como el juego mejor valorado",
-   "summary": "Las primeras reseñas de Grand Theft Auto 6 lo sitúan en Metacritic al mismo nivel que el clásico de Nintendo 64.",
-   "link": "https://www.nintendolife.com/news/2026/11/gta-6-ties-with-zelda-ocarina-of-time-as-the-highest-rated-game-ever",
-   "source": "Nintendo Life",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-18-gta-6-empata-con-zelda-ocarina-of-time-como-el-juego-mejor-valorado"
   }
  ],
  "freebies": [
@@ -300,6 +300,24 @@
  ],
  "security": [
   {
+   "cve": "CVE-2026-134624",
+   "vendor": "N-able",
+   "product": "MailAssure",
+   "summary": "Afecta a N-able MailAssure y permite a un usuario autenticado conectarse a redes internas y enviar datos a servicios privados.",
+   "added": "2026-11-23",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624"
+  },
+  {
+   "cve": "CVE-2026-133968",
+   "vendor": "Project MONAI",
+   "product": "MONAI Label",
+   "summary": "Afecta a Project MONAI MONAI Label y permite a atacantes remotos escribir archivos arbitrarios y ejecutar código de forma remota.",
+   "added": "2026-11-23",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968"
+  },
+  {
    "cve": "CVE-2026-76466",
    "vendor": "Cisco",
    "product": "Expressway Series",
@@ -316,24 +334,6 @@
    "added": "2026-11-20",
    "ransomware": false,
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448"
-  },
-  {
-   "cve": "CVE-2026-123890",
-   "vendor": "Broadcom",
-   "product": "VMware vCenter",
-   "summary": "Afecta a VMware vCenter de Broadcom y permite a atacantes en la red evadir el inicio de sesión para acceder al sistema sin autorización previa.",
-   "added": "2026-11-20",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
-  },
-  {
-   "cve": "CVE-2025-42884",
-   "vendor": "SAP",
-   "product": "NetWeaver",
-   "summary": "Afecta a SAP NetWeaver Enterprise Portal y permite a atacantes sin autenticar consultar o alterar información interna del servidor mediante la inyección de consultas.",
-   "added": "2026-11-20",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
   }
  ]
 }
