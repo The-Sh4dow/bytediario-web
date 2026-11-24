@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-24T08:02-04:00",
+ "updated": "2026-11-24T19:03-04:00",
  "items": [
+  {
+   "date": "2026-11-24",
+   "title": "Nioh 3 es oficial y llegará por primera vez a consolas Xbox en 2027",
+   "summary": "Team Ninja confirmó que Nioh 3 se lanzará en 2027 y llegará a Xbox. La noticia marca el debut de la aclamada franquicia de acción en consolas de Microsoft, expandiendo su alcance tras su paso por otras plataformas.",
+   "link": "https://news.xbox.com/en-us/2026/11/24/nioh-3-xbox-series-debut/",
+   "source": "Xbox Wire",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-24-nioh-3-es-oficial-y-llegara-por-primera-vez-a-consolas-xbox-en-2027"
+  },
   {
    "date": "2026-11-24",
    "title": "Escape from Tarkov se actualiza al motor Unity 6",
@@ -261,15 +270,6 @@
    "source": "Tom's Hardware",
    "categoria": "PC",
    "slug": "2026-11-18-un-fallo-en-los-drivers-de-nvidia-satura-los-ssd-con-hasta-30-gb-por-h"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Digital Foundry define GTA 6 como un hito técnico fundamental",
-   "summary": "Los análisis técnicos de GTA 6 ya están aquí y Digital Foundry lo califica como un hito técnico para Rockstar. El título destaca por su increíble nivel de detalle en el mundo abierto de Vice City.",
-   "link": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/rockstar-ha-vuelto-a-hacer-digital-foundry-clara-su-veredicto-gta-6-define-como-hito-tecnico-fundamental-para-estudio",
-   "source": "3DJuegos",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-18-digital-foundry-define-gta-6-como-un-hito-tecnico-fundamental"
   }
  ],
  "freebies": [
@@ -300,6 +300,33 @@
  ],
  "security": [
   {
+   "cve": "CVE-2026-132224",
+   "vendor": "Optimizely",
+   "product": "Web Experimentation",
+   "summary": "Afecta a Optimizely Web Experimentation y permite a atacantes suplantar a usuarios y modificar código JavaScript para ejecutarlo en los navegadores de los visitantes.",
+   "added": "2026-11-24",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224"
+  },
+  {
+   "cve": "CVE-2026-132165",
+   "vendor": "Drupal",
+   "product": "Core",
+   "summary": "Afecta a Drupal Core y permite a un atacante sin autenticar tomar el control de un sitio web o ejecutar código malicioso mediante su instalador.",
+   "added": "2026-11-24",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165"
+  },
+  {
+   "cve": "CVE-2026-131914",
+   "vendor": "Idunno",
+   "product": "AntiCsrf",
+   "summary": "Afecta a Idunno AntiCsrf y permite a un atacante remoto sin autenticar ejecutar código malicioso de forma arbitraria en el sistema.",
+   "added": "2026-11-24",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914"
+  },
+  {
    "cve": "CVE-2026-134624",
    "vendor": "N-able",
    "product": "MailAssure",
@@ -307,33 +334,6 @@
    "added": "2026-11-23",
    "ransomware": false,
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624"
-  },
-  {
-   "cve": "CVE-2026-133968",
-   "vendor": "Project MONAI",
-   "product": "MONAI Label",
-   "summary": "Afecta a Project MONAI MONAI Label y permite a atacantes remotos escribir archivos arbitrarios y ejecutar código de forma remota.",
-   "added": "2026-11-23",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968"
-  },
-  {
-   "cve": "CVE-2026-76466",
-   "vendor": "Cisco",
-   "product": "Expressway Series",
-   "summary": "Afecta a Cisco Expressway Series y permite a atacantes remotos no identificados ejecutar comandos con privilegios totales de administrador en los equipos vulnerables.",
-   "added": "2026-11-20",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466"
-  },
-  {
-   "cve": "CVE-2026-129448",
-   "vendor": "Apache",
-   "product": "Roller",
-   "summary": "Afecta a Apache Roller y permite a atacantes remotos sin credenciales ejecutar código dañino en el servidor mediante el procesamiento indebido de datos recibidos.",
-   "added": "2026-11-20",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448"
   }
  ]
 }
