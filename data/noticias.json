@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-25T13:05-04:00",
+ "updated": "2026-11-25T19:00-04:00",
  "items": [
+  {
+   "date": "2026-11-25",
+   "title": "WhatsApp añade por fin los mensajes programados en chats y grupos",
+   "summary": "WhatsApp ha comenzado a desplegar la función de mensajes programados para sus 3.000 millones de usuarios. Esta novedad, una de las más solicitadas a Meta, permite elegir la fecha y hora exacta para enviar textos tanto en conversaciones privadas como en chats grupales.",
+   "link": "https://www.theverge.com/tech/1042532/whatsapp-scheduled-messages",
+   "source": "The Verge",
+   "categoria": "MOVILES",
+   "slug": "2026-11-25-whatsapp-anade-por-fin-los-mensajes-programados-en-chats-y-grupos"
+  },
   {
    "date": "2026-11-25",
    "title": "Revelados los juegos de PS Plus para diciembre",
@@ -261,15 +270,6 @@
    "source": "Tom's Hardware",
    "categoria": "PC",
    "slug": "2026-11-19-un-fallo-zero-day-en-windows-11-permite-saltar-el-bloqueo-y-acceder-a"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Ubisoft anuncia nuevos despidos y elimina 166 puestos de trabajo",
-   "summary": "La compañía detrás de Assassin's Creed ha confirmado una nueva ronda de reestructuración que afecta a 166 empleados y conlleva la cancelación de varios proyectos en sus estudios de Montreal y Quebec.",
-   "link": "https://www.ign.com/articles/ubisoft-cuts-166-jobs-assassins-creed",
-   "source": "IGN",
-   "categoria": "CONSOLAS",
-   "slug": "2026-11-19-ubisoft-anuncia-nuevos-despidos-y-elimina-166-puestos-de-trabajo"
   }
  ],
  "freebies": [
@@ -300,40 +300,40 @@
  ],
  "security": [
   {
-   "cve": "CVE-2026-103406",
-   "vendor": "Hewlett Packard Enterprise (HPE)",
-   "product": "Juniper Session Smart Conductor and Session Smart Router",
-   "summary": "Afecta a los routers y controladores Juniper Session Smart de HPE, permitiendo a un atacante remoto ejecutar comandos arbitrarios como root.",
+   "cve": "CVE-2026-133469",
+   "vendor": "Vates",
+   "product": "Xen Orchestra",
+   "summary": "Afecta a Vates Xen Orchestra y permite a un atacante saltarse la autenticación para realizar acciones administrativas.",
    "added": "2026-11-25",
    "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406"
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469"
   },
   {
-   "cve": "CVE-2026-132224",
-   "vendor": "Optimizely",
-   "product": "Web Experimentation",
-   "summary": "Afecta a Optimizely Web Experimentation y permite a atacantes suplantar a usuarios y modificar código JavaScript para ejecutarlo en los navegadores de los visitantes.",
-   "added": "2026-11-24",
+   "cve": "CVE-2026-133324",
+   "vendor": "Mitel",
+   "product": "MiCollab",
+   "summary": "Afecta a Mitel MiCollab y permite a atacantes no autenticados saltarse los controles de seguridad y realizar acciones no autorizadas.",
+   "added": "2026-11-25",
    "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224"
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133324"
   },
   {
-   "cve": "CVE-2026-132165",
-   "vendor": "Drupal",
-   "product": "Core",
-   "summary": "Afecta a Drupal Core y permite a un atacante sin autenticar tomar el control de un sitio web o ejecutar código malicioso mediante su instalador.",
-   "added": "2026-11-24",
+   "cve": "CVE-2026-133323",
+   "vendor": "Mitel",
+   "product": "MiCollab",
+   "summary": "Afecta a Mitel MiCollab y permite a un atacante ejecutar comandos arbitrarios en el sistema afectado.",
+   "added": "2026-11-25",
    "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165"
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323"
   },
   {
-   "cve": "CVE-2026-131914",
-   "vendor": "Idunno",
-   "product": "AntiCsrf",
-   "summary": "Afecta a Idunno AntiCsrf y permite a un atacante remoto sin autenticar ejecutar código malicioso de forma arbitraria en el sistema.",
-   "added": "2026-11-24",
+   "cve": "CVE-2026-133311",
+   "vendor": "Mitel",
+   "product": "MiCollab",
+   "summary": "Afecta a Mitel MiCollab y permite a atacantes acceder a información confidencial usando identificadores del sistema.",
+   "added": "2026-11-25",
    "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914"
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133311"
   }
  ]
 }
