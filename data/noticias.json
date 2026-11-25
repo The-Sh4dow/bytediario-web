@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-25T08:01-04:00",
+ "updated": "2026-11-25T13:05-04:00",
  "items": [
+  {
+   "date": "2026-11-25",
+   "title": "Revelados los juegos de PS Plus para diciembre",
+   "summary": "Sony ha anunciado los tres títulos que llegarán a PlayStation Plus Essential en diciembre. Los suscriptores podrán disfrutar de Tony Hawk's Pro Skater 3+4, Dragon Ball Xenoverse 2 y Amnesia: The Bunker.",
+   "link": "https://blog.playstation.com/2026/11/25/playstation-plus-monthly-games-for-december-tony-hawks-pro-skater-34-dragon-ball-xenoverse-2-amnesia-the-bunker/",
+   "source": "PlayStation Blog",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-25-revelados-los-juegos-de-ps-plus-para-diciembre"
+  },
   {
    "date": "2026-11-25",
    "title": "Microsoft declara 'Código Rojo' interno tras la histórica caída de Outlook",
@@ -261,15 +270,6 @@
    "source": "IGN",
    "categoria": "CONSOLAS",
    "slug": "2026-11-19-ubisoft-anuncia-nuevos-despidos-y-elimina-166-puestos-de-trabajo"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Microsoft pide opinión tras imponer fondos de GTA 6 en Xbox",
-   "summary": "Xbox abrió una encuesta sobre sus fondos de eventos tras reemplazar los fondos personalizados de los usuarios con arte de GTA 6.",
-   "link": "https://www.ign.com/articles/microsoft-polls-users-after-plastering-gta-6-artwork-over-xbox-custom-dashboard-backgrounds",
-   "source": "IGN",
-   "categoria": "CONSOLAS",
-   "slug": "2026-11-19-microsoft-pide-opinion-tras-imponer-fondos-de-gta-6-en-xbox"
   }
  ],
  "freebies": [
@@ -300,6 +300,15 @@
  ],
  "security": [
   {
+   "cve": "CVE-2026-103406",
+   "vendor": "Hewlett Packard Enterprise (HPE)",
+   "product": "Juniper Session Smart Conductor and Session Smart Router",
+   "summary": "Afecta a los routers y controladores Juniper Session Smart de HPE, permitiendo a un atacante remoto ejecutar comandos arbitrarios como root.",
+   "added": "2026-11-25",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406"
+  },
+  {
    "cve": "CVE-2026-132224",
    "vendor": "Optimizely",
    "product": "Web Experimentation",
@@ -325,15 +334,6 @@
    "added": "2026-11-24",
    "ransomware": false,
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914"
-  },
-  {
-   "cve": "CVE-2026-134624",
-   "vendor": "N-able",
-   "product": "MailAssure",
-   "summary": "Afecta a N-able MailAssure y permite a un usuario autenticado conectarse a redes internas y enviar datos a servicios privados.",
-   "added": "2026-11-23",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624"
   }
  ]
 }
