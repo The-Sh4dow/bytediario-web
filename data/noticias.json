@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-24T19:03-04:00",
+ "updated": "2026-11-25T08:01-04:00",
  "items": [
+  {
+   "date": "2026-11-25",
+   "title": "Microsoft declara 'Código Rojo' interno tras la histórica caída de Outlook",
+   "summary": "Una falla que dejó sin correo a millones de usuarios durante casi 24 horas obligó a revisar de emergencia sus protocolos de recuperación.",
+   "link": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/",
+   "source": "Ars Technica",
+   "categoria": "TECH",
+   "slug": "2026-11-25-microsoft-declara-codigo-rojo-interno-tras-la-historica-caida-de-outlo"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "La Radeon RX 9060 XT rompe el récord mundial de frecuencia en una GPU",
+   "summary": "Con refrigeración por nitrógeno líquido, la tarjeta de AMD alcanzó los 4.837 MHz de velocidad de reloj.",
+   "link": "https://www.tomshardware.com/pc-components/gpus/radeon-rx-9060-xt-sets-new-gpu-frequency-world-record-of-4-837-ghz-amd-overclocking-team-pushes-mid-range-rdna-4-gpu-to-the-max-under-liquid-nitrogen",
+   "source": "Tom's Hardware",
+   "categoria": "PC",
+   "slug": "2026-11-25-la-radeon-rx-9060-xt-rompe-el-record-mundial-de-frecuencia-en-una-gpu"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "Huawei es hallada culpable de robar secretos comerciales en EE. UU.",
+   "summary": "Un tribunal federal de Nueva York emitió un veredicto culpable contra la compañía tras un juicio de varios años.",
+   "link": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
+   "source": "The Verge",
+   "categoria": "TECH",
+   "slug": "2026-11-25-huawei-es-hallada-culpable-de-robar-secretos-comerciales-en-ee-uu"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "GTA 6 rinde significativamente mejor en Xbox Series X que en PS5 base",
+   "summary": "Un análisis de Digital Foundry revela que la versión de Xbox Series X sufre bastantes menos caídas de fotogramas que la de PS5.",
+   "link": "https://www.ign.com/articles/gta-6-analysis-shows-ps5-version-suffers-substantially-more-frequent-frame-rate-drops-than-xbox-series-x-version-sparking-debate-about-sonys-plays-best-on-ps5-marketing",
+   "source": "IGN",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-25-gta-6-rinde-significativamente-mejor-en-xbox-series-x-que-en-ps5-base"
+  },
   {
    "date": "2026-11-24",
    "title": "Nioh 3 es oficial y llegará por primera vez a consolas Xbox en 2027",
@@ -234,42 +270,6 @@
    "source": "IGN",
    "categoria": "CONSOLAS",
    "slug": "2026-11-19-microsoft-pide-opinion-tras-imponer-fondos-de-gta-6-en-xbox"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Distritos escolares de EE. UU. evalúan dejar Google Search por su IA obligatoria",
-   "summary": "Escuelas de Nueva York, Los Ángeles y Chicago buscan alternativas tras el aviso de Google de desactivar el buscador si rechazan su IA.",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
-   "source": "The Verge",
-   "categoria": "IA",
-   "slug": "2026-11-19-distritos-escolares-de-ee-uu-evaluan-dejar-google-search-por-su-ia-obl"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Una vulnerabilidad crítica en Java pone en riesgo a millones de dispositivos",
-   "summary": "Un fallo grave en Java permite la ejecución remota de código simplemente introduciendo texto repetido.",
-   "link": "https://www.tomshardware.com/tech-industry/cyber-security/critical-java-vulnerability-puts-millions-of-sites-services-and-devices-at-risk-of-remote-code-execution-triggers-with-64-as-and-an-sign-openjdk-optimization-bug-lets-an-attacker-trigger-it-just-by-inputting-repeated-text",
-   "source": "Tom's Hardware",
-   "categoria": "TECH",
-   "slug": "2026-11-19-una-vulnerabilidad-critica-en-java-pone-en-riesgo-a-millones-de-dispos"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "La memoria DDR6 reduce su tamaño un 44 % y cuadruplica el ancho de banda de DDR5",
-   "summary": "JEDEC adelanta módulos DDR6 de 74 mm que alcanzan 12,8 GT/s y hasta 1 TB de capacidad por ranura.",
-   "link": "https://www.tomshardware.com/pc-components/ram/ddr6-ram-shrinks-by-44-percent-while-delivering-4x-ddr5s-baseline-bandwidth-jedec-previews-12-8-gt-s-modules-with-up-to-1-terabyte-of-capacity-per-slot",
-   "source": "Tom's Hardware",
-   "categoria": "PC",
-   "slug": "2026-11-19-la-memoria-ddr6-reduce-su-tamano-un-44-y-cuadruplica-el-ancho-de-banda"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Un fallo en los drivers de Nvidia satura los SSD con hasta 30 GB por hora",
-   "summary": "Los controladores GeForce 621.14 y 621.24 de Nvidia presentan un error que reescribe un archivo de registro sin parar. Esto provoca escrituras constantes de hasta 30 GB cada hora en las unidades de almacenamiento.",
-   "link": "https://www.tomshardware.com/pc-components/gpu-drivers/nvidia-geforce-driver-bug-reportedly-hammers-ssds-with-up-to-30gb-of-writes-per-hour-users-trace-massive-idle-wear-to-background-service-newer-driver-reportedly-still-affected",
-   "source": "Tom's Hardware",
-   "categoria": "PC",
-   "slug": "2026-11-18-un-fallo-en-los-drivers-de-nvidia-satura-los-ssd-con-hasta-30-gb-por-h"
   }
  ],
  "freebies": [
