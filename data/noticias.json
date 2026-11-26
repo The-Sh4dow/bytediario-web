@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-26T12:30-04:00",
+ "updated": "2026-11-26T13:02-04:00",
  "items": [
+  {
+   "date": "2026-11-26",
+   "title": "Nvidia frena envíos de GPUs de IA al Sudeste Asiático",
+   "summary": "Nvidia ahora exige licencias de exportación para enviar sus GPU de inteligencia artificial a centros de datos en países como Singapur, Malasia o Tailandia. La medida busca prevenir el acceso indirecto a la tecnología desde China ante restricciones comerciales.",
+   "link": "https://www.tomshardware.com/tech-industry/policy/nvidia-stops-ai-gpu-shipments-to-southeast-asia-report-claims-data-centers-in-singapore-other-countries-in-trouble-as-commerce-department-requires-cloud-providers-to-obtain-export-license",
+   "source": "Tom's Hardware",
+   "categoria": "TECH",
+   "slug": "2026-11-26-nvidia-frena-envios-de-gpus-de-ia-al-sudeste-asiatico"
+  },
   {
    "date": "2026-11-26",
    "title": "Rebaja masiva en portátiles con RTX 5090 por el Black Friday",
@@ -261,15 +270,6 @@
    "source": "The Verge",
    "categoria": "MOVILES",
    "slug": "2026-11-20-signal-bloquea-a-gemini-y-siri-para-evitar-que-la-ia-lea-tus-mensajes"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Xenoblade Chronicles 3 recibe la actualización 3.0.0 antes de su Switch 2 Edition",
-   "summary": "Nintendo y Monolith Soft lanzaron el parche 3.0.0 como preparación previa al estreno de la versión para Switch 2 el 3 de diciembre.",
-   "link": "https://www.nintendolife.com/news/2026/11/xenoblade-chronicles-3-version-3-0-0-is-now-live-here-are-the-patch-notes",
-   "source": "Nintendo Life",
-   "categoria": "CONSOLAS",
-   "slug": "2026-11-20-xenoblade-chronicles-3-recibe-la-actualizacion-3-0-0-antes-de-su-switc"
   }
  ],
  "freebies": [
