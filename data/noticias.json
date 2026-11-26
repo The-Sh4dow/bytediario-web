@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-26T13:02-04:00",
+ "updated": "2026-11-26T19:00-04:00",
  "items": [
+  {
+   "date": "2026-11-26",
+   "title": "SpaceX recibe permiso para desplegar un millón de satélites con centros de datos",
+   "summary": "La Comisión Federal de Comunicaciones (FCC) de EE. UU. ha concedido a SpaceX un permiso sin precedentes para lanzar hasta un millón de satélites. El objetivo es construir una constelación de pequeños centros de datos en órbita conectados entre sí.",
+   "link": "https://www.xataka.com/espacio/spacex-tiene-luz-verde-para-desplegar-millon-satelites-centros-datos-no-ia-energia",
+   "source": "Xataka",
+   "categoria": "TECH",
+   "slug": "2026-11-26-spacex-recibe-permiso-para-desplegar-un-millon-de-satelites-con-centro"
+  },
   {
    "date": "2026-11-26",
    "title": "Nvidia frena envíos de GPUs de IA al Sudeste Asiático",
@@ -261,15 +270,6 @@
    "source": "Vandal",
    "categoria": "PC",
    "slug": "2026-11-20-apps-en-windows-11-podran-negarse-a-arrancar-si-tu-pc-no-supera-un-con"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Signal bloquea a Gemini y Siri para evitar que la IA lea tus mensajes en el móvil",
-   "summary": "Signal ha actualizado sus aplicaciones para Android e iOS restringiendo la lectura de pantalla por parte del sistema operativo. La medida busca impedir que agentes de inteligencia artificial analicen el contenido de tus conversaciones privadas.",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-   "source": "The Verge",
-   "categoria": "MOVILES",
-   "slug": "2026-11-20-signal-bloquea-a-gemini-y-siri-para-evitar-que-la-ia-lea-tus-mensajes"
   }
  ],
  "freebies": [
