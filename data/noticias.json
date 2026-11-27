@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-26T19:00-04:00",
+ "updated": "2026-11-27T08:00-04:00",
  "items": [
+  {
+   "date": "2026-11-27",
+   "title": "Comienzan las rebajas de Black Friday en Steam con juegos por menos de 5 euros",
+   "summary": "La tienda de Valve ha lanzado sus ofertas de Black Friday con múltiples títulos destacados disponibles por debajo de los 5 euros.",
+   "link": "https://vandal.elespanol.com/noticia/2026331019/las-mejores-ofertas-del-black-friday-de-steam-multiples-juegazos-por-menos-de-5-euros/",
+   "source": "Vandal",
+   "categoria": "OFERTAS",
+   "slug": "2026-11-27-comienzan-las-rebajas-de-black-friday-en-steam-con-juegos-por-menos-de"
+  },
+  {
+   "date": "2026-11-27",
+   "title": "Nvidia pagará 290 millones de dólares por demanda sobre minería cripto",
+   "summary": "La compañía llegó a un acuerdo tras ser acusada de engañar a inversores sobre cuántas GPUs para juegos se vendieron realmente para criptominería en 2018.",
+   "link": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-agrees-to-usd290-million-settlement-over-2018-crypto-mining-gpu-sales-ends-eight-year-investor-lawsuit-without-admitting-wrongdoing",
+   "source": "Tom's Hardware",
+   "categoria": "PC",
+   "slug": "2026-11-27-nvidia-pagara-290-millones-de-dolares-por-demanda-sobre-mineria-cripto"
+  },
+  {
+   "date": "2026-11-27",
+   "title": "WhatsApp planea vender su propia eSIM de datos desde la aplicación",
+   "summary": "La plataforma negocia con operadores para permitir que los usuarios compren e instalen tarjetas eSIM de datos directamente desde la app.",
+   "link": "https://www.xataka.com/aplicaciones/whatsapp-apps-que-usamos-extranjero-ahora-quiere-sacar-tajada-ello-vendiendo-su-propia-esim",
+   "source": "Xataka",
+   "categoria": "MOVILES",
+   "slug": "2026-11-27-whatsapp-planea-vender-su-propia-esim-de-datos-desde-la-aplicacion"
+  },
+  {
+   "date": "2026-11-27",
+   "title": "Team Cherry presentará hoy novedades del DLC de Hollow Knight: Silksong",
+   "summary": "El estudio celebrará una presentación especial hoy para revelar detalles sobre Sea of Sorrow, el esperado contenido adicional de Silksong.",
+   "link": "https://www.nintendolife.com/news/2026/11/team-cherry-special-presentation-will-share-hollow-knight-silksong-dlc-news-today",
+   "source": "Nintendo Life",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-27-team-cherry-presentara-hoy-novedades-del-dlc-de-hollow-knight-silksong"
+  },
   {
    "date": "2026-11-26",
    "title": "SpaceX recibe permiso para desplegar un millón de satélites con centros de datos",
@@ -234,45 +270,17 @@
    "source": "Vandal",
    "categoria": "IA",
    "slug": "2026-11-22-el-40-de-los-desarrolladores-ya-usa-ia-generativa-en-sus-juegos"
-  },
-  {
-   "date": "2026-11-22",
-   "title": "Nintendo Switch 2 recibe su primer descuento oficial de Black Friday",
-   "summary": "El paquete de Nintendo Switch 2 con Mario Kart World baja a 499 dólares por tiempo limitado.",
-   "link": "https://www.ign.com/articles/nintendo-switch-2-black-friday-deal-mario-kart-world-bundle",
-   "source": "IGN",
-   "categoria": "CONSOLAS",
-   "slug": "2026-11-22-nintendo-switch-2-recibe-su-primer-descuento-oficial-de-black-friday"
-  },
-  {
-   "date": "2026-11-21",
-   "title": "Jugadores de GTA 6 en PS5 reportan bloqueos por el error CE-108255-1",
-   "summary": "Usuarios de PlayStation 5 están sufriendo cierres frecuentes en GTA 6 asociados al código de error CE-108255-1. El fallo impide avanzar en la historia principal mientras Sony y Rockstar trabajan en una solución.",
-   "link": "https://www.ign.com/articles/gta-6-players-report-crashes-on-ps5-with-error-ce-108255-1",
-   "source": "IGN",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-21-jugadores-de-gta-6-en-ps5-reportan-bloqueos-por-el-error-ce-108255-1"
-  },
-  {
-   "date": "2026-11-21",
-   "title": "Anuncian la Supersega SSS, portátil capaz de leer cartuchos y discos de SEGA",
-   "summary": "Desarrollan en España la Supersega SSS, una consola portátil híbrida diseñada para ejecutar juegos originales en formato físico de Dreamcast, Saturn, Mega Drive y Master System, además de poder conectarse al televisor.",
-   "link": "https://vandal.elespanol.com/noticia/2026325004/anuncian-la-supersega-sss-una-ambiciosa-consola-retro-portatil-que-lee-cartuchos-y-discos-originales-de-sega/",
-   "source": "Vandal",
-   "categoria": "CONSOLAS",
-   "slug": "2026-11-21-anuncian-la-supersega-sss-portatil-capaz-de-leer-cartuchos-y-discos-de"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Apps en Windows 11 podrán negarse a arrancar si tu PC no supera un control de seguridad",
-   "summary": "Microsoft presentó Windows Baseline Protection, una función que permite a los programas verificar si el equipo tiene activadas defensas como el arranque seguro. Empresas como Adobe y plataformas como Battle.net ya colaboran en las pruebas, lo que podría impedir ejecutar ciertas aplicaciones y juegos si el sistema no cumple los requisitos.",
-   "link": "https://vandal.elespanol.com/noticia/2026324034/algunas-apps-de-windows-11-podran-negarse-a-arrancar-si-tu-pc-no-supera-un-nuevo-control-de-seguridad/",
-   "source": "Vandal",
-   "categoria": "PC",
-   "slug": "2026-11-20-apps-en-windows-11-podran-negarse-a-arrancar-si-tu-pc-no-supera-un-con"
   }
  ],
  "freebies": [
+  {
+   "title": "Dead Age 2",
+   "link": "https://www.gamerpower.com/open/dead-age-2-gog-giveaway",
+   "platforms": "PC, GOG, DRM-Free",
+   "end_iso": "2026-11-30",
+   "worth": "$17.99",
+   "image": "https://www.gamerpower.com/offers/1b/6b0969de22e37.jpg"
+  },
   {
    "title": "Bread and Fred",
    "link": "https://www.gamerpower.com/open/bread-and-fred-epic-games-giveaway",
@@ -288,6 +296,14 @@
    "end_iso": "",
    "worth": "$9.99",
    "image": "https://www.gamerpower.com/offers/1b/6a59119a8eb8d.jpg"
+  },
+  {
+   "title": "Vertical Drop Heroes HD Steam Key",
+   "link": "https://www.gamerpower.com/open/vertical-drop-heroes-hd-steam-key-giveaway",
+   "platforms": "PC, Steam",
+   "end_iso": "2026-11-28",
+   "worth": "$6.99",
+   "image": "https://www.gamerpower.com/offers/1b/6b0967296e680.jpg"
   },
   {
    "title": "Contractor: The Clean Up Part 2",
