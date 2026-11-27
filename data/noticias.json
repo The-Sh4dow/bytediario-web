@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-27T13:03-04:00",
+ "updated": "2026-11-27T19:00-04:00",
  "items": [
+  {
+   "date": "2026-11-27",
+   "title": "Hollow Knight: Silksong confirma tráiler y fecha de su primer DLC gratuito",
+   "summary": "Team Cherry presentó el primer tráiler y la fecha de lanzamiento de Sea of Sorrow, la primera expansión gratuita de Hollow Knight: Silksong. El estudio cumplió su promesa tras meses de espera y confirmó que el contenido llegará muy pronto.",
+   "link": "https://www.3djuegos.com/juegos/hollow-knight-silksong/noticias/dlc-silksong-esta-a-vuelta-esquina-team-cherry-cumple-su-promesa-desvelando-fin-trailer-fecha-lanzamiento-sea-of-sorrow",
+   "source": "3DJuegos",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-27-hollow-knight-silksong-confirma-trailer-y-fecha-de-su-primer-dlc-gratu"
+  },
   {
    "date": "2026-11-27",
    "title": "GTA 6 habría vendido 53 millones de copias en su primera semana",
@@ -261,15 +270,6 @@
    "source": "IGN",
    "categoria": "JUEGOS",
    "slug": "2026-11-22-retiran-musica-hecha-con-ia-de-the-binding-of-isaac-tras-criticas-en-s"
-  },
-  {
-   "date": "2026-11-22",
-   "title": "Portátil gaming OLED con RTX 5060 baja 650 dólares en Black Friday",
-   "summary": "El Lenovo Legion 5i con pantalla OLED, RTX 5060 y procesador Intel Core Ultra 7 cae a 1,349 dólares en B&H.",
-   "link": "https://www.tomshardware.com/laptops/gaming-laptops/oled-gaming-laptop-with-rtx-5060-and-intel-core-ultra-7-cpu-price-crashes-by-usd650-in-black-friday-offer-lenovo-legion-5i-laptop-drops-to-usd1-349-with-free-games-at-b-and-h",
-   "source": "Tom's Hardware",
-   "categoria": "OFERTAS",
-   "slug": "2026-11-22-portatil-gaming-oled-con-rtx-5060-baja-650-dolares-en-black-friday"
   }
  ],
  "freebies": [
@@ -316,6 +316,33 @@
  ],
  "security": [
   {
+   "cve": "CVE-2026-136716",
+   "vendor": "Drupal",
+   "product": "Core",
+   "summary": "Afecta a Drupal Core y permite a un atacante remoto tomar el control de un sitio web si la instalación está en un estado incompleto o inusual.",
+   "added": "2026-11-27",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-136716"
+  },
+  {
+   "cve": "CVE-2026-129243",
+   "vendor": "OSGeo",
+   "product": "GeoServer",
+   "summary": "Afecta a OSGeo GeoServer y permite a un atacante remoto saltarse controles de autorización para ejecutar operaciones protegidas y potencialmente ejecutar código de forma remota.",
+   "added": "2026-11-27",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129243"
+  },
+  {
+   "cve": "CVE-2026-120705",
+   "vendor": "OSGeo",
+   "product": "GeoServer",
+   "summary": "Afecta a OSGeo GeoServer y permite a un atacante remoto leer archivos locales del servidor o hacer que este acceda a direcciones web maliciosas.",
+   "added": "2026-11-27",
+   "ransomware": false,
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120705"
+  },
+  {
    "cve": "CVE-2026-133469",
    "vendor": "Vates",
    "product": "Xen Orchestra",
@@ -323,33 +350,6 @@
    "added": "2026-11-25",
    "ransomware": false,
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469"
-  },
-  {
-   "cve": "CVE-2026-133324",
-   "vendor": "Mitel",
-   "product": "MiCollab",
-   "summary": "Afecta a Mitel MiCollab y permite a atacantes no autenticados saltarse los controles de seguridad y realizar acciones no autorizadas.",
-   "added": "2026-11-25",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133324"
-  },
-  {
-   "cve": "CVE-2026-133323",
-   "vendor": "Mitel",
-   "product": "MiCollab",
-   "summary": "Afecta a Mitel MiCollab y permite a un atacante ejecutar comandos arbitrarios en el sistema afectado.",
-   "added": "2026-11-25",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323"
-  },
-  {
-   "cve": "CVE-2026-133311",
-   "vendor": "Mitel",
-   "product": "MiCollab",
-   "summary": "Afecta a Mitel MiCollab y permite a atacantes acceder a información confidencial usando identificadores del sistema.",
-   "added": "2026-11-25",
-   "ransomware": false,
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133311"
   }
  ]
 }
