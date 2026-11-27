@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-27T08:00-04:00",
+ "updated": "2026-11-27T13:03-04:00",
  "items": [
+  {
+   "date": "2026-11-27",
+   "title": "GTA 6 habría vendido 53 millones de copias en su primera semana",
+   "summary": "Según estimaciones de Alinea Analytics, Grand Theft Auto 6 vendió 53 millones de copias en sus primeros siete días, generando ingresos por 4.700 millones de dólares. El reporte señala además que el 75,7 % de las unidades vendidas corresponden a PlayStation 5.",
+   "link": "https://vandal.elespanol.com/noticia/2026331032/gta-6-ya-habria-vendido-53-millones-de-copias-en-una-semana-y-generado-4700-millones-de-dolares/",
+   "source": "Vandal",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-27-gta-6-habria-vendido-53-millones-de-copias-en-su-primera-semana"
+  },
   {
    "date": "2026-11-27",
    "title": "Comienzan las rebajas de Black Friday en Steam con juegos por menos de 5 euros",
@@ -261,15 +270,6 @@
    "source": "Tom's Hardware",
    "categoria": "OFERTAS",
    "slug": "2026-11-22-portatil-gaming-oled-con-rtx-5060-baja-650-dolares-en-black-friday"
-  },
-  {
-   "date": "2026-11-22",
-   "title": "El 40 % de los desarrolladores ya usa IA generativa en sus juegos",
-   "summary": "Un informe de la GDC revela que el 40 % de los profesionales usa IA generativa, aunque el 55 % cree que perjudica al sector.",
-   "link": "https://vandal.elespanol.com/noticia/2026326008/un-informe-revela-que-el-40-de-los-desarrolladores-ya-utiliza-ia-generativa-en-sus-juegos/",
-   "source": "Vandal",
-   "categoria": "IA",
-   "slug": "2026-11-22-el-40-de-los-desarrolladores-ya-usa-ia-generativa-en-sus-juegos"
   }
  ],
  "freebies": [
