@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-27T19:00-04:00",
+ "updated": "2026-11-28T08:00-04:00",
  "items": [
+  {
+   "date": "2026-11-28",
+   "title": "El mando DualSense de PS5 alcanza su precio mínimo histórico por Black Friday",
+   "summary": "Los mandos inalámbricos oficiales de PlayStation 5 han bajado al precio más bajo registrado hasta ahora en las ofertas de la semana.",
+   "link": "https://www.ign.com/articles/playstation-5-dualsense-wireless-controller-deal-black-friday-2026",
+   "source": "IGN",
+   "categoria": "CONSOLAS",
+   "slug": "2026-11-28-el-mando-dualsense-de-ps5-alcanza-su-precio-minimo-historico-por-black"
+  },
+  {
+   "date": "2026-11-28",
+   "title": "Ubisoft gana la demanda por publicidad engañosa tras llamar 'cuádruple A' a Skull and Bones",
+   "summary": "La compañía ha salido victoriosa en el proceso judicial iniciado por las declaraciones de su CEO antes del lanzamiento del juego.",
+   "link": "https://www.3djuegos.com/juegos/skull-bones/noticias/ubisoft-se-vino-arriba-llamo-skull-and-bones-cuadruple-a-ha-ganado-su-demanda-publicidad-enganosa-excusa-surrealista",
+   "source": "3DJuegos",
+   "categoria": "JUEGOS",
+   "slug": "2026-11-28-ubisoft-gana-la-demanda-por-publicidad-enganosa-tras-llamar-cuadruple"
+  },
+  {
+   "date": "2026-11-28",
+   "title": "El MacBook Air M5 cae a 999 dólares con su mayor descuento hasta la fecha",
+   "summary": "El modelo de 13 pulgadas con 16 GB de RAM y 512 GB de almacenamiento tiene 300 dólares de rebaja en Amazon y Best Buy.",
+   "link": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+   "source": "The Verge",
+   "categoria": "OFERTAS",
+   "slug": "2026-11-28-el-macbook-air-m5-cae-a-999-dolares-con-su-mayor-descuento-hasta-la-fe"
+  },
+  {
+   "date": "2026-11-28",
+   "title": "El mod multijugador de Cyberpunk 2077 ya tiene beta abierta en PC",
+   "summary": "CyberMP ya puede descargarse gratis en PC tras casi seis años de desarrollo para explorar Night City con amigos y competir en carreras.",
+   "link": "https://vandal.elespanol.com/noticia/2026332003/el-sueno-se-hace-realidad-el-multijugador-de-cyberpunk-2077-ya-tiene-beta-abierta-gracias-a-un-mod/",
+   "source": "Vandal",
+   "categoria": "PC",
+   "slug": "2026-11-28-el-mod-multijugador-de-cyberpunk-2077-ya-tiene-beta-abierta-en-pc"
+  },
   {
    "date": "2026-11-27",
    "title": "Hollow Knight: Silksong confirma tráiler y fecha de su primer DLC gratuito",
@@ -234,42 +270,6 @@
    "source": "IGN",
    "categoria": "OFERTAS",
    "slug": "2026-11-23-walmart-rebaja-juegos-recientes-como-donkey-kong-bananza-a-30-dolares"
-  },
-  {
-   "date": "2026-11-23",
-   "title": "GTA 6 arrasa en su estreno: más de la mitad de jugadores de consola lo jugó",
-   "summary": "Según Circana, más del 50 % de los usuarios activos de consolas jugaron a Grand Theft Auto VI una media de 8 horas en su lanzamiento.",
-   "link": "https://vandal.elespanol.com/noticia/2026327014/mas-de-la-mitad-de-los-jugadores-activos-de-consolas-jugaron-a-gta-6-el-dia-de-su-estreno-es-una-locura/",
-   "source": "Vandal",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-23-gta-6-arrasa-en-su-estreno-mas-de-la-mitad-de-jugadores-de-consola-lo"
-  },
-  {
-   "date": "2026-11-22",
-   "title": "Epic Games presenta Unreal Engine 5.9 con mejoras gráficas y de rendimiento",
-   "summary": "Epic Games ha anunciado Unreal Engine 5.9, la nueva versión de su motor gráfico que introduce mejoras tanto en el apartado visual como en el rendimiento general de los juegos.",
-   "link": "https://www.3djuegos.com/pc/noticias/epic-games-presenta-unreal-engine-5-9-mejoras-graficas-rendimiento-sorprendente-esta-detras-su-desarrollo",
-   "source": "3DJuegos",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-22-epic-games-presenta-unreal-engine-5-9-con-mejoras-graficas-y-de-rendim"
-  },
-  {
-   "date": "2026-11-22",
-   "title": "El ratón Logitech MX Master 3S baja un 24 % en Amazon por Black Friday",
-   "summary": "El Logitech MX Master 3S ha bajado a 75 dólares en Amazon con motivo del Black Friday, lo que representa un descuento del 24 %. Este modelo destaca por su rueda de desplazamiento MagSpeed y su diseño orientado a la productividad.",
-   "link": "https://www.tomshardware.com/peripherals/mice/logitechs-accomplished-mx-master-3s-productivity-mouse-gets-24-percent-discount-usd75-buys-you-a-tried-and-tested-workhorse-with-killer-features",
-   "source": "Tom's Hardware",
-   "categoria": "OFERTAS",
-   "slug": "2026-11-22-el-raton-logitech-mx-master-3s-baja-un-24-en-amazon-por-black-friday"
-  },
-  {
-   "date": "2026-11-22",
-   "title": "Retiran música hecha con IA de The Binding of Isaac tras críticas en Steam",
-   "summary": "Nicalis eliminó música generada con IA en Repentance+ tras una campaña de reseñas negativas y la respuesta del creador Edmund McMillen.",
-   "link": "https://www.ign.com/articles/the-binding-of-isaac-dev-removes-undisclosed-ai-generated-music-from-repentance-following-creator-response-review-bombing",
-   "source": "IGN",
-   "categoria": "JUEGOS",
-   "slug": "2026-11-22-retiran-musica-hecha-con-ia-de-the-binding-of-isaac-tras-criticas-en-s"
   }
  ],
  "freebies": [
